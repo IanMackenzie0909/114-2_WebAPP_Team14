@@ -114,3 +114,71 @@ footer{
     background:#000;
     margin-top:50px;
 }
+
+/* ==========================
+   Character card backgrounds
+   ========================== */
+
+/* 卡片外框設定 */
+.character-card {
+    height: 350px; 
+    padding: 0;         /* 移除原本的 padding，改由內部元素控制 */
+    position: relative; /* 讓內部的圖片和文字框可以絕對定位 */
+    overflow: hidden;   /* 把超出圓角的圖片切掉 */
+}
+
+/* Img positions fine-tune */
+
+.kai-img {
+    /* object-position: x(center) y(%) */
+    object-position: center 10%; 
+}
+
+.jay-img {
+    object-position: center 0%; 
+}
+
+.zane-img {
+    object-position: center 5%; 
+}
+
+/* 將實體 <img> 標籤變成背景的魔法 */
+.card-bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;         /* Img: Buttom */
+}
+
+/* 角色半透明文字框 */
+.character-card .card-content {
+    position: absolute;
+    top: 260px;
+    left: 0;
+    width: 100%;
+    z-index: 1;   /* Overlaid on top of the Img */
+    
+    /* 半透明黑底與毛玻璃效果 */
+    background-color: rgba(0, 0, 0, 0.65);
+    color: #ffffff;
+    padding: 10px 16px;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px); 
+}
+
+/* 文字框內的標題與段落微調 */
+.character-card .card-content h3 {
+    margin: 0 0 5px 0;
+    font-size: 22px;
+    text-align: center;
+}
+
+.character-card .card-content p {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    color: #ddd;
+}
