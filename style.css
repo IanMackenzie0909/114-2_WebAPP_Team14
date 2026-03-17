@@ -66,11 +66,11 @@ body{
     content:"";
     position:absolute;
     inset:0;
-    background-image:url("img/all-the-ninjago-season-posters_all.jpg");
+    background-image:url("img/ninjago-poster-collection.jpg");  /* New bg */
     background-repeat:repeat-x;
     background-size:auto 100%;
     background-position:0 center;
-    animation:hero-pan 60s linear infinite;
+    animation:hero-pan 100s linear infinite;
     will-change:background-position;
     z-index:0;
 }
@@ -103,7 +103,7 @@ body{
         background-position:0 center;
     }
     to{
-        background-position:-3007px center;
+        background-position:-5083px center;
     }
 }
 
