@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>時間線 | Ninjago Archive</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo"><img src="img/lego-ninjago-logo.png" height="80"></div>
+        <ul class="nav-links">
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="timeline.html">時間線</a></li>
+            <li><a href="world.html">世界觀</a></li>
+            <li><a href="characters.html">角色</a></li>
+            <li><a href="elements.html">元素力量</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="timeline">
+
+    <h1 class="page-title">歷史時間線</h1>
+
+    <div class="timeline-line"></div>
+
+    <!-- Event -->
+    <div class="timeline-event">
+        <h3>Long Before Time Had a Name</h3>
+        <p>來源龍誕生，元素之力被創造，世界尚未分裂。</p>
+    </div>
+
+    <div class="timeline-event">
+        <h3>鬼族與龍族戰爭</h3>
+        <p>兩大種族的戰爭撕裂世界，第一旋風忍術大師誕生。</p>
+    </div>
+
+    <div class="timeline-event">
+        <h3>忍者時代開始</h3>
+        <p>吳大師訓練忍者，對抗黑暗與命運。</p>
+    </div>
+
+    <div class="timeline-event">
+        <h3>The Merge</h3>
+        <p>所有領域融合，世界秩序崩壞。</p>
+    </div>
+
+</section>
+
+<script>
+const events = document.querySelectorAll('.timeline-event');
+
+window.addEventListener('scroll', () => {
+    events.forEach(e => {
+        const rect = e.getBoundingClientRect();
+        if(rect.top < window.innerHeight - 100){
+            e.classList.add('show');
+        }
+    });
+});
+</script>
+
+</body>
+</html>

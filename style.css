@@ -305,3 +305,121 @@ footer{
     text-align: center;
     color: #ddd;
 }
+
+
+.page-title{
+    text-align:center;
+    font-size:40px;
+    margin:50px 0;
+}
+
+/* Timeline */
+.timeline{
+    position:relative;
+    padding:100px 20px;
+}
+
+.timeline-line{
+    position:absolute;
+    left:50%;
+    width:4px;
+    height:100%;
+    background:linear-gradient(to bottom,#00f0ff,#ff00c8);
+}
+
+.timeline-event{
+    width:40%;
+    background:#1b1b1b;
+    padding:20px;
+    margin:40px 0;
+    border-radius:10px;
+    opacity:0;
+    transform:translateY(50px);
+    transition:0.5s;
+}
+
+.timeline-event:nth-child(odd){
+    margin-left:0;
+}
+
+.timeline-event:nth-child(even){
+    margin-left:55%;
+}
+
+.timeline-event.show{
+    opacity:1;
+    transform:translateY(0);
+}
+
+/* World */
+.world-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.world-card{
+    background:#222;
+    padding:20px;
+    border-radius:10px;
+}
+
+/* Elements */
+.source-container{
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+
+.source-block{
+    background:#1b1b1b;
+    padding:25px;
+    border-radius:15px;
+    transition:0.3s;
+    position:relative;
+    overflow:hidden;
+}
+
+.source-block:hover{
+    transform:scale(1.02);
+    box-shadow:0 0 30px rgba(0,255,255,0.2);
+}
+
+/* 標題 */
+.source-block h2{
+    margin-bottom:15px;
+}
+
+/* 元素排列 */
+.element-list{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+/* 元素卡 */
+.element{
+    padding:15px 25px;
+    border-radius:10px;
+    font-weight:bold;
+    color:white;
+    transition:0.3s;
+}
+
+.element:hover{
+    transform:scale(1.1);
+}
+
+/* 顏色系統 */
+.fire{background:#ff4d4d;}
+.heat{background:#ff944d;}
+.energy{background:#00e6e6;}
+.lightning{background:#4da6ff;}
+.ice{background:#99e6ff;}
+.earth{background:#b38600;}
+.quake{background:#806000;}
+.water{background:#3399ff;}
+.wind{background:#66ffcc;}
+.creation{background:#cc66ff;}
+.fusion{background:#ff66cc;}
+.tech{background:#6666ff;}
