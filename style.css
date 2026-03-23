@@ -162,6 +162,10 @@ body{
     transition:all 0.4s ease;
 }
 
+.era-image{
+    flex:0 0 min(45%, 460px);
+}
+
 /* 左右反轉 */
 .era-block.reverse{
     flex-direction:row-reverse;
@@ -179,7 +183,10 @@ body{
 
 /*  圖片動畫 */
 .era-image img{
-    width:450px;
+    display:block;
+    width:100%;
+    max-width:100%;
+    height:auto;
     border-radius:12px;
     transition:transform 0.4s ease, filter 0.4s ease;
 }
@@ -192,6 +199,7 @@ body{
 /*  文字微動畫 */
 .era-content{
     flex:1;
+    min-width:0;
     transition:transform 0.3s ease;
 }
 
@@ -209,6 +217,40 @@ body{
 .era-content p{
     color:#ccc;
     line-height:1.6;
+    word-break:break-word;
+}
+
+@media (max-width: 900px){
+    .era-block,
+    .era-block.reverse{
+        flex-direction:column;
+        align-items:stretch;
+        gap:16px;
+        padding:14px;
+    }
+
+    .era-image{
+        width:100%;
+        flex:0 0 auto;
+    }
+
+    .era-image img{
+        width:100%;
+        max-width:100%;
+        height:200px;
+        object-fit:cover;
+        border-radius:10px;
+    }
+
+    .era-content h3{
+        margin-bottom:10px;
+        font-size:22px;
+    }
+
+    .era-content p{
+        font-size:15px;
+        line-height:1.7;
+    }
 }
 /* Dark section */
 
