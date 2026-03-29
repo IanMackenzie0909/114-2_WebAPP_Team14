@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
 <meta charset="UTF-8">
@@ -31,13 +31,20 @@
 
     <div class="character-grid">
 
+        <!-- 每個角色最多放 3 張形象圖：直接替換/增減 .char-slide 即可 -->
         <article class="character-profile">
-            <div class="card character-card">
-            <!-- Image paths: go up one level to reach img/ -->
-            <img src="../img/kai.jpeg" alt="Kai 火元素忍者" class="card-bg-img kai-img">
-            <div class="card-content">
-                <h3>赤地 Kai</h3>
-            </div>
+            <div class="card character-card" data-carousel>
+                <button class="carousel-btn prev" type="button" aria-label="上一張">‹</button>
+                <div class="character-slider" data-slider>
+                    <img src="../img/kai1.jpg" alt="Kai 早期形象" class="char-slide kai-img">
+                    <img src="../img/kai2.jpg" alt="Kai 中期形象" class="char-slide kai-img">
+                    <img src="../img/kai3.jpg" alt="Kai 後期形象" class="char-slide kai-img">
+                </div>
+                <button class="carousel-btn next" type="button" aria-label="下一張">›</button>
+                <div class="carousel-dots" data-dots></div>
+                <div class="card-content">
+                    <h3>赤地 Kai</h3>
+                </div>
             </div>
             <div class="profile-body">
                 <ul class="profile-meta">
@@ -53,8 +60,15 @@
         </article>
 
         <article class="character-profile">
-            <div class="card character-card">
-                <img src="../img/jay.jpeg" alt="Jay 電元素忍者" class="card-bg-img jay-img">
+            <div class="card character-card" data-carousel>
+                <button class="carousel-btn prev" type="button" aria-label="上一張">‹</button>
+                <div class="character-slider" data-slider>
+                    <img src="../img/jay1.jpg" alt="Jay 早期形象" class="char-slide jay-img">
+                    <img src="../img/jay2.jpg" alt="Jay 中期形象" class="char-slide jay-img">
+                    <img src="../img/jay3.jpg" alt="Jay 後期形象" class="char-slide jay-img">
+                </div>
+                <button class="carousel-btn next" type="button" aria-label="下一張">›</button>
+                <div class="carousel-dots" data-dots></div>
                 <div class="card-content">
                     <h3>阿光 Jay</h3>
                 </div>
@@ -73,8 +87,15 @@
         </article>
 
         <article class="character-profile">
-            <div class="card character-card">
-                <img src="../img/zane.jpeg" alt="Zane 冰元素忍者" class="card-bg-img zane-img">
+            <div class="card character-card" data-carousel>
+                <button class="carousel-btn prev" type="button" aria-label="上一張">‹</button>
+                <div class="character-slider" data-slider>
+                    <img src="../img/zane.jpeg" alt="Zane 早期形象" class="char-slide zane-img">
+                    <img src="../img/zane.jpeg" alt="Zane 中期形象" class="char-slide zane-img">
+                    <img src="../img/zane.jpeg" alt="Zane 後期形象" class="char-slide zane-img">
+                </div>
+                <button class="carousel-btn next" type="button" aria-label="下一張">›</button>
+                <div class="carousel-dots" data-dots></div>
                 <div class="card-content">
                     <h3>冰忍 Zane</h3>
                 </div>
@@ -93,8 +114,15 @@
         </article>
 
         <article class="character-profile">
-            <div class="card character-card">
-                <img src="../img/cole.jpg" alt="Cole 土元素忍者" class="card-bg-img cole-img">
+            <div class="card character-card" data-carousel>
+                <button class="carousel-btn prev" type="button" aria-label="上一張">‹</button>
+                <div class="character-slider" data-slider>
+                    <img src="../img/cole.jpg" alt="Cole 早期形象" class="char-slide cole-img">
+                    <img src="../img/cole.jpg" alt="Cole 中期形象" class="char-slide cole-img">
+                    <img src="../img/cole.jpg" alt="Cole 後期形象" class="char-slide cole-img">
+                </div>
+                <button class="carousel-btn next" type="button" aria-label="下一張">›</button>
+                <div class="carousel-dots" data-dots></div>
                 <div class="card-content">
                     <h3>阿剛 Cole</h3>
                 </div>
@@ -113,8 +141,15 @@
         </article>
 
         <article class="character-profile">
-            <div class="card character-card">
-                <img src="../img/nya.jpg" alt="Nya 水元素忍者" class="card-bg-img nya-img">
+            <div class="card character-card" data-carousel>
+                <button class="carousel-btn prev" type="button" aria-label="上一張">‹</button>
+                <div class="character-slider" data-slider>
+                    <img src="../img/nya.jpg" alt="Nya 早期形象" class="char-slide nya-img">
+                    <img src="../img/nya.jpg" alt="Nya 中期形象" class="char-slide nya-img">
+                    <img src="../img/nya.jpg" alt="Nya 後期形象" class="char-slide nya-img">
+                </div>
+                <button class="carousel-btn next" type="button" aria-label="下一張">›</button>
+                <div class="carousel-dots" data-dots></div>
                 <div class="card-content">
                     <h3>赤蘭 Nya</h3>
                 </div>
@@ -133,8 +168,15 @@
         </article>
 
         <article class="character-profile">
-            <div class="card character-card">
-                <img src="../img/lloyd.jpg" alt="Lloyd 綠忍者" class="card-bg-img lloyd-img">
+            <div class="card character-card" data-carousel>
+                <button class="carousel-btn prev" type="button" aria-label="上一張">‹</button>
+                <div class="character-slider" data-slider>
+                    <img src="../img/lloyd.jpg" alt="Lloyd 早期形象" class="char-slide lloyd-img">
+                    <img src="../img/lloyd.jpg" alt="Lloyd 中期形象" class="char-slide lloyd-img">
+                    <img src="../img/lloyd.jpg" alt="Lloyd 後期形象" class="char-slide lloyd-img">
+                </div>
+                <button class="carousel-btn next" type="button" aria-label="下一張">›</button>
+                <div class="carousel-dots" data-dots></div>
                 <div class="card-content">
                     <h3>勞埃德 Lloyd</h3>
                 </div>

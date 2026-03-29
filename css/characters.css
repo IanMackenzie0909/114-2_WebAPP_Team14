@@ -1,16 +1,16 @@
-/*
+﻿/*
  * characters.css
  * Styles specific to the Characters page (src/characters.html).
- * Extracted from the original style.css during project restructuring.
  */
 
-/* ===== Character Card (shared with index, kept here for the detailed page) ===== */
+/* ===== Character Card ===== */
 
 .character-card {
     height: 350px;
     padding: 0;
     position: relative;
     overflow: hidden;
+    background: #111;
 }
 
 .character-card:hover {
@@ -18,95 +18,111 @@
     box-shadow: 0 12px 35px rgba(0, 0, 0, 0.5);
 }
 
-.character-card:hover::before {
-    left: 100%;
+.character-slider {
+    height: 100%;
+    display: flex;
+    transition: transform 0.38s ease;
+    touch-action: pan-y;
+    will-change: transform;
 }
 
-.character-card img {
+.char-slide {
     width: 100%;
+    flex: 0 0 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.4s ease, filter 0.4s ease;
 }
 
-.character-card:hover img {
-    transform: scale(1.08);
-    filter: brightness(1.15);
+.character-card:hover .char-slide {
+    transform: scale(1.05);
+    filter: brightness(1.12);
 }
 
 /* Per-character image position fine-tuning */
-.kai-img {
-    object-position: center 10%;
-}
+.kai-img { object-position: center 10%; }
+.jay-img { object-position: center 0%; }
+.zane-img { object-position: center 5%; }
+.cole-img { object-position: center 17%; }
+.nya-img { object-position: center 20%; }
+.lloyd-img { object-position: center 40%; }
 
-.jay-img {
-    object-position: center 0%;
-}
-
-.zane-img {
-    object-position: center 5%;
-}
-
-.cole-img {
-    object-position: center 17%;
-}
-
-.nya-img {
-    object-position: center 20%;
-}
-
-.lloyd-img {
-    object-position: center 40%;
-}
-
-/* <img> used as background layer */
-.card-bg-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+/* Carousel controls */
+.carousel-btn {
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    width: 34px;
+    height: 34px;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    font-size: 23px;
+    line-height: 34px;
+    text-align: center;
+    transition: 0.25s ease;
 }
 
-/* Semi-transparent text overlay on character cards */
+.carousel-btn.prev { left: 10px; }
+.carousel-btn.next { right: 10px; }
+
+.carousel-btn:hover {
+    background: rgba(230, 36, 41, 0.85);
+}
+
+.carousel-dots {
+    position: absolute;
+    left: 50%;
+    bottom: 84px;
+    transform: translateX(-50%);
+    z-index: 5;
+    display: flex;
+    gap: 6px;
+}
+
+.carousel-dot {
+    width: 8px;
+    height: 8px;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.45);
+    cursor: pointer;
+    padding: 0;
+}
+
+.carousel-dot.active {
+    background: #e62429;
+}
+
+/* Semi-transparent text overlay */
 .character-card .card-content {
     position: absolute;
     top: 260px;
     left: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 4;
     background-color: rgba(0, 0, 0, 0.65);
     color: #ffffff;
     padding: 10px 16px;
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
-}
-
-.character-card .card-content {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .character-card:hover .card-content {
-    font-weight: bolder, lighter;
     color: #ff4d4d;
 }
 
 .character-card .card-content h3 {
-    margin: 0 0 5px 0;
+    margin: 0;
     font-size: 22px;
     text-align: center;
 }
 
-.character-card .card-content p {
-    margin: 0;
-    font-size: 14px;
-    text-align: center;
-    color: #ddd;
-}
-
-/* ===== Character Grid & Profile (characters page specific) ===== */
+/* ===== Character Grid & Profile ===== */
 
 .character-grid {
     display: grid;
@@ -156,4 +172,17 @@
     color: #cfcfcf;
     line-height: 1.7;
     font-size: 14px;
+}
+
+@media (max-width: 900px) {
+    .carousel-dots {
+        bottom: 78px;
+    }
+
+    .carousel-btn {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 20px;
+    }
 }
