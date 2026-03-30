@@ -2,3 +2,8 @@ img/Element.zip
 implementation_plan.md
 walkthrough.md
 env
+__pycache__/
+*.py[cod]
+NINJAMaster/characters/
+db.sqlite3
+*.sqlite3
