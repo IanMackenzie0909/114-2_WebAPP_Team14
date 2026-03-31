@@ -26,8 +26,6 @@ In-class Practice
 >   - **Purpose**: Print debug information to the browser's developer console.
 >   - **Usage**: Log page load confirmations and the number of observed entries for debugging.
 
----
-
 Additional Content
 ---
 

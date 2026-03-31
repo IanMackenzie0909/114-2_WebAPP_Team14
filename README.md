@@ -12,13 +12,51 @@
 
 (嗯... 對... 你沒看錯... 就我們兩個而已。😂)  
 
-專案進度更新：  
+Installation：  
+---
+
+```bash
+# Clone this repo.
+git clone https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14.git
+
+cd 114-2_WebAPP_Team14
+
+# Build a virtual environment (optional) 
+python -m venv venv # windows
+python3 -m venv venv # mac
+
+# Activate the virtual environment (optional) 
+venv\Scripts\activate # windows
+source venv/bin/activate # mac & linux
+
+# Enter the NINJAMaster folder (Django backend)
+cd NINJAMaster
+
+# Install dependencies
+pip install -r requirements.txt
+pip3 install -r requirements.txt # mac
+
+# Apply model.py
+python manage.py makemigrations 
+python3 manage.py makemigrations # mac
+
+# Write to database
+python manage.py migrate 
+python3 manage.py migrate # mac
+
+# Run server
+python manage.py runserver 
+python3 manage.py runserver # mac
+```
+
+Project Progress Update：  
 ---
 
 ⚠️⚠️ 注意 **看這裡** ⚠️⚠️
 
+- 2026/03/31: Database 建立與前端連接設定。
 - 2026/03/30: 建立 Django 專案，並完成基本設定。 ```Admin的帳號密碼我放Line。```
- 
+
 ---
 
 - 2026/03/24: 專案結構重整，所有頁面的版面配置和動作分離。  
@@ -26,11 +64,12 @@
 - 2026/03/24: 新建 ```css``` 和 ```action``` 資料夾，所有分頁的 CSS 和 JS 皆已獨立。
 - 2026/03/24: 所有檔案均已註解。
 
+Project Rules:  
+---
+
 **老哥記得要先 ```git pull``` 再開始動工喔!!! (不然會出大事😱😱😱)**  
 
 > - 要編輯 **HTML** 的話，進[src資料夾](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/tree/main/src)修改 ```{各自的}.html```，不要修改[index.html](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/blob/main/index.html)。  
 > - 要改 **CSS** 的話，進[css資料夾](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/tree/main/css)修改 ```{各自的}.css```，不要修改[style.css](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/blob/main/style.css)。  
 > - **JS** 也一樣，進[action資料夾](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/tree/main/action)修改 ```{各自的}.js```，不要修改[script.js](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/blob/main/script.js)。
 > - [common.css](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/blob/main/css/common.css)是所有分頁繼承[style.css](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/blob/main/style.css)的通用架構。
-
-
