@@ -12,6 +12,7 @@ body {
 
 /* Navbar */
 
+/* Navbar holds: logo, nav-links (search is first item inside nav-links) */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -20,6 +21,7 @@ body {
     background: #000;
     position: sticky;
     top: 0;
+    z-index: 1000;
 }
 
 .logo {

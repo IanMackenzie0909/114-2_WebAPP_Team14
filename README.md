@@ -54,6 +54,22 @@ Project Progress Update：
 
 ⚠️⚠️ 注意 **看這裡** ⚠️⚠️
 
+- 2026/04/05: 全域搜尋系統上線。
+
+> 使用 GET 參數 `?q=關鍵字` 搜尋當前頁面內容，自動 Highlight 匹配文字並捲動到第一個結果，且會展開時間線隱藏條目、角色彈窗自動開啟、元素面板自動切換。新增 `css/search.css` 與 `action/search.js`。  
+
+功能說明：
+
+| 頁面 | 搜尋範圍 | 隱藏內容處理 |
+| :-- | :-- | :--: |
+| 首頁 | 所有文字 | 無 |
+| 時間線 | `.tl-entry` 內文 | 強制 `.show` 展開 |
+| 世界觀 | `.world-entry` 內文 | 無 |
+| 元素 | `.source-panel` 內文 | 自動切換 panel |
+| 角色 | `.character-profile` 內文 | 自動開啟 modal |
+
+---
+
 - 2026/03/31: Elements 頁面設計與資料庫連現。
 - 2026/03/31: Database 建立與前端連接設定。
 - 2026/03/30: 建立 Django 專案，並完成基本設定。 ```Admin的帳號密碼我放Line。```
@@ -74,3 +90,4 @@ Project Rules:
 > - 要改 **CSS** 的話，進[css資料夾](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/tree/main/css)修改 ```{各自的}.css```，不要修改[style.css](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/blob/main/style.css)。  
 > - **JS** 也一樣，進[action資料夾](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/tree/main/action)修改 ```{各自的}.js```，不要修改[script.js](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/blob/main/script.js)。
 > - [common.css](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/blob/main/css/common.css)是所有分頁繼承[style.css](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/blob/main/style.css)的通用架構。
+> - [search.css](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/blob/main/css/search.css) 和 [search.js](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/blob/main/action/search.js) 是全域搜尋系統，所有頁面皆引用。
