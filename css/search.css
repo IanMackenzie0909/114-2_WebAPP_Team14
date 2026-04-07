@@ -13,6 +13,31 @@
     z-index: 100;
 }
 
+.search-live-count {
+    position: absolute;
+    right: 100%;
+    top: calc(100% + 8px);
+    margin-right: 10px;
+    min-width: 260px;
+    max-width: 340px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 1px solid #383838;
+    background: rgba(18, 18, 18, 0.94);
+    color: #ffd500;
+    font-size: 12px;
+    line-height: 1.45;
+    opacity: 0;
+    transform: translateY(-4px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    pointer-events: none;
+}
+
+.search-live-count.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 /* ===== Magnifying-glass toggle button ===== */
 .search-toggle {
     background: none;
@@ -97,6 +122,11 @@ mark.search-highlight {
     box-shadow: 0 0 6px rgba(255, 213, 0, 0.3);
 }
 
+mark.search-highlight.is-active {
+    background: rgba(230, 36, 41, 0.8);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.55);
+}
+
 /* ===== Toast notification (result count) ===== */
 .search-toast {
     position: fixed;
@@ -122,6 +152,138 @@ mark.search-highlight {
     transform: translateY(0);
 }
 
+/* ===== Match navigator (previous/next) ===== */
+.search-nav {
+    position: fixed;
+    top: 132px;
+    right: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(20, 20, 20, 0.93);
+    border: 1px solid #444;
+    border-left: 4px solid #e62429;
+    border-radius: 10px;
+    padding: 8px 10px;
+    z-index: 9998;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.search-nav-btn {
+    border: 1px solid #555;
+    background: #262626;
+    color: #fff;
+    padding: 5px 9px;
+    border-radius: 7px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.search-nav-btn:hover {
+    border-color: #e62429;
+    color: #ffd7d8;
+}
+
+.search-nav-count {
+    min-width: 54px;
+    text-align: center;
+    color: #ffd500;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* ===== Cross-page results panel ===== */
+.search-results-panel {
+    position: fixed;
+    top: 184px;
+    right: 24px;
+    width: min(380px, calc(100vw - 40px));
+    max-height: 60vh;
+    overflow: auto;
+    background: rgba(17, 17, 17, 0.97);
+    border: 1px solid #3a3a3a;
+    border-left: 4px solid #e62429;
+    border-radius: 12px;
+    padding: 12px;
+    z-index: 9997;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.55);
+}
+
+.search-results-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.search-results-title {
+    margin: 0;
+    color: #f4f4f4;
+    font-size: 14px;
+}
+
+.search-results-close {
+    border: 1px solid #555;
+    background: #252525;
+    color: #ddd;
+    font-size: 12px;
+    border-radius: 7px;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.search-results-close:hover {
+    border-color: #e62429;
+    color: #fff;
+}
+
+.search-results-list {
+    display: grid;
+    gap: 8px;
+}
+
+.search-result-item {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid #323232;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.search-result-item:hover {
+    background: rgba(230, 36, 41, 0.12);
+    border-color: #a43739;
+}
+
+.search-result-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.search-result-page {
+    color: #f4f4f4;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.search-result-count {
+    color: #ffd500;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.search-result-snippet {
+    margin: 0;
+    color: #cfcfcf;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
 /* ===== Responsive: on small screens, input drops below navbar ===== */
 @media (max-width: 768px) {
     .search-wrapper.is-open .search-input-wrap {
@@ -136,5 +298,35 @@ mark.search-highlight {
 
     .search-input {
         width: 100%;
+    }
+
+    .search-live-count {
+        left: 10px;
+        right: 10px;
+        top: 114px;
+        margin-right: 0;
+        min-width: auto;
+        max-width: none;
+    }
+
+    .search-toast {
+        left: 10px;
+        right: 10px;
+        top: 122px;
+    }
+
+    .search-nav {
+        left: 10px;
+        right: 10px;
+        top: 176px;
+        justify-content: center;
+    }
+
+    .search-results-panel {
+        left: 10px;
+        right: 10px;
+        width: auto;
+        top: 232px;
+        max-height: 52vh;
     }
 }

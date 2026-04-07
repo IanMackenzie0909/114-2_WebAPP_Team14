@@ -5,12 +5,31 @@
  * Reads the GET parameter `?q=keyword` and:
  *  1. Highlights every matching text node with <mark class="search-highlight">
  *  2. Reveals hidden content (timeline entries, character modals, element panels)
- *  3. Scrolls to the first match
+ *  3. Provides previous/next navigation across all matches
  *  4. Shows a toast with the result count
+ *  5. When current page has no match, shows cross-page result panel
  *
  * The magnifying-glass button toggles an expandable search input.
  * Pressing Enter navigates to the same page with `?q=` appended.
  */
+
+const searchState = {
+    marks: [],
+    activeIndex: -1,
+};
+
+const LIVE_SEARCH_DEBOUNCE_MS = 320;
+const SEARCH_HISTORY_KEY = 'ninweb_search_history_v1';
+const SEARCH_HISTORY_LIMIT = 10;
+
+// All searchable pages with their absolute paths from site root
+const ALL_PAGES = [
+    { url: '/index.html', label: '首頁' },
+    { url: '/src/timeline.html', label: '時間線' },
+    { url: '/src/world.html', label: '世界觀' },
+    { url: '/src/elements.html', label: '元素力量' },
+    { url: '/characters/', label: '角色' },
+];
 
 document.addEventListener('DOMContentLoaded', () => {
     /* ------------------------------------------------------------------ */
@@ -19,14 +38,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const wrapper = document.querySelector('.search-wrapper');
     const toggle = document.querySelector('.search-toggle');
     const input = document.querySelector('.search-input');
+    const liveCountNode = wrapper ? ensureLiveCountNode(wrapper) : null;
+    let liveSearchTimer = null;
 
     if (toggle && wrapper && input) {
+        initializeSuggestionList(input);
+        updateSuggestionOptions(input, '');
+
         toggle.addEventListener('click', (e) => {
             e.stopPropagation();
             const isOpen = wrapper.classList.toggle('is-open');
             if (isOpen) {
                 // Auto-focus the input so user can type immediately
                 input.focus();
+                updateSuggestionOptions(input, input.value.trim());
             }
         });
 
@@ -36,6 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 e.preventDefault();
                 const query = input.value.trim();
                 if (query.length > 0) {
+                    saveSearchHistory(query);
                     navigateWithQuery(query);
                 }
             }
@@ -43,6 +69,31 @@ document.addEventListener('DOMContentLoaded', () => {
             if (e.key === 'Escape') {
                 wrapper.classList.remove('is-open');
             }
+        });
+
+        // Live search: debounce and preview result count on current page
+        input.addEventListener('input', () => {
+            const query = input.value.trim();
+            updateSuggestionOptions(input, query);
+
+            if (liveSearchTimer) {
+                clearTimeout(liveSearchTimer);
+            }
+
+            liveSearchTimer = setTimeout(() => {
+                if (!query) {
+                    resetSearchUi();
+                    setLiveCountText(liveCountNode, '');
+                    return;
+                }
+                executeLiveSearch(query);
+                setLiveCountText(liveCountNode, `本頁找到 ${searchState.marks.length} 筆，按 Enter 全站搜尋`);
+            }, LIVE_SEARCH_DEBOUNCE_MS);
+        });
+
+        // Show history suggestions when focused
+        input.addEventListener('focus', () => {
+            updateSuggestionOptions(input, input.value.trim());
         });
 
         // Close search when clicking outside
@@ -62,6 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Pre-fill the search input with the current query
     if (input && query) {
         input.value = query;
+        updateSuggestionOptions(input, query);
     }
 
     if (!query) return; // Nothing to search
@@ -69,6 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Short delay to let page-specific JS (timeline formatting, etc.) finish
     setTimeout(() => {
         executeSearch(query);
+        saveSearchHistory(query);
     }, 350);
 });
 
@@ -87,6 +140,8 @@ function navigateWithQuery(query) {
 /*  Main search execution                                                 */
 /* ====================================================================== */
 function executeSearch(query) {
+    resetSearchUi();
+
     // Determine which page we are on to apply page-specific logic
     const path = window.location.pathname;
 
@@ -95,78 +150,129 @@ function executeSearch(query) {
 
     // Walk the DOM and highlight matching text nodes
     const matchCount = highlightMatches(document.body, query);
+    const marks = Array.from(document.querySelectorAll('mark.search-highlight'));
+    setupMatchNavigator(marks);
 
     if (matchCount > 0) {
         // Found results on current page
         showToast(matchCount, query);
-        scrollToFirstMatch();
+        jumpToMatch(0);
+        // Also search other pages and show cross-page panel (without overriding current-page toast)
+        searchOtherPages(query, path, { panelOnly: true });
     } else {
         // No results on current page — try cross-page search
         showToast(0, query, true); // show "searching other pages…" message
-        searchOtherPages(query, path);
+        searchOtherPages(query, path, { panelOnly: false });
+    }
+}
+
+function executeLiveSearch(query) {
+    resetSearchUi({ keepToast: true });
+
+    const path = window.location.pathname;
+    revealHiddenContent(query, path, { autoOpenCharacterModal: false });
+
+    highlightMatches(document.body, query);
+    const marks = Array.from(document.querySelectorAll('mark.search-highlight'));
+    setupMatchNavigator(marks);
+
+    if (marks.length > 0) {
+        jumpToMatch(0, { scroll: false });
     }
 }
 
 
 /* ====================================================================== */
-/*  Cross-page search: fetch other pages and redirect to first match      */
+/*  Cross-page search: fetch pages in parallel and render result panel     */
 /* ====================================================================== */
 
-// All searchable pages with their absolute paths from site root
-const ALL_PAGES = [
-    { url: '/index.html',          label: '首頁' },
-    { url: '/src/timeline.html',   label: '時間線' },
-    { url: '/src/world.html',      label: '世界觀' },
-    { url: '/src/elements.html',   label: '元素力量' },
-    { url: '/characters/',         label: '角色' },
-];
-
-async function searchOtherPages(query, currentPath) {
+async function searchOtherPages(query, currentPath, options = {}) {
+    const { panelOnly = false } = options;
     const lowerQuery = query.toLowerCase();
+    const currentNormalized = normalizePath(currentPath);
 
     // Filter out the current page to avoid searching it again
     const otherPages = ALL_PAGES.filter((page) => {
-        return !currentPath.endsWith(page.url) &&
-               !(currentPath === '/' && page.url === '/index.html');
+        return normalizePath(page.url) !== currentNormalized;
     });
 
-    for (const page of otherPages) {
-        try {
-            const response = await fetch(page.url);
-            if (!response.ok) continue;
+    // Parallel cross-page fetch for better response time
+    const settled = await Promise.allSettled(
+        otherPages.map((page) => fetchPageMatchInfo(page, lowerQuery, query))
+    );
 
-            const html = await response.text();
-
-            // Parse the HTML and extract text content (skip scripts/styles)
-            const parser = new DOMParser();
-            const doc = parser.parseFromString(html, 'text/html');
-
-            // Remove script and style elements before extracting text
-            doc.querySelectorAll('script, style, nav').forEach((el) => el.remove());
-            const textContent = doc.body?.textContent?.toLowerCase() || '';
-
-            if (textContent.includes(lowerQuery)) {
-                // Found a match on another page — redirect there
-                const targetUrl = new URL(page.url, window.location.origin);
-                targetUrl.searchParams.set('q', query);
-                window.location.href = targetUrl.toString();
-                return;
-            }
-        } catch (err) {
-            // Silently skip pages that fail to load (e.g. network error)
-            console.warn(`[Search] Skipped ${page.url}:`, err);
+    const matches = [];
+    settled.forEach((result) => {
+        if (result.status === 'fulfilled' && result.value && result.value.count > 0) {
+            matches.push(result.value);
         }
+    });
+
+    matches.sort((a, b) => b.count - a.count);
+
+    if (matches.length > 0) {
+        showSearchResultsPanel(query, matches);
+        if (!panelOnly) {
+            const totalMatches = matches.reduce((sum, item) => sum + item.count, 0);
+            showToast(totalMatches, query);
+        }
+        return;
     }
 
     // No results found on any page
-    showToast(0, query, false);
+    removeSearchResultsPanel();
+    if (!panelOnly) {
+        showToast(0, query, false);
+    }
+}
+
+async function fetchPageMatchInfo(page, lowerQuery, originalQuery) {
+    try {
+        const response = await fetch(page.url);
+        if (!response.ok) {
+            return null;
+        }
+
+        const html = await response.text();
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+
+        // Remove noisy areas before text extraction
+        doc.querySelectorAll('script, style, nav').forEach((el) => el.remove());
+
+        const rawText = (doc.body?.textContent || '').replace(/\s+/g, ' ').trim();
+        if (!rawText) {
+            return null;
+        }
+
+        const lowerText = rawText.toLowerCase();
+        const count = countOccurrences(lowerText, lowerQuery);
+        if (count === 0) {
+            return null;
+        }
+
+        const snippet = extractSnippet(rawText, lowerText, lowerQuery);
+        const targetUrl = new URL(page.url, window.location.origin);
+        targetUrl.searchParams.set('q', originalQuery);
+
+        return {
+            ...page,
+            count,
+            snippet,
+            href: targetUrl.toString(),
+        };
+    } catch (err) {
+        console.warn(`[Search] Skipped ${page.url}:`, err);
+        return null;
+    }
 }
 
 
 /* ====================================================================== */
 /*  Reveal hidden content depending on the current page                   */
 /* ====================================================================== */
-function revealHiddenContent(query, path) {
+function revealHiddenContent(query, path, options = {}) {
+    const { autoOpenCharacterModal = true } = options;
     const lowerQuery = query.toLowerCase();
 
     /* --- Timeline page: force-show all tl-entry so they are searchable --- */
@@ -201,7 +307,7 @@ function revealHiddenContent(query, path) {
 
         // Auto-open the first matched card's modal
         const firstMatch = document.querySelector('[data-carousel].search-matched');
-        if (firstMatch) {
+        if (firstMatch && autoOpenCharacterModal) {
             firstMatch.click();
         }
     }
@@ -306,16 +412,102 @@ function highlightMatches(root, query) {
 
 
 /* ====================================================================== */
-/*  Scroll to the first <mark> on the page                               */
+/*  Match navigator (previous/next)                                       */
 /* ====================================================================== */
-function scrollToFirstMatch() {
-    const firstMark = document.querySelector('mark.search-highlight');
-    if (firstMark) {
-        // Offset for sticky navbar height (~80px)
+function setupMatchNavigator(marks) {
+    removeMatchNavigator();
+    searchState.marks = marks;
+    searchState.activeIndex = -1;
+
+    if (!marks || marks.length === 0) {
+        return;
+    }
+
+    const nav = document.createElement('div');
+    nav.className = 'search-nav';
+    nav.setAttribute('role', 'group');
+    nav.setAttribute('aria-label', '搜尋結果導覽');
+
+    const prev = document.createElement('button');
+    prev.type = 'button';
+    prev.className = 'search-nav-btn';
+    prev.setAttribute('aria-label', '上一筆搜尋結果');
+    prev.textContent = '上一筆';
+    prev.addEventListener('click', () => moveMatch(-1));
+
+    const count = document.createElement('span');
+    count.className = 'search-nav-count';
+
+    const next = document.createElement('button');
+    next.type = 'button';
+    next.className = 'search-nav-btn';
+    next.setAttribute('aria-label', '下一筆搜尋結果');
+    next.textContent = '下一筆';
+    next.addEventListener('click', () => moveMatch(1));
+
+    nav.append(prev, count, next);
+    document.body.appendChild(nav);
+    updateMatchCounter();
+}
+
+function removeMatchNavigator() {
+    const nav = document.querySelector('.search-nav');
+    if (nav) {
+        nav.remove();
+    }
+    searchState.marks.forEach((mark) => mark.classList.remove('is-active'));
+    searchState.marks = [];
+    searchState.activeIndex = -1;
+}
+
+function moveMatch(step) {
+    const total = searchState.marks.length;
+    if (total === 0) return;
+
+    let target = searchState.activeIndex + step;
+    if (target < 0) target = total - 1;
+    if (target >= total) target = 0;
+    jumpToMatch(target);
+}
+
+function jumpToMatch(index, options = {}) {
+    const { scroll = true } = options;
+    const total = searchState.marks.length;
+    if (total === 0) return;
+
+    const safeIndex = Math.max(0, Math.min(index, total - 1));
+    const previous = searchState.marks[searchState.activeIndex];
+    if (previous) {
+        previous.classList.remove('is-active');
+    }
+
+    const target = searchState.marks[safeIndex];
+    if (!target) return;
+
+    target.classList.add('is-active');
+    searchState.activeIndex = safeIndex;
+    updateMatchCounter();
+
+    // Offset for sticky navbar height (~80px)
+    if (scroll) {
         const navHeight = document.querySelector('.navbar')?.offsetHeight || 80;
-        const top = firstMark.getBoundingClientRect().top + window.scrollY - navHeight - 20;
+        const top = target.getBoundingClientRect().top + window.scrollY - navHeight - 20;
         window.scrollTo({ top, behavior: 'smooth' });
     }
+}
+
+function updateMatchCounter() {
+    const node = document.querySelector('.search-nav-count');
+    if (!node) return;
+
+    const total = searchState.marks.length;
+    if (total === 0) {
+        node.textContent = '0 / 0';
+        return;
+    }
+
+    const current = searchState.activeIndex >= 0 ? searchState.activeIndex + 1 : 0;
+    node.textContent = `${current} / ${total}`;
 }
 
 
@@ -353,4 +545,195 @@ function showToast(count, query, searching) {
             setTimeout(() => toast.remove(), 400);
         }, 4000);
     }
+}
+
+function clearToast() {
+    const existing = document.querySelector('.search-toast');
+    if (existing) existing.remove();
+}
+
+
+/* ====================================================================== */
+/*  Search result panel (cross-page)                                      */
+/* ====================================================================== */
+function showSearchResultsPanel(query, matches) {
+    removeSearchResultsPanel();
+
+    const panel = document.createElement('aside');
+    panel.className = 'search-results-panel';
+    panel.setAttribute('aria-label', '跨頁搜尋結果');
+
+    const head = document.createElement('div');
+    head.className = 'search-results-head';
+
+    const title = document.createElement('h4');
+    title.className = 'search-results-title';
+    title.textContent = `「${query}」在其他頁面的結果`;
+
+    const close = document.createElement('button');
+    close.type = 'button';
+    close.className = 'search-results-close';
+    close.setAttribute('aria-label', '關閉搜尋結果面板');
+    close.textContent = '關閉';
+    close.addEventListener('click', () => panel.remove());
+
+    head.append(title, close);
+
+    const list = document.createElement('div');
+    list.className = 'search-results-list';
+
+    matches.forEach((match) => {
+        const item = document.createElement('a');
+        item.className = 'search-result-item';
+        item.href = match.href;
+
+        const top = document.createElement('div');
+        top.className = 'search-result-top';
+
+        const page = document.createElement('span');
+        page.className = 'search-result-page';
+        page.textContent = match.label;
+
+        const count = document.createElement('span');
+        count.className = 'search-result-count';
+        count.textContent = `${match.count} 筆`;
+
+        top.append(page, count);
+
+        const snippet = document.createElement('p');
+        snippet.className = 'search-result-snippet';
+        snippet.textContent = match.snippet;
+
+        item.append(top, snippet);
+        list.appendChild(item);
+    });
+
+    panel.append(head, list);
+    document.body.appendChild(panel);
+}
+
+function removeSearchResultsPanel() {
+    const panel = document.querySelector('.search-results-panel');
+    if (panel) {
+        panel.remove();
+    }
+}
+
+function resetSearchUi(options = {}) {
+    const { keepToast = false } = options;
+    removeMatchNavigator();
+    removeSearchResultsPanel();
+    clearHighlights();
+    document.querySelectorAll('.search-matched').forEach((el) => el.classList.remove('search-matched'));
+    if (!keepToast) {
+        clearToast();
+    }
+}
+
+function clearHighlights() {
+    const marks = Array.from(document.querySelectorAll('mark.search-highlight'));
+    marks.forEach((mark) => {
+        const parent = mark.parentNode;
+        if (!parent) return;
+        parent.replaceChild(document.createTextNode(mark.textContent || ''), mark);
+        parent.normalize();
+    });
+}
+
+
+/* ====================================================================== */
+/*  Utilities                                                             */
+/* ====================================================================== */
+function normalizePath(path) {
+    if (!path || path === '/') return '/index.html';
+    return path.endsWith('/') ? path.slice(0, -1) : path;
+}
+
+function countOccurrences(haystack, needle) {
+    if (!needle) return 0;
+    let count = 0;
+    let index = haystack.indexOf(needle);
+    while (index !== -1) {
+        count += 1;
+        index = haystack.indexOf(needle, index + needle.length);
+    }
+    return count;
+}
+
+function extractSnippet(originalText, lowerText, lowerQuery) {
+    const hit = lowerText.indexOf(lowerQuery);
+    if (hit === -1) {
+        return originalText.slice(0, 120);
+    }
+    const start = Math.max(0, hit - 45);
+    const end = Math.min(originalText.length, hit + lowerQuery.length + 70);
+    const snippet = originalText.slice(start, end).trim();
+    const prefix = start > 0 ? '…' : '';
+    const suffix = end < originalText.length ? '…' : '';
+    return `${prefix}${snippet}${suffix}`;
+}
+
+function getSearchHistory() {
+    try {
+        const raw = localStorage.getItem(SEARCH_HISTORY_KEY);
+        const list = raw ? JSON.parse(raw) : [];
+        return Array.isArray(list) ? list.filter((item) => typeof item === 'string') : [];
+    } catch (err) {
+        return [];
+    }
+}
+
+function saveSearchHistory(query) {
+    const normalized = query.trim();
+    if (!normalized) return;
+
+    const list = getSearchHistory();
+    const next = [normalized, ...list.filter((item) => item !== normalized)].slice(0, SEARCH_HISTORY_LIMIT);
+
+    try {
+        localStorage.setItem(SEARCH_HISTORY_KEY, JSON.stringify(next));
+    } catch (err) {
+        // Ignore storage errors (private mode / storage disabled)
+    }
+}
+
+function initializeSuggestionList(input) {
+    const existing = document.getElementById('search-history-list');
+    const dataList = existing || document.createElement('datalist');
+    dataList.id = 'search-history-list';
+    if (!existing) {
+        document.body.appendChild(dataList);
+    }
+    input.setAttribute('list', dataList.id);
+}
+
+function updateSuggestionOptions(input, keyword) {
+    const dataList = document.getElementById('search-history-list');
+    if (!dataList) return;
+
+    const trimmed = (keyword || '').toLowerCase();
+    const filtered = getSearchHistory().filter((item) => item.toLowerCase().includes(trimmed));
+
+    dataList.innerHTML = '';
+    filtered.slice(0, SEARCH_HISTORY_LIMIT).forEach((item) => {
+        const option = document.createElement('option');
+        option.value = item;
+        dataList.appendChild(option);
+    });
+}
+
+function ensureLiveCountNode(wrapper) {
+    let node = wrapper.querySelector('.search-live-count');
+    if (!node) {
+        node = document.createElement('div');
+        node.className = 'search-live-count';
+        wrapper.appendChild(node);
+    }
+    return node;
+}
+
+function setLiveCountText(node, text) {
+    if (!node) return;
+    node.textContent = text || '';
+    node.classList.toggle('is-visible', Boolean(text));
 }
