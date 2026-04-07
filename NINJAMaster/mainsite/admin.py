@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Character, CharacterImage
+from .models import Character, CharacterImage, CharacterVote
 
 
 class CharacterImageInline(admin.TabularInline):
@@ -12,7 +12,7 @@ class CharacterImageInline(admin.TabularInline):
 
 @admin.register(Character)
 class CharacterAdmin(admin.ModelAdmin):
-    list_display = ("name", "gender", "affiliation", "element", "first_appearance")
+    list_display = ("name", "gender", "affiliation", "element", "first_appearance", "vote_count")
     list_filter = ("gender", "affiliation", "element")
     search_fields = ("name", "affiliation", "homeland", "occupation", "element")
     inlines = [CharacterImageInline]
@@ -23,3 +23,10 @@ class CharacterImageAdmin(admin.ModelAdmin):
     list_display = ("character", "sort_order")
     list_filter = ("character",)
     search_fields = ("character__name",)
+
+
+@admin.register(CharacterVote)
+class CharacterVoteAdmin(admin.ModelAdmin):
+    list_display = ("character", "session_key", "created_at")
+    list_filter = ("character", "created_at")
+    search_fields = ("character__name", "session_key")

@@ -15,6 +15,7 @@ class Character(models.Model):
     element = models.CharField(max_length=100, blank=True, default="")
     first_appearance = models.CharField(max_length=200)
     description = models.TextField()
+    vote_count = models.PositiveIntegerField(default=0)
 
     class Meta:
         db_table = "character"
@@ -63,3 +64,25 @@ class CharacterImage(models.Model):
 
     def __str__(self) -> str:
         return f"{self.character.name} - Image {self.sort_order}"
+
+
+class CharacterVote(models.Model):
+    character = models.ForeignKey(
+        Character,
+        on_delete=models.CASCADE,
+        related_name="votes",
+    )
+    session_key = models.CharField(max_length=40)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        db_table = "character_vote"
+        constraints = [
+            models.UniqueConstraint(
+                fields=["character", "session_key"],
+                name="uniq_character_vote_per_session",
+            )
+        ]
+
+    def __str__(self) -> str:
+        return f"{self.character.name} vote by {self.session_key}"

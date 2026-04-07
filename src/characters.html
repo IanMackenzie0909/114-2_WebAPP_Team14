@@ -43,6 +43,9 @@
             <div
                 class="card character-card"
                 data-carousel
+                data-character-id="{{ character.id }}"
+                data-vote-count="{{ character.vote_count }}"
+                data-has-voted="{% if character.id in voted_character_ids %}true{% else %}false{% endif %}"
                 data-name="{{ character.name }}"
                 data-gender="{{ character.get_gender_display }}"
                 data-affiliation="{{ character.affiliation }}"
@@ -67,6 +70,7 @@
                 <div class="carousel-dots" data-dots></div>
                 <div class="card-content">
                     <h3>{{ character.name }}</h3>
+                    <p class="vote-badge">人氣票數 <span class="vote-count">{{ character.vote_count }}</span></p>
                 </div>
             </div>
         </article>
@@ -93,6 +97,11 @@
             <li><strong>元素屬性：</strong><span id="modal-element"></span></li>
             <li><strong>初次登場：</strong><span id="modal-first-appearance"></span></li>
         </ul>
+        <div class="modal-vote">
+            <p class="modal-vote-count">人氣票數：<span id="modal-vote-count">0</span></p>
+            <button class="modal-vote-btn" id="modal-vote-btn" type="button">投一票</button>
+            <p class="modal-vote-feedback" id="modal-vote-feedback" aria-live="polite"></p>
+        </div>
         <p class="modal-description" id="modal-description"></p>
     </div>
 </div>

@@ -35,6 +35,7 @@ urlpatterns = [
     path("src/characters.html", views.characters_page, name="characters-file"),
     path("admin/", admin.site.urls),
     path("characters/", views.characters_page, name="characters"),
+    path("characters/<int:character_id>/vote/", views.character_vote, name="character-vote"),
 ]
 
 if settings.DEBUG:
