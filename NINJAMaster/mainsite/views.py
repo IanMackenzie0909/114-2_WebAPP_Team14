@@ -1,3 +1,5 @@
+import json
+
 from django.db import transaction
 from django.db.models import F, Prefetch
 from django.http import JsonResponse
@@ -5,7 +7,7 @@ from django.shortcuts import get_object_or_404, render
 from django.views.decorators.csrf import ensure_csrf_cookie
 from django.views.decorators.http import require_POST
 
-from .models import Character, CharacterImage, CharacterVote
+from .models import Character, CharacterImage, CharacterVote, Feedback
 
 
 @ensure_csrf_cookie
@@ -64,3 +66,49 @@ def character_vote(request, character_id):
             "vote_count": character.vote_count,
         }
     )
+
+
+# ── Contact & Feedback ──────────────────────────────────────────────
+
+# Render the contact page template (GET request)
+@ensure_csrf_cookie
+def contact_page(request):
+    return render(request, "contact.html")
+
+
+# API endpoint — accept feedback form submissions via POST
+@require_POST
+def submit_feedback(request):
+    try:
+        data = json.loads(request.body)
+    except json.JSONDecodeError:
+        return JsonResponse({"ok": False, "error": "Invalid JSON payload."}, status=400)
+
+    # Extract and validate required fields
+    name = (data.get("name") or "").strip()
+    email = (data.get("email") or "").strip()
+    category = (data.get("category") or "").strip()
+    message = (data.get("message") or "").strip()
+
+    errors = {}
+    if not name:
+        errors["name"] = "Name is required."
+    if not email:
+        errors["email"] = "Email is required."
+    if category not in dict(Feedback.Category.choices):
+        errors["category"] = "Please select a valid category."
+    if not message:
+        errors["message"] = "Feedback message is required."
+
+    if errors:
+        return JsonResponse({"ok": False, "errors": errors}, status=400)
+
+    # Save feedback to database
+    Feedback.objects.create(
+        name=name,
+        email=email,
+        category=category,
+        message=message,
+    )
+
+    return JsonResponse({"ok": True, "message": "Thank you for your feedback!"})

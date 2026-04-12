@@ -36,6 +36,9 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("characters/", views.characters_page, name="characters"),
     path("characters/<int:character_id>/vote/", views.character_vote, name="character-vote"),
+    # Contact page & feedback API endpoint
+    path("src/contact.html", views.contact_page, name="contact-page"),
+    path("api/feedback/", views.submit_feedback, name="submit-feedback"),
 ]
 
 if settings.DEBUG:

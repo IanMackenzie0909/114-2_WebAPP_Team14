@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact the Ninjago Archive team. Share your feedback about characters, timeline, elements, and more.">
+    <title>Contact Us | Ninjago Archive</title>
+    <!-- Shared base styles (navbar, reset, footer, etc.) -->
+    <link rel="stylesheet" href="../css/common.css">
+    <!-- Page-specific styles for the contact form -->
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/search.css">
+</head>
+
+<body>
+
+    <!-- Navbar — same structure as other sub-pages; Contact is NOT listed here -->
+    <header>
+        <nav class="navbar">
+            <div class="logo"><img src="../img/lego-ninjago-logo.png" alt="Ninjago Archive Logo" height="80px"></div>
+            <ul class="nav-links">
+                <!-- Global search toggle (magnifying glass) — first item in nav -->
+                <li class="search-wrapper">
+                    <button class="search-toggle" type="button" aria-label="搜尋">
+                        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="16.65" y1="16.65" x2="21" y2="21"/></svg>
+                    </button>
+                    <div class="search-input-wrap">
+                        <input class="search-input" type="text" placeholder="搜尋角色、事件、集數…" aria-label="搜尋關鍵字">
+                    </div>
+                </li>
+                <li><a href="../index.html">首頁</a></li>
+                <li><a href="timeline.html">時間線</a></li>
+                <li><a href="world.html">世界觀</a></li>
+                <li><a href="http://127.0.0.1:8000/characters/">角色</a></li>
+                <li><a href="elements.html">元素力量</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+        <h1>Contact Us</h1>
+        <p>我們珍惜您的每一則回饋，歡迎告訴我們您的想法</p>
+    </section>
+
+    <!-- Feedback Form Section -->
+    <section class="contact-section">
+        <div class="contact-form-card" id="feedback-form-card">
+            <h2>Share Your Feedback</h2>
+            <p class="form-subtitle">幫助我們持續改善 Ninjago Archive</p>
+
+            <form id="feedback-form" novalidate>
+                <!-- Name field -->
+                <div class="form-group">
+                    <label for="feedback-name">Your Name</label>
+                    <input type="text" id="feedback-name" name="name" placeholder="請輸入您的姓名" required>
+                    <span class="field-error" id="error-name"></span>
+                </div>
+
+                <!-- Email field -->
+                <div class="form-group">
+                    <label for="feedback-email">Email Address</label>
+                    <input type="email" id="feedback-email" name="email" placeholder="example@mail.com" required>
+                    <span class="field-error" id="error-email"></span>
+                </div>
+
+                <!-- Category dropdown — matches site sections -->
+                <div class="form-group">
+                    <label for="feedback-category">About which section?</label>
+                    <select id="feedback-category" name="category" required>
+                        <option value="" disabled selected>請選擇一個類別</option>
+                        <option value="characters">角色 Characters</option>
+                        <option value="timeline">時間線 Timeline</option>
+                        <option value="elements">元素力量 Elements</option>
+                        <option value="world">世界觀 World</option>
+                        <option value="other">其他 Other</option>
+                    </select>
+                    <span class="field-error" id="error-category"></span>
+                </div>
+
+                <!-- Message textarea -->
+                <div class="form-group">
+                    <label for="feedback-message">Your Feedback</label>
+                    <textarea id="feedback-message" name="message" rows="5" placeholder="請在此撰寫您的回饋或建議…" required></textarea>
+                    <span class="field-error" id="error-message"></span>
+                </div>
+
+                <button type="submit" class="submit-btn" id="submit-feedback-btn">
+                    <span class="btn-text">Submit Feedback</span>
+                    <span class="btn-loader" hidden></span>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer with contact icon buttons -->
+    <footer>
+        <div class="footer-icons">
+            <a href="mailto:ianmackenzie0909@gmail.com" class="footer-icon-btn" title="Email Ian" aria-label="Email Ian">
+                <!-- SVG: Email icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/></svg>
+            </a>
+            <a href="mailto:hal326lego@gmail.com" class="footer-icon-btn" title="Email Hal" aria-label="Email Hal">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/></svg>
+            </a>
+            <a href="https://github.com/IanMackenzie0909" target="_blank" rel="noopener noreferrer" class="footer-icon-btn" title="GitHub" aria-label="GitHub">
+                <!-- SVG: GitHub icon -->
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.37.5 0 5.78 0 12.29c0 5.21 3.43 9.64 8.21 11.21.6.11.82-.26.82-.57 0-.28-.01-1.03-.02-2.03-3.34.72-4.04-1.61-4.04-1.61-.55-1.37-1.33-1.74-1.33-1.74-1.09-.74.08-.72.08-.72 1.2.08 1.84 1.23 1.84 1.23 1.07 1.83 2.81 1.3 3.5 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6.02 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22 0 1.6-.01 2.9-.01 3.29 0 .32.21.69.82.57C20.57 21.93 24 17.5 24 12.29 24 5.78 18.63.5 12 .5z"/></svg>
+            </a>
+            <a href="tel:0952678732" class="footer-icon-btn" title="Phone" aria-label="Phone">
+                <!-- SVG: Phone icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </a>
+        </div>
+        <p>&copy; 2026 Ninjago Archive Project</p>
+    </footer>
+
+    <!-- Page-specific JavaScript -->
+    <script src="../action/contact.js"></script>
+    <script src="../action/search.js"></script>
+</body>
+
+</html>

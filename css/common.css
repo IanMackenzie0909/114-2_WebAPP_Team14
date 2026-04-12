@@ -120,3 +120,39 @@ footer {
     background: #000;
     margin-top: 20px;
 }
+
+/* ===== Footer Icon Buttons (shared across all sub-pages) ===== */
+
+/* Row of circular icon buttons in the footer */
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 14px;
+}
+
+/* Circular icon button */
+.footer-icon-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #ccc;
+    transition: background 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.footer-icon-btn svg {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-icon-btn:hover {
+    background: #e62429;
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(230, 36, 41, 0.4);
+}

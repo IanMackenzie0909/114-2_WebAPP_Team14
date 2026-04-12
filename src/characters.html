@@ -1,116 +1,150 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="zh-Hant">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>角色 | Ninjago Archive</title>
-<link rel="stylesheet" href="{% static 'css/common.css' %}">
-<link rel="stylesheet" href="{% static 'css/characters.css' %}">
-<link rel="stylesheet" href="{% static 'css/search.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <title>角色 | Ninjago Archive</title>
+    <link rel="stylesheet" href="{% static 'css/common.css' %}">
+    <link rel="stylesheet" href="{% static 'css/characters.css' %}">
+    <link rel="stylesheet" href="{% static 'css/search.css' %}">
 </head>
 
 <body>
 
-<header>
-    <nav class="navbar">
-        <div class="logo"><img src="{% static 'img/lego-ninjago-logo.png' %}" alt="Ninjago Archive Logo" height="80px"></div>
-        <ul class="nav-links">
-            <!-- Global search toggle (magnifying glass) — first item in nav -->
-            <li class="search-wrapper">
-                <button class="search-toggle" type="button" aria-label="搜尋">
-                    <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="16.65" y1="16.65" x2="21" y2="21"/></svg>
-                </button>
-                <div class="search-input-wrap">
-                    <input class="search-input" type="text" placeholder="搜尋角色、事件、集數…" aria-label="搜尋關鍵字">
-                </div>
-            </li>
-            <li><a href="/index.html">首頁</a></li>
-            <li><a href="/src/timeline.html">時間線</a></li>
-            <li><a href="/src/world.html">世界觀</a></li>
-            <li><a class="active" href="/characters/">角色</a></li>
-            <li><a href="/src/elements.html">元素力量</a></li>
-        </ul>
-    </nav>
-</header>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><img src="{% static 'img/lego-ninjago-logo.png' %}" alt="Ninjago Archive Logo"
+                    height="80px"></div>
+            <ul class="nav-links">
+                <!-- Global search toggle (magnifying glass) — first item in nav -->
+                <li class="search-wrapper">
+                    <button class="search-toggle" type="button" aria-label="搜尋">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="11" cy="11" r="7" />
+                            <line x1="16.65" y1="16.65" x2="21" y2="21" />
+                        </svg>
+                    </button>
+                    <div class="search-input-wrap">
+                        <input class="search-input" type="text" placeholder="搜尋角色、事件、集數…" aria-label="搜尋關鍵字">
+                    </div>
+                </li>
+                <li><a href="/index.html">首頁</a></li>
+                <li><a href="/src/timeline.html">時間線</a></li>
+                <li><a href="/src/world.html">世界觀</a></li>
+                <li><a class="active" href="/characters/">角色</a></li>
+                <li><a href="/src/elements.html">元素力量</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<section class="section">
-    <h1 class="page-title">角色</h1>
+    <section class="section">
+        <h1 class="page-title">角色</h1>
 
-    <div class="character-grid">
-        {% for character in characters %}
-        <article class="character-profile">
-            <div
-                class="card character-card"
-                data-carousel
-                data-character-id="{{ character.id }}"
-                data-vote-count="{{ character.vote_count }}"
-                data-has-voted="{% if character.id in voted_character_ids %}true{% else %}false{% endif %}"
-                data-name="{{ character.name }}"
-                data-gender="{{ character.get_gender_display }}"
-                data-affiliation="{{ character.affiliation }}"
-                data-homeland="{{ character.homeland }}"
-                data-occupation="{{ character.occupation }}"
-                data-element="{% if character.element %}{{ character.element }}{% else %}-{% endif %}"
-                data-first-appearance="{{ character.first_appearance }}"
-                data-description="{{ character.description }}"
-                role="button"
-                tabindex="0"
-                aria-label="查看 {{ character.name }} 詳細資訊"
-            >
-                <button class="carousel-btn prev" type="button" aria-label="上一張">‹</button>
-                <div class="character-slider" data-slider>
-                    {% for photo in character.images.all %}
-                    <img src="{{ photo.image.url }}" alt="{{ character.name }} 形象 {{ forloop.counter }}" class="char-slide">
-                    {% empty %}
-                    <img src="{% static 'img/lego-ninjago-logo.png' %}" alt="{{ character.name }}" class="char-slide">
-                    {% endfor %}
+        <div class="character-grid">
+            {% for character in characters %}
+            <article class="character-profile">
+                <!-- Removed role="button" to avoid nesting interactive controls (axe/keyboard rule) -->
+                <!-- tabindex="0" kept for keyboard accessibility (keydown handler in characters.js) -->
+                <div class="card character-card" data-carousel data-clickable data-character-id="{{ character.id }}"
+                    data-vote-count="{{ character.vote_count }}"
+                    data-has-voted="{% if character.id in voted_character_ids %}true{% else %}false{% endif %}"
+                    data-name="{{ character.name }}" data-gender="{{ character.get_gender_display }}"
+                    data-affiliation="{{ character.affiliation }}" data-homeland="{{ character.homeland }}"
+                    data-occupation="{{ character.occupation }}"
+                    data-element="{% if character.element %}{{ character.element }}{% else %}-{% endif %}"
+                    data-first-appearance="{{ character.first_appearance }}"
+                    data-description="{{ character.description }}" tabindex="0"
+                    aria-label="查看 {{ character.name }} 詳細資訊">
+                    <button class="carousel-btn prev" type="button" aria-label="上一張">‹</button>
+                    <div class="character-slider" data-slider>
+                        {% for photo in character.images.all %}
+                        <img src="{{ photo.image.url }}" alt="{{ character.name }} 形象 {{ forloop.counter }}"
+                            class="char-slide">
+                        {% empty %}
+                        <img src="{% static 'img/lego-ninjago-logo.png' %}" alt="{{ character.name }}"
+                            class="char-slide">
+                        {% endfor %}
+                    </div>
+                    <button class="carousel-btn next" type="button" aria-label="下一張">›</button>
+                    <div class="carousel-dots" data-dots></div>
+                    <div class="card-content">
+                        <h3>{{ character.name }}</h3>
+                        <p class="vote-badge">人氣票數 <span class="vote-count">{{ character.vote_count }}</span></p>
+                    </div>
                 </div>
-                <button class="carousel-btn next" type="button" aria-label="下一張">›</button>
-                <div class="carousel-dots" data-dots></div>
-                <div class="card-content">
-                    <h3>{{ character.name }}</h3>
-                    <p class="vote-badge">人氣票數 <span class="vote-count">{{ character.vote_count }}</span></p>
-                </div>
+            </article>
+            {% empty %}
+            <article class="character-profile">
+                <div class="empty-note">目前資料庫尚未建立角色資料，請先到 Django Admin 新增 Character 與 CharacterImage。</div>
+            </article>
+            {% endfor %}
+        </div>
+    </section>
+
+    <div class="character-modal" id="character-modal" aria-hidden="true">
+        <div class="character-modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-name">
+            <button class="character-modal-close" id="character-modal-close" type="button" aria-label="關閉">×</button>
+            <h2 id="modal-name"></h2>
+            <div class="modal-image-wrap">
+                <img id="modal-image" src="" alt="" class="modal-image">
             </div>
-        </article>
-        {% empty %}
-        <article class="character-profile">
-            <div class="empty-note">目前資料庫尚未建立角色資料，請先到 Django Admin 新增 Character 與 CharacterImage。</div>
-        </article>
-        {% endfor %}
-    </div>
-</section>
-
-<div class="character-modal" id="character-modal" aria-hidden="true">
-    <div class="character-modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-name">
-        <button class="character-modal-close" id="character-modal-close" type="button" aria-label="關閉">×</button>
-        <h2 id="modal-name"></h2>
-        <div class="modal-image-wrap">
-            <img id="modal-image" src="" alt="" class="modal-image">
+            <ul class="modal-meta">
+                <li><strong>性別：</strong><span id="modal-gender"></span></li>
+                <li><strong>所屬陣營：</strong><span id="modal-affiliation"></span></li>
+                <li><strong>出身地：</strong><span id="modal-homeland"></span></li>
+                <li><strong>職業：</strong><span id="modal-occupation"></span></li>
+                <li><strong>元素屬性：</strong><span id="modal-element"></span></li>
+                <li><strong>初次登場：</strong><span id="modal-first-appearance"></span></li>
+            </ul>
+            <div class="modal-vote">
+                <p class="modal-vote-count">人氣票數：<span id="modal-vote-count">0</span></p>
+                <button class="modal-vote-btn" id="modal-vote-btn" type="button">投一票</button>
+                <p class="modal-vote-feedback" id="modal-vote-feedback" aria-live="polite"></p>
+            </div>
+            <p class="modal-description" id="modal-description"></p>
         </div>
-        <ul class="modal-meta">
-            <li><strong>性別：</strong><span id="modal-gender"></span></li>
-            <li><strong>所屬陣營：</strong><span id="modal-affiliation"></span></li>
-            <li><strong>出身地：</strong><span id="modal-homeland"></span></li>
-            <li><strong>職業：</strong><span id="modal-occupation"></span></li>
-            <li><strong>元素屬性：</strong><span id="modal-element"></span></li>
-            <li><strong>初次登場：</strong><span id="modal-first-appearance"></span></li>
-        </ul>
-        <div class="modal-vote">
-            <p class="modal-vote-count">人氣票數：<span id="modal-vote-count">0</span></p>
-            <button class="modal-vote-btn" id="modal-vote-btn" type="button">投一票</button>
-            <p class="modal-vote-feedback" id="modal-vote-feedback" aria-live="polite"></p>
-        </div>
-        <p class="modal-description" id="modal-description"></p>
     </div>
-</div>
 
-<footer>
-    <p>© 2026 Ninjago Archive Project</p>
-</footer>
+    <footer>
+        <!-- Footer contact icon buttons -->
+        <div class="footer-icons">
+            <a href="mailto:ianmackenzie0909@gmail.com" class="footer-icon-btn" title="Email Ian"
+                aria-label="Email Ian">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <rect x="2" y="4" width="20" height="16" rx="2" />
+                    <path d="M22 4L12 13 2 4" />
+                </svg>
+            </a>
+            <a href="mailto:hal326lego@gmail.com" class="footer-icon-btn" title="Email Hal" aria-label="Email Hal">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <rect x="2" y="4" width="20" height="16" rx="2" />
+                    <path d="M22 4L12 13 2 4" />
+                </svg>
+            </a>
+            <a href="https://github.com/IanMackenzie0909" target="_blank" rel="noopener noreferrer"
+                class="footer-icon-btn" title="GitHub" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M12 .5C5.37.5 0 5.78 0 12.29c0 5.21 3.43 9.64 8.21 11.21.6.11.82-.26.82-.57 0-.28-.01-1.03-.02-2.03-3.34.72-4.04-1.61-4.04-1.61-.55-1.37-1.33-1.74-1.33-1.74-1.09-.74.08-.72.08-.72 1.2.08 1.84 1.23 1.84 1.23 1.07 1.83 2.81 1.3 3.5 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6.02 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22 0 1.6-.01 2.9-.01 3.29 0 .32.21.69.82.57C20.57 21.93 24 17.5 24 12.29 24 5.78 18.63.5 12 .5z" />
+                </svg>
+            </a>
+            <a href="tel:0952678732" class="footer-icon-btn" title="Phone" aria-label="Phone">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                </svg>
+            </a>
+        </div>
+        <p>&copy; 2026 Ninjago Archive Project</p>
+    </footer>
 
-<script src="{% static 'action/characters.js' %}"></script>
-<script src="{% static 'action/search.js' %}"></script>
+    <script src="{% static 'action/characters.js' %}"></script>
+    <script src="{% static 'action/search.js' %}"></script>
 </body>
+
 </html>

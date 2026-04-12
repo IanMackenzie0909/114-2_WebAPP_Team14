@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Character, CharacterImage, CharacterVote
+from .models import Character, CharacterImage, CharacterVote, Feedback
 
 
 class CharacterImageInline(admin.TabularInline):
@@ -30,3 +30,13 @@ class CharacterVoteAdmin(admin.ModelAdmin):
     list_display = ("character", "session_key", "created_at")
     list_filter = ("character", "created_at")
     search_fields = ("character__name", "session_key")
+
+
+# Feedback admin — allows reviewing visitor feedback in the Django admin panel
+@admin.register(Feedback)
+class FeedbackAdmin(admin.ModelAdmin):
+    list_display = ("name", "email", "category", "created_at")
+    list_filter = ("category", "created_at")
+    search_fields = ("name", "email", "message")
+    readonly_fields = ("created_at",)
+    ordering = ("-created_at",)

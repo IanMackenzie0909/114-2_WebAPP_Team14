@@ -4,5 +4,7 @@ walkthrough.md
 env
 __pycache__/
 *.py[cod]
-NINJAMaster\db.sqlite3
 *.sqlite3
+Feeback-section_implementation_plan.md
+Feeback-section_walkthrough.md
+NINJAMaster/db.sqlite3

@@ -86,3 +86,27 @@ class CharacterVote(models.Model):
 
     def __str__(self) -> str:
         return f"{self.character.name} vote by {self.session_key}"
+
+
+# Feedback model — stores visitor feedback submitted from the Contact page
+class Feedback(models.Model):
+    # Dropdown choices matching the site's main content sections
+    class Category(models.TextChoices):
+        CHARACTERS = "characters", "Characters"
+        TIMELINE = "timeline", "Timeline"
+        ELEMENTS = "elements", "Elements"
+        WORLD = "world", "World"
+        OTHER = "other", "Other"
+
+    name = models.CharField(max_length=100)
+    email = models.EmailField()
+    category = models.CharField(max_length=20, choices=Category.choices)
+    message = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        db_table = "feedback"
+        ordering = ["-created_at"]
+
+    def __str__(self) -> str:
+        return f"[{self.get_category_display()}] {self.name} ({self.created_at:%Y-%m-%d})"
