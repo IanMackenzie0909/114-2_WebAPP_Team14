@@ -42,7 +42,7 @@
         <div class="source-orbit-stage" aria-label="來源龍徽章輪播">
             <div class="source-orbit-track" data-orbit-track>
                 <div class="source-lane" data-source-lane>
-                <button class="source-badge is-active" type="button" data-source="motion">
+                <button class="source-badge" type="button" data-source="motion">
                     <img src="../img/Element/motion.png" alt="動態 Source 徽章">
                     <span>動態</span>
                 </button>
@@ -80,80 +80,96 @@
             </div>
         </div>
 
+        <div class="elements-overlay" id="elements-overlay" aria-hidden="true"></div>
         <div class="source-detail-panel">
-            <article class="source-panel is-active" data-source-panel="motion">
-                <h2>動態元素</h2>
+            <button class="source-detail-close" id="source-detail-close" type="button" aria-label="關閉來源視窗">×</button>
+            <article class="source-panel" data-source-panel="motion">
+                <h2>動態 (MOTION)</h2>
+                <p class="source-description">從地球的自轉，到你體內的血液流動，宇宙永遠處於運動之中。</p>
                 <div class="element-list">
-                    <div class="element element-fire">火</div>
-                    <div class="element element-speed">速度</div>
-                    <div class="element element-sound">聲音</div>
-                    <div class="element element-vibration">震動</div>
-                    <div class="element element-shockwave">衝擊波</div>
+                    <button class="element element-fire" type="button" data-element-name="火 (FIRE)" data-element-description="篝火的舞蹈，火焰的舔舐。燃燒越烈，蔓延越快。">火</button>
+                    <button class="element element-speed" type="button" data-element-name="速度 (SPEED)" data-element-description="轉瞬之間縮短距離，身體本身的運動——就是「動」。">速度</button>
+                    <button class="element element-sound" type="button" data-element-name="聲音 (SOUND)" data-element-description="無論是刺耳的尖叫，還是發自內心的歌聲，聲音是振動，是無數微小的運動。">聲音</button>
+                    <button class="element element-vibration" type="button" data-element-name="震動 (QUAKE)" data-element-description="岩石的移動，震撼靈魂深處的搖晃——世界的核心在運動。">震動</button>
+                    <button class="element element-shockwave" type="button" data-element-name="衝擊波 (SHOCKWAVE)" data-element-description="運動的餘韻，空氣的呼出。一股能推動萬物的釋放。">衝擊波</button>
                 </div>
             </article>
 
             <article class="source-panel" data-source-panel="energy">
-                <h2>能量元素</h2>
+                <h2>能量 (ENERGY)</h2>
+                <p class="source-description">無論是啟動反應的火花，或是爆炸性的結果，能量驅動著存在。</p>
                 <div class="element-list">
-                    <div class="element element-lightning">閃電</div>
-                    <div class="element element-thermal">熱能</div>
-                    <div class="element element-light">光</div>
+                    <button class="element element-lightning" type="button" data-element-name="閃電 (LIGHTNING)" data-element-description="兩點之間的放電，有時是天地之間力量的展現。">閃電</button>
+                    <button class="element element-thermal" type="button" data-element-name="熱能 (HEAT)" data-element-description="溫度的強度，分子狀態的改變與轉換。">熱能</button>
+                    <button class="element element-light" type="button" data-element-name="光 (LIGHT)" data-element-description="不只是黑暗中的燈塔，更是對可見與不可見的掌控。">光</button>
+                    <button class="element element-propulsion" type="button" data-element-name="推進 (PROPULSION)" data-element-description="將物體猛然推向前方的爆發——開路吧！">推進</button>
                 </div>
             </article>
 
             <article class="source-panel" data-source-panel="strength">
-                <h2>力量元素</h2>
+                <h2>力量 (STRENGTH)</h2>
+                <p class="source-description">如岩石抵禦洶湧浪濤，或長劍粉碎盾牌，力量能抵抗或壓制對立的力量。</p>
                 <div class="element-list">
-                    <div class="element element-earth">土</div>
-                    <div class="element element-metal">金屬</div>
-                    <div class="element element-gravity">重力</div>
-                    <div class="element element-tension">表面張力</div>
-                    <div class="element element-cohesion">聚合</div>
+                    <button class="element element-earth" type="button" data-element-name="土 (EARTH)" data-element-description="我們腳下的堅實大地，高聳入雲的山岳挑戰蒼穹。">土</button>
+                    <button class="element element-metal" type="button" data-element-name="金屬 (METAL)" data-element-description="大地的血脈。難以破壞，反擊時更為強悍。">金屬</button>
+                    <button class="element element-gravity" type="button" data-element-name="重力 (GRAVITY)" data-element-description="大體對小體的牽引，你能抗拒，但無法逃脫。">重力</button>
+                    <button class="element element-tension" type="button" data-element-name="表面張力 (SURFACE TENSION)" data-element-description="內部的凝聚力，抵禦任何試圖打破的外力。">表面張力</button>
+                    <button class="element element-cohesion" type="button" data-element-name="聚合 (FUSION)" data-element-description="兩者的結合，比單獨存在更為強大。">聚合</button>
                 </div>
             </article>
 
             <article class="source-panel" data-source-panel="life">
-                <h2>生命元素</h2>
+                <h2>生命 (LIFE)</h2>
+                <p class="source-description">宇宙的心跳，生命不只是生存的方式，更是求生的意志。</p>
                 <div class="element-list">
-                    <div class="element element-vitality">能量</div>
-                    <div class="element element-nature">自然</div>
-                    <div class="element element-poison">毒</div>
-                    <div class="element element-plants">植物</div>
-                    <div class="element element-size">體型</div>
+                    <button class="element element-life" type="button" data-element-name="生命 (LIFE)" data-element-description="能夠接觸一股貫穿萬物的能量，去使用，或去……【已刪除】。">生命</button>
+                    <button class="element element-nature" type="button" data-element-name="自然 (NATURE)" data-element-description="與樹葉與泥土同在，能讀懂樹皮的紋理，能隨風低語孢子的訊息。擁有保護自然世界的力量。">自然</button>
+                    <button class="element element-poison" type="button" data-element-name="毒 (POISON)" data-element-description="一種腐蝕，使身體自我對抗。致命卻美麗，精準而有效。">毒</button>
+                    <button class="element element-plants" type="button" data-element-name="植物 (PLANTS)" data-element-description="最綠意盎然的手，能以超乎常理的規模栽培與繁衍。不是指揮者，而是守護者。">植物</button>
+                    <button class="element element-size" type="button" data-element-name="體型 (SIZE)" data-element-description="生存即是生長，然後凋零。生命存在於各種大小之中。">體型</button>
                 </div>
             </article>
 
             <article class="source-panel" data-source-panel="flow">
-                <h2>流動元素</h2>
+                <h2>流動 (FLOW)</h2>
+                <p class="source-description">流動是對靜止的反抗，是拒絕僵化。永遠改變，永遠適應。</p>
                 <div class="element-list">
-                    <div class="element element-water">水</div>
-                    <div class="element element-time">時間</div>
-                    <div class="element element-wind">風</div>
-                    <div class="element element-smoke">煙霧</div>
-                    <div class="element element-shapeshift">變形</div>
+                    <button class="element element-water" type="button" data-element-name="水 (WATER)" data-element-description="河流的奔騰，水窪的蔓延。水能千變萬化，改變形狀以容納任何器皿。">水</button>
+                    <button class="element element-time" type="button" data-element-name="時間 (TIME)" data-element-description="如沙漏裡的沙粒，時間的流動永不止息。">時間</button>
+                    <button class="element element-wind" type="button" data-element-name="風 (WIND)" data-element-description="無論是撩動落葉，還是驅動風暴，風席捲空氣，不可預測，無止無休。">風</button>
+                    <button class="element element-smoke" type="button" data-element-name="煙霧 (SMOKE)" data-element-description="煙升起並擴散，難以控制，更難以束縛。">煙霧</button>
+                    <button class="element element-shapeshift" type="button" data-element-name="變形 (FORM)" data-element-description="身體處於變化之中，連「自我」的概念也拒絕靜止。每一刻，你都能成為不同的人。">變形</button>
                 </div>
             </article>
 
             <article class="source-panel" data-source-panel="focus">
-                <h2>專注元素</h2>
+                <h2>專注 (FOCUS)</h2>
+                <p class="source-description">靜止帶來清晰，學習揭示知識。專注引向理解——若無專注而行，只會招致混亂。</p>
                 <div class="element-list">
-                    <div class="element element-ice">冰</div>
-                    <div class="element element-mind">心靈</div>
-                    <div class="element element-reflection">反射</div>
-                    <div class="element element-illusion">幻影</div>
-                    <div class="element element-tech">科技</div>
+                    <button class="element element-ice" type="button" data-element-name="冰 (ICE)" data-element-description="靜止而清澈，帶來停滯的力量。能凍結片刻，也能凝結成銳利之形。">冰</button>
+                    <button class="element element-mind" type="button" data-element-name="心智 (MIND)" data-element-description="思維如迷宮。掌控思想，即是掌控行動。">心智</button>
+                    <button class="element element-reflection" type="button" data-element-name="反射 (REFLEX)" data-element-description="觀察世界並即刻應對，如同經過精心編排，行動與反應在同一瞬間完成。">反射</button>
+                    <button class="element element-figment" type="button" data-element-name="幻影 (FIGMENT)" data-element-description="眼見不一定為實。幻象能將心智之眼專注於概念，而非現實。">幻影</button>
+                    <button class="element element-tech" type="button" data-element-name="科技 (TECHNOLOGY)" data-element-description="理解宇宙的運作，便能將其扭轉為己用。發明就是對自然秩序的重新想像。">科技</button>
                 </div>
             </article>
 
             <article class="source-panel" data-source-panel="balance">
-                <h2>平衡元素</h2>
+                <h2>平衡 (BALANCE)</h2>
+                <p class="source-description">每個動作都有反應，每個問題都有答案。平衡使部分加總大於整體。</p>
                 <div class="element-list">
-                    <div class="element element-balance">平衡</div>
-                    <div class="element element-shadow">暗影</div>
-                    <div class="element element-amber">琥珀</div>
+                    <button class="element element-balance" type="button" data-element-name="平衡 (BALANCE)" data-element-description="無論是實際的鋼索，還是隱喻的抉擇。身體的平衡能感知世界的不平衡。">平衡</button>
+                    <button class="element element-shadow" type="button" data-element-name="暗影 (SHADOW)" data-element-description="不可分割的雙生子，黑暗的倒影。有時隱藏，但始終存在。你無法離開影子而行走世間。">暗影</button>
+                    <button class="element element-amber" type="button" data-element-name="琥珀 (AMBER)" data-element-description="當「大師」崛起時，世界流血成琥珀，給出了應對錯誤的答案。以火制火，依此類推。">琥珀</button>
                 </div>
             </article>
         </div>
+
+        <aside class="element-popup" id="element-popup" aria-hidden="true" role="dialog" aria-label="元素詳細描述">
+            <button class="element-popup-close" id="element-popup-close" type="button" aria-label="關閉">×</button>
+            <h3 id="element-popup-title"></h3>
+            <p id="element-popup-description"></p>
+        </aside>
     </section>
     <footer>
         <!-- Footer contact icon buttons -->
