@@ -7,7 +7,14 @@ from django.shortcuts import get_object_or_404, render
 from django.views.decorators.csrf import ensure_csrf_cookie
 from django.views.decorators.http import require_POST
 
-from .models import Character, CharacterImage, CharacterVote, Feedback
+from .models import (
+    Character,
+    CharacterImage,
+    CharacterVote,
+    ElementHolderHistory,
+    ElementPower,
+    Feedback,
+)
 
 
 @ensure_csrf_cookie
@@ -112,3 +119,51 @@ def submit_feedback(request):
     )
 
     return JsonResponse({"ok": True, "message": "Thank you for your feedback!"})
+
+
+def element_powers_api(request):
+    powers = (
+        ElementPower.objects.select_related("source", "current_holder")
+        .prefetch_related(
+            Prefetch(
+                "holder_history",
+                queryset=ElementHolderHistory.objects.select_related("character").order_by(
+                    "sort_order",
+                    "id",
+                ),
+            )
+        )
+        .order_by("source__sort_order", "sort_order", "name")
+    )
+
+    payload = []
+    for power in powers:
+        current_holder = power.current_holder.name if power.current_holder else power.current_holder_name
+        current_holder = (current_holder or "").strip()
+
+        history_items = []
+        for item in power.holder_history.all():
+            holder_name = item.character.name if item.character else item.holder_name
+            history_items.append(
+                {
+                    "holder": (holder_name or "").strip(),
+                    "start_label": (item.start_label or "").strip(),
+                    "end_label": (item.end_label or "").strip(),
+                    "is_current": item.is_current,
+                    "note": (item.note or "").strip(),
+                }
+            )
+
+        payload.append(
+            {
+                "code": power.code,
+                "name": power.name,
+                "description": (power.description or "").strip(),
+                "source_code": power.source.code,
+                "source_name": power.source.name,
+                "current_holder": current_holder,
+                "history": history_items,
+            }
+        )
+
+    return JsonResponse({"ok": True, "elements": payload})

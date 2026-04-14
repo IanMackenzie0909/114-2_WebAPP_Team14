@@ -39,6 +39,7 @@ urlpatterns = [
     # Contact page & feedback API endpoint
     path("src/contact.html", views.contact_page, name="contact-page"),
     path("api/feedback/", views.submit_feedback, name="submit-feedback"),
+    path("api/elements/powers/", views.element_powers_api, name="element-powers-api"),
 ]
 
 if settings.DEBUG:
