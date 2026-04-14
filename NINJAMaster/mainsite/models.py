@@ -194,7 +194,7 @@ class ElementHolderHistory(models.Model):
         ordering = ["element", "sort_order", "id"]
         constraints = [
             models.CheckConstraint(
-                check=Q(character__isnull=False) | ~Q(holder_name=""),
+                condition=Q(character__isnull=False) | ~Q(holder_name=""),
                 name="history_holder_character_or_name_required",
             ),
             models.UniqueConstraint(
