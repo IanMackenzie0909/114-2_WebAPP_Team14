@@ -146,6 +146,7 @@ def element_powers_api(request):
             holder_name = item.character.name if item.character else item.holder_name
             history_items.append(
                 {
+                    "character_id": item.character_id,
                     "holder": (holder_name or "").strip(),
                     "start_label": (item.start_label or "").strip(),
                     "end_label": (item.end_label or "").strip(),
@@ -167,3 +168,35 @@ def element_powers_api(request):
         )
 
     return JsonResponse({"ok": True, "elements": payload})
+
+
+def character_profile_api(request, character_id):
+    character = get_object_or_404(
+        Character.objects.prefetch_related(
+            Prefetch(
+                "images",
+                queryset=CharacterImage.objects.order_by("sort_order", "id"),
+            )
+        ),
+        pk=character_id,
+    )
+
+    images = [image.image.url for image in character.images.all()]
+    return JsonResponse(
+        {
+            "ok": True,
+            "character": {
+                "id": character.id,
+                "name": character.name,
+                "gender": character.get_gender_display(),
+                "affiliation": character.affiliation,
+                "homeland": character.homeland,
+                "occupation": character.occupation,
+                "element": character.element,
+                "first_appearance": character.first_appearance,
+                "description": character.description,
+                "images": images,
+                "vote_count": character.vote_count,
+            },
+        }
+    )

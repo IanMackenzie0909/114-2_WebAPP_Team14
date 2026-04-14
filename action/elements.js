@@ -5,6 +5,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     const ELEMENT_API_URL = '/api/elements/powers/';
+    const CHARACTER_PROFILE_API_PREFIX = '/api/characters/';
 
     const orbitTrack = document.querySelector('[data-orbit-track]');
     const panels = Array.from(document.querySelectorAll('.source-panel[data-source-panel]'));
@@ -18,6 +19,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const elementPopupHistory = document.getElementById('element-popup-history');
     const elementPopupClose = document.getElementById('element-popup-close');
     const elementButtons = Array.from(document.querySelectorAll('.element[data-element-name]'));
+
+    const characterModal = document.getElementById('element-character-modal');
+    const characterModalClose = document.getElementById('element-character-modal-close');
+    const characterModalName = document.getElementById('element-character-modal-name');
+    const characterModalImage = document.getElementById('element-character-modal-image');
+    const characterModalImageWrap = characterModal?.querySelector('.modal-image-wrap') || null;
+    const characterModalGender = document.getElementById('element-character-modal-gender');
+    const characterModalAffiliation = document.getElementById('element-character-modal-affiliation');
+    const characterModalHomeland = document.getElementById('element-character-modal-homeland');
+    const characterModalOccupation = document.getElementById('element-character-modal-occupation');
+    const characterModalElement = document.getElementById('element-character-modal-element');
+    const characterModalFirstAppearance = document.getElementById('element-character-modal-first-appearance');
+    const characterModalDescription = document.getElementById('element-character-modal-description');
 
     if (!orbitTrack || !sourceLane || panels.length === 0 || !sourceDetailPanel) return;
 
@@ -36,10 +50,23 @@ document.addEventListener('DOMContentLoaded', () => {
     const state = {
         activeSource: null,
         activeElement: null,
+        activeCharacterId: null,
     };
 
     const elementDataMap = new Map();
+    const characterProfileCache = new Map();
     let elementDataPromise = null;
+
+    const setText = (node, value) => {
+        if (!node) return;
+        const text = (value || '').toString().trim();
+        node.textContent = text || '-';
+    };
+
+    const parseCharacterId = (value) => {
+        const parsed = Number.parseInt(String(value || ''), 10);
+        return Number.isNaN(parsed) || parsed <= 0 ? null : parsed;
+    };
 
     const normalizeKey = (value) => (value || '').toString().trim().toLowerCase().replace(/\s+/g, '-');
 
@@ -126,6 +153,83 @@ document.addEventListener('DOMContentLoaded', () => {
         return null;
     };
 
+    const setCharacterModalImage = (imageUrl, characterName) => {
+        if (!characterModalImage || !characterModalImageWrap) return;
+
+        const src = (imageUrl || '').toString().trim();
+        if (!src) {
+            characterModalImage.removeAttribute('src');
+            characterModalImage.alt = '';
+            characterModalImageWrap.style.removeProperty('--modal-bg-image');
+            return;
+        }
+
+        characterModalImage.src = src;
+        characterModalImage.alt = `${characterName || 'Character'} image`;
+
+        const safeSrc = src.replace(/"/g, '\\"');
+        characterModalImageWrap.style.setProperty('--modal-bg-image', `url("${safeSrc}")`);
+    };
+
+    const closeCharacterModal = () => {
+        if (!characterModal) return;
+        characterModal.classList.remove('show');
+        characterModal.setAttribute('aria-hidden', 'true');
+        state.activeCharacterId = null;
+        document.body.style.overflow = '';
+    };
+
+    const openCharacterModal = (character) => {
+        if (!characterModal || !character) return;
+
+        setText(characterModalName, character.name);
+        setText(characterModalGender, character.gender);
+        setText(characterModalAffiliation, character.affiliation);
+        setText(characterModalHomeland, character.homeland);
+        setText(characterModalOccupation, character.occupation);
+        setText(characterModalElement, character.element);
+        setText(characterModalFirstAppearance, character.first_appearance);
+        setText(characterModalDescription, character.description);
+
+        const firstImage = Array.isArray(character.images) ? character.images[0] : '';
+        setCharacterModalImage(firstImage, character.name);
+
+        state.activeCharacterId = character.id || null;
+        characterModal.classList.add('show');
+        characterModal.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+    };
+
+    const loadCharacterProfile = async (characterId) => {
+        const id = parseCharacterId(characterId);
+        if (!id) return null;
+
+        if (characterProfileCache.has(id)) {
+            return characterProfileCache.get(id);
+        }
+
+        try {
+            const response = await fetch(`${CHARACTER_PROFILE_API_PREFIX}${id}/profile/`, { method: 'GET' });
+            if (!response.ok) throw new Error(`Failed to load character profile (${response.status})`);
+
+            const payload = await response.json();
+            const character = payload?.character || null;
+            if (character) {
+                characterProfileCache.set(id, character);
+            }
+            return character;
+        } catch (error) {
+            console.warn('Character profile API unavailable.', error);
+            return null;
+        }
+    };
+
+    const openCharacterModalById = async (characterId) => {
+        const profile = await loadCharacterProfile(characterId);
+        if (!profile) return;
+        openCharacterModal(profile);
+    };
+
     const activateSourceVisual = (sourceKey) => {
         allBadges.forEach((badge) => {
             badge.classList.toggle('is-active', badge.dataset.source === sourceKey);
@@ -187,6 +291,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         clearSourceVisual();
         hideElementPopup();
+        closeCharacterModal();
         state.activeSource = null;
         resumeOrbit();
     };
@@ -221,6 +326,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const holderName = (historyItem?.holder || '').trim() || '無資料';
             const periodLabel = buildPeriodLabel(historyItem);
             const note = (historyItem?.note || '').trim();
+            const holderCharacterId = parseCharacterId(historyItem?.character_id);
 
             const item = document.createElement('li');
             item.className = 'history-item';
@@ -228,8 +334,17 @@ document.addEventListener('DOMContentLoaded', () => {
             const topRow = document.createElement('div');
             topRow.className = 'history-item-top';
 
-            const holder = document.createElement('span');
-            holder.className = 'history-holder';
+            let holder;
+            if (holderCharacterId) {
+                holder = document.createElement('button');
+                holder.type = 'button';
+                holder.className = 'history-holder history-holder-link';
+                holder.dataset.characterId = String(holderCharacterId);
+                holder.setAttribute('aria-label', `查看 ${holderName} 角色資訊`);
+            } else {
+                holder = document.createElement('span');
+                holder.className = 'history-holder is-disabled';
+            }
             holder.textContent = holderName;
             topRow.appendChild(holder);
 
@@ -244,7 +359,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (periodLabel) {
                 const period = document.createElement('p');
-                // period.className = 'history-period';
+                period.className = 'history-period';
                 period.textContent = periodLabel;
                 item.appendChild(period);
             }
@@ -330,6 +445,37 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    if (elementPopupHistory) {
+        elementPopupHistory.addEventListener('click', (event) => {
+            const target = event.target;
+            if (!(target instanceof Element)) return;
+
+            const holderButton = target.closest('.history-holder-link');
+            if (!holderButton) return;
+
+            event.stopPropagation();
+            const characterId = parseCharacterId(holderButton.getAttribute('data-character-id'));
+            if (!characterId) return;
+
+            void openCharacterModalById(characterId);
+        });
+    }
+
+    if (characterModalClose) {
+        characterModalClose.addEventListener('click', (event) => {
+            event.stopPropagation();
+            closeCharacterModal();
+        });
+    }
+
+    if (characterModal) {
+        characterModal.addEventListener('click', (event) => {
+            if (event.target === characterModal) {
+                closeCharacterModal();
+            }
+        });
+    }
+
     if (elementPopupClose) {
         elementPopupClose.addEventListener('click', (event) => {
             event.stopPropagation();
@@ -351,18 +497,24 @@ document.addEventListener('DOMContentLoaded', () => {
         const clickedInsideOrbit = target.closest('.source-orbit-stage');
         const clickedInsidePanel = target.closest('.source-detail-panel');
         const clickedInsidePopup = target.closest('#element-popup');
+        const clickedInsideCharacterModal = target.closest('#element-character-modal');
 
-        if (!clickedInsidePopup) {
+        if (!clickedInsidePopup && !clickedInsideCharacterModal) {
             hideElementPopup();
         }
 
-        if (!clickedInsideOrbit && !clickedInsidePanel && !clickedInsidePopup) {
+        if (!clickedInsideOrbit && !clickedInsidePanel && !clickedInsidePopup && !clickedInsideCharacterModal) {
             closeSource();
         }
     });
 
     document.addEventListener('keydown', (event) => {
         if (event.key !== 'Escape') return;
+
+        if (characterModal?.classList.contains('show')) {
+            closeCharacterModal();
+            return;
+        }
 
         if (elementPopup?.classList.contains('is-open')) {
             hideElementPopup();
