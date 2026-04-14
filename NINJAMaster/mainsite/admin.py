@@ -1,6 +1,14 @@
 from django.contrib import admin
 
-from .models import Character, CharacterImage, CharacterVote, Feedback
+from .models import (
+    Character,
+    CharacterImage,
+    CharacterVote,
+    ElementHolderHistory,
+    ElementPower,
+    ElementSource,
+    Feedback,
+)
 
 
 class CharacterImageInline(admin.TabularInline):
@@ -40,3 +48,46 @@ class FeedbackAdmin(admin.ModelAdmin):
     search_fields = ("name", "email", "message")
     readonly_fields = ("created_at",)
     ordering = ("-created_at",)
+
+
+class ElementHolderHistoryInline(admin.TabularInline):
+    model = ElementHolderHistory
+    extra = 1
+    fields = (
+        "character",
+        "holder_name",
+        "start_label",
+        "end_label",
+        "is_current",
+        "sort_order",
+        "note",
+    )
+    autocomplete_fields = ("character",)
+
+
+@admin.register(ElementSource)
+class ElementSourceAdmin(admin.ModelAdmin):
+    list_display = ("name", "code", "sort_order")
+    list_editable = ("sort_order",)
+    search_fields = ("name", "code", "description")
+    ordering = ("sort_order", "name")
+
+
+@admin.register(ElementPower)
+class ElementPowerAdmin(admin.ModelAdmin):
+    list_display = ("name", "source", "current_holder", "current_holder_name", "sort_order")
+    list_filter = ("source",)
+    search_fields = ("name", "code", "description", "current_holder__name", "current_holder_name")
+    list_select_related = ("source", "current_holder")
+    list_editable = ("sort_order",)
+    autocomplete_fields = ("source", "current_holder")
+    inlines = [ElementHolderHistoryInline]
+
+
+@admin.register(ElementHolderHistory)
+class ElementHolderHistoryAdmin(admin.ModelAdmin):
+    list_display = ("element", "character", "holder_name", "is_current", "start_label", "end_label", "sort_order")
+    list_filter = ("is_current", "element__source")
+    search_fields = ("element__name", "character__name", "holder_name", "note")
+    list_select_related = ("element", "character", "element__source")
+    autocomplete_fields = ("element", "character")
