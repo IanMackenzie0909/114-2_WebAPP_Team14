@@ -72,11 +72,10 @@
 
 .source-lane::after {
     content: "";
-    flex: 0 0 var(--badge-gap);
 }
 
 .source-badge {
-    min-width: clamp(142px, 15vw, 176px);
+    min-width: clamp(160px, 20vw, 200px);
     border: 0;
     padding: 0;
     background: transparent;
@@ -88,7 +87,7 @@
 }
 
 .source-badge img {
-    width: clamp(126px, 13vw, 154px);
+    width: clamp(150px, 16vw, 190px);
     height: auto;
     display: block;
     margin: 0 auto;
