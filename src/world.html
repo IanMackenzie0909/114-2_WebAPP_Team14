@@ -42,30 +42,25 @@
 <section class="section">
     <h1 class="page-title">世界觀</h1>
 
-    <div class="world-grid">
-
-        <div class="world-card">
-            <h3>忍者國 Ninjago</h3>
-            <p>忍者國，是一塊由第一位旋風忍術大師（First Spinjitzu Master）在逃離鬼族與龍之國度（Realm of Oni and Dragons）後所創造的陸地。</p>
-        </div>
-
-        <div class="world-card">
-            <h3>地下世界 Underworld</h3>
-            <p>地下世界在融合（Merge）之前是眾多領域之一，如今已成為融合之境（Merged Lands）的一部分。它是骷髏族（Skulkin）與綠骨戰士（Greenbone Warriors）的家園。對某些生物而言，這裡亦充當監牢。在融合之後，個體已無法在此重生，如今生者只能透過一個位於神秘國度（Mysterium）中不斷移動的村莊裡的唯一通道進入此地。</p>
-        </div>
-
-        <div class="world-card">
-            <h3>雲朵王國 Cloud Kingdom</h3>
-            <p>在融合（Merge）之前是眾多領域之一，如今已成為融合之境（Merged Lands）的一部分。此地由命運的作者（Writers of Destiny）所居住。在融合之前，人們可以透過「Blind Man's Eye」、使用國度水晶（Realm Crystal），或在居民允許的情況下，從忍者國（Ninjago）進入雲朵王國。</p>
-        </div>
-
-        <div class="world-card">
-            <h3>帝權王國  Imperium</h3>
-            <p>是一座高度科技化城邦。過去，它在很大程度上依賴龍之能量。在拉斯（Ras）策劃暗殺並推翻齊翠絲（Zeatrix）之前，Levo 一直統治著，隨後貝翠絲（Beatrix）得以登上女皇之位，並統治多年。在她的統治期間，貝翠絲以壓迫手段治理國家，並不斷宣揚她的理念。在融合之後，貝翠絲試圖透過不斷追捕來源龍（Source Dragons）來征服融合後的各個領域。然而，她最終在自己引發的融合震（MergeQuake）中迷失，導致失蹤。隨著貝翠絲的消失，帝國人民看到了為王國開創新局的契機，並將重組為一個民主體制。</p>
-        </div>
-
+    <div class="world-toolbar" aria-label="世界觀分類">
+        <button class="world-filter-btn active" type="button" data-category="all">全部</button>
+        <div class="world-filter-list" id="world-category-filter"></div>
     </div>
+
+    <p class="world-status" id="world-status" aria-live="polite">正在載入世界觀資料...</p>
+    <div class="world-grid" id="world-grid" aria-live="polite"></div>
 </section>
+
+<div class="world-modal" id="world-modal" aria-hidden="true">
+    <div class="world-modal-panel" role="dialog" aria-modal="true" aria-labelledby="world-modal-title">
+        <button class="world-modal-close" id="world-modal-close" type="button" aria-label="關閉">×</button>
+        <img class="world-modal-image" id="world-modal-image" src="" alt="">
+        <p class="world-modal-category" id="world-modal-category"></p>
+        <h2 id="world-modal-title"></h2>
+        <p class="world-modal-name-en" id="world-modal-name-en"></p>
+        <p class="world-modal-description" id="world-modal-description"></p>
+    </div>
+</div>
 <footer>
     <!-- Footer contact icon buttons -->
     <div class="footer-icons">
