@@ -52,6 +52,7 @@ urlpatterns = [
     path("src/contact.html", views.contact_page, name="contact-page"),
     path("api/feedback/", views.submit_feedback, name="submit-feedback"),
     path("api/elements/powers/", views.element_powers_api, name="element-powers-api"),
+    path("api/world/locations/", views.world_locations_api, name="world-locations-api"),
 ]
 
 if settings.DEBUG:

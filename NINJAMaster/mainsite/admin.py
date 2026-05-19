@@ -11,6 +11,7 @@ from .models import (
     ElementSource,
     Feedback,
     TimelineProgress,
+    WorldLocation,
 )
 
 
@@ -75,6 +76,73 @@ class CharacterFavoriteAdmin(admin.ModelAdmin):
     search_fields = ("user__username", "character__name")
     readonly_fields = ("created_at",)
     autocomplete_fields = ("user", "character")
+
+
+@admin.register(WorldLocation)
+class WorldLocationAdmin(admin.ModelAdmin):
+    list_display = (
+        "name_zh",
+        "name_en",
+        "category",
+        "is_published",
+        "sort_order",
+        "preview",
+        "updated_at",
+    )
+    list_filter = ("category", "is_published")
+    search_fields = (
+        "name_zh",
+        "name_en",
+        "short_description",
+        "long_description",
+        "image_description",
+    )
+    list_editable = ("is_published", "sort_order")
+    readonly_fields = ("preview", "created_at", "updated_at")
+    fieldsets = (
+        (
+            None,
+            {
+                "fields": (
+                    "name_zh",
+                    "name_en",
+                    "category",
+                    "short_description",
+                    "long_description",
+                    "is_published",
+                    "sort_order",
+                )
+            },
+        ),
+        (
+            "Image",
+            {
+                "fields": (
+                    "preview",
+                    "image",
+                    "image_description",
+                )
+            },
+        ),
+        (
+            "Timestamps",
+            {
+                "fields": (
+                    "created_at",
+                    "updated_at",
+                )
+            },
+        ),
+    )
+
+    @admin.display(description="Preview")
+    def preview(self, obj):
+        if not obj.image:
+            return "-"
+        return format_html(
+            '<img src="{}" style="height: 72px; width: 112px; object-fit: cover; border-radius: 6px;" alt="">',
+            obj.image.url,
+        )
 
 
 @admin.register(TimelineProgress)
