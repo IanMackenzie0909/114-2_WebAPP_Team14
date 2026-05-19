@@ -41,6 +41,7 @@ urlpatterns = [
     path("src/timeline.html", TemplateView.as_view(template_name="timeline.html"), name="timeline-file"),
     path("src/world.html", TemplateView.as_view(template_name="world.html"), name="world-file"),
     path("src/elements.html", TemplateView.as_view(template_name="elements.html"), name="elements-file"),
+    path("src/watchonline.html", TemplateView.as_view(template_name="watchonline.html"), name="watchonline-file"),
     path("src/characters.html", views.characters_page, name="characters-file"),
     path("admin/", admin.site.urls),
     path("characters/", views.characters_page, name="characters"),
