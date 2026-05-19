@@ -39,6 +39,36 @@
 > - **Purpose**: Avoid conflicts caused by tracking a local SQLite database file in Git.
 > - **Usage in this project**: `NINJAMaster/db.sqlite3` is ignored and removed from version control, so each developer can generate their own local database through migrations or the Docker startup script.
 
+### Watch Online Page and Navigation Entry
+
+> - **Purpose**: Give users a dedicated page for finding where to watch Ninjago seasons and specials.
+> - **Usage in this project**: We added a `Watch Online` navigation link across the site and connected it to `src/watchonline.html`. The page organizes classic seasons and Dragons Rising seasons into poster cards with platform badges, language badges, and external links to YouTube, Netflix, or Bilibili.
+
+### Character Page Visual Redesign
+
+> - **Purpose**: Improve the browsing experience on the character page and make character cards feel more polished.
+> - **Usage in this project**: `characters.html`, `characters.css`, and `characters.js` were updated with a redesigned layout, stronger visual styling, and frontend behavior that better supports character browsing.
+
+### Timeline Page Redesign
+
+> - **Purpose**: Make the long timeline page easier to scan and navigate.
+> - **Usage in this project**: `timeline.css` and `timeline.html` were redesigned, and the left-side timeline bookmark area was improved so the current bookmarked location is easier to identify visually.
+
+### WorldLocation Backend Model
+
+> - **Purpose**: Move world-building content from static page markup into maintainable backend data.
+> - **Usage in this project**: We added the `WorldLocation` model with Chinese and English names, category choices, short and long descriptions, image upload support, image descriptions, sorting, publish status, and timestamps. Django Admin now supports filtering, searching, inline publish/sort editing, and image previews for these records.
+
+### World Locations API and Dynamic World Page
+
+> - **Purpose**: Let the frontend render world locations from database records instead of hard-coded HTML.
+> - **Usage in this project**: We added `/api/world/locations/`, which returns published `WorldLocation` records as JSON. `world.js` now fetches this endpoint, builds category filter buttons, renders location cards, and opens a modal with the selected location's image, category, names, and description.
+
+### World Location Media Assets
+
+> - **Purpose**: Provide actual visual assets for the world page content.
+> - **Usage in this project**: We uploaded world-location images into `NINJAMaster/world/`, allowing Admin-managed `WorldLocation` records to display location artwork on the frontend cards and detail modal.
+
 ## Verification
 
 ```bash
@@ -52,5 +82,5 @@ Docker Compose configuration was valid, and Django reported no system check issu
 
 | Member | Percentage | Contribution |
 | :--: | :--: | :-- |
-| 顏伯亨 | 50% | Dockerfile and Docker Compose setup, Django settings update, Docker workflow testing, and report writing |
+| 顏伯亨 | 50% | Redesign of timeline page, character page, world page, created worldLocation backend model, created watch online page. Dockerfile and Docker Compose setup, Django settings update, Docker workflow testing, and report writing |
 | 呂羿樺 | 50% | Docker documentation, database startup workflow, Git cleanup for SQLite database, and report writing |
