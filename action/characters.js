@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const carousels = document.querySelectorAll('[data-carousel]');
     const modal = document.getElementById('character-modal');
     const modalCloseBtn = document.getElementById('character-modal-close');
-    const modalImageWrap = document.querySelector('.modal-image-wrap');
 
     const modalName = document.getElementById('modal-name');
     const modalImage = document.getElementById('modal-image');
@@ -33,6 +32,36 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!node) return;
         const parsed = Number.parseInt(String(value), 10);
         node.textContent = Number.isNaN(parsed) ? '0' : String(parsed);
+    };
+
+    const parseVoteCount = (card) => {
+        const parsed = Number.parseInt(String(card?.dataset.voteCount || '0'), 10);
+        return Number.isNaN(parsed) ? 0 : parsed;
+    };
+
+    const updatePowerBar = (card, maxVotes) => {
+        const pipsWrap = card?.querySelector('.power-pips');
+        if (!card || !pipsWrap) return;
+
+        const voteCount = parseVoteCount(card);
+        const filledCount = maxVotes > 0 && voteCount > 0 ? Math.max(1, Math.ceil((voteCount / maxVotes) * 10)) : 0;
+        pipsWrap.innerHTML = '';
+
+        for (let index = 0; index < 10; index += 1) {
+            const pip = document.createElement('span');
+            pip.className = `power-pip${index < filledCount ? ' filled' : ''}`;
+            pipsWrap.appendChild(pip);
+        }
+
+        const powerBar = card.querySelector('[data-power-bar]');
+        if (powerBar) {
+            powerBar.setAttribute('aria-label', `人氣票數 ${voteCount}`);
+        }
+    };
+
+    const updateAllPowerBars = () => {
+        const maxVotes = Math.max(0, ...Array.from(carousels).map(parseVoteCount));
+        carousels.forEach((card) => updatePowerBar(card, maxVotes));
     };
 
     const getCsrfToken = () => {
@@ -80,9 +109,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (slides.length === 0) {
             modalImage.removeAttribute('src');
             modalImage.alt = '';
-            if (modalImageWrap) {
-                modalImageWrap.style.removeProperty('--modal-bg-image');
-            }
             return;
         }
 
@@ -95,11 +121,6 @@ document.addEventListener('DOMContentLoaded', () => {
         modalImage.src = activeSrc;
         modalImage.alt = activeSlide.alt || `${card.dataset.name || 'Character'} image`;
         modalImage.style.objectPosition = getComputedStyle(activeSlide).objectPosition || 'center top';
-
-        if (modalImageWrap) {
-            const safeSrc = String(activeSrc).replace(/"/g, '\\"');
-            modalImageWrap.style.setProperty('--modal-bg-image', `url("${safeSrc}")`);
-        }
     };
 
     const openModal = (card) => {
@@ -295,6 +316,8 @@ document.addEventListener('DOMContentLoaded', () => {
         render();
     });
 
+    updateAllPowerBars();
+
     if (modalCloseBtn) {
         modalCloseBtn.addEventListener('click', closeModal);
     }
@@ -343,6 +366,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     activeCard.dataset.hasVoted = 'true';
                     const cardVoteNode = activeCard.querySelector('.vote-count');
                     setVoteCountText(cardVoteNode, nextCount);
+                    updateAllPowerBars();
                 }
 
                 setVoteButtonState(nextVotedState);

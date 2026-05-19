@@ -73,6 +73,8 @@
                     data-first-appearance="{{ character.first_appearance }}"
                     data-description="{{ character.description }}" tabindex="0"
                     aria-label="查看 {{ character.name }} 詳細資訊">
+                    <div class="card-corner card-corner-tr" aria-hidden="true"></div>
+                    <div class="card-corner card-corner-bl" aria-hidden="true"></div>
                     <button class="carousel-btn prev" type="button" aria-label="上一張">‹</button>
                     <div class="character-slider" data-slider>
                         {% for photo in character.images.all %}
@@ -84,17 +86,23 @@
                         {% endfor %}
                     </div>
                     <button class="carousel-btn next" type="button" aria-label="下一張">›</button>
-                    <button class="favorite-btn{% if character.id in favorite_character_ids %} is-favorited{% endif %}"
-                        type="button"
-                        data-favorite-btn
-                        aria-pressed="{% if character.id in favorite_character_ids %}true{% else %}false{% endif %}">
-                        <span class="favorite-icon" aria-hidden="true">⭐</span>
-                        <span class="favorite-text">{% if character.id in favorite_character_ids %}已收藏{% else %}收藏{% endif %}</span>
-                    </button>
                     <div class="carousel-dots" data-dots></div>
+                    {% if character.element %}
+                    <div class="element-icon" title="元素屬性">{{ character.element }}</div>
+                    {% endif %}
                     <div class="card-content">
                         <h3>{{ character.name }}</h3>
-                        <p class="vote-badge">人氣票數 <span class="vote-count">{{ character.vote_count }}</span></p>
+                        <div class="power-bar" data-power-bar aria-label="人氣票數 {{ character.vote_count }}">
+                            <div class="power-pips" aria-hidden="true"></div>
+                            <span class="power-label">VOTES <span class="vote-count">{{ character.vote_count }}</span></span>
+                        </div>
+                        <button class="favorite-btn{% if character.id in favorite_character_ids %} is-favorited{% endif %}"
+                            type="button"
+                            data-favorite-btn
+                            aria-pressed="{% if character.id in favorite_character_ids %}true{% else %}false{% endif %}">
+                            <span class="favorite-icon" aria-hidden="true">⭐</span>
+                            <span class="favorite-text">{% if character.id in favorite_character_ids %}已收藏{% else %}收藏{% endif %}</span>
+                        </button>
                     </div>
                 </div>
             </article>
@@ -110,9 +118,7 @@
         <div class="character-modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-name">
             <button class="character-modal-close" id="character-modal-close" type="button" aria-label="關閉">×</button>
             <h2 id="modal-name"></h2>
-            <div class="modal-image-wrap">
-                <img id="modal-image" src="" alt="" class="modal-image">
-            </div>
+            <img id="modal-image" src="" alt="" class="modal-image">
             <ul class="modal-meta">
                 <li><strong>性別：</strong><span id="modal-gender"></span></li>
                 <li><strong>所屬陣營：</strong><span id="modal-affiliation"></span></li>
