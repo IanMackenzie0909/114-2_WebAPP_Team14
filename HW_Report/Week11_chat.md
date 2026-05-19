@@ -91,7 +91,7 @@ CODEX 回應：
 
 > 這個專案新增了什麼功能？把找到的新內以及使用方式容寫進 README，接著依照既有的規則幫我補到 Week11 report 和 chat 裡面。
 
-CODEX 回應：
+Claude code 回應：
 >
 ``` text
 我先檢查目前 Django models、Admin、fixture 與 Week11 report/chat 格式，判斷後台維護最適合補在 Additional Content。
