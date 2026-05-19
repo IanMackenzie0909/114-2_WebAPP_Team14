@@ -6,6 +6,15 @@ env
 *.py[cod]
 Feeback-section_implementation_plan.md
 Feeback-section_walkthrough.md
-NINJAMaster/db.sqlite3
+*.db.sqlite3
 .codex
+BeforeNinjaEra.md
+ElementModels.md
+NINJAGODragonsRising.md
+NINJAGOMastersofSpinjitzu.md
+run_all.bat
+SessionCookiesRegistration.md
+SourceAndElement.md
+NINJAMaster/db.sqlite3
 .hintrc
+neglectedfiles
