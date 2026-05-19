@@ -20,6 +20,7 @@ from .models import (
     ElementPower,
     Feedback,
     TimelineProgress,
+    WorldLocation,
 )
 
 
@@ -426,6 +427,20 @@ def element_powers_api(request):
         )
 
     return JsonResponse({"ok": True, "elements": payload})
+
+
+def world_locations_api(request):
+    locations = WorldLocation.objects.filter(is_published=True).order_by(
+        "category",
+        "sort_order",
+        "name_zh",
+    )
+    return JsonResponse(
+        {
+            "ok": True,
+            "locations": [location.to_card_payload() for location in locations],
+        }
+    )
 
 
 def character_profile_api(request, character_id):

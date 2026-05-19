@@ -28,6 +28,7 @@ const ALL_PAGES = [
     { url: '/src/timeline.html', label: '時間線' },
     { url: '/src/world.html', label: '世界觀' },
     { url: '/src/elements.html', label: '元素力量' },
+    { url: '/src/watchonline.html', label: '線上收看' },
     { url: '/characters/', label: '角色' },
 ];
 

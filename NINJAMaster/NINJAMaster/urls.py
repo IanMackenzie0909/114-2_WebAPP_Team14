@@ -41,6 +41,7 @@ urlpatterns = [
     path("src/timeline.html", TemplateView.as_view(template_name="timeline.html"), name="timeline-file"),
     path("src/world.html", TemplateView.as_view(template_name="world.html"), name="world-file"),
     path("src/elements.html", TemplateView.as_view(template_name="elements.html"), name="elements-file"),
+    path("src/watchonline.html", TemplateView.as_view(template_name="watchonline.html"), name="watchonline-file"),
     path("src/characters.html", views.characters_page, name="characters-file"),
     path("admin/", admin.site.urls),
     path("characters/", views.characters_page, name="characters"),
@@ -51,6 +52,7 @@ urlpatterns = [
     path("src/contact.html", views.contact_page, name="contact-page"),
     path("api/feedback/", views.submit_feedback, name="submit-feedback"),
     path("api/elements/powers/", views.element_powers_api, name="element-powers-api"),
+    path("api/world/locations/", views.world_locations_api, name="world-locations-api"),
 ]
 
 if settings.DEBUG:

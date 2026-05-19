@@ -117,6 +117,53 @@ class CharacterFavorite(models.Model):
         return f"{self.user} favorite {self.character.name}"
 
 
+class WorldLocation(models.Model):
+    class Category(models.TextChoices):
+        REALM = "realm", "世界"
+        KINGDOM_LAND = "kingdom_land", "國度"
+        CITY_SETTLEMENT = "city_settlement", "城市/聚落"
+        ISLAND = "island", "島嶼"
+        LANDMARK = "landmark", "重要地標"
+
+    name_zh = models.CharField(max_length=120)
+    name_en = models.CharField(max_length=160, blank=True, default="")
+    category = models.CharField(max_length=24, choices=Category.choices)
+    short_description = models.TextField()
+    long_description = models.TextField()
+    image = models.ImageField(upload_to="world/", blank=True, null=True)
+    image_description = models.CharField(max_length=240, blank=True, default="")
+    sort_order = models.PositiveSmallIntegerField(default=0)
+    is_published = models.BooleanField(default=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        db_table = "world_location"
+        ordering = ["category", "sort_order", "name_zh"]
+
+    @property
+    def category_label(self) -> str:
+        return self.get_category_display()
+
+    def to_card_payload(self) -> dict:
+        return {
+            "id": self.id,
+            "nameZh": self.name_zh,
+            "nameEn": self.name_en,
+            "category": self.category,
+            "categoryLabel": self.category_label,
+            "shortDescription": self.short_description,
+            "longDescription": self.long_description,
+            "image": self.image.url if self.image else "",
+            "imageDescription": self.image_description,
+        }
+
+    def __str__(self) -> str:
+        if self.name_en:
+            return f"{self.name_zh} ({self.name_en})"
+        return self.name_zh
+
+
 class TimelineProgress(models.Model):
     class Status(models.TextChoices):
         BOOKMARKED = "bookmarked", "Bookmarked"

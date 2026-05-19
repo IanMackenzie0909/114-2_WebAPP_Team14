@@ -1,19 +1,249 @@
 /*
  * world.css
  * Styles specific to the World page (src/world.html).
- * Extracted from the original style.css during project restructuring.
  */
 
-/* ===== World Grid Layout ===== */
+.world-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto 30px;
+}
+
+.world-filter-list {
+    display: contents;
+}
+
+.world-filter-btn {
+    min-height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 6px;
+    background: #171717;
+    color: #eee;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 9px 16px;
+    transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.world-filter-btn:hover,
+.world-filter-btn:focus-visible {
+    background: #242424;
+    border-color: rgba(230, 36, 41, 0.7);
+    outline: 0;
+    transform: translateY(-1px);
+}
+
+.world-filter-btn.active {
+    background: #e62429;
+    border-color: #e62429;
+    color: #fff;
+}
+
+.world-status {
+    margin: 0 auto 24px;
+    max-width: 760px;
+    color: #cfcfcf;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.world-status.is-error {
+    color: #ff9b9b;
+}
 
 .world-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 20px;
 }
 
 .world-card {
-    background: #222;
-    padding: 20px;
-    border-radius: 10px;
+    display: flex;
+    min-height: 100%;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    background: #1b1b1b;
+    color: inherit;
+    cursor: pointer;
+    flex-direction: column;
+    padding: 0;
+    text-align: left;
+    transition: border-color 0.24s ease, box-shadow 0.24s ease, transform 0.24s ease;
+}
+
+.world-card:hover,
+.world-card:focus-visible {
+    border-color: rgba(230, 36, 41, 0.75);
+    box-shadow: 0 18px 34px rgba(0, 0, 0, 0.38);
+    outline: 0;
+    transform: translateY(-4px);
+}
+
+.world-card-image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #0d0d0d;
+    object-fit: cover;
+}
+
+.world-card-body {
+    display: flex;
+    min-height: 210px;
+    flex: 1;
+    flex-direction: column;
+    gap: 10px;
+    padding: 18px;
+}
+
+.world-card-category,
+.world-modal-category {
+    width: fit-content;
+    border: 1px solid rgba(212, 160, 23, 0.55);
+    border-radius: 999px;
+    color: #f0c65b;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1;
+    padding: 6px 10px;
+}
+
+.world-card h3 {
+    color: #fff;
+    font-size: 21px;
+    line-height: 1.35;
+}
+
+.world-card p {
+    color: #d6d6d6;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.world-modal-open {
+    overflow: hidden;
+}
+
+.world-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background: rgba(0, 0, 0, 0.78);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+}
+
+.world-modal.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.world-modal-panel {
+    position: relative;
+    width: min(880px, 100%);
+    max-height: calc(100vh - 48px);
+    overflow: auto;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 8px;
+    background: #171717;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.58);
+    padding: 26px;
+}
+
+.world-modal-close {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    width: 38px;
+    height: 38px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.64);
+    color: #fff;
+    cursor: pointer;
+    font-size: 26px;
+    line-height: 1;
+}
+
+.world-modal-close:hover,
+.world-modal-close:focus-visible {
+    background: #e62429;
+    outline: 0;
+}
+
+.world-modal-image {
+    display: block;
+    width: 100%;
+    max-height: 380px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    background: #0d0d0d;
+    object-fit: cover;
+}
+
+.world-modal-category {
+    margin-bottom: 12px;
+}
+
+#world-modal-title {
+    color: #fff;
+    font-size: 32px;
+    line-height: 1.25;
+    margin-bottom: 4px;
+}
+
+.world-modal-name-en {
+    color: #b8b8b8;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.world-modal-description {
+    color: #e5e5e5;
+    font-size: 16px;
+    line-height: 1.85;
+    white-space: pre-line;
+}
+
+@media (max-width: 680px) {
+    .world-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .world-toolbar {
+        justify-content: flex-start;
+    }
+
+    .world-filter-btn {
+        flex: 1 1 calc(50% - 10px);
+        padding-inline: 10px;
+    }
+
+    .world-modal {
+        padding: 14px;
+    }
+
+    .world-modal-panel {
+        max-height: calc(100vh - 28px);
+        padding: 18px;
+    }
+
+    #world-modal-title {
+        font-size: 26px;
+    }
 }
