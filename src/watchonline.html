@@ -1,0 +1,501 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>線上收看 | Ninjago Archive</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+TC:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="../css/watchonline.css">
+<link rel="stylesheet" href="../css/search.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo"><img src="../img/lego-ninjago-logo.png" alt="Ninjago Archive Logo" height="80px"></div>
+        <ul class="nav-links">
+            <li class="search-wrapper">
+                <button class="search-toggle" type="button" aria-label="搜尋">
+                    <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="16.65" y1="16.65" x2="21" y2="21"/></svg>
+                </button>
+                <div class="search-input-wrap">
+                    <input class="search-input" type="text" placeholder="搜尋角色、地點、元素..." aria-label="搜尋網站內容">
+                </div>
+            </li>
+            <li><a href="../index.html">首頁</a></li>
+            <li><a href="timeline.html">時間軸</a></li>
+            <li><a href="world.html">世界觀</a></li>
+            <li><a href="http://127.0.0.1:8000/characters/">角色</a></li>
+            <li><a href="elements.html">元素力量</a></li>
+            <li><a class="active" href="watchonline.html">線上收看</a></li>
+            <li><a href="http://127.0.0.1:8000/login/">登入</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="watchonline-page">
+<div class="cinema-header">
+  <div class="marquee-lights">
+    <div class="bulb"></div><div class="bulb"></div><div class="bulb"></div>
+    <div class="bulb"></div><div class="bulb"></div><div class="bulb"></div>
+    <div class="bulb"></div><div class="bulb"></div><div class="bulb"></div>
+    <div class="bulb"></div><div class="bulb"></div><div class="bulb"></div>
+  </div>
+  <div class="logo-tag">LEGO Ninjago × 全季線上看</div>
+  <h1>NINJA<span>GO</span></h1>
+  <p class="sub-title">完整系列 · 英配 &amp; 中配 · 免費線上觀賞</p>
+  <div class="marquee-lights" style="margin-top:1.5rem; margin-bottom:0;">
+    <div class="bulb"></div><div class="bulb"></div><div class="bulb"></div>
+    <div class="bulb"></div><div class="bulb"></div><div class="bulb"></div>
+    <div class="bulb"></div><div class="bulb"></div><div class="bulb"></div>
+    <div class="bulb"></div><div class="bulb"></div><div class="bulb"></div>
+  </div>
+</div>
+
+<div class="filter-bar">
+  <span style="font-size:0.75rem;color:var(--muted);letter-spacing:0.1em;font-family:'Share Tech Mono',monospace;">篩選：</span>
+  <button class="filter-btn active" data-filter="all">全部</button>
+  <button class="filter-btn" data-filter="zh">中文配音</button>
+  <button class="filter-btn" data-filter="en">英文配音</button>
+</div>
+
+<div class="section-label">經典系列 CLASSIC ERA</div>
+<div class="grid" id="grid">
+
+  <!-- Pilot -->
+  <a class="card" data-lang="en" href="https://youtu.be/caQEkGE7w4Y?t=0" target="_blank">
+    <div class="poster">
+      <div class="poster-bg" style="background-image: url('../img/poster/pilot.jpg'); background-size: cover; background-position: center;">
+      </div>
+      <div class="poster-overlay"></div>
+      <div class="play-btn"><div class="play-circle"><div class="play-triangle"></div></div></div>
+    </div>
+    <div class="card-info">
+      <div class="badges"><span class="badge badge-en">英配</span><span class="badge badge-yt">YT</span></div>
+      <div class="season-label">Pilot · 2011</div>
+      <div class="season-title">試播集<br>Way of the Ninja</div>
+      <div class="platform-row">
+        <span class="platform-link">▶ YouTube</span>
+      </div>
+    </div>
+  </a>
+
+  <!-- Season 1 -->
+  <a class="card" data-lang="en" href="https://youtu.be/_fO91rJ5_XE?t=0" target="_blank">
+    <div class="poster">
+      <div class="poster-bg" style="background-image: url('../img/poster/s1.jpg'); background-size: cover; background-position: center;">
+      </div>
+      <div class="poster-overlay"></div>
+      <div class="play-btn"><div class="play-circle"><div class="play-triangle"></div></div></div>
+    </div>
+    <div class="card-info">
+      <div class="badges"><span class="badge badge-en">英配</span><span class="badge badge-yt">YT</span></div>
+      <div class="season-label">Season 1 · 2012</div>
+      <div class="season-title">蛇族崛起<br>Rise of the Snakes</div>
+      <div class="platform-row">
+        <span class="platform-link">▶ YouTube</span>
+      </div>
+    </div>
+  </a>
+
+  <!-- Season 2 -->
+  <a class="card" data-lang="en" href="https://youtu.be/ukfZWxyfquA?t=0" target="_blank">
+    <div class="poster">
+      <div class="poster-bg" style="background-image: url('../img/poster/s2.jpg'); background-size: cover; background-position: center;">
+      </div>
+      <div class="poster-overlay"></div>
+      <div class="play-btn"><div class="play-circle"><div class="play-triangle"></div></div></div>
+    </div>
+    <div class="card-info">
+      <div class="badges"><span class="badge badge-en">英配</span><span class="badge badge-yt">YT</span></div>
+      <div class="season-label">Season 2 · 2012</div>
+      <div class="season-title">最後一戰<br>Legacy of the Green Ninja</div>
+      <div class="platform-row">
+        <span class="platform-link">▶ YouTube</span>
+      </div>
+    </div>
+  </a>
+
+  <!-- Season 3 -->
+  <a class="card" data-lang="en" href="https://youtu.be/E9u_ViQlSSY?t=0" target="_blank">
+    <div class="poster">
+      <div class="poster-bg" style="background-image: url('../img/poster/s3.jpg'); background-size: cover; background-position: center;">
+      </div>
+      <div class="poster-overlay"></div>
+      <div class="play-btn"><div class="play-circle"><div class="play-triangle"></div></div></div>
+    </div>
+    <div class="card-info">
+      <div class="badges"><span class="badge badge-en">英配</span><span class="badge badge-yt">YT</span></div>
+      <div class="season-label">Season 3 · 2014</div>
+      <div class="season-title">重新啟動<br>Rebooted</div>
+      <div class="platform-row">
+        <span class="platform-link">▶ YouTube</span>
+      </div>
+    </div>
+  </a>
+
+  <!-- Season 4 -->
+  <a class="card" data-lang="en" href="https://youtu.be/167M9Fx_kG0?t=0" target="_blank">
+    <div class="poster">
+      <div class="poster-bg" style="background-image: url('../img/poster/s4.jpg'); background-size: cover; background-position: center;">
+      </div>
+      <div class="poster-overlay"></div>
+      <div class="play-btn"><div class="play-circle"><div class="play-triangle"></div></div></div>
+    </div>
+    <div class="card-info">
+      <div class="badges"><span class="badge badge-en">英配</span><span class="badge badge-yt">YT</span></div>
+      <div class="season-label">Season 4 · 2015</div>
+      <div class="season-title">元素擂台賽<br>Tournament of Elements</div>
+      <div class="platform-row">
+        <span class="platform-link">▶ YouTube</span>
+      </div>
+    </div>
+  </a>
+
+  <!-- Season 5 -->
+  <a class="card" data-lang="en" href="https://youtu.be/Oqd8QIFR9p4?t=0" target="_blank">
+    <div class="poster">
+      <div class="poster-bg" style="background-image: url('../img/poster/s5.jpg'); background-size: cover; background-position: center;">
+      </div>
+      <div class="poster-overlay"></div>
+      <div class="play-btn"><div class="play-circle"><div class="play-triangle"></div></div></div>
+    </div>
+    <div class="card-info">
+      <div class="badges"><span class="badge badge-en">英配</span><span class="badge badge-yt">YT</span></div>
+      <div class="season-label">Season 5 · 2015</div>
+      <div class="season-title">幽靈霸主<br>Possession</div>
+      <div class="platform-row">
+        <span class="platform-link">▶ YouTube</span>
+      </div>
+    </div>
+  </a>
+
+  <!-- Season 6 -->
+  <a class="card" data-lang="en" href="https://youtu.be/IK8sqgMq47w?t=0" target="_blank">
+    <div class="poster">
+      <div class="poster-bg" style="background-image: url('../img/poster/s6.jpg'); background-size: cover; background-position: center;">
+      </div>
+      <div class="poster-overlay"></div>
+      <div class="play-btn"><div class="play-circle"><div class="play-triangle"></div></div></div>
+    </div>
+    <div class="card-info">
+      <div class="badges"><span class="badge badge-en">英配</span><span class="badge badge-yt">YT</span></div>
+      <div class="season-label">Season 6 · 2016</div>
+      <div class="season-title">天際飛行<br>Skybound</div>
+      <div class="platform-row">
+        <span class="platform-link">▶ YouTube</span>
+      </div>
+    </div>
+  </a>
+
+  <!-- Day of the Departed -->
+  <a class="card" data-lang="en" href="https://youtu.be/UQWtjr4IKI8?t=0" target="_blank">
+    <div class="poster">
+      <div class="poster-bg" style="background-image: url('../img/poster/dotd.jpg'); background-size: cover; background-position: center;">
+      </div>
+      <div class="poster-overlay"></div>
+      <div class="play-btn"><div class="play-circle"><div class="play-triangle"></div></div></div>
+    </div>
+    <div class="card-info">
+      <div class="badges"><span class="badge badge-en">英配</span><span class="badge badge-yt">YT</span></div>
+      <div class="season-label">TV Special · 2016</div>
+      <div class="season-title">亡靈紀念日<br>Day of the Departed</div>
+      <div class="platform-row">
+        <span class="platform-link">▶ YouTube</span>
+      </div>
+    </div>
+  </a>
+
+  <!-- Season 7 -->
+  <a class="card" data-lang="en" href="https://youtu.be/DdZ0vqU8ztA?t=0" target="_blank">
+    <div class="poster">
+      <div class="poster-bg" style="background-image: url('../img/poster/s7.jpg'); background-size: cover; background-position: center;">
+      </div>
+      <div class="poster-overlay"></div>
+      <div class="play-btn"><div class="play-circle"><div class="play-triangle"></div></div></div>
+    </div>
+    <div class="card-info">
+      <div class="badges"><span class="badge badge-en">英配</span><span class="badge badge-yt">YT</span></div>
+      <div class="season-label">Season 7 · 2017</div>
+      <div class="season-title">時光之力<br>The Hands of Time</div>
+      <div class="platform-row">
+        <span class="platform-link">▶ YouTube</span>
+      </div>
+    </div>
+  </a>
+
+  <!-- Season 8 -->
+  <a class="card" data-lang="en" href="https://youtu.be/QyoTmJhAXCY?t=0" target="_blank">
+    <div class="poster">
+      <div class="poster-bg" style="background-image: url('../img/poster/s8.jpg'); background-size: cover; background-position: center;">
+      </div>
+      <div class="poster-overlay"></div>
+      <div class="play-btn"><div class="play-circle"><div class="play-triangle"></div></div></div>
+    </div>
+    <div class="card-info">
+      <div class="badges"><span class="badge badge-en">英配</span><span class="badge badge-yt">YT</span></div>
+      <div class="season-label">Season 8 · 2018</div>
+      <div class="season-title">伽瑪當之子<br>Sons of Garmadon</div>
+      <div class="platform-row">
+        <span class="platform-link">▶ YouTube</span>
+      </div>
+    </div>
+  </a>
+
+  <!-- Season 9 -->
+  <a class="card" data-lang="en" href="https://youtu.be/66je2kbH1kQ?t=0" target="_blank">
+    <div class="poster">
+      <div class="poster-bg" style="background-image: url('../img/poster/s9.jpg'); background-size: cover; background-position: center;">
+      </div>
+      <div class="poster-overlay"></div>
+      <div class="play-btn"><div class="play-circle"><div class="play-triangle"></div></div></div>
+    </div>
+    <div class="card-info">
+      <div class="badges"><span class="badge badge-en">英配</span><span class="badge badge-yt">YT</span></div>
+      <div class="season-label">Season 9 · 2018</div>
+      <div class="season-title">狩獵行動<br>Hunted</div>
+      <div class="platform-row">
+        <span class="platform-link">▶ YouTube</span>
+      </div>
+    </div>
+  </a>
+
+  <!-- Season 10 -->
+  <a class="card" data-lang="zh" href="https://youtu.be/eefDlEtGugA?list=PL2ZE4EakZDlucyOXrsfHV_T75IhFoCAPF&t=0" target="_blank">
+    <div class="poster">
+      <div class="poster-bg" style="background-image: url('../img/poster/s10.jpg'); background-size: cover; background-position: center;">
+      </div>
+      <div class="poster-overlay"></div>
+      <div class="play-btn"><div class="play-circle"><div class="play-triangle"></div></div></div>
+    </div>
+    <div class="card-info">
+      <div class="badges"><span class="badge badge-zh">中配</span><span class="badge badge-yt">YT</span></div>
+      <div class="season-label">Season 10 · 2019</div>
+      <div class="season-title">鬼怪入侵<br>March of the Oni</div>
+      <div class="platform-row">
+        <span class="platform-link">▶ YouTube</span>
+      </div>
+    </div>
+  </a>
+
+  <!-- Season 11 -->
+  <a class="card" data-lang="zh" href="https://youtu.be/EeylpV7mSOk?list=PL2ZE4EakZDltyag01w-naUgvzmR2VXwYM&t=0" target="_blank">
+    <div class="poster">
+      <div class="poster-bg" style="background-image: url('../img/poster/s11.jpg'); background-size: cover; background-position: center;">
+      </div>
+      <div class="poster-overlay"></div>
+      <div class="play-btn"><div class="play-circle"><div class="play-triangle"></div></div></div>
+    </div>
+    <div class="card-info">
+      <div class="badges"><span class="badge badge-zh">中配</span><span class="badge badge-yt">YT</span></div>
+      <div class="season-label">Season 11 · 2019</div>
+      <div class="season-title">禁忌旋風忍術的秘密<br>Secrets of the Forbidden Spinjitzu</div>
+      <div class="platform-row">
+        <span class="platform-link">▶ YouTube</span>
+      </div>
+    </div>
+  </a>
+
+  <!-- Season 12 -->
+  <a class="card" data-lang="en" href="https://youtu.be/fNuRq2bdz3o?list=PLWJVpRiS3Cwwegw27k9aOgnzo2AO6UGM0&t=0" target="_blank">
+    <div class="poster">
+      <div class="poster-bg" style="background-image: url('../img/poster/s12.jpg'); background-size: cover; background-position: center;">
+      </div>
+      <div class="poster-overlay"></div>
+      <div class="play-btn"><div class="play-circle"><div class="play-triangle"></div></div></div>
+    </div>
+    <div class="card-info">
+      <div class="badges"><span class="badge badge-en">英配</span><span class="badge badge-yt">YT</span></div>
+      <div class="season-label">Season 12 · 2020</div>
+      <div class="season-title">通關大作戰<br>Prime Empire</div>
+      <div class="platform-row">
+        <span class="platform-link">▶ YouTube</span>
+      </div>
+    </div>
+  </a>
+
+  <!-- Season 13 -->
+  <a class="card" data-lang="en" href="https://www.netflix.com/browse?jbv=81280792" target="_blank">
+    <div class="poster">
+      <div class="poster-bg" style="background-image: url('../img/poster/s13.jpg'); background-size: cover; background-position: center;">
+      </div>
+      <div class="poster-overlay"></div>
+      <div class="play-btn"><div class="play-circle"><div class="play-triangle"></div></div></div>
+    </div>
+    <div class="card-info">
+      <div class="badges"><span class="badge badge-en">英配</span><span class="badge badge-nf">NF</span></div>
+      <div class="season-label">Season 13 · 2020</div>
+      <div class="season-title">勝利之路的抉擇<br>Master of the Mountain</div>
+      <div class="platform-row">
+        <span class="platform-link">▶ Netflix</span>
+      </div>
+    </div>
+  </a>
+
+  <!-- Mini Series -->
+  <a class="card" data-lang="zh" href="https://youtu.be/c1EEua2wSQs?list=PL2ZE4EakZDls0HcZR_uprreNJ6hVEe_rW&t=0" target="_blank">
+    <div class="poster">
+      <div class="poster-bg" style="background-image: url('../img/poster/ti.jpg'); background-size: cover; background-position: center;">
+      </div>
+      <div class="poster-overlay"></div>
+      <div class="play-btn"><div class="play-circle"><div class="play-triangle"></div></div></div>
+    </div>
+    <div class="card-info">
+      <div class="badges"><span class="badge badge-zh">中配</span><span class="badge badge-yt">YT</span></div>
+      <div class="season-label">Season 14 · 2021</div>
+      <div class="season-title">神秘島嶼<br>The Island</div>
+      <div class="platform-row">
+        <span class="platform-link">▶ YouTube</span>
+      </div>
+    </div>
+  </a>
+
+  <!-- Season 14 -->
+  <a class="card" data-lang="zh" href="https://youtu.be/nKk4Bgb25kc?list=PL2ZE4EakZDls0HcZR_uprreNJ6hVEe_rW&t=2" target="_blank">
+    <div class="poster">
+      <div class="poster-bg" style="background-image: url('../img/poster/s14.jpg'); background-size: cover; background-position: center;">
+      </div>
+      <div class="poster-overlay"></div>
+      <div class="play-btn"><div class="play-circle"><div class="play-triangle"></div></div></div>
+    </div>
+    <div class="card-info">
+      <div class="badges"><span class="badge badge-zh">中配</span><span class="badge badge-yt">YT</span></div>
+      <div class="season-label">Season 14 · 2021</div>
+      <div class="season-title">航向大海<br>Seabound</div>
+      <div class="platform-row">
+        <span class="platform-link">▶ YouTube</span>
+      </div>
+    </div>
+  </a>
+
+  <!-- Season 15 -->
+  <a class="card" data-lang="zh" href="https://www.bilibili.com/video/BV1C6LJzDEB4?t=0" target="_blank">
+    <div class="poster">
+      <div class="poster-bg" style="background-image: url('../img/poster/s15.jpg'); background-size: cover; background-position: center;">
+      </div>
+      <div class="poster-overlay"></div>
+      <div class="play-btn"><div class="play-circle"><div class="play-triangle"></div></div></div>
+    </div>
+    <div class="card-info">
+      <div class="badges"><span class="badge badge-zh">中配</span><span class="badge badge-bb">BB</span></div>
+      <div class="season-label">Season 15 · 2022</div>
+      <div class="season-title">水晶王國<br>Crystalized</div>
+      <div class="platform-row">
+        <span class="platform-link">▶ Bilibili</span>
+      </div>
+    </div>
+  </a>
+
+</div>
+
+<div class="section-label">猛龍崛起 DRAGONS RISING ERA</div>
+<div class="grid">
+
+  <!-- Dragons Rising Season 1 -->
+  <div class="card" data-lang="both">
+    <div class="poster">
+      <div class="poster-bg" style="background-image: url('../img/poster/drs1.jpg'); background-size: cover; background-position: center;">
+      </div>
+      <div class="poster-overlay"></div>
+      <a class="play-btn" href="https://www.netflix.com/title/81519765" target="_blank" rel="noopener" aria-label="Watch Dragons Rising Season 1 on Netflix"><div class="play-circle"><div class="play-triangle"></div></div></a>
+    </div>
+    <div class="card-info">
+      <div class="badges"><span class="badge badge-zh">中配</span><span class="badge badge-en">英配</span><span class="badge badge-nf">NF</span><span class="badge badge-yt">YT</span></div>
+      <div class="season-label">Dragons Rising S1 · 2023</div>
+      <div class="season-title">猛龍崛起 第一季<br>Dragons Rising Season 1</div>
+      <div class="platform-row">
+        <a class="platform-link" href="https://www.netflix.com/title/81519765" target="_blank" rel="noopener">▶ Netflix</a>
+        <a class="platform-link" href="https://youtu.be/ZtoiKdf4pMU?list=PLRNbTEZ7dhL0WnGAqwvY6Vk2hOdBjqTI3&t=0" target="_blank" rel="noopener">▶ YouTube</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dragons Rising Season 2 -->
+  <div class="card" data-lang="both">
+    <div class="poster">
+      <div class="poster-bg" style="background-image: url('../img/poster/drs2.jpg'); background-size: cover; background-position: center;">
+      </div>
+      <div class="poster-overlay"></div>
+      <a class="play-btn" href="https://www.netflix.com/title/81519765" target="_blank" rel="noopener" aria-label="Watch Dragons Rising Season 2 on Netflix"><div class="play-circle"><div class="play-triangle"></div></div></a>
+    </div>
+    <div class="card-info">
+      <div class="badges"><span class="badge badge-zh">中配</span><span class="badge badge-en">英配</span><span class="badge badge-nf">NF</span><span class="badge badge-yt">YT</span></div>
+      <div class="season-label">Dragons Rising S2 · 2024</div>
+      <div class="season-title">猛龍崛起 第二季<br>Dragons Rising Season 2</div>
+      <div class="platform-row">
+        <a class="platform-link" href="https://www.netflix.com/title/81519765" target="_blank" rel="noopener">▶ Netflix</a>
+        <a class="platform-link" href="https://youtu.be/XHg_R14GAqg?list=PLRNbTEZ7dhL0WnGAqwvY6Vk2hOdBjqTI3&t=0" target="_blank" rel="noopener">▶ YouTube</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dragons Rising Season 3 -->
+  <div class="card" data-lang="both">
+    <div class="poster">
+      <div class="poster-bg" style="background-image: url('../img/poster/drs3.jpg'); background-size: cover; background-position: center;">
+      </div>
+      <div class="poster-overlay"></div>
+      <a class="play-btn" href="https://www.netflix.com/title/81519765" target="_blank" rel="noopener" aria-label="Watch Dragons Rising Season 3 on Netflix"><div class="play-circle"><div class="play-triangle"></div></div></a>
+    </div>
+    <div class="card-info">
+      <div class="badges"><span class="badge badge-zh">中配</span><span class="badge badge-en">英配</span><span class="badge badge-nf">NF</span><span class="badge badge-yt">YT</span></div>
+      <div class="season-label">Dragons Rising S3 · 2025</div>
+      <div class="season-title">猛龍崛起 第三季<br>Dragons Rising Season 3</div>
+      <div class="platform-row">
+        <a class="platform-link" href="https://www.netflix.com/title/81519765" target="_blank" rel="noopener">▶ Netflix</a>
+        <a class="platform-link" href="https://youtu.be/BIsg7MKY5Aw?list=PLRNbTEZ7dhL0WnGAqwvY6Vk2hOdBjqTI3&t=0" target="_blank" rel="noopener">▶ YouTube</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dragons Rising Season 4 -->
+  <div class="card" data-lang="both">
+    <div class="poster">
+      <div class="poster-bg" style="background-image: url('../img/poster/drs4.jpg'); background-size: cover; background-position: center;">
+      </div>
+      <div class="poster-overlay"></div>
+      <a class="play-btn" href="https://www.netflix.com/title/81519765" target="_blank" rel="noopener" aria-label="Watch Dragons Rising Season 4 on Netflix"><div class="play-circle"><div class="play-triangle"></div></div></a>
+    </div>
+    <div class="card-info">
+      <div class="badges"><span class="badge badge-zh">中配</span><span class="badge badge-en">英配</span><span class="badge badge-nf">NF</span><span class="badge badge-yt">YT</span></div>
+      <div class="season-label">Dragons Rising S4 · 2026</div>  
+      <div class="season-title">猛龍崛起 第四季<br>Dragons Rising Season 4</div>
+      <div class="platform-row">
+        <a class="platform-link" href="https://www.netflix.com/title/81519765" target="_blank" rel="noopener">▶ Netflix</a>
+        <a class="platform-link" href="https://youtu.be/I2YsRCNnzSI?list=PLRNbTEZ7dhL0WnGAqwvY6Vk2hOdBjqTI3&t=1" target="_blank" rel="noopener">▶ YouTube</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="watch-disclaimer">
+⚠️ 所有連結均導向外部平台（YouTube / Netflix）· 版權歸 LEGO 與相關授權方所有<br>
+  本頁面僅供索引整理用途，請確認觀看地區版權規範
+</div>
+</main>
+
+<footer>
+    <div class="footer-icons">
+        <a href="mailto:ianmackenzie0909@gmail.com" class="footer-icon-btn" title="Email Ian" aria-label="Email Ian">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/></svg>
+        </a>
+        <a href="mailto:hal326lego@gmail.com" class="footer-icon-btn" title="Email Hal" aria-label="Email Hal">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/></svg>
+        </a>
+        <a href="https://github.com/IanMackenzie0909" target="_blank" rel="noopener noreferrer" class="footer-icon-btn" title="GitHub" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.37.5 0 5.78 0 12.29c0 5.21 3.43 9.64 8.21 11.21.6.11.82-.26.82-.57 0-.28-.01-1.03-.02-2.03-3.34.72-4.04-1.61-4.04-1.61-.55-1.37-1.33-1.74-1.33-1.74-1.09-.74.08-.72.08-.72 1.2.08 1.84 1.23 1.84 1.23 1.07 1.83 2.81 1.3 3.5 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6.02 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22 0 1.6-.01 2.9-.01 3.29 0 .32.21.69.82.57C20.57 21.93 24 17.5 24 12.29 24 5.78 18.63.5 12 .5z"/></svg>
+        </a>
+        <a href="tel:0952678732" class="footer-icon-btn" title="Phone" aria-label="Phone">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </a>
+    </div>
+    <p>&copy; 2026 Ninjago Archive Project</p>
+</footer>
+
+<script src="../action/watchonline.js"></script>
+<script src="../action/search.js"></script>
+<script src="../action/back-to-top.js"></script>
+</body>
+</html>
