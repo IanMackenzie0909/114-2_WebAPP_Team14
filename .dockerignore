@@ -1,0 +1,10 @@
+.git
+.codex
+env
+venv
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+NINJAMaster/db.sqlite3
