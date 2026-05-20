@@ -14,4 +14,6 @@ if [ "$SHOULD_SEED" = "1" ]; then
   python manage.py seed_initial_content
 fi
 
+python manage.py ensure_superuser
+
 exec "$@"

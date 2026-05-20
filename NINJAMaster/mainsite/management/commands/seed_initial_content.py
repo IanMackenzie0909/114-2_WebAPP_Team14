@@ -10,7 +10,9 @@ from mainsite.models import (
     ElementHolderHistory,
     ElementPower,
     ElementSource,
+    Feedback,
     TimelineProgress,
+    WorldLocation,
 )
 
 
@@ -31,9 +33,11 @@ class Command(BaseCommand):
                 TimelineProgress.objects.all().delete()
                 CharacterFavorite.objects.all().delete()
                 CharacterVote.objects.all().delete()
+                Feedback.objects.all().delete()
                 ElementHolderHistory.objects.all().delete()
                 ElementPower.objects.all().delete()
                 ElementSource.objects.all().delete()
+                WorldLocation.objects.all().delete()
                 CharacterImage.objects.all().delete()
                 Character.objects.all().delete()
 

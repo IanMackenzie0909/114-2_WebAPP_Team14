@@ -1,919 +1,1123 @@
 [
-  {
-    "model": "mainsite.character",
-    "pk": 1,
-    "fields": {
-      "name": "赤地 Kai",
-      "gender": "M",
-      "affiliation": "忍者團隊",
-      "homeland": "忍者國（Ninjago）",
-      "occupation": "鐵匠、忍者、忍者導師",
-      "element": "火",
-      "first_appearance": "《NINJAGO: Masters of Spinjitzu》試播集（Pilot episodes）",
-      "description": "赤地是現任火元素大師與紅忍者，也是赤蘭的哥哥、雷與瑪雅的兒子，以及野火的導師。\r\n他原本在家中的鐵匠鋪工作，直到為了拯救被骷髏軍團抓走的妹妹，跟隨吳大師踏上成為忍者的道路。\r\n從對抗蛇族、石頭軍團、機械忍者，到阻止時空法器兄弟、魔王伽瑪當與黑暗島主，赤地一路經歷無數戰鬥與成長。\r\n在「融合」之後，他也成功從怪物之境返回，重新與隊友並肩作戰。\r\n如今的赤地依然是隊伍中熱血又衝勁十足的忍者，持續守護忍者國，並帶領新一代忍者前進。",
-      "vote_count": 0
-    }
-  },
-  {
-    "model": "mainsite.character",
-    "pk": 2,
-    "fields": {
-      "name": "阿光 Jay",
-      "gender": "M",
-      "affiliation": "忍者團隊",
-      "homeland": "忍者國（Ninjago）",
-      "occupation": "忍者、賞金獵人",
-      "element": "閃電",
-      "first_appearance": "《NINJAGO: Masters of Spinjitzu》試播集（Pilot episodes）",
-      "description": "阿光是現任的閃電元素大師，也是現任藍色忍者。他由養父母艾迪與艾迪娜扶養長大，後來才得知自己的親生父母是克里夫・高登與莉柏。\r\n在成為忍者後，阿光跟隨吳大師學習旋風忍術，並與阿剛、冰忍、勞埃德、赤地一起展開無數冒險。他曾面對黑暗島主、機械忍者軍團、天空海盜、伽瑪當君王等強敵，也在與赤蘭的感情中經歷不少波折與成長。\r\n在《第一帝國》事件中，阿光成為第一位進入遊戲世界的忍者，並以「超級巨星搖滾阿光」的身分活躍其中，最終成功幫助暗影至尊釋放所有受困玩家。\r\n在「融合」發生時，阿光為了保護平民而奮戰，卻因此與夥伴失散，甚至失去了記憶。之後他曾加入行政機關工作，也短暫和拉斯合作。在來源大賽之後，阿光終於找回自己的閃電元素力量，並以「Rogue」之名成為賞金獵人。\r\n即使歷經失落與改變，阿光依然是那位機智、話多又重感情的忍者。",
-      "vote_count": 0
-    }
-  },
-  {
-    "model": "mainsite.character",
-    "pk": 3,
-    "fields": {
-      "name": "素素 P.I.X.A.L.",
-      "gender": "F",
-      "affiliation": "博格企業、反抗軍、忍者團隊",
-      "homeland": "忍者國（Ninjago）",
-      "occupation": "賽勒斯・博格的智能助理、忍者、X武士、發明家",
-      "element": "",
-      "first_appearance": "《NINJAGO: Masters of Spinjitzu》第三季第1集",
-      "description": "素素（P.I.X.A.L. 初級互動X部助理生命形態） 是由賽勒斯・博格創造的女性機械人，原本是他的智慧助理，後來成為新任X武士、忍者團隊的一員，也是冰忍的女友。\r\n起初，素素曾被黑暗島主控制，並依照冰忍的設計圖打造出機械忍者軍團。之後在冰忍的幫助下恢復自由，並在對抗機械忍者與黑暗島主的戰鬥中成為重要戰力。雖然她一度停機，但在冰忍分出部分能量核心後成功重啟。\r\n在冰忍犧牲後，素素一直沒有放棄，甚至協助打造出冰忍的新身體。後來她的身體被摧毀，意識則暫時儲存在神經驅動器中，並寄存在冰忍的系統裡，持續支援忍者們對抗敵人。\r\n在朱紅武士來襲時，素素重新打造身體，並以X武士的身分正式投入前線戰鬥，之後也協助忍者對抗時空法器兄弟、伽瑪當之子的勢力。\r\n在《第一帝國》事件中，她與冰忍一同尋找密爾頓・戴爾，並協助阿光阻止暗影至尊，成功拯救所有被困在遊戲中的玩家。\r\n在「融合」之後，素素曾一度進入待機狀態。直到雷牙被擊敗後，她與冰忍再次一同踏上旅程，探索融合後的新世界。\r\n素素冷靜、聰明又堅強，是忍者團隊中不可或缺的重要夥伴。",
-      "vote_count": 0
-    }
-  },
-  {
-    "model": "mainsite.character",
-    "pk": 4,
-    "fields": {
-      "name": "諾可特 Nokt",
-      "gender": "M",
-      "affiliation": "狼族、五禁者",
-      "homeland": "荒野國度(Wyldness)",
-      "occupation": "狼族首領、五禁者首領",
-      "element": "蠻力",
-      "first_appearance": "《Ninjago: Dragons Rising》第二季第五集",
-      "description": "諾可特是五禁者其中之一，與妹妹拉克絲（Rox）一同擔任首領，並擁有蠻力元素。\r\n在被困於虛無空間數百年後，諾可特在血月儀式中被拉斯以赤地作為祭品釋放出來。然而，由於拉斯沒有解放其他五禁者成員，諾可特試圖反抗，卻反被迫為拉斯效命。\r\n之後，諾可特與拉克絲為了讓其他同伴復活，殺害了三條龍族長並奪走牠們的角王冠。他也參加了來源大賽，奪取在場所有元素大師的力量，並成功在寺廟城修道院解放其餘四名五禁者成員。\r\n雖然諾可特一度成功復活同伴，但很快失去了奪來的元素力，並與其他人逃往雲朵王國，之後又轉移到其他國度躲避追捕。\r\n為了追求更強大的力量，諾可特等人後來與雷牙（Thunderfang）合作，協助牠重獲自由。然而，雷牙卻反過來吞噬了五禁者的靈魂，並操控他們在融合後的世界四處收集靈魂，企圖成為 來源龍。\r\n在這段期間，諾可特曾前往帝權王國，與阿剛、赤地、弗拉克交手，並奪走大量靈魂，甚至包括阿剛的靈魂。最終，在雷牙被擊敗後，諾可特與其他五禁者成員的靈魂也一同消失。",
-      "vote_count": 0
-    }
-  },
-  {
-    "model": "mainsite.character",
-    "pk": 5,
-    "fields": {
-      "name": "雷普頓 Rapton",
-      "gender": "M",
-      "affiliation": "王國利爪、反抗軍、自由劫掠者",
-      "homeland": "帝權王國（Imperium）",
-      "occupation": "王國利爪隊長、自由劫掠者隊長、僱傭兵",
-      "element": "",
-      "first_appearance": "《Ninjago: Dragons Rising》第一季第1集",
-      "description": "雷普頓是一名獵龍者、傭兵，也是自由劫掠者的首領。\r\n他原本是王國利爪的成員，並在拉斯手下效力，負責捕捉龍族，當中也包括幼龍阿隆（Riyu）。後來在忍者們解救龍族之後，雷普頓一度接替失勢的拉斯，成為新的領導者，並逐漸得知 龍能之核的秘密。\r\n之後，雷普頓選擇不再效忠貝翠絲，甚至協助反抗軍公開她的不利證據。\r\n在融合震風暴之後，雷普頓曾短暫從事和平時期的工作，但最終還是厭倦平靜生活，重返獵龍行列，並組成了自由劫掠者，打算靠販賣龍族獲利。\r\n在幽靈入侵之後，他搬到交會地帶，並以 Ton-Rap 的化名開了一間古董店，還和對手費督里安（Fedulian）展開競爭。\r\n雷普頓雖然貪財又現實，但也是個立場多變、難以預測的人物。",
-      "vote_count": 0
-    }
-  },
-  {
-    "model": "mainsite.character",
-    "pk": 6,
-    "fields": {
-      "name": "阿剛 Cole",
-      "gender": "M",
-      "affiliation": "忍者團隊、尋物者",
-      "homeland": "忍者國（Ninjago）",
-      "occupation": "銀行保全、伐木工、忍者",
-      "element": "土",
-      "first_appearance": "《NINJAGO: Masters of Spinjitzu》試播集（Pilot episodes）",
-      "description": "阿剛（Cole） 是現任的土元素大師與忍者，也是盧和莉莉的兒子。\r\n在遇見吳大師後，阿剛學會了旋風忍術，並與其他忍者夥伴一起展開無數冒險。\r\n在對抗黑暗島主、機械忍者軍團和詛咒之境的戰鬥中，阿剛經歷了許多改變，甚至一度變成幽靈，並學會接受新的自己與力量。後來在亡靈紀念日事件中，他成功恢復成人類。\r\n在 魔王伽瑪當復活後，阿剛與夥伴們曾一同受困於鬼族與龍族之國度，之後成功返回忍者國，繼續守護家園。\r\n後來，阿剛前往新太朗王國（Shintaro），揭發了骷髏巫師的真面目，並在關鍵時刻覺醒旋風爆擊術（Spinjitzu Burst），成功擊敗對手。\r\n在「融合」之後，阿剛與夥伴失散，來到失物之境。在那裡，他遇見了吉奧，並開始保護當地的孩子們，成為他們重要的依靠。\r\n阿剛沉穩、可靠又充滿責任感，是忍者團隊中不可或缺的堅實力量。",
-      "vote_count": 0
-    }
-  },
-  {
-    "model": "mainsite.character",
-    "pk": 7,
-    "fields": {
-      "name": "冰忍 Zane",
-      "gender": "M",
-      "affiliation": "忍者團隊",
-      "homeland": "忍者國（Ninjago）",
-      "occupation": "冰皇帝、忍者",
-      "element": "冰",
-      "first_appearance": "《NINJAGO: Masters of Spinjitzu》試播集（Pilot episodes）",
-      "description": "冰忍（Zane） 是現任的冰元素大師與忍者，也是忍者島上第一位機械忍者，同時也是 素素（P.I.X.A.L.）的男友。\r\n在加入吳大師的訓練後，冰忍學會了旋風忍術，並與其他忍者夥伴一同展開無數冒險。\r\n在黑暗島主回歸並化身為黃金教主時，冰忍曾為了拯救忍者島而英勇犧牲自己。\r\n之後，冰忍重建了自己的身體，並與忍者們再次並肩作戰，對抗紫邪蛇族等各種新的威脅。\r\n在第十一季《火之章》與《冰之章》中，冰忍因使用禁忌旋風忍術被放逐到虛無之境，並在失去記憶後被維克斯操控，成為冷酷的冰皇帝。在恢復記憶後，他最終讓虛無之境恢復原狀。\r\n在《第一帝國》事件中，冰忍為了避免自己的記憶與程式遭到覆寫而留在現實世界，並協助揭開暗影至尊的真相，阻止遊戲世界入侵現實。\r\n在「融合」之後，冰忍被發現沉睡於帝權王國修道院的維生艙中，直到多年後才被赤地赤蘭找到。之後，他再次回到夥伴身邊，參與來源大賽，並與素素重逢。\r\n冰忍冷靜、理性又充滿同理心，是忍者團隊中最沉著可靠的存在之一。",
-      "vote_count": 0
-    }
-  },
-  {
-    "model": "mainsite.character",
-    "pk": 8,
-    "fields": {
-      "name": "勞埃德 Lloyd",
-      "gender": "M",
-      "affiliation": "壞蛋寄宿學校、反抗軍、忍者團隊",
-      "homeland": "忍者國（Ninjago）",
-      "occupation": "壞蛋寄宿學校學生、黃金忍者、反抗軍首領、來源龍代理人、道場管理員、綠忍者",
-      "element": "能量",
-      "first_appearance": "《NINJAGO: Masters of Spinjitzu》第一季第1集",
-      "description": "勞埃德・蒙格馬利・伽瑪當（Lloyd Montgomery Garmadon）是傳說中的綠忍者，也是現任的能量元素大師，同時擔任忍者團隊的領袖與導師。\r\n他是伽瑪當與美沙子的兒子、吳大師的姪子，也是第一代旋風忍術大師的孫子。從一開始想追隨父親成為反派的頑皮孩子，勞埃德最終接受命運，成長為真正的英雄與綠忍者。\r\n在成長過程中，勞埃德經歷了無數重大戰役，包括最終之戰、新旋風忍者城之戰、第二次蛇族戰爭，以及對抗摩洛、伽瑪當君王、鬼族與黑暗島主等強敵。即使曾失去力量，他仍多次重新站起來，帶領夥伴守護忍者國。\r\n在「融合」之後，勞埃德與夥伴失散，並開始訓練亞林（Arin）、索拉（Sora）等新一代忍者。他後來成為能量來源龍的代理人，並利用龍能之核穩定世界秩序。\r\n之後，勞埃德也為了對抗拉斯與辛德，學習了能克制終結旋風的昇龍術式，並在來源大賽中持續追查真相與保護夥伴。\r\n如今的勞埃德，不只是綠忍者，更是新世代忍者的重要引路人。",
-      "vote_count": 0
-    }
-  },
-  {
-    "model": "mainsite.character",
-    "pk": 9,
-    "fields": {
-      "name": "赤蘭 Nya",
-      "gender": "F",
-      "affiliation": "忍者團隊",
-      "homeland": "忍者國（Ninjago）",
-      "occupation": "發明家、X武士、蒙斯族女王、忍者",
-      "element": "水",
-      "first_appearance": "《NINJAGO: Masters of Spinjitzu》試播集（Pilot episodes）",
-      "description": "赤蘭是現任的水元素大師與忍者，也是赤地的妹妹、雷與瑪雅的女兒。她的名字來自傳說中的水之守護者赤蘭德（Nyad）。\r\n在遇見吳大師後，赤蘭與赤地一同踏上守護忍者國的道路。起初，她以X武士的身分活躍，協助忍者們對抗蛇族、石頭軍團等敵人。後來在吳大師的指導下，她逐漸掌握自己的水元素力量，並覺醒真正潛能，成功擊敗魔魂者。\r\n之後，赤蘭經歷了與天空海盜、時空法器兄弟、伽瑪當之子等勢力的戰鬥，也曾與夥伴們一同前往虛無之境拯救冰忍。\r\n在面對柯馬與沃吉拉的危機時，赤蘭為了拯救忍者城，被迫與海洋融合，失去了人類的身分。\r\n一年後，她在與赤蘭德的交流中找回記憶，並在夥伴們的幫助下恢復成人類，重新回到忍者團隊。\r\n在「融合」之後，赤蘭與赤地重逢，並持續與夥伴們並肩作戰。她後來也學會了能對抗終結旋風的昇龍術式，並在來源大賽中再次展現實力。\r\n赤蘭堅強、果斷又不輕言退縮，是忍者團隊中不可或缺的重要戰力。",
-      "vote_count": 0
-    }
-  },
-  {
-    "model": "mainsite.character",
-    "pk": 10,
-    "fields": {
-      "name": "晴美 Harumi",
-      "gender": "F",
-      "affiliation": "忍者國皇室、伽瑪當之子、水晶議會",
-      "homeland": "忍者國（Ninjago）",
-      "occupation": "忍者國公主、伽瑪當之子二把手、水晶議會領袖",
-      "element": "",
-      "first_appearance": "《NINJAGO: Masters of Spinjitzu》第八季第1集",
-      "description": "晴美，曾是忍者國的公主，也是伽瑪當之子的創立者，代號「沉默者（The Quiet One）」。\r\n幼年時，晴美在大吞噬者的襲擊中失去雙親，之後被忍者國皇室收養，成為翡翠公主。由於將父母之死怪罪於忍者，她多年來一直暗中策劃復仇，並崇拜親手擊敗巨噬魔的伽瑪當君王。\r\n當伽瑪當之子勢力崛起後，晴美表面上與忍者們合作，甚至刻意接近勞埃德，實際上卻暗中破壞他們的計畫，成功集齊鬼怪面具，並讓伽瑪當復活成為冷酷無情的戰爭領主。\r\n之後，晴美成為伽瑪當的重要手下，協助追捕勞埃德與反抗軍。直到某次任務中，她在拯救孩子時意識到自己與過去的傷痛，最終在石巨像的攻擊中喪生。\r\n然而，晴美死後被黑暗島主利用，以復活作為交換條件，成為他的使者。她建立了水晶議會，並召集多位忍者宿敵，組成新的反派聯盟。\r\n在最終決戰中，晴美終於得知真正害死她父母的幕後黑手其實正是黑暗島主。明白真相後，她選擇背叛對方，轉而站在忍者這一邊，一同對抗黑暗勢力。\r\n戰後，晴美與勞埃德逐漸和解，也參與了旋風忍術修道院的重建工作。\r\n晴美是 NIAJAGO 中極具爭議卻也極具魅力的角色之一，她既是反派，也是被傷痛扭曲後試圖找回自己的悲劇人物。",
-      "vote_count": 0
-    }
-  },
-  {
-    "model": "mainsite.character",
-    "pk": 11,
-    "fields": {
-      "name": "雷 Ray",
-      "gender": "M",
-      "affiliation": "四武器鐵匠鋪、元素聯盟、反抗軍",
-      "homeland": "忍者國（Ninjago）",
-      "occupation": "鐵匠",
-      "element": "火",
-      "first_appearance": "《Ninjago: Masters of Spinjitzu》試播集第一集",
-      "description": "雷（Ray）是前任「火之元素大師」，也是吳大師的摯友、瑪雅的丈夫，以及赤地與赤蘭的父親。他曾在蛇族戰爭中與元素聯盟並肩作戰。",
-      "vote_count": 0
-    }
-  },
-  {
-    "model": "mainsite.character",
-    "pk": 12,
-    "fields": {
-      "name": "瑪雅 Maya",
-      "gender": "F",
-      "affiliation": "四武器鐵匠鋪、元素聯盟、反抗軍",
-      "homeland": "忍者國（Ninjago）",
-      "occupation": "忍者、鐵匠",
-      "element": "水",
-      "first_appearance": "《Ninjago: Masters of Spinjitzu》試播集第一集",
-      "description": "瑪雅（Maya）是前任「水之元素大師」，亦曾為忍者。她是雷的妻子、赤地與赤蘭的母親，而赤蘭繼承了她的能力。瑪雅曾與元素聯盟及其丈夫一同參與蛇族戰爭。",
-      "vote_count": 0
-    }
-  },
-  {
-    "model": "mainsite.character",
-    "pk": 13,
-    "fields": {
-      "name": "莉莉 Lilly",
-      "gender": "F",
-      "affiliation": "元素大師",
-      "homeland": "忍者國（Ninjago）",
-      "occupation": "忍者",
-      "element": "土",
-      "first_appearance": "《NINJAGO: Masters of Spinjitzu》第十三季第2集",
-      "description": "莉莉是前任土之元素大師 Benton 之女，在蛇族戰爭後繼承其力量。她曾於旋風忍術道場隨吳大師修行，學會旋風忍術並達成「真實潛能」，亦曾保護村莊、對抗敵人，並領悟力量在接近大地時最為強大。\r\n\r\n她曾前往辛太朗山，習得「旋風爆擊術」，並擊敗威脅礦洞的「災難之龍」，同時將重要遺物留給地下族群。她亦參與過「來源大賽」。\r\n\r\n之後，莉莉與盧成婚，育有一子阿剛，並將土之力量傳承於他。她在家庭中溫柔而堅定，教導阿剛要對抗不公與邪惡。\r\n\r\n晚年時莉莉因病去世，這也使阿剛與父親之間產生隔閡。",
-      "vote_count": 0
-    }
-  },
-  {
-    "model": "mainsite.character",
-    "pk": 14,
-    "fields": {
-      "name": "辛德 Cinder",
-      "gender": "M",
-      "affiliation": "元素大師、狼族",
-      "homeland": "忍者國（Ninjago）",
-      "occupation": "狼族將軍",
-      "element": "煙霧",
-      "first_appearance": "《Ninjago: Dragons Rising》第二季第1集",
-      "description": "辛德（Cinder）是現任的「煙霧元素大師」，亦是艾許（Ash）的親族之一，並曾是拉斯領主的學生。他曾擔任重組後狼族的將軍之一，參與過「來源大賽」，最終被囚禁於寺廟城。",
-      "vote_count": 0
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 1,
-    "fields": {
-      "character": 1,
-      "image": "characters/kai1_4fG1CUX.jpg",
-      "sort_order": 1
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 2,
-    "fields": {
-      "character": 1,
-      "image": "characters/kai2_uPH8DNh.jpg",
-      "sort_order": 2
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 3,
-    "fields": {
-      "character": 1,
-      "image": "characters/kai3_aadEgAU.jpg",
-      "sort_order": 3
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 4,
-    "fields": {
-      "character": 2,
-      "image": "characters/jay1_A6eo4w7.jpg",
-      "sort_order": 1
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 5,
-    "fields": {
-      "character": 2,
-      "image": "characters/jay2_dUOsKCt.jpg",
-      "sort_order": 2
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 6,
-    "fields": {
-      "character": 2,
-      "image": "characters/jay3_6IaBva1.jpg",
-      "sort_order": 3
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 7,
-    "fields": {
-      "character": 3,
-      "image": "characters/pixal1_VNKGd1S.jpg",
-      "sort_order": 1
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 8,
-    "fields": {
-      "character": 3,
-      "image": "characters/pixal2_7xdRttK.jpg",
-      "sort_order": 2
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 9,
-    "fields": {
-      "character": 3,
-      "image": "characters/pixal3_B5fKXmj.jpg",
-      "sort_order": 3
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 10,
-    "fields": {
-      "character": 4,
-      "image": "characters/nokt1_Atl8rFJ.jpg",
-      "sort_order": 1
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 11,
-    "fields": {
-      "character": 4,
-      "image": "characters/nokt2_OrzJ9rE.jpg",
-      "sort_order": 2
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 12,
-    "fields": {
-      "character": 4,
-      "image": "characters/nokt3_O91Siix.jpg",
-      "sort_order": 3
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 13,
-    "fields": {
-      "character": 5,
-      "image": "characters/rapton1.jpg",
-      "sort_order": 1
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 14,
-    "fields": {
-      "character": 5,
-      "image": "characters/rapton2.jpg",
-      "sort_order": 2
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 15,
-    "fields": {
-      "character": 5,
-      "image": "characters/rapton3.jpg",
-      "sort_order": 3
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 16,
-    "fields": {
-      "character": 6,
-      "image": "characters/cole1.jpg",
-      "sort_order": 1
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 17,
-    "fields": {
-      "character": 6,
-      "image": "characters/cole2.jpg",
-      "sort_order": 2
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 18,
-    "fields": {
-      "character": 6,
-      "image": "characters/cole3.jpg",
-      "sort_order": 3
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 19,
-    "fields": {
-      "character": 7,
-      "image": "characters/zane1.jpg",
-      "sort_order": 1
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 20,
-    "fields": {
-      "character": 7,
-      "image": "characters/zane2.jpg",
-      "sort_order": 2
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 21,
-    "fields": {
-      "character": 7,
-      "image": "characters/zane3.jpg",
-      "sort_order": 3
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 22,
-    "fields": {
-      "character": 8,
-      "image": "characters/lloyd1.jpg",
-      "sort_order": 1
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 23,
-    "fields": {
-      "character": 8,
-      "image": "characters/lloyd2.jpg",
-      "sort_order": 2
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 24,
-    "fields": {
-      "character": 8,
-      "image": "characters/lloyd3.jpg",
-      "sort_order": 3
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 25,
-    "fields": {
-      "character": 9,
-      "image": "characters/nya1.jpg",
-      "sort_order": 1
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 26,
-    "fields": {
-      "character": 9,
-      "image": "characters/nya2.jpg",
-      "sort_order": 2
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 27,
-    "fields": {
-      "character": 9,
-      "image": "characters/nya3.jpg",
-      "sort_order": 3
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 28,
-    "fields": {
-      "character": 10,
-      "image": "characters/harumi1.jpg",
-      "sort_order": 1
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 29,
-    "fields": {
-      "character": 10,
-      "image": "characters/harumi2.jpg",
-      "sort_order": 2
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 30,
-    "fields": {
-      "character": 10,
-      "image": "characters/harumi3.jpg",
-      "sort_order": 3
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 31,
-    "fields": {
-      "character": 11,
-      "image": "characters/ray1.jpg",
-      "sort_order": 1
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 32,
-    "fields": {
-      "character": 11,
-      "image": "characters/ray2.jpg",
-      "sort_order": 2
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 33,
-    "fields": {
-      "character": 11,
-      "image": "characters/ray3.jpg",
-      "sort_order": 3
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 34,
-    "fields": {
-      "character": 12,
-      "image": "characters/maya1.jpg",
-      "sort_order": 1
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 35,
-    "fields": {
-      "character": 12,
-      "image": "characters/maya2.jpg",
-      "sort_order": 2
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 36,
-    "fields": {
-      "character": 12,
-      "image": "characters/maya3.jpg",
-      "sort_order": 3
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 37,
-    "fields": {
-      "character": 13,
-      "image": "characters/lily1.jpg",
-      "sort_order": 1
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 38,
-    "fields": {
-      "character": 13,
-      "image": "characters/lily2.jpg",
-      "sort_order": 2
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 39,
-    "fields": {
-      "character": 13,
-      "image": "characters/lily3.jpg",
-      "sort_order": 3
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 40,
-    "fields": {
-      "character": 14,
-      "image": "characters/cinder1.jpg",
-      "sort_order": 1
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 41,
-    "fields": {
-      "character": 14,
-      "image": "characters/cinder2.jpg",
-      "sort_order": 2
-    }
-  },
-  {
-    "model": "mainsite.characterimage",
-    "pk": 42,
-    "fields": {
-      "character": 14,
-      "image": "characters/cinder3.jpg",
-      "sort_order": 3
-    }
-  },
-  {
-    "model": "mainsite.elementsource",
-    "pk": 1,
-    "fields": {
-      "name": "動態",
-      "code": "motion",
-      "description": "從地球的自轉，到你體內的血液流動，宇宙永遠處於運動之中。",
-      "sort_order": 1
-    }
-  },
-  {
-    "model": "mainsite.elementsource",
-    "pk": 2,
-    "fields": {
-      "name": "能量",
-      "code": "energy",
-      "description": "無論是啟動反應的火花，或是爆炸性的結果，能量驅動著存在。",
-      "sort_order": 2
-    }
-  },
-  {
-    "model": "mainsite.elementsource",
-    "pk": 3,
-    "fields": {
-      "name": "力量",
-      "code": "strength",
-      "description": "如岩石抵禦洶湧浪濤，或長劍粉碎盾牌，力量能抵抗或壓制對立的力量。",
-      "sort_order": 3
-    }
-  },
-  {
-    "model": "mainsite.elementsource",
-    "pk": 4,
-    "fields": {
-      "name": "生命",
-      "code": "life",
-      "description": "宇宙的心跳，生命不只是生存的方式，更是求生的意志。",
-      "sort_order": 4
-    }
-  },
-  {
-    "model": "mainsite.elementsource",
-    "pk": 5,
-    "fields": {
-      "name": "流動",
-      "code": "flow",
-      "description": "流動是對靜止的反抗，是拒絕僵化。永遠改變，永遠適應。",
-      "sort_order": 5
-    }
-  },
-  {
-    "model": "mainsite.elementsource",
-    "pk": 6,
-    "fields": {
-      "name": "專注",
-      "code": "focus",
-      "description": "靜止帶來清晰，學習揭示知識。專注引向理解——若無專注而行，只會招致混亂。",
-      "sort_order": 6
-    }
-  },
-  {
-    "model": "mainsite.elementsource",
-    "pk": 7,
-    "fields": {
-      "name": "平衡",
-      "code": "balance",
-      "description": "每個動作都有反應，每個問題都有答案。平衡使部分加總大於整體。",
-      "sort_order": 7
-    }
-  },
-  {
-    "model": "mainsite.elementpower",
-    "pk": 1,
-    "fields": {
-      "source": 1,
-      "name": "火",
-      "code": "element-fire",
-      "description": "篝火的舞蹈，火焰的舔舐。燃燒越烈，蔓延越快。",
-      "current_holder": 1,
-      "current_holder_name": "",
-      "sort_order": 0
-    }
-  },
-  {
-    "model": "mainsite.elementpower",
-    "pk": 2,
-    "fields": {
-      "source": 2,
-      "name": "閃電",
-      "code": "element-lightning",
-      "description": "兩點之間的放電，有時是天地之間力量的展現。",
-      "current_holder": 2,
-      "current_holder_name": "",
-      "sort_order": 0
-    }
-  },
-  {
-    "model": "mainsite.elementpower",
-    "pk": 3,
-    "fields": {
-      "source": 3,
-      "name": "土",
-      "code": "element-earth",
-      "description": "我們腳下的堅實大地，高聳入雲的山岳挑戰蒼穹。",
-      "current_holder": 6,
-      "current_holder_name": "",
-      "sort_order": 0
-    }
-  },
-  {
-    "model": "mainsite.elementpower",
-    "pk": 4,
-    "fields": {
-      "source": 4,
-      "name": "生命",
-      "code": "element-life",
-      "description": "真正的力量不在於孤立，而在於連結。這正是生命之力的核心之道。",
-      "current_holder": 8,
-      "current_holder_name": "",
-      "sort_order": 0
-    }
-  },
-  {
-    "model": "mainsite.elementpower",
-    "pk": 5,
-    "fields": {
-      "source": 5,
-      "name": "水",
-      "code": "element-water",
-      "description": "河流的奔騰，水窪的蔓延。水能千變萬化，改變形狀以容納任何器皿。",
-      "current_holder": 9,
-      "current_holder_name": "",
-      "sort_order": 0
-    }
-  },
-  {
-    "model": "mainsite.elementpower",
-    "pk": 6,
-    "fields": {
-      "source": 6,
-      "name": "冰",
-      "code": "element-ice",
-      "description": "靜止而清澈，帶來停滯的力量。能凍結片刻，也能凝結成銳利之形。",
-      "current_holder": 7,
-      "current_holder_name": "",
-      "sort_order": 0
-    }
-  },
-  {
-    "model": "mainsite.elementpower",
-    "pk": 7,
-    "fields": {
-      "source": 5,
-      "name": "煙霧",
-      "code": "element-smoke",
-      "description": "煙升起並擴散，難以控制，更難以束縛。",
-      "current_holder": 14,
-      "current_holder_name": "",
-      "sort_order": 0
-    }
-  },
-  {
-    "model": "mainsite.elementholderhistory",
-    "pk": 1,
-    "fields": {
-      "element": 1,
-      "character": 1,
-      "holder_name": "",
-      "start_label": "",
-      "end_label": "",
-      "is_current": true,
-      "note": "",
-      "sort_order": 1
-    }
-  },
-  {
-    "model": "mainsite.elementholderhistory",
-    "pk": 2,
-    "fields": {
-      "element": 1,
-      "character": 11,
-      "holder_name": "",
-      "start_label": "",
-      "end_label": "",
-      "is_current": false,
-      "note": "",
-      "sort_order": 2
-    }
-  },
-  {
-    "model": "mainsite.elementholderhistory",
-    "pk": 3,
-    "fields": {
-      "element": 2,
-      "character": 2,
-      "holder_name": "",
-      "start_label": "",
-      "end_label": "",
-      "is_current": true,
-      "note": "",
-      "sort_order": 1
-    }
-  },
-  {
-    "model": "mainsite.elementholderhistory",
-    "pk": 4,
-    "fields": {
-      "element": 3,
-      "character": 6,
-      "holder_name": "",
-      "start_label": "",
-      "end_label": "",
-      "is_current": true,
-      "note": "",
-      "sort_order": 1
-    }
-  },
-  {
-    "model": "mainsite.elementholderhistory",
-    "pk": 5,
-    "fields": {
-      "element": 3,
-      "character": 13,
-      "holder_name": "",
-      "start_label": "",
-      "end_label": "",
-      "is_current": false,
-      "note": "",
-      "sort_order": 2
-    }
-  },
-  {
-    "model": "mainsite.elementholderhistory",
-    "pk": 6,
-    "fields": {
-      "element": 3,
-      "character": null,
-      "holder_name": "Benton",
-      "start_label": "",
-      "end_label": "",
-      "is_current": false,
-      "note": "",
-      "sort_order": 3
-    }
-  },
-  {
-    "model": "mainsite.elementholderhistory",
-    "pk": 7,
-    "fields": {
-      "element": 4,
-      "character": 8,
-      "holder_name": "",
-      "start_label": "",
-      "end_label": "",
-      "is_current": true,
-      "note": "",
-      "sort_order": 1
-    }
-  },
-  {
-    "model": "mainsite.elementholderhistory",
-    "pk": 8,
-    "fields": {
-      "element": 5,
-      "character": 9,
-      "holder_name": "",
-      "start_label": "",
-      "end_label": "",
-      "is_current": true,
-      "note": "",
-      "sort_order": 1
-    }
-  },
-  {
-    "model": "mainsite.elementholderhistory",
-    "pk": 9,
-    "fields": {
-      "element": 5,
-      "character": 12,
-      "holder_name": "",
-      "start_label": "",
-      "end_label": "",
-      "is_current": false,
-      "note": "",
-      "sort_order": 2
-    }
-  },
-  {
-    "model": "mainsite.elementholderhistory",
-    "pk": 10,
-    "fields": {
-      "element": 7,
-      "character": 14,
-      "holder_name": "",
-      "start_label": "",
-      "end_label": "",
-      "is_current": true,
-      "note": "",
-      "sort_order": 1
-    }
-  },
-  {
-    "model": "mainsite.elementholderhistory",
-    "pk": 11,
-    "fields": {
-      "element": 7,
-      "character": null,
-      "holder_name": "艾許 Ash",
-      "start_label": "",
-      "end_label": "",
-      "is_current": false,
-      "note": "",
-      "sort_order": 2
-    }
-  },
-  {
-    "model": "mainsite.elementholderhistory",
-    "pk": 12,
-    "fields": {
-      "element": 6,
-      "character": 7,
-      "holder_name": "",
-      "start_label": "",
-      "end_label": "",
-      "is_current": true,
-      "note": "",
-      "sort_order": 1
-    }
+{
+  "model": "mainsite.character",
+  "pk": 1,
+  "fields": {
+    "name": "赤地 Kai",
+    "gender": "M",
+    "affiliation": "忍者團隊",
+    "homeland": "忍者國（Ninjago）",
+    "occupation": "鐵匠、忍者、忍者導師",
+    "element": "火",
+    "first_appearance": "《NINJAGO: Masters of Spinjitzu》試播集（Pilot episodes）",
+    "description": "赤地是現任火元素大師與紅忍者，也是赤蘭的哥哥、雷與瑪雅的兒子，以及野火的導師。\r\n他原本在家中的鐵匠鋪工作，直到為了拯救被骷髏軍團抓走的妹妹，跟隨吳大師踏上成為忍者的道路。\r\n從對抗蛇族、石頭軍團、機械忍者，到阻止時空法器兄弟、魔王伽瑪當與黑暗島主，赤地一路經歷無數戰鬥與成長。\r\n在「融合」之後，他也成功從怪物之境返回，重新與隊友並肩作戰。\r\n如今的赤地依然是隊伍中熱血又衝勁十足的忍者，持續守護忍者國，並帶領新一代忍者前進。",
+    "vote_count": 2
   }
+},
+{
+  "model": "mainsite.character",
+  "pk": 2,
+  "fields": {
+    "name": "阿光 Jay",
+    "gender": "M",
+    "affiliation": "忍者團隊",
+    "homeland": "忍者國（Ninjago）",
+    "occupation": "忍者、賞金獵人",
+    "element": "閃電",
+    "first_appearance": "《NINJAGO: Masters of Spinjitzu》試播集（Pilot episodes）",
+    "description": "阿光是現任的閃電元素大師，也是現任藍色忍者。他由養父母艾迪與艾迪娜扶養長大，後來才得知自己的親生父母是克里夫・高登與莉柏。\r\n在成為忍者後，阿光跟隨吳大師學習旋風忍術，並與阿剛、冰忍、勞埃德、赤地一起展開無數冒險。他曾面對黑暗島主、機械忍者軍團、天空海盜、伽瑪當君王等強敵，也在與赤蘭的感情中經歷不少波折與成長。\r\n在《第一帝國》事件中，阿光成為第一位進入遊戲世界的忍者，並以「超級巨星搖滾阿光」的身分活躍其中，最終成功幫助暗影至尊釋放所有受困玩家。\r\n在「融合」發生時，阿光為了保護平民而奮戰，卻因此與夥伴失散，甚至失去了記憶。之後他曾加入行政機關工作，也短暫和拉斯合作。在來源大賽之後，阿光終於找回自己的閃電元素力量，並以「Rogue」之名成為賞金獵人。\r\n即使歷經失落與改變，阿光依然是那位機智、話多又重感情的忍者。",
+    "vote_count": 2
+  }
+},
+{
+  "model": "mainsite.character",
+  "pk": 3,
+  "fields": {
+    "name": "素素 P.I.X.A.L.",
+    "gender": "F",
+    "affiliation": "博格企業、反抗軍、忍者團隊",
+    "homeland": "忍者國（Ninjago）",
+    "occupation": "賽勒斯・博格的智能助理、忍者、X武士、發明家",
+    "element": "",
+    "first_appearance": "《NINJAGO: Masters of Spinjitzu》第三季第1集",
+    "description": "素素（P.I.X.A.L. 初級互動X部助理生命形態） 是由賽勒斯・博格創造的女性機械人，原本是他的智慧助理，後來成為新任X武士、忍者團隊的一員，也是冰忍的女友。\r\n起初，素素曾被黑暗島主控制，並依照冰忍的設計圖打造出機械忍者軍團。之後在冰忍的幫助下恢復自由，並在對抗機械忍者與黑暗島主的戰鬥中成為重要戰力。雖然她一度停機，但在冰忍分出部分能量核心後成功重啟。\r\n在冰忍犧牲後，素素一直沒有放棄，甚至協助打造出冰忍的新身體。後來她的身體被摧毀，意識則暫時儲存在神經驅動器中，並寄存在冰忍的系統裡，持續支援忍者們對抗敵人。\r\n在朱紅武士來襲時，素素重新打造身體，並以X武士的身分正式投入前線戰鬥，之後也協助忍者對抗時空法器兄弟、伽瑪當之子的勢力。\r\n在《第一帝國》事件中，她與冰忍一同尋找密爾頓・戴爾，並協助阿光阻止暗影至尊，成功拯救所有被困在遊戲中的玩家。\r\n在「融合」之後，素素曾一度進入待機狀態。直到雷牙被擊敗後，她與冰忍再次一同踏上旅程，探索融合後的新世界。\r\n素素冷靜、聰明又堅強，是忍者團隊中不可或缺的重要夥伴。",
+    "vote_count": 0
+  }
+},
+{
+  "model": "mainsite.character",
+  "pk": 4,
+  "fields": {
+    "name": "諾可特 Nokt",
+    "gender": "M",
+    "affiliation": "狼族、五禁者",
+    "homeland": "荒野國度(Wyldness)",
+    "occupation": "狼族首領、五禁者首領",
+    "element": "蠻力",
+    "first_appearance": "《Ninjago: Dragons Rising》第二季第五集",
+    "description": "諾可特是五禁者其中之一，與妹妹拉克絲（Rox）一同擔任首領，並擁有蠻力元素。\r\n在被困於虛無空間數百年後，諾可特在血月儀式中被拉斯以赤地作為祭品釋放出來。然而，由於拉斯沒有解放其他五禁者成員，諾可特試圖反抗，卻反被迫為拉斯效命。\r\n之後，諾可特與拉克絲為了讓其他同伴復活，殺害了三條龍族長並奪走牠們的角王冠。他也參加了來源大賽，奪取在場所有元素大師的力量，並成功在寺廟城修道院解放其餘四名五禁者成員。\r\n雖然諾可特一度成功復活同伴，但很快失去了奪來的元素力，並與其他人逃往雲朵王國，之後又轉移到其他國度躲避追捕。\r\n為了追求更強大的力量，諾可特等人後來與雷牙（Thunderfang）合作，協助牠重獲自由。然而，雷牙卻反過來吞噬了五禁者的靈魂，並操控他們在融合後的世界四處收集靈魂，企圖成為 來源龍。\r\n在這段期間，諾可特曾前往帝權王國，與阿剛、赤地、弗拉克交手，並奪走大量靈魂，甚至包括阿剛的靈魂。最終，在雷牙被擊敗後，諾可特與其他五禁者成員的靈魂也一同消失。",
+    "vote_count": 0
+  }
+},
+{
+  "model": "mainsite.character",
+  "pk": 5,
+  "fields": {
+    "name": "雷普頓 Rapton",
+    "gender": "M",
+    "affiliation": "王國利爪、反抗軍、自由劫掠者",
+    "homeland": "帝權王國（Imperium）",
+    "occupation": "王國利爪隊長、自由劫掠者隊長、僱傭兵",
+    "element": "",
+    "first_appearance": "《Ninjago: Dragons Rising》第一季第1集",
+    "description": "雷普頓是一名獵龍者、傭兵，也是自由劫掠者的首領。\r\n他原本是王國利爪的成員，並在拉斯手下效力，負責捕捉龍族，當中也包括幼龍阿隆（Riyu）。後來在忍者們解救龍族之後，雷普頓一度接替失勢的拉斯，成為新的領導者，並逐漸得知 龍能之核的秘密。\r\n之後，雷普頓選擇不再效忠貝翠絲，甚至協助反抗軍公開她的不利證據。\r\n在融合震風暴之後，雷普頓曾短暫從事和平時期的工作，但最終還是厭倦平靜生活，重返獵龍行列，並組成了自由劫掠者，打算靠販賣龍族獲利。\r\n在幽靈入侵之後，他搬到交會地帶，並以 Ton-Rap 的化名開了一間古董店，還和對手費督里安（Fedulian）展開競爭。\r\n雷普頓雖然貪財又現實，但也是個立場多變、難以預測的人物。",
+    "vote_count": 0
+  }
+},
+{
+  "model": "mainsite.character",
+  "pk": 6,
+  "fields": {
+    "name": "阿剛 Cole",
+    "gender": "M",
+    "affiliation": "忍者團隊、尋物者",
+    "homeland": "忍者國（Ninjago）",
+    "occupation": "銀行保全、伐木工、忍者",
+    "element": "土",
+    "first_appearance": "《NINJAGO: Masters of Spinjitzu》試播集（Pilot episodes）",
+    "description": "阿剛（Cole） 是現任的土元素大師與忍者，也是盧和莉莉的兒子。\r\n在遇見吳大師後，阿剛學會了旋風忍術，並與其他忍者夥伴一起展開無數冒險。\r\n在對抗黑暗島主、機械忍者軍團和詛咒之境的戰鬥中，阿剛經歷了許多改變，甚至一度變成幽靈，並學會接受新的自己與力量。後來在亡靈紀念日事件中，他成功恢復成人類。\r\n在 魔王伽瑪當復活後，阿剛與夥伴們曾一同受困於鬼族與龍族之國度，之後成功返回忍者國，繼續守護家園。\r\n後來，阿剛前往新太朗王國（Shintaro），揭發了骷髏巫師的真面目，並在關鍵時刻覺醒旋風爆擊術（Spinjitzu Burst），成功擊敗對手。\r\n在「融合」之後，阿剛與夥伴失散，來到失物之境。在那裡，他遇見了吉奧，並開始保護當地的孩子們，成為他們重要的依靠。\r\n阿剛沉穩、可靠又充滿責任感，是忍者團隊中不可或缺的堅實力量。",
+    "vote_count": 9
+  }
+},
+{
+  "model": "mainsite.character",
+  "pk": 7,
+  "fields": {
+    "name": "冰忍 Zane",
+    "gender": "M",
+    "affiliation": "忍者團隊",
+    "homeland": "忍者國（Ninjago）",
+    "occupation": "冰皇帝、忍者",
+    "element": "冰",
+    "first_appearance": "《NINJAGO: Masters of Spinjitzu》試播集（Pilot episodes）",
+    "description": "冰忍（Zane） 是現任的冰元素大師與忍者，也是忍者島上第一位機械忍者，同時也是 素素（P.I.X.A.L.）的男友。\r\n在加入吳大師的訓練後，冰忍學會了旋風忍術，並與其他忍者夥伴一同展開無數冒險。\r\n在黑暗島主回歸並化身為黃金教主時，冰忍曾為了拯救忍者島而英勇犧牲自己。\r\n之後，冰忍重建了自己的身體，並與忍者們再次並肩作戰，對抗紫邪蛇族等各種新的威脅。\r\n在第十一季《火之章》與《冰之章》中，冰忍因使用禁忌旋風忍術被放逐到虛無之境，並在失去記憶後被維克斯操控，成為冷酷的冰皇帝。在恢復記憶後，他最終讓虛無之境恢復原狀。\r\n在《第一帝國》事件中，冰忍為了避免自己的記憶與程式遭到覆寫而留在現實世界，並協助揭開暗影至尊的真相，阻止遊戲世界入侵現實。\r\n在「融合」之後，冰忍被發現沉睡於帝權王國修道院的維生艙中，直到多年後才被赤地赤蘭找到。之後，他再次回到夥伴身邊，參與來源大賽，並與素素重逢。\r\n冰忍冷靜、理性又充滿同理心，是忍者團隊中最沉著可靠的存在之一。",
+    "vote_count": 2
+  }
+},
+{
+  "model": "mainsite.character",
+  "pk": 8,
+  "fields": {
+    "name": "勞埃德 Lloyd",
+    "gender": "M",
+    "affiliation": "壞蛋寄宿學校、反抗軍、忍者團隊",
+    "homeland": "忍者國（Ninjago）",
+    "occupation": "壞蛋寄宿學校學生、黃金忍者、反抗軍首領、來源龍代理人、道場管理員、綠忍者",
+    "element": "能量",
+    "first_appearance": "《NINJAGO: Masters of Spinjitzu》第一季第1集",
+    "description": "勞埃德・蒙格馬利・伽瑪當（Lloyd Montgomery Garmadon）是傳說中的綠忍者，也是現任的能量元素大師，同時擔任忍者團隊的領袖與導師。\r\n他是伽瑪當與美沙子的兒子、吳大師的姪子，也是第一代旋風忍術大師的孫子。從一開始想追隨父親成為反派的頑皮孩子，勞埃德最終接受命運，成長為真正的英雄與綠忍者。\r\n在成長過程中，勞埃德經歷了無數重大戰役，包括最終之戰、新旋風忍者城之戰、第二次蛇族戰爭，以及對抗摩洛、伽瑪當君王、鬼族與黑暗島主等強敵。即使曾失去力量，他仍多次重新站起來，帶領夥伴守護忍者國。\r\n在「融合」之後，勞埃德與夥伴失散，並開始訓練亞林（Arin）、索拉（Sora）等新一代忍者。他後來成為能量來源龍的代理人，並利用龍能之核穩定世界秩序。\r\n之後，勞埃德也為了對抗拉斯與辛德，學習了能克制終結旋風的昇龍術式，並在來源大賽中持續追查真相與保護夥伴。\r\n如今的勞埃德，不只是綠忍者，更是新世代忍者的重要引路人。",
+    "vote_count": 1
+  }
+},
+{
+  "model": "mainsite.character",
+  "pk": 9,
+  "fields": {
+    "name": "赤蘭 Nya",
+    "gender": "F",
+    "affiliation": "忍者團隊",
+    "homeland": "忍者國（Ninjago）",
+    "occupation": "發明家、X武士、蒙斯族女王、忍者",
+    "element": "水",
+    "first_appearance": "《NINJAGO: Masters of Spinjitzu》試播集（Pilot episodes）",
+    "description": "赤蘭是現任的水元素大師與忍者，也是赤地的妹妹、雷與瑪雅的女兒。她的名字來自傳說中的水之守護者赤蘭德（Nyad）。\r\n在遇見吳大師後，赤蘭與赤地一同踏上守護忍者國的道路。起初，她以X武士的身分活躍，協助忍者們對抗蛇族、石頭軍團等敵人。後來在吳大師的指導下，她逐漸掌握自己的水元素力量，並覺醒真正潛能，成功擊敗魔魂者。\r\n之後，赤蘭經歷了與天空海盜、時空法器兄弟、伽瑪當之子等勢力的戰鬥，也曾與夥伴們一同前往虛無之境拯救冰忍。\r\n在面對柯馬與沃吉拉的危機時，赤蘭為了拯救忍者城，被迫與海洋融合，失去了人類的身分。\r\n一年後，她在與赤蘭德的交流中找回記憶，並在夥伴們的幫助下恢復成人類，重新回到忍者團隊。\r\n在「融合」之後，赤蘭與赤地重逢，並持續與夥伴們並肩作戰。她後來也學會了能對抗終結旋風的昇龍術式，並在來源大賽中再次展現實力。\r\n赤蘭堅強、果斷又不輕言退縮，是忍者團隊中不可或缺的重要戰力。",
+    "vote_count": 1
+  }
+},
+{
+  "model": "mainsite.character",
+  "pk": 10,
+  "fields": {
+    "name": "晴美 Harumi",
+    "gender": "F",
+    "affiliation": "忍者國皇室、伽瑪當之子、水晶議會",
+    "homeland": "忍者國（Ninjago）",
+    "occupation": "忍者國公主、伽瑪當之子二把手、水晶議會領袖",
+    "element": "",
+    "first_appearance": "《NINJAGO: Masters of Spinjitzu》第八季第1集",
+    "description": "晴美，曾是忍者國的公主，也是伽瑪當之子的創立者，代號「沉默者（The Quiet One）」。\r\n幼年時，晴美在大吞噬者的襲擊中失去雙親，之後被忍者國皇室收養，成為翡翠公主。由於將父母之死怪罪於忍者，她多年來一直暗中策劃復仇，並崇拜親手擊敗巨噬魔的伽瑪當君王。\r\n當伽瑪當之子勢力崛起後，晴美表面上與忍者們合作，甚至刻意接近勞埃德，實際上卻暗中破壞他們的計畫，成功集齊鬼怪面具，並讓伽瑪當復活成為冷酷無情的戰爭領主。\r\n之後，晴美成為伽瑪當的重要手下，協助追捕勞埃德與反抗軍。直到某次任務中，她在拯救孩子時意識到自己與過去的傷痛，最終在石巨像的攻擊中喪生。\r\n然而，晴美死後被黑暗島主利用，以復活作為交換條件，成為他的使者。她建立了水晶議會，並召集多位忍者宿敵，組成新的反派聯盟。\r\n在最終決戰中，晴美終於得知真正害死她父母的幕後黑手其實正是黑暗島主。明白真相後，她選擇背叛對方，轉而站在忍者這一邊，一同對抗黑暗勢力。\r\n戰後，晴美與勞埃德逐漸和解，也參與了旋風忍術修道院的重建工作。\r\n晴美是 NIAJAGO 中極具爭議卻也極具魅力的角色之一，她既是反派，也是被傷痛扭曲後試圖找回自己的悲劇人物。",
+    "vote_count": 1
+  }
+},
+{
+  "model": "mainsite.character",
+  "pk": 11,
+  "fields": {
+    "name": "雷 Ray",
+    "gender": "M",
+    "affiliation": "四武器鐵匠鋪、元素聯盟、反抗軍",
+    "homeland": "忍者國（Ninjago）",
+    "occupation": "鐵匠",
+    "element": "火",
+    "first_appearance": "《Ninjago: Masters of Spinjitzu》試播集第一集",
+    "description": "雷（Ray）是前任「火之元素大師」，也是吳大師的摯友、瑪雅的丈夫，以及赤地與赤蘭的父親。他曾在蛇族戰爭中與元素聯盟並肩作戰。",
+    "vote_count": 0
+  }
+},
+{
+  "model": "mainsite.character",
+  "pk": 12,
+  "fields": {
+    "name": "瑪雅 Maya",
+    "gender": "F",
+    "affiliation": "四武器鐵匠鋪、元素聯盟、反抗軍",
+    "homeland": "忍者國（Ninjago）",
+    "occupation": "忍者、鐵匠",
+    "element": "水",
+    "first_appearance": "《Ninjago: Masters of Spinjitzu》試播集第一集",
+    "description": "瑪雅（Maya）是前任「水之元素大師」，亦曾為忍者。她是雷的妻子、赤地與赤蘭的母親，而赤蘭繼承了她的能力。瑪雅曾與元素聯盟及其丈夫一同參與蛇族戰爭。",
+    "vote_count": 0
+  }
+},
+{
+  "model": "mainsite.character",
+  "pk": 13,
+  "fields": {
+    "name": "莉莉 Lilly",
+    "gender": "F",
+    "affiliation": "元素大師",
+    "homeland": "忍者國（Ninjago）",
+    "occupation": "忍者",
+    "element": "土",
+    "first_appearance": "《NINJAGO: Masters of Spinjitzu》第十三季第2集",
+    "description": "莉莉是前任土之元素大師 Benton 之女，在蛇族戰爭後繼承其力量。她曾於旋風忍術道場隨吳大師修行，學會旋風忍術並達成「真實潛能」，亦曾保護村莊、對抗敵人，並領悟力量在接近大地時最為強大。\r\n\r\n她曾前往辛太朗山，習得「旋風爆擊術」，並擊敗威脅礦洞的「災難之龍」，同時將重要遺物留給地下族群。她亦參與過「來源大賽」。\r\n\r\n之後，莉莉與盧成婚，育有一子阿剛，並將土之力量傳承於他。她在家庭中溫柔而堅定，教導阿剛要對抗不公與邪惡。\r\n\r\n晚年時莉莉因病去世，這也使阿剛與父親之間產生隔閡。",
+    "vote_count": 0
+  }
+},
+{
+  "model": "mainsite.character",
+  "pk": 14,
+  "fields": {
+    "name": "辛德 Cinder",
+    "gender": "M",
+    "affiliation": "元素大師、狼族",
+    "homeland": "忍者國（Ninjago）",
+    "occupation": "狼族將軍",
+    "element": "煙霧",
+    "first_appearance": "《Ninjago: Dragons Rising》第二季第1集",
+    "description": "辛德（Cinder）是現任的「煙霧元素大師」，亦是艾許（Ash）的親族之一，並曾是拉斯領主的學生。他曾擔任重組後狼族的將軍之一，參與過「來源大賽」，最終被囚禁於寺廟城。",
+    "vote_count": 1
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 1,
+  "fields": {
+    "character": 1,
+    "image": "characters/kai1_4fG1CUX.jpg",
+    "sort_order": 1
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 2,
+  "fields": {
+    "character": 1,
+    "image": "characters/kai2_uPH8DNh.jpg",
+    "sort_order": 2
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 3,
+  "fields": {
+    "character": 1,
+    "image": "characters/kai3_aadEgAU.jpg",
+    "sort_order": 3
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 4,
+  "fields": {
+    "character": 2,
+    "image": "characters/jay1_A6eo4w7.jpg",
+    "sort_order": 1
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 5,
+  "fields": {
+    "character": 2,
+    "image": "characters/jay2_dUOsKCt.jpg",
+    "sort_order": 2
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 6,
+  "fields": {
+    "character": 2,
+    "image": "characters/jay3_6IaBva1.jpg",
+    "sort_order": 3
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 7,
+  "fields": {
+    "character": 3,
+    "image": "characters/pixal1_VNKGd1S.jpg",
+    "sort_order": 1
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 8,
+  "fields": {
+    "character": 3,
+    "image": "characters/pixal2_7xdRttK.jpg",
+    "sort_order": 2
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 9,
+  "fields": {
+    "character": 3,
+    "image": "characters/pixal3_B5fKXmj.jpg",
+    "sort_order": 3
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 10,
+  "fields": {
+    "character": 4,
+    "image": "characters/nokt1_Atl8rFJ.jpg",
+    "sort_order": 1
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 11,
+  "fields": {
+    "character": 4,
+    "image": "characters/nokt2_OrzJ9rE.jpg",
+    "sort_order": 2
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 12,
+  "fields": {
+    "character": 4,
+    "image": "characters/nokt3_O91Siix.jpg",
+    "sort_order": 3
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 13,
+  "fields": {
+    "character": 5,
+    "image": "characters/rapton1.jpg",
+    "sort_order": 1
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 14,
+  "fields": {
+    "character": 5,
+    "image": "characters/rapton2.jpg",
+    "sort_order": 2
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 15,
+  "fields": {
+    "character": 5,
+    "image": "characters/rapton3.jpg",
+    "sort_order": 3
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 16,
+  "fields": {
+    "character": 6,
+    "image": "characters/cole1.jpg",
+    "sort_order": 1
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 17,
+  "fields": {
+    "character": 6,
+    "image": "characters/cole2.jpg",
+    "sort_order": 2
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 18,
+  "fields": {
+    "character": 6,
+    "image": "characters/cole3.jpg",
+    "sort_order": 3
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 19,
+  "fields": {
+    "character": 7,
+    "image": "characters/zane1.jpg",
+    "sort_order": 1
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 20,
+  "fields": {
+    "character": 7,
+    "image": "characters/zane2.jpg",
+    "sort_order": 2
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 21,
+  "fields": {
+    "character": 7,
+    "image": "characters/zane3.jpg",
+    "sort_order": 3
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 22,
+  "fields": {
+    "character": 8,
+    "image": "characters/lloyd1.jpg",
+    "sort_order": 1
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 23,
+  "fields": {
+    "character": 8,
+    "image": "characters/lloyd2.jpg",
+    "sort_order": 2
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 24,
+  "fields": {
+    "character": 8,
+    "image": "characters/lloyd3.jpg",
+    "sort_order": 3
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 25,
+  "fields": {
+    "character": 9,
+    "image": "characters/nya1.jpg",
+    "sort_order": 1
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 26,
+  "fields": {
+    "character": 9,
+    "image": "characters/nya2.jpg",
+    "sort_order": 2
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 27,
+  "fields": {
+    "character": 9,
+    "image": "characters/nya3.jpg",
+    "sort_order": 3
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 28,
+  "fields": {
+    "character": 10,
+    "image": "characters/harumi1.jpg",
+    "sort_order": 1
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 29,
+  "fields": {
+    "character": 10,
+    "image": "characters/harumi2.jpg",
+    "sort_order": 2
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 30,
+  "fields": {
+    "character": 10,
+    "image": "characters/harumi3.jpg",
+    "sort_order": 3
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 31,
+  "fields": {
+    "character": 11,
+    "image": "characters/ray1.jpg",
+    "sort_order": 1
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 32,
+  "fields": {
+    "character": 11,
+    "image": "characters/ray2.jpg",
+    "sort_order": 2
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 33,
+  "fields": {
+    "character": 11,
+    "image": "characters/ray3.jpg",
+    "sort_order": 3
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 34,
+  "fields": {
+    "character": 12,
+    "image": "characters/maya1.jpg",
+    "sort_order": 1
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 35,
+  "fields": {
+    "character": 12,
+    "image": "characters/maya2.jpg",
+    "sort_order": 2
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 36,
+  "fields": {
+    "character": 12,
+    "image": "characters/maya3.jpg",
+    "sort_order": 3
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 37,
+  "fields": {
+    "character": 13,
+    "image": "characters/lily1.jpg",
+    "sort_order": 1
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 38,
+  "fields": {
+    "character": 13,
+    "image": "characters/lily2.jpg",
+    "sort_order": 2
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 39,
+  "fields": {
+    "character": 13,
+    "image": "characters/lily3.jpg",
+    "sort_order": 3
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 40,
+  "fields": {
+    "character": 14,
+    "image": "characters/cinder1.jpg",
+    "sort_order": 1
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 41,
+  "fields": {
+    "character": 14,
+    "image": "characters/cinder2.jpg",
+    "sort_order": 2
+  }
+},
+{
+  "model": "mainsite.characterimage",
+  "pk": 42,
+  "fields": {
+    "character": 14,
+    "image": "characters/cinder3.jpg",
+    "sort_order": 3
+  }
+},
+{
+  "model": "mainsite.elementsource",
+  "pk": 1,
+  "fields": {
+    "name": "動態",
+    "code": "motion",
+    "description": "從地球的自轉，到你體內的血液流動，宇宙永遠處於運動之中。",
+    "sort_order": 1
+  }
+},
+{
+  "model": "mainsite.elementsource",
+  "pk": 2,
+  "fields": {
+    "name": "能量",
+    "code": "energy",
+    "description": "無論是啟動反應的火花，或是爆炸性的結果，能量驅動著存在。",
+    "sort_order": 2
+  }
+},
+{
+  "model": "mainsite.elementsource",
+  "pk": 3,
+  "fields": {
+    "name": "力量",
+    "code": "strength",
+    "description": "如岩石抵禦洶湧浪濤，或長劍粉碎盾牌，力量能抵抗或壓制對立的力量。",
+    "sort_order": 3
+  }
+},
+{
+  "model": "mainsite.elementsource",
+  "pk": 4,
+  "fields": {
+    "name": "生命",
+    "code": "life",
+    "description": "宇宙的心跳，生命不只是生存的方式，更是求生的意志。",
+    "sort_order": 4
+  }
+},
+{
+  "model": "mainsite.elementsource",
+  "pk": 5,
+  "fields": {
+    "name": "流動",
+    "code": "flow",
+    "description": "流動是對靜止的反抗，是拒絕僵化。永遠改變，永遠適應。",
+    "sort_order": 5
+  }
+},
+{
+  "model": "mainsite.elementsource",
+  "pk": 6,
+  "fields": {
+    "name": "專注",
+    "code": "focus",
+    "description": "靜止帶來清晰，學習揭示知識。專注引向理解——若無專注而行，只會招致混亂。",
+    "sort_order": 6
+  }
+},
+{
+  "model": "mainsite.elementsource",
+  "pk": 7,
+  "fields": {
+    "name": "平衡",
+    "code": "balance",
+    "description": "每個動作都有反應，每個問題都有答案。平衡使部分加總大於整體。",
+    "sort_order": 7
+  }
+},
+{
+  "model": "mainsite.elementpower",
+  "pk": 1,
+  "fields": {
+    "source": 1,
+    "name": "火",
+    "code": "element-fire",
+    "description": "篝火的舞蹈，火焰的舔舐。燃燒越烈，蔓延越快。",
+    "current_holder": 1,
+    "current_holder_name": "",
+    "sort_order": 0
+  }
+},
+{
+  "model": "mainsite.elementpower",
+  "pk": 2,
+  "fields": {
+    "source": 2,
+    "name": "閃電",
+    "code": "element-lightning",
+    "description": "兩點之間的放電，有時是天地之間力量的展現。",
+    "current_holder": 2,
+    "current_holder_name": "",
+    "sort_order": 0
+  }
+},
+{
+  "model": "mainsite.elementpower",
+  "pk": 3,
+  "fields": {
+    "source": 3,
+    "name": "土",
+    "code": "element-earth",
+    "description": "我們腳下的堅實大地，高聳入雲的山岳挑戰蒼穹。",
+    "current_holder": 6,
+    "current_holder_name": "",
+    "sort_order": 0
+  }
+},
+{
+  "model": "mainsite.elementpower",
+  "pk": 4,
+  "fields": {
+    "source": 4,
+    "name": "生命",
+    "code": "element-life",
+    "description": "真正的力量不在於孤立，而在於連結。這正是生命之力的核心之道。",
+    "current_holder": 8,
+    "current_holder_name": "",
+    "sort_order": 0
+  }
+},
+{
+  "model": "mainsite.elementpower",
+  "pk": 5,
+  "fields": {
+    "source": 5,
+    "name": "水",
+    "code": "element-water",
+    "description": "河流的奔騰，水窪的蔓延。水能千變萬化，改變形狀以容納任何器皿。",
+    "current_holder": 9,
+    "current_holder_name": "",
+    "sort_order": 0
+  }
+},
+{
+  "model": "mainsite.elementpower",
+  "pk": 6,
+  "fields": {
+    "source": 6,
+    "name": "冰",
+    "code": "element-ice",
+    "description": "靜止而清澈，帶來停滯的力量。能凍結片刻，也能凝結成銳利之形。",
+    "current_holder": 7,
+    "current_holder_name": "",
+    "sort_order": 0
+  }
+},
+{
+  "model": "mainsite.elementpower",
+  "pk": 7,
+  "fields": {
+    "source": 5,
+    "name": "煙霧",
+    "code": "element-smoke",
+    "description": "煙升起並擴散，難以控制，更難以束縛。",
+    "current_holder": 14,
+    "current_holder_name": "",
+    "sort_order": 0
+  }
+},
+{
+  "model": "mainsite.elementholderhistory",
+  "pk": 1,
+  "fields": {
+    "element": 1,
+    "character": 1,
+    "holder_name": "",
+    "start_label": "",
+    "end_label": "",
+    "is_current": true,
+    "note": "",
+    "sort_order": 1
+  }
+},
+{
+  "model": "mainsite.elementholderhistory",
+  "pk": 2,
+  "fields": {
+    "element": 1,
+    "character": 11,
+    "holder_name": "",
+    "start_label": "",
+    "end_label": "",
+    "is_current": false,
+    "note": "",
+    "sort_order": 2
+  }
+},
+{
+  "model": "mainsite.elementholderhistory",
+  "pk": 3,
+  "fields": {
+    "element": 2,
+    "character": 2,
+    "holder_name": "",
+    "start_label": "",
+    "end_label": "",
+    "is_current": true,
+    "note": "",
+    "sort_order": 1
+  }
+},
+{
+  "model": "mainsite.elementholderhistory",
+  "pk": 4,
+  "fields": {
+    "element": 3,
+    "character": 6,
+    "holder_name": "",
+    "start_label": "",
+    "end_label": "",
+    "is_current": true,
+    "note": "",
+    "sort_order": 1
+  }
+},
+{
+  "model": "mainsite.elementholderhistory",
+  "pk": 5,
+  "fields": {
+    "element": 3,
+    "character": 13,
+    "holder_name": "",
+    "start_label": "",
+    "end_label": "",
+    "is_current": false,
+    "note": "",
+    "sort_order": 2
+  }
+},
+{
+  "model": "mainsite.elementholderhistory",
+  "pk": 6,
+  "fields": {
+    "element": 3,
+    "character": null,
+    "holder_name": "Benton",
+    "start_label": "",
+    "end_label": "",
+    "is_current": false,
+    "note": "",
+    "sort_order": 3
+  }
+},
+{
+  "model": "mainsite.elementholderhistory",
+  "pk": 7,
+  "fields": {
+    "element": 4,
+    "character": 8,
+    "holder_name": "",
+    "start_label": "",
+    "end_label": "",
+    "is_current": true,
+    "note": "",
+    "sort_order": 1
+  }
+},
+{
+  "model": "mainsite.elementholderhistory",
+  "pk": 8,
+  "fields": {
+    "element": 5,
+    "character": 9,
+    "holder_name": "",
+    "start_label": "",
+    "end_label": "",
+    "is_current": true,
+    "note": "",
+    "sort_order": 1
+  }
+},
+{
+  "model": "mainsite.elementholderhistory",
+  "pk": 9,
+  "fields": {
+    "element": 5,
+    "character": 12,
+    "holder_name": "",
+    "start_label": "",
+    "end_label": "",
+    "is_current": false,
+    "note": "",
+    "sort_order": 2
+  }
+},
+{
+  "model": "mainsite.elementholderhistory",
+  "pk": 10,
+  "fields": {
+    "element": 7,
+    "character": 14,
+    "holder_name": "",
+    "start_label": "",
+    "end_label": "",
+    "is_current": true,
+    "note": "",
+    "sort_order": 1
+  }
+},
+{
+  "model": "mainsite.elementholderhistory",
+  "pk": 11,
+  "fields": {
+    "element": 7,
+    "character": null,
+    "holder_name": "艾許 Ash",
+    "start_label": "",
+    "end_label": "",
+    "is_current": false,
+    "note": "",
+    "sort_order": 2
+  }
+},
+{
+  "model": "mainsite.elementholderhistory",
+  "pk": 12,
+  "fields": {
+    "element": 6,
+    "character": 7,
+    "holder_name": "",
+    "start_label": "",
+    "end_label": "",
+    "is_current": true,
+    "note": "",
+    "sort_order": 1
+  }
+},
+{
+  "model": "mainsite.worldlocation",
+  "pk": 1,
+  "fields": {
+    "name_zh": "雲朵王國",
+    "name_en": "Cloud Kingdom",
+    "category": "kingdom_land",
+    "short_description": "與命運的作者和多重 Realm 設定相關的天空國度。",
+    "long_description": "在融合（Merge）之前是眾多領域之一，如今已成為融合之境（Merged Lands）的一部分。此地由命運的作者（Writers of Destiny）所居住。在融合之前，人們可以透過「盲者之眼」、使用國度水晶（Realm Crystal），或在居民允許的情況下，從忍者國（Ninjago）進入雲朵王國。",
+    "image": "world/9a0d1424e5f3efb84fff1e4044752816.jpg",
+    "image_description": "",
+    "sort_order": 0,
+    "is_published": true,
+    "created_at": "2026-05-19T13:14:28.366Z",
+    "updated_at": "2026-05-19T13:14:28.366Z"
+  }
+},
+{
+  "model": "mainsite.worldlocation",
+  "pk": 2,
+  "fields": {
+    "name_zh": "地下世界",
+    "name_en": "Underworld",
+    "category": "realm",
+    "short_description": "充滿黑暗氣息的死亡領域，曾是骷髏軍團與綠骨戰士的歸宿。",
+    "long_description": "地下世界是《樂高旋風忍者》世界觀中的重要異界之一。在「融合事件」發生前，它原本是十六個領域之一，也是骷髏軍團（Skulkin）、綠骨戰士與其他黑暗生物的棲息地。此地被描述為戰敗或蒙羞戰士死後停留的歸宿，也曾作為部分生物的囚禁之地。融合事件後，地下世界被併入融合之地，生者只能透過位於神秘國度中不斷移動的通道進入。地下世界景觀陰暗詭譎，漂浮的陸地由木橋連接，火把照亮道路，也保留著伽瑪當魔王的黑暗堡壘等代表性地點。",
+    "image": "world/Underworld_info_box_image.jpg",
+    "image_description": "",
+    "sort_order": 0,
+    "is_published": true,
+    "created_at": "2026-05-19T13:24:53.465Z",
+    "updated_at": "2026-05-19T13:24:53.465Z"
+  }
+},
+{
+  "model": "mainsite.worldlocation",
+  "pk": 3,
+  "fields": {
+    "name_zh": "忍者城",
+    "name_en": "Ninjago City",
+    "category": "city_settlement",
+    "short_description": "是 Ninjago 的首都與最大都會區，也是忍者們多次守護、重建與決戰的核心城市。",
+    "long_description": "Ninjago City 是《樂高旋風忍者》世界觀中的首都與主要都會區，位於沙之海附近，後期設定中也靠近無盡之海海岸。這座城市是 Ninjago 最繁華、最具代表性的都市之一，擁有博物館、音樂廳、城市廣場、NGTV 大樓、德瑞道場與龐大的地下鐵網絡等設施。它曾在與黑暗島主的最終決戰後遭到嚴重破壞，之後由賽勒斯・博格主導重建，短暫成為高度數位化與科技化的 New Ninjago City；後來則回到科技與生活環境較平衡的城市樣貌。隨著故事推進，Ninjago City 多次成為蛇族、石頭軍團、數位黑暗島主、伽瑪當之子、與海怪沃吉拉等威脅攻擊的目標，也經歷過淹水、結晶化與融合事件。融合事件後，城市本身仍然存在，周邊新形成的 Crossroads 也成為融合之境的重要都會區之一，使 Ninjago City 不只是忍者們守護的城市，更是整個世界觀中連結市民生活、科技發展與大型戰役的核心舞台。",
+    "image": "world/Ninjagocity5.jpg",
+    "image_description": "",
+    "sort_order": 0,
+    "is_published": true,
+    "created_at": "2026-05-19T13:37:45.057Z",
+    "updated_at": "2026-05-19T13:38:24.893Z"
+  }
+},
+{
+  "model": "mainsite.worldlocation",
+  "pk": 4,
+  "fields": {
+    "name_zh": "帝權王國城",
+    "name_en": "City of Imperium",
+    "category": "city_settlement",
+    "short_description": "Imperium 領域中的高科技城邦，曾依靠龍之能量繁榮發展，後因 Beatrix 的壓迫統治與獵龍體制成為忍者的重要敵對城市。",
+    "long_description": "這座城市是高度發展的科技城邦，曾長期依靠龍自願分享的能量維持繁榮。早期的 Imperium 由 Levo 皇帝統治，並曾是人類與龍和平共存的文明；但 Ras 操弄 Beatrix 篡位後，城市逐漸轉變為以控制、宣傳與軍事力量維持秩序的壓迫體制。Beatrix 統治期間，Imperium 追捕龍族、抽取龍之能量，並企圖利用來源龍力量征服融合之境。後來在忍者與 Imperium 青少年反抗軍的行動下，人民得知真相並發起反抗，Beatrix 失勢後，城市開始轉型為民主社會，也一度被稱為 New Imperium。",
+    "image": "world/Kingdom_of_Imperium.jpg",
+    "image_description": "",
+    "sort_order": 0,
+    "is_published": true,
+    "created_at": "2026-05-19T13:48:02.868Z",
+    "updated_at": "2026-05-19T13:48:02.868Z"
+  }
+},
+{
+  "model": "mainsite.worldlocation",
+  "pk": 5,
+  "fields": {
+    "name_zh": "虛無之境",
+    "name_en": "Never-Realm",
+    "category": "realm",
+    "short_description": "融合之地中的極寒領域，曾是冰皇帝統治的遙遠雪國。",
+    "long_description": "位於極寒地帶的遙遠領域，後來在融合事件後併入融合之境。這裡被認為是最遠離 Ninjago 的領域，環境嚴寒、交通困難，充滿冰雪荒原、凍結湖泊、山地與孤立村落。當 Zane 被送到此地並遭 Vex 操控後，他成為冰皇帝，讓這片土地陷入長久寒冬，並以暴雪武士與冰龍 Boreal 維持統治。Never-Realm 內有冰之城堡、大湖、冰洞、變形族村落與雪怪洞穴等重要地點，也生活著人類、變形族、雪怪、狼等生物。這個領域的核心特色是寒冷、孤立、生存危機與反抗壓迫。",
+    "image": "world/dwdwdwdwdwdwdwd.jpg",
+    "image_description": "",
+    "sort_order": 0,
+    "is_published": true,
+    "created_at": "2026-05-19T13:52:33.218Z",
+    "updated_at": "2026-05-19T13:52:33.218Z"
+  }
+},
+{
+  "model": "mainsite.worldlocation",
+  "pk": 6,
+  "fields": {
+    "name_zh": "光明神殿",
+    "name_en": "Temple of Light",
+    "category": "landmark",
+    "short_description": "黑暗之島上的光明聖殿，象徵元素力量覺醒與對抗黑暗島主的希望。",
+    "long_description": "位於黑暗之島的古老聖殿，由第一代旋風忍術大師建造，曾作為他對抗黑暗島主與石頭軍團時的藏身處。聖殿隱藏在高山之上，需以特殊徽章才能揭露入口，內部充滿與忍者歷史相關的壁畫，並設有和平之鐘、元素符號與引導光芒的水晶。故事中，忍者們在此獲得元素力量，Lloyd 也透過和平之鐘覺醒黃金龍之力，使聖殿成為光明、元素傳承與最終決戰準備的重要地點。後續故事中，聖殿也曾面臨黑暗物質侵蝕，但仍代表著能對抗黑暗、維持 Ninjago 平衡的核心光明力量。",
+    "image": "world/ToL1.jpg",
+    "image_description": "",
+    "sort_order": 0,
+    "is_published": true,
+    "created_at": "2026-05-19T13:56:54.249Z",
+    "updated_at": "2026-05-19T13:56:54.249Z"
+  }
+},
+{
+  "model": "mainsite.worldlocation",
+  "pk": 7,
+  "fields": {
+    "name_zh": "陳大師之島",
+    "name_en": "Chen's Island",
+    "category": "island",
+    "short_description": "位於 Ninjago 西岸外海的神秘島嶼，曾是陳大師的私人據點與元素擂台賽的舉辦地。",
+    "long_description": "位於 Ninjago 西岸外海。蛇族戰爭後，陳大師與弟子 Clouse 被放逐到此，Clouse 以黑魔法遮蔽整座島嶼，使它成為外界難以進入、也難以離開的秘密據點。陳大師在島上建立紫邪蛇族崇拜者軍團與犯罪帝國，並暗中經營麵店勢力。多年後，他以元素擂台賽為名邀請各地元素大師來到島上，實際上是為了分化元素大師、奪取力量並推動自己的陰謀。島上包含陳大師宮殿、地下隧道、麵條工廠、水晶洞穴、Anacondrai 神殿，以及樹、岩石、熔岩與大型競技場等多個戰鬥場地，是權謀、試煉與元素力量衝突的核心舞台。",
+    "image": "world/u-NWN-i8_Mlplha94v51frIXT6lMQ6k0Jj_7y7DnXHxOxusLZX7.jpg",
+    "image_description": "",
+    "sort_order": 0,
+    "is_published": true,
+    "created_at": "2026-05-19T14:01:24.519Z",
+    "updated_at": "2026-05-19T14:01:24.519Z"
+  }
+},
+{
+  "model": "mainsite.worldlocation",
+  "pk": 8,
+  "fields": {
+    "name_zh": "辛太朗地下城",
+    "name_en": "Dungeons of Shintaro",
+    "category": "city_settlement",
+    "short_description": "辛太朗山下的危險地下城，曾是骷髏巫師控制礦坑與地下族群的黑暗據點。",
+    "long_description": "位於辛太朗山內部的地下洞窟與迷宮，由邪惡巫師 Hazza D’ur 建造。這座地下城被描述為藏有財寶、危險生物、陷阱與邪惡神器的古老地底世界，內部包含骷髏要塞、復仇石礦坑、山之心、Geckle 洞穴、Munce 洞穴與 Rock-Bottom 等區域。過去 Hazza D’ur 曾以黑暗力量統治此地；後來 Vangelis 國王取得其骷髏，化身骷髏巫師，復活骷髏軍團並迫使 Munce 與 Geckles 在礦坑中工作。阿剛、吳大師、范妮雅公主與忍者們在此揭露骷髏巫師的真相，阿剛也在地下城深處覺醒旋風爆擊術，摧毀 Hazza D’ur 的骷髏，終結地下城的黑暗統治。",
+    "image": "world/hjiyh8iyhiyhiyuiMQ6k0Jj_7y7DnXHxOxusLZX7.jpg",
+    "image_description": "",
+    "sort_order": 0,
+    "is_published": true,
+    "created_at": "2026-05-19T14:06:30.842Z",
+    "updated_at": "2026-05-19T14:06:30.842Z"
+  }
+},
+{
+  "model": "mainsite.worldlocation",
+  "pk": 9,
+  "fields": {
+    "name_zh": "旋風忍術修道院",
+    "name_en": "Monastery of Spinjitzu",
+    "category": "landmark",
+    "short_description": "高山上的忍者總部，承載旋風忍術傳承與忍者修行歷史。",
+    "long_description": "Monastery of Spinjitzu 是《樂高旋風忍者》中最具代表性的修行地點之一，建於 Ninjago 南方不可攀高山的最高處。它最初是第一代旋風忍術大師與其子吳大師、伽瑪當的住所，也見證了伽瑪當被大吞噬者毒液腐化、兄弟爭奪黃金武器，以及伽瑪當被放逐至地下世界等重要事件。後來，吳大師在此訓練赤地、阿剛、阿光、冰忍等忍者，使寺院成為忍者團隊早期的總部。寺院曾被 Hypnobrai 燒毀，也在後續戰役中多次受損與重建；即使如此，它仍持續作為忍者們修行、休息、集結與守護 Ninjago 的精神象徵。",
+    "image": "world/MoS2Mon1.jpg",
+    "image_description": "",
+    "sort_order": 0,
+    "is_published": true,
+    "created_at": "2026-05-19T14:11:31.836Z",
+    "updated_at": "2026-05-19T14:11:31.837Z"
+  }
+},
+{
+  "model": "mainsite.worldlocation",
+  "pk": 10,
+  "fields": {
+    "name_zh": "寺廟城",
+    "name_en": "City of Temples",
+    "category": "city_settlement",
+    "short_description": "由 Fengxian 家族管理的復古未來風神殿都市，也是元素大師參加來源大賽的重要舞台。",
+    "long_description": "City of Temples 是《樂高旋風忍者：猛龍崛起》中的重要城市，建立在山頂並鄰近 Dragon Stone Shrine，由崇敬 Source Dragons 的 Fengxian 家族管理。這座城市曾透過古老祝福在不同領域間移動，並在每次輪轉後邀請當地的元素大師參加 Tournament of the Sources；融合事件後，它停止跨領域移動，固定位於 Ninjago。城市本身具有復古未來風格，並由機器人守衛保護，內部包含 Games Plaza、Foundation Street、Temple City Museum、Temple of Tournaments、Tournament quarters、Vault of Focus 等重要地點。故事中，忍者與多位元素大師在此參與大賽，也揭露 Bleckt 操縱比賽、Wolf Clan 介入，以及 Nokt、Rox 等黑暗勢力的陰謀，使這座城市成為元素力量、Source Dragon 信仰、競技規則與背叛衝突交會的核心舞台。",
+    "image": "world/DR47City.jpg",
+    "image_description": "",
+    "sort_order": 0,
+    "is_published": true,
+    "created_at": "2026-05-19T14:15:59.049Z",
+    "updated_at": "2026-05-19T14:15:59.049Z"
+  }
+},
+{
+  "model": "mainsite.worldlocation",
+  "pk": 11,
+  "fields": {
+    "name_zh": "守護者之島",
+    "name_en": "Island of the Keepers",
+    "category": "island",
+    "short_description": "是無盡之海中的隱藏島嶼，由守護者族群看守風暴護身符，並以暴風、叢林與古老傳說保護自身。",
+    "long_description": "位於無盡之海南部海岸，因受到暴風帶保護而長期隱藏於外界視線之外。這座島嶼居住著守護者、叢林龍、石頭守衛與多種野生動物，地形包含險峻海岸、尖牙狀礁石、火山、瀑布、密林、吊橋與高聳雪山。古代時期，島民曾協助第一代旋風忍術大師對抗 Wojira，後來也負責守護風暴護身符。故事中，忍者們為尋找失蹤的探險隊而登上此島，並發現守護者因被 Ronin 欺騙而誤信「Wojira」需要祭品。之後在《Seabound》中，Nya 等人再次前往島上，試圖在 Kalmaar 之前取得風暴護身符，使這座島成為連結 Wojira 傳說、護符守護與海洋危機的重要舞台。",
+    "image": "world/4c3953474507cd3616fac597c1c0c861.jpg",
+    "image_description": "",
+    "sort_order": 0,
+    "is_published": true,
+    "created_at": "2026-05-19T14:20:18.729Z",
+    "updated_at": "2026-05-19T14:20:18.729Z"
+  }
+},
+{
+  "model": "mainsite.worldlocation",
+  "pk": 12,
+  "fields": {
+    "name_zh": "瘋狂國度",
+    "name_en": "Land of Madness",
+    "category": "kingdom_land",
+    "short_description": "融合之境東側的黑暗島嶼，因光暗失衡而成為邪惡滋長的瘋狂之地。",
+    "long_description": "充滿黑暗與失衡力量的異界地點，原本是 Realm of Madness，也曾被稱為 Dark Realm。它在融合事件前是獨立領域，融合後則成為融合之地的一座島嶼。此地位於融合之地東側，介於 Ninjago 與 Mysterium 之間，並在 Spectral Lands 北方。Land of Madness 的核心特色是光明與黑暗力量失衡，使邪惡能量容易增長，也使環境呈現扭曲、危險且難以理解的狀態。伽瑪當曾來到此地並受到影響，長出四隻手臂，獲得能同時揮舞四件黃金武器的力量。島上包含 Cragling Village、Mountain of Madness、The Administration、Tree of Madness 等地點，也居住著 Craglings、巨石族人、土龍與其他奇異生物，是融合後世界中象徵混亂、黑暗與異常規則的區域。",
+    "image": "world/616fac597c1c0c861.jpg",
+    "image_description": "",
+    "sort_order": 0,
+    "is_published": true,
+    "created_at": "2026-05-19T14:35:24.434Z",
+    "updated_at": "2026-05-19T14:35:24.434Z"
+  }
+}
 ]
