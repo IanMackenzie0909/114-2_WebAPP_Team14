@@ -81,6 +81,36 @@ To force the initial content to load again, temporarily change `DJANGO_SEED_INIT
 docker compose run --rm -e DJANGO_SEED_INITIAL_CONTENT=1 web python manage.py seed_initial_content
 ```
 
+## Windows One-Click Scripts
+
+After the image exists locally as `ninweb:test`, Windows users can start the
+site by double-clicking:
+
+```text
+start_ninweb.bat
+```
+
+This starts the container on `http://localhost:8001/` and opens the browser.
+
+To start the site and create a temporary admin account, double-click:
+
+```text
+start_ninweb_admin.bat
+```
+
+The script asks for the admin username, email, and password, then opens:
+
+```text
+http://localhost:8001/admin/
+```
+
+Both scripts stop and replace any existing `ninweb-test` container before
+starting a new one. Stop the running container with:
+
+```powershell
+docker stop ninweb-test
+```
+
 ## Test the Image From an Empty Folder
 
 Use this flow to verify that the Docker image can run by itself, without
