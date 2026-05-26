@@ -1,0 +1,4828 @@
+{
+  "schema_version": 1,
+  "description": "Ninjago timeline events generated from Markdown source files.",
+  "sources": [
+    {
+      "file": "data/sources/timeline/BeforeNinjaEra.md",
+      "event_count": 32
+    },
+    {
+      "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+      "event_count": 59
+    },
+    {
+      "file": "data/sources/timeline/NINJAGODragonsRising.md",
+      "event_count": 24
+    }
+  ],
+  "event_count": 115,
+  "events": [
+    {
+      "id": "before-ninja-era-001",
+      "order": 1,
+      "source_order": 1,
+      "era": "Before the Ninja Era",
+      "section": "在時間的概念剛出現之際",
+      "subsection": "",
+      "title": "在時間的概念剛出現之際",
+      "path": [
+        "Before the Ninja Era",
+        "在時間的概念剛出現之際"
+      ],
+      "depth": 2,
+      "summary": "以太分界（Ethereal Divide）存在於所有領域創造之前。 七條「來源龍」（Source Dragons）不知以何種方式誕生，並由牠們孕育出「元素之力」。",
+      "details": [
+        "以太分界（Ethereal Divide）存在於所有領域創造之前。",
+        "七條「來源龍」（Source Dragons）不知以何種方式誕生，並由牠們孕育出「元素之力」。",
+        "第一領域（鬼怪與龍之領域）形成。",
+        "其他領域相繼出現：忍者國（Ninjago）、冥界（Underworld）、瘋狂國度、詛咒之境、雲朵王國、荒野領域、精靈國（Djinjago）、亡者國度、虛無之境（Never-Realm）、帝權王國（Imperium）、小李之境、神秘國度（Mysterium）、怪物之境，以及三個未知領域。",
+        "第一旋風忍術大師（First Spinjitzu Master）之後創造其中四個領域。",
+        "詛咒之境與精靈國成為姊妹領域。",
+        "命運的作者（Writers of Destiny）在多個領域事件中扮演引導角色（並非完全控制）。",
+        "鬼族與龍族之戰爭爆發。"
+      ],
+      "keywords": [
+        "在時間的概念剛出現之際",
+        "Ethereal Divide",
+        "Source Dragons",
+        "鬼怪與龍之領域",
+        "Ninjago",
+        "Underworld",
+        "Djinjago",
+        "Never-Realm",
+        "Imperium",
+        "Mysterium",
+        "First Spinjitzu Master",
+        "Writers of Destiny",
+        "並非完全控制",
+        "來源龍",
+        "元素之力",
+        "Ethereal",
+        "Divide",
+        "Source",
+        "Dragons",
+        "First",
+        "Spinjitzu",
+        "Master",
+        "Writers",
+        "Destiny"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 3
+      },
+      "search_text": "Before the Ninja Era\n在時間的概念剛出現之際\n以太分界（Ethereal Divide）存在於所有領域創造之前。\n七條「來源龍」（Source Dragons）不知以何種方式誕生，並由牠們孕育出「元素之力」。\n第一領域（鬼怪與龍之領域）形成。\n其他領域相繼出現：忍者國（Ninjago）、冥界（Underworld）、瘋狂國度、詛咒之境、雲朵王國、荒野領域、精靈國（Djinjago）、亡者國度、虛無之境（Never-Realm）、帝權王國（Imperium）、小李之境、神秘國度（Mysterium）、怪物之境，以及三個未知領域。\n第一旋風忍術大師（First Spinjitzu Master）之後創造其中四個領域。\n詛咒之境與精靈國成為姊妹領域。\n命運的作者（Writers of Destiny）在多個領域事件中扮演引導角色（並非完全控制）。\n鬼族與龍族之戰爭爆發。"
+    },
+    {
+      "id": "before-ninja-era-002",
+      "order": 2,
+      "source_order": 2,
+      "era": "Before the Ninja Era",
+      "section": "鬼族與龍族戰爭世紀後",
+      "subsection": "",
+      "title": "鬼族與龍族戰爭世紀後",
+      "path": [
+        "Before the Ninja Era",
+        "鬼族與龍族戰爭世紀後"
+      ],
+      "depth": 2,
+      "summary": "第一旋風忍術大師誕生，他是鬼族與龍的混血。 他與「始祖龍」（Firstbourne）——能吐出所有元素的龍之始祖——打造「龍能盔甲」（Dragon Armor）與「龍骨刃」（Dragonbone Blade）試圖結束戰爭。傳說擁有龍能盔甲者可控制始祖龍。",
+      "details": [
+        "第一旋風忍術大師誕生，他是鬼族與龍的混血。",
+        "他與「始祖龍」（Firstbourne）——能吐出所有元素的龍之始祖——打造「龍能盔甲」（Dragon Armor）與「龍骨刃」（Dragonbone Blade）試圖結束戰爭。傳說擁有龍能盔甲者可控制始祖龍。",
+        "第一旋風忍術大師創造「國度水晶」（Realm Crystal）。",
+        "無法終結戰爭後，他用國度水晶離開鬼族與龍族之領域，將始祖龍留在原地等候他的歸來。"
+      ],
+      "keywords": [
+        "鬼族與龍族戰爭世紀後",
+        "Firstbourne",
+        "Dragon Armor",
+        "Dragonbone Blade",
+        "Realm Crystal",
+        "始祖龍",
+        "龍能盔甲",
+        "龍骨刃",
+        "國度水晶",
+        "Dragon",
+        "Armor",
+        "Dragonbone",
+        "Blade",
+        "Realm",
+        "Crystal"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 13
+      },
+      "search_text": "Before the Ninja Era\n鬼族與龍族戰爭世紀後\n第一旋風忍術大師誕生，他是鬼族與龍的混血。\n他與「始祖龍」（Firstbourne）——能吐出所有元素的龍之始祖——打造「龍能盔甲」（Dragon Armor）與「龍骨刃」（Dragonbone Blade）試圖結束戰爭。傳說擁有龍能盔甲者可控制始祖龍。\n第一旋風忍術大師創造「國度水晶」（Realm Crystal）。\n無法終結戰爭後，他用國度水晶離開鬼族與龍族之領域，將始祖龍留在原地等候他的歸來。"
+    },
+    {
+      "id": "before-ninja-era-003",
+      "order": 3,
+      "source_order": 3,
+      "era": "Before the Ninja Era",
+      "section": "約一萬年前（鬼族入侵前）",
+      "subsection": "",
+      "title": "約一萬年前（鬼族入侵前）",
+      "path": [
+        "Before the Ninja Era",
+        "約一萬年前（鬼族入侵前）"
+      ],
+      "depth": 2,
+      "summary": "Fenwick 與 Quanish 出生於雲朵王國。",
+      "details": [
+        "Fenwick 與 Quanish 出生於雲朵王國。"
+      ],
+      "keywords": [
+        "約一萬年前（鬼族入侵前）",
+        "鬼族入侵前",
+        "Fenwick",
+        "Quanish"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 19
+      },
+      "search_text": "Before the Ninja Era\n約一萬年前（鬼族入侵前）\nFenwick 與 Quanish 出生於雲朵王國。"
+    },
+    {
+      "id": "before-ninja-era-004",
+      "order": 4,
+      "source_order": 4,
+      "era": "Before the Ninja Era",
+      "section": "遠古時代（Pre-Ninjago）",
+      "subsection": "",
+      "title": "遠古時代（Pre-Ninjago）",
+      "path": [
+        "Before the Ninja Era",
+        "遠古時代（Pre-Ninjago）"
+      ],
+      "depth": 2,
+      "summary": "第一旋風忍術大師抵達一個被巨蛇沃吉拉（Wojira）掌控的混亂海洋領域，該蛇擁有海浪與風暴之力。 他與梅洛比安族（Merlopians）及島民聯手作戰，最終水之元素大師赤蘭德（Nyad）犧牲自己與海洋融合，奪走風暴護身符（Storm Amulet）與海浪護身符（Wave Amulet），使Wojira陷入沉睡。",
+      "details": [
+        "第一旋風忍術大師抵達一個被巨蛇沃吉拉（Wojira）掌控的混亂海洋領域，該蛇擁有海浪與風暴之力。",
+        "他與梅洛比安族（Merlopians）及島民聯手作戰，最終水之元素大師赤蘭德（Nyad）犧牲自己與海洋融合，奪走風暴護身符（Storm Amulet）與海浪護身符（Wave Amulet），使Wojira陷入沉睡。",
+        "風暴護身符交給島民、海浪護身符交給梅洛比安族。",
+        "在光明神殿鍛造出四件黃金武器，用以創造忍者國（Ninjago）島嶼。",
+        "Oni追擊至忍者國，在「原始之眼」建造Oni神殿，但Oni成員Mistaké反叛同族。",
+        "Oni戰敗後，三個鬼怪面具（復仇、欺詐、憎恨）由第一旋風忍術大師收起並分別隱藏。"
+      ],
+      "keywords": [
+        "遠古時代（Pre-Ninjago）",
+        "Pre-Ninjago",
+        "Wojira",
+        "Merlopians",
+        "Nyad",
+        "Storm Amulet",
+        "Wave Amulet",
+        "Ninjago",
+        "復仇、欺詐、憎恨",
+        "原始之眼",
+        "Storm",
+        "Amulet",
+        "Wave"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 22
+      },
+      "search_text": "Before the Ninja Era\n遠古時代（Pre-Ninjago）\n第一旋風忍術大師抵達一個被巨蛇沃吉拉（Wojira）掌控的混亂海洋領域，該蛇擁有海浪與風暴之力。\n他與梅洛比安族（Merlopians）及島民聯手作戰，最終水之元素大師赤蘭德（Nyad）犧牲自己與海洋融合，奪走風暴護身符（Storm Amulet）與海浪護身符（Wave Amulet），使Wojira陷入沉睡。\n風暴護身符交給島民、海浪護身符交給梅洛比安族。\n在光明神殿鍛造出四件黃金武器，用以創造忍者國（Ninjago）島嶼。\nOni追擊至忍者國，在「原始之眼」建造Oni神殿，但Oni成員Mistaké反叛同族。\nOni戰敗後，三個鬼怪面具（復仇、欺詐、憎恨）由第一旋風忍術大師收起並分別隱藏。"
+    },
+    {
+      "id": "before-ninja-era-005",
+      "order": 5,
+      "source_order": 5,
+      "era": "Before the Ninja Era",
+      "section": "石頭軍團戰爭",
+      "subsection": "",
+      "title": "石頭軍團戰爭",
+      "path": [
+        "Before the Ninja Era",
+        "石頭軍團戰爭"
+      ],
+      "depth": 2,
+      "summary": "黑暗國度中誕生的「黑暗島主」（Overlord）向第一旋風忍術大師宣戰。 黑暗島主創造石頭軍團與堅毅神殿??，對抗黃金之力。",
+      "details": [
+        "黑暗國度中誕生的「黑暗島主」（Overlord）向第一旋風忍術大師宣戰。",
+        "黑暗島主創造石頭軍團與堅毅神殿??，對抗黃金之力。",
+        "第一旋風忍術大師以黃金巨龍與黃金機甲迎戰，但最終將- 忍者國一分為二（忍者國與黑暗島嶼），黑暗島主被放逐至黑暗島嶼，石頭軍團被封印於未來的忍者城地底。"
+      ],
+      "keywords": [
+        "石頭軍團戰爭",
+        "Overlord",
+        "忍者國與黑暗島嶼",
+        "黑暗島主"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 30
+      },
+      "search_text": "Before the Ninja Era\n石頭軍團戰爭\n黑暗國度中誕生的「黑暗島主」（Overlord）向第一旋風忍術大師宣戰。\n黑暗島主創造石頭軍團與堅毅神殿??，對抗黃金之力。\n第一旋風忍術大師以黃金巨龍與黃金機甲迎戰，但最終將- 忍者國一分為二（忍者國與黑暗島嶼），黑暗島主被放逐至黑暗島嶼，石頭軍團被封印於未來的忍者城地底。"
+    },
+    {
+      "id": "before-ninja-era-006",
+      "order": 6,
+      "source_order": 6,
+      "era": "Before the Ninja Era",
+      "section": "龍能之核的創造（遠古未明年代）",
+      "subsection": "",
+      "title": "龍能之核的創造（遠古未明年代）",
+      "path": [
+        "Before the Ninja Era",
+        "龍能之核的創造（遠古未明年代）"
+      ],
+      "depth": 2,
+      "summary": "第一旋風忍術大師預見一次「聚結災變」（coalescence），遂向源龍取得能量，製造三顆龍能之核以維持各國度平衡。 龍能之核分別藏於母花園、水晶峰、以及荒野，由不同守護者保護。",
+      "details": [
+        "第一旋風忍術大師預見一次「聚結災變」（coalescence），遂向源龍取得能量，製造三顆龍能之核以維持各國度平衡。",
+        "龍能之核分別藏於母花園、水晶峰、以及荒野，由不同守護者保護。"
+      ],
+      "keywords": [
+        "龍能之核的創造（遠古未明年代）",
+        "遠古未明年代",
+        "coalescence",
+        "聚結災變"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 35
+      },
+      "search_text": "Before the Ninja Era\n龍能之核的創造（遠古未明年代）\n第一旋風忍術大師預見一次「聚結災變」（coalescence），遂向源龍取得能量，製造三顆龍能之核以維持各國度平衡。\n龍能之核分別藏於母花園、水晶峰、以及荒野，由不同守護者保護。"
+    },
+    {
+      "id": "before-ninja-era-007",
+      "order": 7,
+      "source_order": 7,
+      "era": "Before the Ninja Era",
+      "section": "時間剛有名號之時",
+      "subsection": "",
+      "title": "時間剛有名號之時",
+      "path": [
+        "Before the Ninja Era",
+        "時間剛有名號之時"
+      ],
+      "depth": 2,
+      "summary": "第一旋風忍術大師在荒野創造蛇族（Serpentine）並遷移至忍者國，與人類共同建立聚落。 在其子誕生前，他將元素之力賜予部分人類，形成第一代元素大師。",
+      "details": [
+        "第一旋風忍術大師在荒野創造蛇族（Serpentine）並遷移至忍者國，與人類共同建立聚落。",
+        "在其子誕生前，他將元素之力賜予部分人類，形成第一代元素大師。",
+        "與蛇族國王Mambo V建立不穩定的和平。"
+      ],
+      "keywords": [
+        "時間剛有名號之時",
+        "Serpentine"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 39
+      },
+      "search_text": "Before the Ninja Era\n時間剛有名號之時\n第一旋風忍術大師在荒野創造蛇族（Serpentine）並遷移至忍者國，與人類共同建立聚落。\n在其子誕生前，他將元素之力賜予部分人類，形成第一代元素大師。\n與蛇族國王Mambo V建立不穩定的和平。"
+    },
+    {
+      "id": "before-ninja-era-008",
+      "order": 8,
+      "source_order": 8,
+      "era": "Before the Ninja Era",
+      "section": "來源大賽",
+      "subsection": "",
+      "title": "來源大賽",
+      "path": [
+        "Before the Ninja Era",
+        "來源大賽"
+      ],
+      "depth": 2,
+      "summary": "首屆比賽由第一遊戲大師Roake舉辦。 混屯猛龍雷牙（Thunderfang）企圖晉升為來源龍失敗後，攻擊寺廟城，被「神主專注龍」擊敗並封印於山中。",
+      "details": [
+        "首屆比賽由第一遊戲大師Roake舉辦。",
+        "混屯猛龍雷牙（Thunderfang）企圖晉升為來源龍失敗後，攻擊寺廟城，被「神主專注龍」擊敗並封印於山中。"
+      ],
+      "keywords": [
+        "來源大賽",
+        "Thunderfang",
+        "神主專注龍"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 44
+      },
+      "search_text": "Before the Ninja Era\n來源大賽\n首屆比賽由第一遊戲大師Roake舉辦。\n混屯猛龍雷牙（Thunderfang）企圖晉升為來源龍失敗後，攻擊寺廟城，被「神主專注龍」擊敗並封印於山中。"
+    },
+    {
+      "id": "before-ninja-era-009",
+      "order": 9,
+      "source_order": 9,
+      "era": "Before the Ninja Era",
+      "section": "第一旋風忍術大師之子時代（約4,000-5,000年前）",
+      "subsection": "",
+      "title": "第一旋風忍術大師之子時代（約4,000-5,000年前）",
+      "path": [
+        "Before the Ninja Era",
+        "第一旋風忍術大師之子時代（約4,000-5,000年前）"
+      ],
+      "depth": 2,
+      "summary": "長子伽瑪當（Garmadon）繼承鬼怪（Oni）的毀滅之力，次子Wu繼承龍的創造之力，象徵平衡。 二人首次成功施展旋風忍術擊退敵人。",
+      "details": [
+        "長子伽瑪當（Garmadon）繼承鬼怪（Oni）的毀滅之力，次子Wu繼承龍的創造之力，象徵平衡。",
+        "二人首次成功施展旋風忍術擊退敵人。",
+        "發現禁忌旋風忍術卷軸（Forbidden Spinjitzu Scrolls）並在對抗阿斯菲拉（Aspheera）時使用，最終將其封印。",
+        "伽瑪當（Garmadon）被幼年大吞噬者（Great Devourer）咬傷，體內開始滋生邪惡之毒。"
+      ],
+      "keywords": [
+        "第一旋風忍術大師之子時代（約4,000-5,000年前）",
+        "約4,000-5,000年前",
+        "Garmadon",
+        "Oni",
+        "Forbidden Spinjitzu Scrolls",
+        "Aspheera",
+        "Great Devourer",
+        "Forbidden",
+        "Spinjitzu",
+        "Scrolls",
+        "Great",
+        "Devourer"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 48
+      },
+      "search_text": "Before the Ninja Era\n第一旋風忍術大師之子時代（約4,000-5,000年前）\n長子伽瑪當（Garmadon）繼承鬼怪（Oni）的毀滅之力，次子Wu繼承龍的創造之力，象徵平衡。\n二人首次成功施展旋風忍術擊退敵人。\n發現禁忌旋風忍術卷軸（Forbidden Spinjitzu Scrolls）並在對抗阿斯菲拉（Aspheera）時使用，最終將其封印。\n伽瑪當（Garmadon）被幼年大吞噬者（Great Devourer）咬傷，體內開始滋生邪惡之毒。"
+    },
+    {
+      "id": "before-ninja-era-010",
+      "order": 10,
+      "source_order": 10,
+      "era": "Before the Ninja Era",
+      "section": "五禁者的興衰",
+      "subsection": "",
+      "title": "五禁者的興衰",
+      "path": [
+        "Before the Ninja Era",
+        "五禁者的興衰"
+      ],
+      "depth": 2,
+      "summary": "來自荒野的五位元素大師墮落成五禁者，創立狼族，意圖征服所有領域。 龍之大師艾格特（Egalt）與朗圖（Rontu）創造「升龍術式」對抗，最終將五人放逐至「虛無之境」（Nether-Space）。",
+      "details": [
+        "來自荒野的五位元素大師墮落成五禁者，創立狼族，意圖征服所有領域。",
+        "龍之大師艾格特（Egalt）與朗圖（Rontu）創造「升龍術式」對抗，最終將五人放逐至「虛無之境」（Nether-Space）。",
+        "狼族後被Lycan King詛咒，荒野陷入荒蕪。"
+      ],
+      "keywords": [
+        "五禁者的興衰",
+        "Egalt",
+        "Rontu",
+        "Nether-Space",
+        "升龍術式",
+        "虛無之境"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 53
+      },
+      "search_text": "Before the Ninja Era\n五禁者的興衰\n來自荒野的五位元素大師墮落成五禁者，創立狼族，意圖征服所有領域。\n龍之大師艾格特（Egalt）與朗圖（Rontu）創造「升龍術式」對抗，最終將五人放逐至「虛無之境」（Nether-Space）。\n狼族後被Lycan King詛咒，荒野陷入荒蕪。"
+    },
+    {
+      "id": "before-ninja-era-011",
+      "order": 11,
+      "source_order": 11,
+      "era": "Before the Ninja Era",
+      "section": "旋風忍術兄弟冒險時代",
+      "subsection": "",
+      "title": "旋風忍術兄弟冒險時代",
+      "path": [
+        "Before the Ninja Era",
+        "旋風忍術兄弟冒險時代"
+      ],
+      "depth": 2,
+      "summary": "貓眼寶珠的詛咒：Wu與Garmadon尋找治療大吞噬者毒素的茶葉，遭遇化身為貓的Nineko與貓面戰士。 塔納布拉克之巢：兄弟倆協助村民擊敗奪魂傀儡師Tanabrax，歸還被奪的靈魂。",
+      "details": [
+        "貓眼寶珠的詛咒：Wu與Garmadon尋找治療大吞噬者毒素的茶葉，遭遇化身為貓的Nineko與貓面戰士。",
+        "塔納布拉克之巢：兄弟倆協助村民擊敗奪魂傀儡師Tanabrax，歸還被奪的靈魂。",
+        "斯芬克斯迷宮：兄弟倆進入金字塔迷宮尋求願望，最終放棄治療Garmadon，選擇拯救同伴Shezada。",
+        "色魔的囚籠（The Chroma’s Clutches）：與畫家Peri合作，用顏色與希望擊敗吞噬絕望的怪物Chroma，解救被困靈魂。"
+      ],
+      "keywords": [
+        "旋風忍術兄弟冒險時代",
+        "The Chroma’s Clutches",
+        "The",
+        "Chroma",
+        "Clutches"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 57
+      },
+      "search_text": "Before the Ninja Era\n旋風忍術兄弟冒險時代\n貓眼寶珠的詛咒：Wu與Garmadon尋找治療大吞噬者毒素的茶葉，遭遇化身為貓的Nineko與貓面戰士。\n塔納布拉克之巢：兄弟倆協助村民擊敗奪魂傀儡師Tanabrax，歸還被奪的靈魂。\n斯芬克斯迷宮：兄弟倆進入金字塔迷宮尋求願望，最終放棄治療Garmadon，選擇拯救同伴Shezada。\n色魔的囚籠（The Chroma’s Clutches）：與畫家Peri合作，用顏色與希望擊敗吞噬絕望的怪物Chroma，解救被困靈魂。"
+    },
+    {
+      "id": "before-ninja-era-012",
+      "order": 12,
+      "source_order": 12,
+      "era": "Before the Ninja Era",
+      "section": "琥珀之創造（不明時期）",
+      "subsection": "",
+      "title": "琥珀之創造（不明時期）",
+      "path": [
+        "Before the Ninja Era",
+        "琥珀之創造（不明時期）"
+      ],
+      "depth": 2,
+      "summary": "Metalonia的鐵匠因嫉妒元素大師，利用來源龍能量之樹的琥珀製造出「時間鋼」（Chronosteel）與「敵意之甕」（Urn of Enmity），創造出琥珀元素。 最終因奪取Wu與Garmadon之力時失誤，被自己困於甕中。",
+      "details": [
+        "Metalonia的鐵匠因嫉妒元素大師，利用來源龍能量之樹的琥珀製造出「時間鋼」（Chronosteel）與「敵意之甕」（Urn of Enmity），創造出琥珀元素。",
+        "最終因奪取Wu與Garmadon之力時失誤，被自己困於甕中。"
+      ],
+      "keywords": [
+        "琥珀之創造（不明時期）",
+        "不明時期",
+        "Chronosteel",
+        "Urn of Enmity",
+        "時間鋼",
+        "敵意之甕",
+        "Urn",
+        "Enmity"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 63
+      },
+      "search_text": "Before the Ninja Era\n琥珀之創造（不明時期）\nMetalonia的鐵匠因嫉妒元素大師，利用來源龍能量之樹的琥珀製造出「時間鋼」（Chronosteel）與「敵意之甕」（Urn of Enmity），創造出琥珀元素。\n最終因奪取Wu與Garmadon之力時失誤，被自己困於甕中。"
+    },
+    {
+      "id": "before-ninja-era-013",
+      "order": 13,
+      "source_order": 13,
+      "era": "Before the Ninja Era",
+      "section": "遠古時期",
+      "subsection": "",
+      "title": "遠古時期",
+      "path": [
+        "Before the Ninja Era",
+        "遠古時期"
+      ],
+      "depth": 2,
+      "summary": "楊大師（Yang）發明龍捲風忍術（Airjitzu），能讓使用者短暫飛行。 楊發現「陰之刃」（Yin Blade），嘗試成為不死之身失敗，反而將自己與學生變成幽靈。",
+      "details": [
+        "楊大師（Yang）發明龍捲風忍術（Airjitzu），能讓使用者短暫飛行。",
+        "楊發現「陰之刃」（Yin Blade），嘗試成為不死之身失敗，反而將自己與學生變成幽靈。",
+        "第一代旋風忍術大師（First Spinjitzu Master）在去世前將一條暗藏訊息刻在手杖上，指引吳（Wu）前往其安葬之地尋找「國度水晶」（Realm Crystal）。",
+        "兄弟（吳與伽瑪當）獲得附有防邪咒語的和服。",
+        "第一代旋風忍術大師死後，召喚長者（Quanish the Elder）到草原，邀請他留下，但被婉拒。",
+        "Quanish預言：大師弟子們將面臨艱難抉擇的戰役。",
+        "骷髏王薩穆卡（Samukai）為防止綠骨戰士掌控冥界，將骨王囚禁於沙之海下的神秘洞窟。",
+        "吳與伽瑪當擊敗薩穆卡。",
+        "建造古城奧洛波羅斯（Ouroboros），供蛇族觀測星象。",
+        "大吞噬者（Great Devourer）長成巨型怪物。蛇族為嚇阻人類、避免黃金大師詛咒，將其釋放。",
+        "大吞噬者被擊敗並封印於奧洛波羅斯城下。",
+        "古代藍妖蛇族（Hypnobrai）滅絕，屍體封入石棺，部分後來被置於歷史博物館。"
+      ],
+      "keywords": [
+        "遠古時期",
+        "Yang",
+        "Airjitzu",
+        "Yin Blade",
+        "First Spinjitzu Master",
+        "Wu",
+        "Realm Crystal",
+        "吳與伽瑪當",
+        "Quanish the Elder",
+        "Samukai",
+        "Ouroboros",
+        "Great Devourer",
+        "Hypnobrai",
+        "陰之刃",
+        "國度水晶",
+        "Yin",
+        "Blade",
+        "First",
+        "Spinjitzu",
+        "Master",
+        "Realm",
+        "Crystal",
+        "Quanish",
+        "Elder",
+        "Great",
+        "Devourer"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 68
+      },
+      "search_text": "Before the Ninja Era\n遠古時期\n楊大師（Yang）發明龍捲風忍術（Airjitzu），能讓使用者短暫飛行。\n楊發現「陰之刃」（Yin Blade），嘗試成為不死之身失敗，反而將自己與學生變成幽靈。\n第一代旋風忍術大師（First Spinjitzu Master）在去世前將一條暗藏訊息刻在手杖上，指引吳（Wu）前往其安葬之地尋找「國度水晶」（Realm Crystal）。\n兄弟（吳與伽瑪當）獲得附有防邪咒語的和服。\n第一代旋風忍術大師死後，召喚長者（Quanish the Elder）到草原，邀請他留下，但被婉拒。\nQuanish預言：大師弟子們將面臨艱難抉擇的戰役。\n骷髏王薩穆卡（Samukai）為防止綠骨戰士掌控冥界，將骨王囚禁於沙之海下的神秘洞窟。\n吳與伽瑪當擊敗薩穆卡。\n建造古城奧洛波羅斯（Ouroboros），供蛇族觀測星象。\n大吞噬者（Great Devourer）長成巨型怪物。蛇族為嚇阻人類、避免黃金大師詛咒，將其釋放。\n大吞噬者被擊敗並封印於奧洛波羅斯城下。\n古代藍妖蛇族（Hypnobrai）滅絕，屍體封入石棺，部分後來被置於歷史博物館。"
+    },
+    {
+      "id": "before-ninja-era-014",
+      "order": 14,
+      "source_order": 14,
+      "era": "Before the Ninja Era",
+      "section": "約 200 年前（綠忍者傳奇事件前）",
+      "subsection": "",
+      "title": "約 200 年前（綠忍者傳奇事件前）",
+      "path": [
+        "Before the Ninja Era",
+        "約 200 年前（綠忍者傳奇事件前）"
+      ],
+      "depth": 2,
+      "summary": "被稱為「石頭軍團時代」，因發現大量石頭戰士雕像。 索托船長（Captain Soto）擊敗納達可汗（Nadakhan），將其封印於泰拉汗之壺（Teapot of Tyrahn），並將天空海盜驅散至十六個國度。",
+      "details": [
+        "被稱為「石頭軍團時代」，因發現大量石頭戰士雕像。",
+        "索托船長（Captain Soto）擊敗納達可汗（Nadakhan），將其封印於泰拉汗之壺（Teapot of Tyrahn），並將天空海盜驅散至十六個國度。",
+        "索托尋找黑暗之島時座船觸礁沉沒，全員罹難。",
+        "可能在此時期出現忍者國 Ninjago 王室與 帝權王國 （Imperium） 。",
+        "Imperium 處於石器時代。",
+        "哈薩·杜爾（Hazza D'ur）建造新太朗地下城（Dungeons of Shintaro），後被擊敗，骸骨留於地下城。",
+        "天空族（Sky Folk）遷入新太朗王國。",
+        "綠忍者預言於雲朵王國（Cloud Kingdom）寫成。"
+      ],
+      "keywords": [
+        "約 200 年前（綠忍者傳奇事件前）",
+        "綠忍者傳奇事件前",
+        "Captain Soto",
+        "Nadakhan",
+        "Teapot of Tyrahn",
+        "Imperium",
+        "Hazza D'ur",
+        "Dungeons of Shintaro",
+        "Sky Folk",
+        "Cloud Kingdom",
+        "石頭軍團時代",
+        "Captain",
+        "Soto",
+        "Teapot",
+        "Tyrahn",
+        "Ninjago",
+        "Hazza",
+        "D'ur",
+        "Dungeons",
+        "Shintaro",
+        "Sky",
+        "Folk",
+        "Cloud",
+        "Kingdom"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 84
+      },
+      "search_text": "Before the Ninja Era\n約 200 年前（綠忍者傳奇事件前）\n被稱為「石頭軍團時代」，因發現大量石頭戰士雕像。\n索托船長（Captain Soto）擊敗納達可汗（Nadakhan），將其封印於泰拉汗之壺（Teapot of Tyrahn），並將天空海盜驅散至十六個國度。\n索托尋找黑暗之島時座船觸礁沉沒，全員罹難。\n可能在此時期出現忍者國 Ninjago 王室與 帝權王國 （Imperium） 。\nImperium 處於石器時代。\n哈薩·杜爾（Hazza D'ur）建造新太朗地下城（Dungeons of Shintaro），後被擊敗，骸骨留於地下城。\n天空族（Sky Folk）遷入新太朗王國。\n綠忍者預言於雲朵王國（Cloud Kingdom）寫成。"
+    },
+    {
+      "id": "before-ninja-era-015",
+      "order": 15,
+      "source_order": 15,
+      "era": "Before the Ninja Era",
+      "section": "數十年前",
+      "subsection": "",
+      "title": "數十年前",
+      "path": [
+        "Before the Ninja Era",
+        "數十年前"
+      ],
+      "depth": 2,
+      "summary": "藍妖蛇族與赤蠍蛇族曾為盟友。 火元素大師與機甲夥伴 Rusty 前往怪物之境（Land of Monsters），進入變化之洞（Cave of Change），火元素大師變成蜈蚣怪物，Rusty 被關閉。",
+      "details": [
+        "藍妖蛇族與赤蠍蛇族曾為盟友。",
+        "火元素大師與機甲夥伴 Rusty 前往怪物之境（Land of Monsters），進入變化之洞（Cave of Change），火元素大師變成蜈蚣怪物，Rusty 被關閉。"
+      ],
+      "keywords": [
+        "數十年前",
+        "Land of Monsters",
+        "Cave of Change",
+        "Rusty",
+        "Land",
+        "Monsters",
+        "Cave",
+        "Change"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 94
+      },
+      "search_text": "Before the Ninja Era\n數十年前\n藍妖蛇族與赤蠍蛇族曾為盟友。\n火元素大師與機甲夥伴 Rusty 前往怪物之境（Land of Monsters），進入變化之洞（Cave of Change），火元素大師變成蜈蚣怪物，Rusty 被關閉。"
+    },
+    {
+      "id": "before-ninja-era-016",
+      "order": 16,
+      "source_order": 16,
+      "era": "Before the Ninja Era",
+      "section": "約 60 年前（長冬時期）",
+      "subsection": "",
+      "title": "約 60 年前（長冬時期）",
+      "path": [
+        "Before the Ninja Era",
+        "約 60 年前（長冬時期）"
+      ],
+      "depth": 2,
+      "summary": "維克斯（Vex）因無法獲得動物形態，離開家鄉變形族（Formlings）。 阿斯菲拉（Aspheera）導致冰忍（Zane）被傳送至虛無之境（Never-Realm），記憶被抹除並被維克斯操縱，成為「冰皇帝」，推翻葛林法斯國王（Grimfax），建立暴雪武士軍團並屠滅雪怪族（僅克拉格存活）。",
+      "details": [
+        "維克斯（Vex）因無法獲得動物形態，離開家鄉變形族（Formlings）。",
+        "阿斯菲拉（Aspheera）導致冰忍（Zane）被傳送至虛無之境（Never-Realm），記憶被抹除並被維克斯操縱，成為「冰皇帝」，推翻葛林法斯國王（Grimfax），建立暴雪武士軍團並屠滅雪怪族（僅克拉格存活）。",
+        "冰忍率軍攻擊故鄉，只剩秋田（Akita）與卡塔魯（Kataru）倖存，卡塔魯被囚禁數十年。",
+        "拉斯（Ras）出生於荒野國度，童年時被未知人士救下並收為門徒。",
+        "貝翠絲（Beatrix Vespasian-Orus）與雙胞胎姊姊齊翠絲（Zeatrix）出生，齊翠絲因長姊之位繼承父親的元素力量。",
+        "摩洛（Morro）出生（約第五季事件前 40+ 年）。"
+      ],
+      "keywords": [
+        "約 60 年前（長冬時期）",
+        "長冬時期",
+        "Vex",
+        "Formlings",
+        "Aspheera",
+        "Zane",
+        "Never-Realm",
+        "Grimfax",
+        "僅克拉格存活",
+        "Akita",
+        "Kataru",
+        "Ras",
+        "Beatrix Vespasian-Orus",
+        "Zeatrix",
+        "Morro",
+        "約第五季事件前 40+ 年",
+        "冰皇帝",
+        "Beatrix",
+        "Vespasian-Orus"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 98
+      },
+      "search_text": "Before the Ninja Era\n約 60 年前（長冬時期）\n維克斯（Vex）因無法獲得動物形態，離開家鄉變形族（Formlings）。\n阿斯菲拉（Aspheera）導致冰忍（Zane）被傳送至虛無之境（Never-Realm），記憶被抹除並被維克斯操縱，成為「冰皇帝」，推翻葛林法斯國王（Grimfax），建立暴雪武士軍團並屠滅雪怪族（僅克拉格存活）。\n冰忍率軍攻擊故鄉，只剩秋田（Akita）與卡塔魯（Kataru）倖存，卡塔魯被囚禁數十年。\n拉斯（Ras）出生於荒野國度，童年時被未知人士救下並收為門徒。\n貝翠絲（Beatrix Vespasian-Orus）與雙胞胎姊姊齊翠絲（Zeatrix）出生，齊翠絲因長姊之位繼承父親的元素力量。\n摩洛（Morro）出生（約第五季事件前 40+ 年）。"
+    },
+    {
+      "id": "before-ninja-era-017",
+      "order": 17,
+      "source_order": 17,
+      "era": "Before the Ninja Era",
+      "section": "約 40 年前（蛇族戰爭前）",
+      "subsection": "",
+      "title": "約 40 年前（蛇族戰爭前）",
+      "path": [
+        "Before the Ninja Era",
+        "約 40 年前（蛇族戰爭前）"
+      ],
+      "depth": 2,
+      "summary": "朱利安博士（Dr. Julien）製造冰忍與機械獵鷹。 伽瑪當在陳大師（Master Chen）門下修行，與克勞斯（Clouse）為同門，並被陳唆使冒名簽署吳給美莎子（Misako）的情書。",
+      "details": [
+        "朱利安博士（Dr. Julien）製造冰忍與機械獵鷹。",
+        "伽瑪當在陳大師（Master Chen）門下修行，與克勞斯（Clouse）為同門，並被陳唆使冒名簽署吳給美莎子（Misako）的情書。",
+        "吳收摩洛為徒，摩洛試煉失敗後離開，尋找第一代旋風忍術大師之墓。",
+        "陳挑起人類與蛇族的衝突，並統一五大蛇族部落。"
+      ],
+      "keywords": [
+        "約 40 年前（蛇族戰爭前）",
+        "蛇族戰爭前",
+        "Dr. Julien",
+        "Master Chen",
+        "Clouse",
+        "Misako",
+        "Dr",
+        "Julien",
+        "Master",
+        "Chen"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 106
+      },
+      "search_text": "Before the Ninja Era\n約 40 年前（蛇族戰爭前）\n朱利安博士（Dr. Julien）製造冰忍與機械獵鷹。\n伽瑪當在陳大師（Master Chen）門下修行，與克勞斯（Clouse）為同門，並被陳唆使冒名簽署吳給美莎子（Misako）的情書。\n吳收摩洛為徒，摩洛試煉失敗後離開，尋找第一代旋風忍術大師之墓。\n陳挑起人類與蛇族的衝突，並統一五大蛇族部落。"
+    },
+    {
+      "id": "before-ninja-era-018",
+      "order": 18,
+      "source_order": 18,
+      "era": "Before the Ninja Era",
+      "section": "蛇族戰爭時期",
+      "subsection": "",
+      "title": "蛇族戰爭時期",
+      "path": [
+        "Before the Ninja Era",
+        "蛇族戰爭時期"
+      ],
+      "depth": 2,
+      "summary": "伽瑪當離開陳加入吳對抗蛇族，並踏上尋找「五禁者」力量的旅程（Shatterspin 事件）。 伽瑪當在狼人遺族「狼之子」幫助下擊敗Lycan King，但 Asa 為解放狼族而犧牲。",
+      "details": [
+        "伽瑪當離開陳加入吳對抗蛇族，並踏上尋找「五禁者」力量的旅程（Shatterspin 事件）。",
+        "伽瑪當在狼人遺族「狼之子」幫助下擊敗Lycan King，但 Asa 為解放狼族而犧牲。",
+        "吳與伽瑪當帶領元素聯盟使用神聖長笛擊敗蛇族，將其封印於墓穴，紫邪蛇族將軍被放逐至詛咒之境，陳與克勞斯被流放至孤島。",
+        "除彼拉（Pythor）外，其餘紫邪蛇族在墓中餓死。"
+      ],
+      "keywords": [
+        "蛇族戰爭時期",
+        "Shatterspin 事件",
+        "Pythor",
+        "五禁者",
+        "狼之子",
+        "Shatterspin",
+        "King",
+        "Asa"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 112
+      },
+      "search_text": "Before the Ninja Era\n蛇族戰爭時期\n伽瑪當離開陳加入吳對抗蛇族，並踏上尋找「五禁者」力量的旅程（Shatterspin 事件）。\n伽瑪當在狼人遺族「狼之子」幫助下擊敗Lycan King，但 Asa 為解放狼族而犧牲。\n吳與伽瑪當帶領元素聯盟使用神聖長笛擊敗蛇族，將其封印於墓穴，紫邪蛇族將軍被放逐至詛咒之境，陳與克勞斯被流放至孤島。\n除彼拉（Pythor）外，其餘紫邪蛇族在墓中餓死。"
+    },
+    {
+      "id": "before-ninja-era-019",
+      "order": 19,
+      "source_order": 19,
+      "era": "Before the Ninja Era",
+      "section": "時之戰（Battle for All of Time）",
+      "subsection": "",
+      "title": "時之戰（Battle for All of Time）",
+      "path": [
+        "Before the Ninja Era",
+        "時之戰（Battle for All of Time）"
+      ],
+      "depth": 2,
+      "summary": "時光雙胞胎（Acronix 與 Krux）背叛吳與伽瑪頓，企圖奪取 Ninjago。 雷（Ray）與瑪雅（Maya）打造時光之刃（Time Blades），吳與伽瑪當擊敗雙胞胎並將武器投入時空裂縫。",
+      "details": [
+        "時光雙胞胎（Acronix 與 Krux）背叛吳與伽瑪頓，企圖奪取 Ninjago。",
+        "雷（Ray）與瑪雅（Maya）打造時光之刃（Time Blades），吳與伽瑪當擊敗雙胞胎並將武器投入時空裂縫。",
+        "改變的時間線被吳等人以遺忘之茶（Obscuritea）抹去。",
+        "之後 Krux 從裂縫中現身，計劃復仇，時光之刃最終被投入沸騰之海（Boiling Sea）。"
+      ],
+      "keywords": [
+        "時之戰（Battle for All of Time）",
+        "Battle for All of Time",
+        "Acronix 與 Krux",
+        "Ray",
+        "Maya",
+        "Time Blades",
+        "Obscuritea",
+        "Boiling Sea",
+        "Battle",
+        "All",
+        "Time",
+        "Acronix",
+        "Krux",
+        "Ninjago",
+        "Blades",
+        "Boiling",
+        "Sea"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 118
+      },
+      "search_text": "Before the Ninja Era\n時之戰（Battle for All of Time）\n時光雙胞胎（Acronix 與 Krux）背叛吳與伽瑪頓，企圖奪取 Ninjago。\n雷（Ray）與瑪雅（Maya）打造時光之刃（Time Blades），吳與伽瑪當擊敗雙胞胎並將武器投入時空裂縫。\n改變的時間線被吳等人以遺忘之茶（Obscuritea）抹去。\n之後 Krux 從裂縫中現身，計劃復仇，時光之刃最終被投入沸騰之海（Boiling Sea）。"
+    },
+    {
+      "id": "before-ninja-era-020",
+      "order": 20,
+      "source_order": 20,
+      "era": "Before the Ninja Era",
+      "section": "戰後時期",
+      "subsection": "",
+      "title": "戰後時期",
+      "path": [
+        "Before the Ninja Era",
+        "戰後時期"
+      ],
+      "depth": 2,
+      "summary": "伽瑪當美莎子結婚。 摩洛死於絕望洞（Caves of Despair），靈魂被放逐至詛咒之境。",
+      "details": [
+        "伽瑪當美莎子結婚。",
+        "摩洛死於絕望洞（Caves of Despair），靈魂被放逐至詛咒之境。",
+        "烏洛波洛斯城因沙塵暴被埋沒。",
+        "蛇族戰爭後約 10 年，遊戲設計師密爾頓·戴爾（Milton Dyer）因遊戲測試者失蹤而隱居（距第十二季事件約 30 年前）。"
+      ],
+      "keywords": [
+        "戰後時期",
+        "Caves of Despair",
+        "Milton Dyer",
+        "距第十二季事件約 30 年前",
+        "Caves",
+        "Despair",
+        "Milton",
+        "Dyer"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 124
+      },
+      "search_text": "Before the Ninja Era\n戰後時期\n伽瑪當美莎子結婚。\n摩洛死於絕望洞（Caves of Despair），靈魂被放逐至詛咒之境。\n烏洛波洛斯城因沙塵暴被埋沒。\n蛇族戰爭後約 10 年，遊戲設計師密爾頓·戴爾（Milton Dyer）因遊戲測試者失蹤而隱居（距第十二季事件約 30 年前）。"
+    },
+    {
+      "id": "before-ninja-era-021",
+      "order": 21,
+      "source_order": 21,
+      "era": "Before the Ninja Era",
+      "section": "貝翠絲政變",
+      "subsection": "",
+      "title": "貝翠絲政變",
+      "path": [
+        "Before the Ninja Era",
+        "貝翠絲政變"
+      ],
+      "depth": 2,
+      "summary": "拉斯從荒野前往 帝權王國，向皇帝萊沃？（Levo）提出捕龍以解決能源危機的建議被拒。 拉斯與貝翠絲密謀，破壞皇帝懸浮戰車，造成爆炸身亡，偽裝成意外事故。",
+      "details": [
+        "拉斯從荒野前往 帝權王國，向皇帝萊沃？（Levo）提出捕龍以解決能源危機的建議被拒。",
+        "拉斯與貝翠絲密謀，破壞皇帝懸浮戰車，造成爆炸身亡，偽裝成意外事故。",
+        "齊翠絲被驅逐，貝翠絲成為女皇，清洗反對者。",
+        "組建「王國利爪」以獵龍，並建立先進系統實驗室研發獵龍裝置。"
+      ],
+      "keywords": [
+        "貝翠絲政變",
+        "Levo",
+        "王國利爪"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 134
+      },
+      "search_text": "Before the Ninja Era\n貝翠絲政變\n拉斯從荒野前往 帝權王國，向皇帝萊沃？（Levo）提出捕龍以解決能源危機的建議被拒。\n拉斯與貝翠絲密謀，破壞皇帝懸浮戰車，造成爆炸身亡，偽裝成意外事故。\n齊翠絲被驅逐，貝翠絲成為女皇，清洗反對者。\n組建「王國利爪」以獵龍，並建立先進系統實驗室研發獵龍裝置。"
+    },
+    {
+      "id": "before-ninja-era-022",
+      "order": 22,
+      "source_order": 22,
+      "era": "Before the Ninja Era",
+      "section": "數十年前",
+      "subsection": "",
+      "title": "數十年前",
+      "path": [
+        "Before the Ninja Era",
+        "數十年前"
+      ],
+      "depth": 2,
+      "summary": "莉莉（Lilly）與吳（Wu）一同修行，前往 辛太朗山（Shintaro Mountain）擊敗「災難之龍」（Grief-Bringer），並將「解放之刃」（Blades of Deliverance）交給 Geckles族 與 Munce族。 莉莉前往另一個國度參加「來源大賽」（Tournament of the Sources）。",
+      "details": [
+        "莉莉（Lilly）與吳（Wu）一同修行，前往 辛太朗山（Shintaro Mountain）擊敗「災難之龍」（Grief-Bringer），並將「解放之刃」（Blades of Deliverance）交給 Geckles族 與 Munce族。",
+        "莉莉前往另一個國度參加「來源大賽」（Tournament of the Sources）。"
+      ],
+      "keywords": [
+        "數十年前",
+        "Lilly",
+        "Wu",
+        "Shintaro Mountain",
+        "Grief-Bringer",
+        "Blades of Deliverance",
+        "Tournament of the Sources",
+        "災難之龍",
+        "解放之刃",
+        "來源大賽",
+        "Shintaro",
+        "Mountain",
+        "Blades",
+        "Deliverance",
+        "Tournament",
+        "Sources"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 147
+      },
+      "search_text": "Before the Ninja Era\n數十年前\n莉莉（Lilly）與吳（Wu）一同修行，前往 辛太朗山（Shintaro Mountain）擊敗「災難之龍」（Grief-Bringer），並將「解放之刃」（Blades of Deliverance）交給 Geckles族 與 Munce族。\n莉莉前往另一個國度參加「來源大賽」（Tournament of the Sources）。"
+    },
+    {
+      "id": "before-ninja-era-023",
+      "order": 23,
+      "source_order": 23,
+      "era": "Before the Ninja Era",
+      "section": "忍者的誕生",
+      "subsection": "",
+      "title": "忍者的誕生",
+      "path": [
+        "Before the Ninja Era",
+        "忍者的誕生"
+      ],
+      "depth": 2,
+      "summary": "阿剛（Cole）出生於盧（Lou）與莉莉之間？。 吉奧（Geo） 作為 Munce 與 Geckle 混血出生，因此遭兩族排斥。",
+      "details": [
+        "阿剛（Cole）出生於盧（Lou）與莉莉之間？。",
+        "吉奧（Geo） 作為 Munce 與 Geckle 混血出生，因此遭兩族排斥。",
+        "阿光（Jay）出生於克里夫·高登（Cliff Gordon）與前任閃電元素大師之間。",
+        "阿光被遺棄在艾德與艾德娜·沃克（Ed & Edna Walker）家門口，被兩人收養。",
+        "赤地（Kai）出生於火之元素大師雷（Ray）與水之元素大師瑪雅（Maya）之間。",
+        "赤地出生 2 年後：赤蘭（Nya）作為雷與瑪雅的第二個孩子出生。"
+      ],
+      "keywords": [
+        "忍者的誕生",
+        "Cole",
+        "Lou",
+        "Geo",
+        "Jay",
+        "Cliff Gordon",
+        "Ed & Edna Walker",
+        "Kai",
+        "Ray",
+        "Maya",
+        "Nya",
+        "Munce",
+        "Geckle",
+        "Cliff",
+        "Gordon",
+        "Ed",
+        "Edna",
+        "Walker"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 155
+      },
+      "search_text": "Before the Ninja Era\n忍者的誕生\n阿剛（Cole）出生於盧（Lou）與莉莉之間？。\n吉奧（Geo） 作為 Munce 與 Geckle 混血出生，因此遭兩族排斥。\n阿光（Jay）出生於克里夫·高登（Cliff Gordon）與前任閃電元素大師之間。\n阿光被遺棄在艾德與艾德娜·沃克（Ed & Edna Walker）家門口，被兩人收養。\n赤地（Kai）出生於火之元素大師雷（Ray）與水之元素大師瑪雅（Maya）之間。\n赤地出生 2 年後：赤蘭（Nya）作為雷與瑪雅的第二個孩子出生。"
+    },
+    {
+      "id": "before-ninja-era-024",
+      "order": 24,
+      "source_order": 24,
+      "era": "Before the Ninja Era",
+      "section": "約第二季事件前 13 年",
+      "subsection": "",
+      "title": "約第二季事件前 13 年",
+      "path": [
+        "Before the Ninja Era",
+        "約第二季事件前 13 年"
+      ],
+      "depth": 2,
+      "summary": "「忍球大賽」（Ninjaball Run）設立為年度傳統比賽。 特里瑪爾？（Trimaar）收養被困於海底的班佐瑪（Benthomaar）。",
+      "details": [
+        "「忍球大賽」（Ninjaball Run）設立為年度傳統比賽。",
+        "特里瑪爾？（Trimaar）收養被困於海底的班佐瑪（Benthomaar）。",
+        "童年時期，Geo 逃離家鄉並誤入「失物之境」（Land of Lost Things）。"
+      ],
+      "keywords": [
+        "約第二季事件前 13 年",
+        "Ninjaball Run",
+        "Trimaar",
+        "Benthomaar",
+        "Land of Lost Things",
+        "忍球大賽",
+        "失物之境",
+        "Ninjaball",
+        "Run",
+        "Geo",
+        "Land",
+        "Lost",
+        "Things"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 175
+      },
+      "search_text": "Before the Ninja Era\n約第二季事件前 13 年\n「忍球大賽」（Ninjaball Run）設立為年度傳統比賽。\n特里瑪爾？（Trimaar）收養被困於海底的班佐瑪（Benthomaar）。\n童年時期，Geo 逃離家鄉並誤入「失物之境」（Land of Lost Things）。"
+    },
+    {
+      "id": "before-ninja-era-025",
+      "order": 25,
+      "source_order": 25,
+      "era": "Before the Ninja Era",
+      "section": "蛇族崛起前約 10 年（兄弟之戰）",
+      "subsection": "",
+      "title": "蛇族崛起前約 10 年（兄弟之戰）",
+      "path": [
+        "Before the Ninja Era",
+        "蛇族崛起前約 10 年（兄弟之戰）"
+      ],
+      "depth": 2,
+      "summary": "勞埃德·蒙格馬利·伽瑪當（Lloyd Montgomery Garmadon）出生於伽瑪當（Garmadon）與美莎子（Misako）之間。 伽瑪當體內的邪惡完全吞噬其心智，貪婪之念主導行動，他返回旋風忍術寺（Monastery of Spinjitzu）偷取黃金武器，欲按自己意志重塑忍者國。",
+      "details": [
+        "勞埃德·蒙格馬利·伽瑪當（Lloyd Montgomery Garmadon）出生於伽瑪當（Garmadon）與美莎子（Misako）之間。",
+        "伽瑪當體內的邪惡完全吞噬其心智，貪婪之念主導行動，他返回旋風忍術寺（Monastery of Spinjitzu）偷取黃金武器，欲按自己意志重塑忍者國。",
+        "吳與伽瑪當短暫交戰，四件黃金武器與吳和服上的防護咒觸發，打開通往冥界的傳送門。伽瑪當被閃電擊中、皮膚變黑，並被放逐至冥界。",
+        "在冥界，伽瑪頓擊敗薩穆卡（Samukai）奪取骷髏軍團的控制權。",
+        "吳將四件黃金武器藏於由龍守護的秘密地點，並製作地圖交給可信的朋友——雷（Ray）保管。"
+      ],
+      "keywords": [
+        "蛇族崛起前約 10 年（兄弟之戰）",
+        "兄弟之戰",
+        "Lloyd Montgomery Garmadon",
+        "Garmadon",
+        "Misako",
+        "Monastery of Spinjitzu",
+        "Samukai",
+        "Ray",
+        "Lloyd",
+        "Montgomery",
+        "Monastery",
+        "Spinjitzu"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 186
+      },
+      "search_text": "Before the Ninja Era\n蛇族崛起前約 10 年（兄弟之戰）\n勞埃德·蒙格馬利·伽瑪當（Lloyd Montgomery Garmadon）出生於伽瑪當（Garmadon）與美莎子（Misako）之間。\n伽瑪當體內的邪惡完全吞噬其心智，貪婪之念主導行動，他返回旋風忍術寺（Monastery of Spinjitzu）偷取黃金武器，欲按自己意志重塑忍者國。\n吳與伽瑪當短暫交戰，四件黃金武器與吳和服上的防護咒觸發，打開通往冥界的傳送門。伽瑪當被閃電擊中、皮膚變黑，並被放逐至冥界。\n在冥界，伽瑪頓擊敗薩穆卡（Samukai）奪取骷髏軍團的控制權。\n吳將四件黃金武器藏於由龍守護的秘密地點，並製作地圖交給可信的朋友——雷（Ray）保管。"
+    },
+    {
+      "id": "before-ninja-era-026",
+      "order": 26,
+      "source_order": 26,
+      "era": "Before the Ninja Era",
+      "section": "伽瑪當被放逐後",
+      "subsection": "",
+      "title": "伽瑪當被放逐後",
+      "path": [
+        "Before the Ninja Era",
+        "伽瑪當被放逐後"
+      ],
+      "depth": 2,
+      "summary": "赤地與赤蘭創造並遊玩「正反擊」（Counter Shot）遊戲。 赤地與赤蘭的父母雷與瑪雅被克魯克斯（Krux）擄走以實行其計劃。",
+      "details": [
+        "赤地與赤蘭創造並遊玩「正反擊」（Counter Shot）遊戲。",
+        "赤地與赤蘭的父母雷與瑪雅被克魯克斯（Krux）擄走以實行其計劃。",
+        "冰之元素大師抵達白樺林（Birchwood Forest）並將力量賜予給冰忍（Zane），但冰忍毫不知情。",
+        "吳首次遇見朱利安博士（Dr. Julien）與冰忍，並向冰忍保證將再次相見。",
+        "朱利安博士臨終前抹去冰忍的記憶，使其成為孤兒。",
+        "朱利安博士被薩穆卡復活並脅迫製造戰車，被囚禁於燈塔島（Lighthouse Island）且未獲釋放。"
+      ],
+      "keywords": [
+        "伽瑪當被放逐後",
+        "Counter Shot",
+        "Krux",
+        "Birchwood Forest",
+        "Zane",
+        "Dr. Julien",
+        "Lighthouse Island",
+        "正反擊",
+        "Counter",
+        "Shot",
+        "Birchwood",
+        "Forest",
+        "Dr",
+        "Julien",
+        "Lighthouse",
+        "Island"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 203
+      },
+      "search_text": "Before the Ninja Era\n伽瑪當被放逐後\n赤地與赤蘭創造並遊玩「正反擊」（Counter Shot）遊戲。\n赤地與赤蘭的父母雷與瑪雅被克魯克斯（Krux）擄走以實行其計劃。\n冰之元素大師抵達白樺林（Birchwood Forest）並將力量賜予給冰忍（Zane），但冰忍毫不知情。\n吳首次遇見朱利安博士（Dr. Julien）與冰忍，並向冰忍保證將再次相見。\n朱利安博士臨終前抹去冰忍的記憶，使其成為孤兒。\n朱利安博士被薩穆卡復活並脅迫製造戰車，被囚禁於燈塔島（Lighthouse Island）且未獲釋放。"
+    },
+    {
+      "id": "before-ninja-era-027",
+      "order": 27,
+      "source_order": 27,
+      "era": "Before the Ninja Era",
+      "section": "辛太朗事件前",
+      "subsection": "",
+      "title": "辛太朗事件前",
+      "path": [
+        "Before the Ninja Era",
+        "辛太朗事件前"
+      ],
+      "depth": 2,
+      "summary": "The Lowly 為范吉利斯國王（Vangelis）尋回哈薩·杜爾之頭骨（Skull of Hazza D’ur），卻因拒絕其真意而被逐至「谷底之地」？（Rock-Bottom）。 范吉利斯利用頭骨控制辛太朗地下城（Dungeons of Shintaro），並強迫 Geckles 與 Munce 為其開採復仇石（Vengestone），奪走解放之刃。",
+      "details": [
+        "The Lowly 為范吉利斯國王（Vangelis）尋回哈薩·杜爾之頭骨（Skull of Hazza D’ur），卻因拒絕其真意而被逐至「谷底之地」？（Rock-Bottom）。",
+        "范吉利斯利用頭骨控制辛太朗地下城（Dungeons of Shintaro），並強迫 Geckles 與 Munce 為其開採復仇石（Vengestone），奪走解放之刃。"
+      ],
+      "keywords": [
+        "辛太朗事件前",
+        "Vangelis",
+        "Skull of Hazza D’ur",
+        "Rock-Bottom",
+        "Dungeons of Shintaro",
+        "Vengestone",
+        "谷底之地",
+        "The",
+        "Lowly",
+        "Skull",
+        "Hazza",
+        "Dungeons",
+        "Shintaro",
+        "Geckles",
+        "Munce"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 223
+      },
+      "search_text": "Before the Ninja Era\n辛太朗事件前\nThe Lowly 為范吉利斯國王（Vangelis）尋回哈薩·杜爾之頭骨（Skull of Hazza D’ur），卻因拒絕其真意而被逐至「谷底之地」？（Rock-Bottom）。\n范吉利斯利用頭骨控制辛太朗地下城（Dungeons of Shintaro），並強迫 Geckles 與 Munce 為其開採復仇石（Vengestone），奪走解放之刃。"
+    },
+    {
+      "id": "before-ninja-era-028",
+      "order": 28,
+      "source_order": 28,
+      "era": "Before the Ninja Era",
+      "section": "第十一季前約 10 年",
+      "subsection": "",
+      "title": "第十一季前約 10 年",
+      "path": [
+        "Before the Ninja Era",
+        "第十一季前約 10 年"
+      ],
+      "depth": 2,
+      "summary": "克拉奇·鮑爾斯（Clutch Powers）放棄冒險生涯。",
+      "details": [
+        "克拉奇·鮑爾斯（Clutch Powers）放棄冒險生涯。"
+      ],
+      "keywords": [
+        "第十一季前約 10 年",
+        "Clutch Powers",
+        "Clutch",
+        "Powers"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 231
+      },
+      "search_text": "Before the Ninja Era\n第十一季前約 10 年\n克拉奇·鮑爾斯（Clutch Powers）放棄冒險生涯。"
+    },
+    {
+      "id": "before-ninja-era-029",
+      "order": 29,
+      "source_order": 29,
+      "era": "Before the Ninja Era",
+      "section": "第一季前數年（約 5 年）",
+      "subsection": "",
+      "title": "第一季前數年（約 5 年）",
+      "path": [
+        "Before the Ninja Era",
+        "第一季前數年（約 5 年）"
+      ],
+      "depth": 2,
+      "summary": "美莎子知悉命運將使勞埃德成為綠忍者，為阻止父子相爭，將年幼勞埃德送往達克利寄宿學校（Darkley’s Boarding School），並透過書信保持聯繫。",
+      "details": [
+        "美莎子知悉命運將使勞埃德成為綠忍者，為阻止父子相爭，將年幼勞埃德送往達克利寄宿學校（Darkley’s Boarding School），並透過書信保持聯繫。"
+      ],
+      "keywords": [
+        "第一季前數年（約 5 年）",
+        "約 5 年",
+        "Darkley’s Boarding School",
+        "Darkley",
+        "Boarding",
+        "School"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 236
+      },
+      "search_text": "Before the Ninja Era\n第一季前數年（約 5 年）\n美莎子知悉命運將使勞埃德成為綠忍者，為阻止父子相爭，將年幼勞埃德送往達克利寄宿學校（Darkley’s Boarding School），並透過書信保持聯繫。"
+    },
+    {
+      "id": "before-ninja-era-030",
+      "order": 30,
+      "source_order": 30,
+      "era": "Before the Ninja Era",
+      "section": "第三季前數年",
+      "subsection": "",
+      "title": "第三季前數年",
+      "path": [
+        "Before the Ninja Era",
+        "第三季前數年"
+      ],
+      "depth": 2,
+      "summary": "三角洲 V 彗星？（Delta V comet）碎裂並墜落於 Ninjago，科學家在隕石中發現化石化寄生生物的殘骸。",
+      "details": [
+        "三角洲 V 彗星？（Delta V comet）碎裂並墜落於 Ninjago，科學家在隕石中發現化石化寄生生物的殘骸。"
+      ],
+      "keywords": [
+        "第三季前數年",
+        "Delta V comet",
+        "Delta",
+        "Ninjago"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 241
+      },
+      "search_text": "Before the Ninja Era\n第三季前數年\n三角洲 V 彗星？（Delta V comet）碎裂並墜落於 Ninjago，科學家在隕石中發現化石化寄生生物的殘骸。"
+    },
+    {
+      "id": "before-ninja-era-031",
+      "order": 31,
+      "source_order": 31,
+      "era": "Before the Ninja Era",
+      "section": "前導季（Pilot）前不久",
+      "subsection": "",
+      "title": "前導季（Pilot）前不久",
+      "path": [
+        "Before the Ninja Era",
+        "前導季（Pilot）前不久"
+      ],
+      "depth": 2,
+      "summary": "阿剛的母親去世。",
+      "details": [
+        "阿剛的母親去世。"
+      ],
+      "keywords": [
+        "前導季（Pilot）前不久",
+        "Pilot"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 246
+      },
+      "search_text": "Before the Ninja Era\n前導季（Pilot）前不久\n阿剛的母親去世。"
+    },
+    {
+      "id": "before-ninja-era-032",
+      "order": 32,
+      "source_order": 32,
+      "era": "Before the Ninja Era",
+      "section": "猛龍崛起（Dragons Rising）相關人物誕生期",
+      "subsection": "",
+      "title": "猛龍崛起（Dragons Rising）相關人物誕生期",
+      "path": [
+        "Before the Ninja Era",
+        "猛龍崛起（Dragons Rising）相關人物誕生期"
+      ],
+      "depth": 2,
+      "summary": "年齡不詳但比勞埃德年輕： 野火（Wyldfyre） 出生。",
+      "details": [
+        "年齡不詳但比勞埃德年輕：",
+        "野火（Wyldfyre） 出生。",
+        "亞林（Arin）出生。",
+        "尤芙瑞霞（Euphrasia）出生。",
+        "安娜（Ana）出生（約第一季 Dragons Rising 前 15 年）。",
+        "Wyldfyre 的飛船墜落於熔岩荒野（Lava Wastes），由照護機器人與 Heatwave 養大。"
+      ],
+      "keywords": [
+        "猛龍崛起（Dragons Rising）相關人物誕生期",
+        "Dragons Rising",
+        "Wyldfyre",
+        "Arin",
+        "Euphrasia",
+        "Ana",
+        "約第一季 Dragons Rising 前 15 年",
+        "Lava Wastes",
+        "Dragons",
+        "Rising",
+        "Lava",
+        "Wastes",
+        "Heatwave"
+      ],
+      "source": {
+        "file": "data/sources/timeline/BeforeNinjaEra.md",
+        "line": 251
+      },
+      "search_text": "Before the Ninja Era\n猛龍崛起（Dragons Rising）相關人物誕生期\n年齡不詳但比勞埃德年輕：\n野火（Wyldfyre） 出生。\n亞林（Arin）出生。\n尤芙瑞霞（Euphrasia）出生。\n安娜（Ana）出生（約第一季 Dragons Rising 前 15 年）。\nWyldfyre 的飛船墜落於熔岩荒野（Lava Wastes），由照護機器人與 Heatwave 養大。"
+    },
+    {
+      "id": "masters-of-spinjitzu-001",
+      "order": 1001,
+      "source_order": 1,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "試播集（Pilot episodes）",
+      "subsection": "",
+      "title": "試播集（Pilot episodes）",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "試播集（Pilot episodes）"
+      ],
+      "depth": 2,
+      "summary": "吳大師尋找忍者，先後遇見正在登山的阿剛、 試驗發明的阿光、以及在冰湖下冥想的冰忍。 三人短暫接受訓練，成為最初的忍者隊伍。",
+      "details": [
+        "吳大師尋找忍者，先後遇見正在登山的阿剛、 試驗發明的阿光、以及在冰湖下冥想的冰忍。",
+        "三人短暫接受訓練，成為最初的忍者隊伍。",
+        "赤地與妹妹赤蘭在「四武器鐵匠舖」工作，吳大師登門邀請赤地成為忍者，卻被拒絕。",
+        "隨後骷髏軍（由薩穆卡帶領，聽命於伽瑪當）襲擊鐵匠舖，奪走黃金武器地圖並綁架赤蘭。",
+        "為了拯救妹妹，赤地答應吳大師成為忍者，並認識了其他三名忍者：阿剛（土系）、阿光（電系）、冰忍（冰系）。",
+        "忍者展開尋找黃金武器之旅：",
+        "在「絕望洞穴」取得地震鐮刀。",
+        "在「冰之神殿」取得冰之手裏劍。",
+        "在「漂浮遺跡」取得閃電雙節棍。",
+        "赤地於火焰神廟面對幻象，被引誘進入陷阱，吳大師及時救出赤蘭。",
+        "忍者馴服各自的龍，並前往地下世界。",
+        "在地下世界界中，薩穆卡奪走多件黃金武器，最終因其力量過強而自爆，打開通往「瘋狂國度」的裂縫。",
+        "伽瑪當趁機進入裂縫，留下忍者們暫時的和平。"
+      ],
+      "keywords": [
+        "試播集（Pilot episodes）",
+        "Pilot episodes",
+        "由薩穆卡帶領，聽命於伽瑪當",
+        "土系",
+        "電系",
+        "冰系",
+        "四武器鐵匠舖",
+        "絕望洞穴",
+        "冰之神殿",
+        "漂浮遺跡",
+        "瘋狂國度",
+        "Pilot"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 2
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n試播集（Pilot episodes）\n吳大師尋找忍者，先後遇見正在登山的阿剛、 試驗發明的阿光、以及在冰湖下冥想的冰忍。\n三人短暫接受訓練，成為最初的忍者隊伍。\n赤地與妹妹赤蘭在「四武器鐵匠舖」工作，吳大師登門邀請赤地成為忍者，卻被拒絕。\n隨後骷髏軍（由薩穆卡帶領，聽命於伽瑪當）襲擊鐵匠舖，奪走黃金武器地圖並綁架赤蘭。\n為了拯救妹妹，赤地答應吳大師成為忍者，並認識了其他三名忍者：阿剛（土系）、阿光（電系）、冰忍（冰系）。\n忍者展開尋找黃金武器之旅：\n在「絕望洞穴」取得地震鐮刀。\n在「冰之神殿」取得冰之手裏劍。\n在「漂浮遺跡」取得閃電雙節棍。\n赤地於火焰神廟面對幻象，被引誘進入陷阱，吳大師及時救出赤蘭。\n忍者馴服各自的龍，並前往地下世界。\n在地下世界界中，薩穆卡奪走多件黃金武器，最終因其力量過強而自爆，打開通往「瘋狂國度」的裂縫。\n伽瑪當趁機進入裂縫，留下忍者們暫時的和平。"
+    },
+    {
+      "id": "masters-of-spinjitzu-002",
+      "order": 1002,
+      "source_order": 2,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "迷你劇集（Mini-movies）",
+      "subsection": "",
+      "title": "迷你劇集（Mini-movies）",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "迷你劇集（Mini-movies）"
+      ],
+      "depth": 2,
+      "summary": "赤蘭返回鐵匠舖，擊退骷髏軍後搬入道場。 忍者們以龍進行比賽，決定誰能成為「龍之大師」，最終由阿剛獲勝。",
+      "details": [
+        "赤蘭返回鐵匠舖，擊退骷髏軍後搬入道場。",
+        "忍者們以龍進行比賽，決定誰能成為「龍之大師」，最終由阿剛獲勝。",
+        "骷髏軍夜襲道場，卻反被黃金武器擊退。",
+        "赤地與赤蘭發現火焰神殿與地下世界之間的通道，並將其摧毀。",
+        "吳大師穿上舊武服，回想「兄弟之戰」。"
+      ],
+      "keywords": [
+        "迷你劇集（Mini-movies）",
+        "Mini-movies",
+        "龍之大師",
+        "兄弟之戰"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 43
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n迷你劇集（Mini-movies）\n赤蘭返回鐵匠舖，擊退骷髏軍後搬入道場。\n忍者們以龍進行比賽，決定誰能成為「龍之大師」，最終由阿剛獲勝。\n骷髏軍夜襲道場，卻反被黃金武器擊退。\n赤地與赤蘭發現火焰神殿與地下世界之間的通道，並將其摧毀。\n吳大師穿上舊武服，回想「兄弟之戰」。"
+    },
+    {
+      "id": "masters-of-spinjitzu-003",
+      "order": 1003,
+      "source_order": 3,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第一季：蛇族崛起（Rise of the Snakes）",
+      "subsection": "",
+      "title": "第一季：蛇族崛起（Rise of the Snakes）",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第一季：蛇族崛起（Rise of the Snakes）"
+      ],
+      "depth": 2,
+      "summary": "勞埃德因「不夠邪惡」被逐出黑暗寄宿學校，決定到加馬納凱村?展現「惡名」。 忍者在道場偷懶玩遊戲，被吳大師提醒專心訓練。",
+      "details": [
+        "勞埃德因「不夠邪惡」被逐出黑暗寄宿學校，決定到加馬納凱村?展現「惡名」。",
+        "忍者在道場偷懶玩遊戲，被吳大師提醒專心訓練。",
+        "勞埃德德假扮父親「伽瑪當」的影子恐嚇村民，卻被忍者擊敗，懸掛在屋頂受辱。",
+        "勞埃德釋放催眠蛇族「海普諾布萊？」，並誤令族長希利斯拉？自我催眠，短暫掌握蛇族。",
+        "忍者奪回村莊，但阿剛被斯卡勒？下了後催眠指令。",
+        "蛇族燒毀道場，忍者失去家園，之後找到一艘廢棄船隻「使命號」作為新根據地。",
+        "勞埃德失去對海普諾布萊？的控制，被放逐，轉而釋放蛇族「獠牙族？」。",
+        "忍者首次釋放武器的元素能力，並得到可變形的載具。",
+        "冰忍夢見綠忍者，忍者們爭論誰是命定之人。",
+        "勞埃德釋放紫邪蛇族族唯一倖存者「彼拉」，卻被背叛。吳大師正式接納勞埃德成為弟子。",
+        "蛇族開始尋找「毒牙刀」。",
+        "冰忍在樹林中發現自己其實是機器人，並在與樹角獸？的戰鬥中覺醒真潛能。",
+        "阿光在遊樂園戰鬥中承認自我價值，發揮真潛能，並救下赤蘭。",
+        "阿剛在音樂廳與父親和解，領悟自己真正的使命，覺醒真潛能。",
+        "赤地在火焰神殿拯救勞埃德，意識到自己不是綠忍者，而是守護者，進而解鎖真潛能。",
+        "勞埃德確定為綠忍者，注定將面對父親伽瑪當。",
+        "蛇族集齊毒牙刀，彼拉喚醒「大吞噬者」。",
+        "大吞噬者摧毀使命號並肆虐忍者國。",
+        "忍者合力召喚「超音速攻擊者」與「終極神龍」，仍無法擊敗巨蛇。",
+        "伽瑪當現身協助忍者，最終以黃金武器毀滅大吞噬者。",
+        "然而，伽瑪當奪走黃金武器離去。",
+        "吳大師倖存歸來，忍者與其重歸於好。",
+        "彼拉則在混亂中潛逃。",
+        "晴美的親生父母於大吞噬者造成的災難中喪生，使她日後對忍者心生怨恨，並崇拜伽瑪當。"
+      ],
+      "keywords": [
+        "第一季：蛇族崛起（Rise of the Snakes）",
+        "Rise of the Snakes",
+        "不夠邪惡",
+        "惡名",
+        "伽瑪當",
+        "海普諾布萊？",
+        "使命號",
+        "獠牙族？",
+        "彼拉",
+        "毒牙刀",
+        "大吞噬者",
+        "超音速攻擊者",
+        "終極神龍",
+        "Rise",
+        "Snakes"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 60
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第一季：蛇族崛起（Rise of the Snakes）\n勞埃德因「不夠邪惡」被逐出黑暗寄宿學校，決定到加馬納凱村?展現「惡名」。\n忍者在道場偷懶玩遊戲，被吳大師提醒專心訓練。\n勞埃德德假扮父親「伽瑪當」的影子恐嚇村民，卻被忍者擊敗，懸掛在屋頂受辱。\n勞埃德釋放催眠蛇族「海普諾布萊？」，並誤令族長希利斯拉？自我催眠，短暫掌握蛇族。\n忍者奪回村莊，但阿剛被斯卡勒？下了後催眠指令。\n蛇族燒毀道場，忍者失去家園，之後找到一艘廢棄船隻「使命號」作為新根據地。\n勞埃德失去對海普諾布萊？的控制，被放逐，轉而釋放蛇族「獠牙族？」。\n忍者首次釋放武器的元素能力，並得到可變形的載具。\n冰忍夢見綠忍者，忍者們爭論誰是命定之人。\n勞埃德釋放紫邪蛇族族唯一倖存者「彼拉」，卻被背叛。吳大師正式接納勞埃德成為弟子。\n蛇族開始尋找「毒牙刀」。\n冰忍在樹林中發現自己其實是機器人，並在與樹角獸？的戰鬥中覺醒真潛能。\n阿光在遊樂園戰鬥中承認自我價值，發揮真潛能，並救下赤蘭。\n阿剛在音樂廳與父親和解，領悟自己真正的使命，覺醒真潛能。\n赤地在火焰神殿拯救勞埃德，意識到自己不是綠忍者，而是守護者，進而解鎖真潛能。\n勞埃德確定為綠忍者，注定將面對父親伽瑪當。\n蛇族集齊毒牙刀，彼拉喚醒「大吞噬者」。\n大吞噬者摧毀使命號並肆虐忍者國。\n忍者合力召喚「超音速攻擊者」與「終極神龍」，仍無法擊敗巨蛇。\n伽瑪當現身協助忍者，最終以黃金武器毀滅大吞噬者。\n然而，伽瑪當奪走黃金武器離去。\n吳大師倖存歸來，忍者與其重歸於好。\n彼拉則在混亂中潛逃。\n晴美的親生父母於大吞噬者造成的災難中喪生，使她日後對忍者心生怨恨，並崇拜伽瑪當。"
+    },
+    {
+      "id": "masters-of-spinjitzu-004",
+      "order": 1004,
+      "source_order": 4,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "大吞噬者之戰之後",
+      "subsection": "",
+      "title": "大吞噬者之戰之後",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "大吞噬者之戰之後"
+      ],
+      "depth": 2,
+      "summary": "吳大師向忍者國居民解釋蛇族釋放大吞噬者的真相。 勞埃德開始在城外接受吳大師的修行，學習如何找到「內心的平靜」。",
+      "details": [
+        "吳大師向忍者國居民解釋蛇族釋放大吞噬者的真相。",
+        "勞埃德開始在城外接受吳大師的修行，學習如何找到「內心的平靜」。",
+        "晴美被忍者城皇室收養，成為公主。"
+      ],
+      "keywords": [
+        "大吞噬者之戰之後",
+        "內心的平靜"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 134
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n大吞噬者之戰之後\n吳大師向忍者國居民解釋蛇族釋放大吞噬者的真相。\n勞埃德開始在城外接受吳大師的修行，學習如何找到「內心的平靜」。\n晴美被忍者城皇室收養，成為公主。"
+    },
+    {
+      "id": "masters-of-spinjitzu-005",
+      "order": 1005,
+      "source_order": 5,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第二季：最後一戰（Legacy of the Green Ninja）",
+      "subsection": "",
+      "title": "第二季：最後一戰（Legacy of the Green Ninja）",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第二季：最後一戰（Legacy of the Green Ninja）"
+      ],
+      "depth": 2,
+      "summary": "忍者協助修復忍者國，同時訓練勞埃德，為將來對抗伽瑪當做準備。 伽瑪當用四件黃金武器重鑄使命號，將其變成「黑暗使命號」。",
+      "details": [
+        "忍者協助修復忍者國，同時訓練勞埃德，為將來對抗伽瑪當做準備。",
+        "伽瑪當用四件黃金武器重鑄使命號，將其變成「黑暗使命號」。",
+        "伽瑪當展現力量，說服蛇族棄權蛇族將軍而跟隨他。",
+        "卡勒斯？企圖綁架勞埃德報仇，失敗後被捕。",
+        "伽瑪當將四件黃金武器熔鑄為「超級武器」。",
+        "他誤用武器復活海盜索托船長與其船員，卻被奪船並引發忍者城大戰。",
+        "忍者遇見德瑞，在其道場訓練。",
+        "勞埃德解鎖大地與自身的「能量」元素，協助忍者擊退海盜。",
+        "勞埃德學會旋風忍術，但因年紀太小無法完全運用。",
+        "赤蘭駕駛X武士機甲擊敗索托，海盜被捕，伽瑪當奪回黑暗使命號逃脫。",
+        "伽瑪當用超級武器創造出「邪惡忍者」對抗正義忍者。",
+        "勞埃德與忍者受邀至黑暗寄宿學校，卻陷入圈套，學生們企圖拉攏勞埃德回歸邪惡。",
+        "邪惡忍者追擊至此，迫使學生與忍者合作。勞埃德在戰鬥中掌握了閃電之力。",
+        "伽瑪當透過「當瑪伽企業」威脅要摧毀德瑞的道場。",
+        "忍者參加「忍者球大賽」拯救道場，贏得比賽並奪回史命號。卡勒斯？越獄，救出伽瑪當。",
+        "伽瑪當用超級武器將忍者變回孩童，並復活滅絕生物「格倫達？」。後來忍者恢復成年，勞埃德意外快速長大成青少年。",
+        "伽瑪當為阻止勞埃德成為綠忍者，利用超級武器回到過去改變歷史。四忍與吳追隨，最終摧毀武器並將其丟入太空。",
+        "忍者遇見勞埃德的母親——美莎子。",
+        "石頭軍團戰士因大吞噬者的毒液在博物館中甦醒，最終被忍者擊落無底深淵。",
+        "伽瑪當漂流至「黑暗之島」，遇見大反派「黑暗島主」，並成為其代理人。",
+        "卡勒斯帶領蛇族掘地道，卻誤觸「石頭軍團之墓」，喚醒石軍。",
+        "伽瑪當獲得「暗影頭盔」，操縱石軍，並開始建造「黑暗巨砲」（Garmatron）。",
+        "忍者前往黑暗之島，途中曾與父親朱利安博士重逢。",
+        "忍者進入「光明神殿」，獲得元素之刃與新忍裝，勞埃德覺醒「黃金龍」之力。",
+        "雖短暫阻止石軍，但天體鐘？最終歸零，末日降臨。",
+        "赤蘭被暗物質腐化並遭石軍俘虜。",
+        "伽瑪當啟動黑暗巨砲，釋放暗物質污染忍者國，黑暗島主附身伽瑪當。",
+        "黑暗島主率石軍攻城，忍者獲得「黃金機甲」與「究極神龍」回城決戰。",
+        "德瑞意外戴上暗影頭盔，短暫控制石軍。",
+        "阿光、阿剛、冰忍被腐化。勞埃德覺醒「終極旋風忍術大師」之力，擊敗黑暗島主，恢復忍者國與伽瑪當的善良。"
+      ],
+      "keywords": [
+        "第二季：最後一戰（Legacy of the Green Ninja）",
+        "Legacy of the Green Ninja",
+        "Garmatron",
+        "黑暗使命號",
+        "超級武器",
+        "能量",
+        "邪惡忍者",
+        "當瑪伽企業",
+        "忍者球大賽",
+        "格倫達？",
+        "黑暗之島",
+        "黑暗島主",
+        "石頭軍團之墓",
+        "暗影頭盔",
+        "黑暗巨砲",
+        "光明神殿",
+        "黃金龍",
+        "黃金機甲",
+        "究極神龍",
+        "終極旋風忍術大師",
+        "Legacy",
+        "Green",
+        "Ninja"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 143
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第二季：最後一戰（Legacy of the Green Ninja）\n忍者協助修復忍者國，同時訓練勞埃德，為將來對抗伽瑪當做準備。\n伽瑪當用四件黃金武器重鑄使命號，將其變成「黑暗使命號」。\n伽瑪當展現力量，說服蛇族棄權蛇族將軍而跟隨他。\n卡勒斯？企圖綁架勞埃德報仇，失敗後被捕。\n伽瑪當將四件黃金武器熔鑄為「超級武器」。\n他誤用武器復活海盜索托船長與其船員，卻被奪船並引發忍者城大戰。\n忍者遇見德瑞，在其道場訓練。\n勞埃德解鎖大地與自身的「能量」元素，協助忍者擊退海盜。\n勞埃德學會旋風忍術，但因年紀太小無法完全運用。\n赤蘭駕駛X武士機甲擊敗索托，海盜被捕，伽瑪當奪回黑暗使命號逃脫。\n伽瑪當用超級武器創造出「邪惡忍者」對抗正義忍者。\n勞埃德與忍者受邀至黑暗寄宿學校，卻陷入圈套，學生們企圖拉攏勞埃德回歸邪惡。\n邪惡忍者追擊至此，迫使學生與忍者合作。勞埃德在戰鬥中掌握了閃電之力。\n伽瑪當透過「當瑪伽企業」威脅要摧毀德瑞的道場。\n忍者參加「忍者球大賽」拯救道場，贏得比賽並奪回史命號。卡勒斯？越獄，救出伽瑪當。\n伽瑪當用超級武器將忍者變回孩童，並復活滅絕生物「格倫達？」。後來忍者恢復成年，勞埃德意外快速長大成青少年。\n伽瑪當為阻止勞埃德成為綠忍者，利用超級武器回到過去改變歷史。四忍與吳追隨，最終摧毀武器並將其丟入太空。\n忍者遇見勞埃德的母親——美莎子。\n石頭軍團戰士因大吞噬者的毒液在博物館中甦醒，最終被忍者擊落無底深淵。\n伽瑪當漂流至「黑暗之島」，遇見大反派「黑暗島主」，並成為其代理人。\n卡勒斯帶領蛇族掘地道，卻誤觸「石頭軍團之墓」，喚醒石軍。\n伽瑪當獲得「暗影頭盔」，操縱石軍，並開始建造「黑暗巨砲」（Garmatron）。\n忍者前往黑暗之島，途中曾與父親朱利安博士重逢。\n忍者進入「光明神殿」，獲得元素之刃與新忍裝，勞埃德覺醒「黃金龍」之力。\n雖短暫阻止石軍，但天體鐘？最終歸零，末日降臨。\n赤蘭被暗物質腐化並遭石軍俘虜。\n伽瑪當啟動黑暗巨砲，釋放暗物質污染忍者國，黑暗島主附身伽瑪當。\n黑暗島主率石軍攻城，忍者獲得「黃金機甲」與「究極神龍」回城決戰。\n德瑞意外戴上暗影頭盔，短暫控制石軍。\n阿光、阿剛、冰忍被腐化。勞埃德覺醒「終極旋風忍術大師」之力，擊敗黑暗島主，恢復忍者國與伽瑪當的善良。"
+    },
+    {
+      "id": "masters-of-spinjitzu-006",
+      "order": 1006,
+      "source_order": 6,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "最後決戰後（After the Final Battle）",
+      "subsection": "",
+      "title": "最後決戰後（After the Final Battle）",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "最後決戰後（After the Final Battle）"
+      ],
+      "depth": 2,
+      "summary": "博格將忍者城改建成高科技的「新忍者城」。 黑暗島主殘存靈魂化為電腦病毒，潛入博格工業系統。",
+      "details": [
+        "博格將忍者城改建成高科技的「新忍者城」。",
+        "黑暗島主殘存靈魂化為電腦病毒，潛入博格工業系統。",
+        "忍者皇帝赦免伽瑪當過往罪行。",
+        "晴美對伽瑪當失望，認為他已失去昔日的黑暗榮耀。",
+        "伽瑪當建寺修行，成為和平主義者。",
+        "吳與忍者（勞埃德除外）、赤蘭在「吳學院」成為老師。",
+        "朱利安博士自然辭世。",
+        "博格建造 16 台 P.I.X.A.L.，僅最後一台成功並留在博格大廈。",
+        "蛇族自石軍墓中逃出，悔改成為和平部族。卡勒斯？與瑟瑪？結婚，誕下卡勒斯二世。",
+        "勞埃德釋放終極神龍返回「鬼怪與龍之境」，最終神龍死於鐵男爵與龍獵人之手。"
+      ],
+      "keywords": [
+        "最後決戰後（After the Final Battle）",
+        "After the Final Battle",
+        "勞埃德除外",
+        "新忍者城",
+        "吳學院",
+        "鬼怪與龍之境",
+        "After",
+        "Final",
+        "Battle",
+        "P.I.X.A.L"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 235
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n最後決戰後（After the Final Battle）\n博格將忍者城改建成高科技的「新忍者城」。\n黑暗島主殘存靈魂化為電腦病毒，潛入博格工業系統。\n忍者皇帝赦免伽瑪當過往罪行。\n晴美對伽瑪當失望，認為他已失去昔日的黑暗榮耀。\n伽瑪當建寺修行，成為和平主義者。\n吳與忍者（勞埃德除外）、赤蘭在「吳學院」成為老師。\n朱利安博士自然辭世。\n博格建造 16 台 P.I.X.A.L.，僅最後一台成功並留在博格大廈。\n蛇族自石軍墓中逃出，悔改成為和平部族。卡勒斯？與瑟瑪？結婚，誕下卡勒斯二世。\n勞埃德釋放終極神龍返回「鬼怪與龍之境」，最終神龍死於鐵男爵與龍獵人之手。"
+    },
+    {
+      "id": "masters-of-spinjitzu-007",
+      "order": 1007,
+      "source_order": 7,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第三季：重新啟動（Rebooted）",
+      "subsection": "",
+      "title": "第三季：重新啟動（Rebooted）",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第三季：重新啟動（Rebooted）"
+      ],
+      "depth": 2,
+      "summary": "忍者受邀參觀博格大廈，新忍者城科技高度發展。 赤蘭測試「完美匹配」，結果是阿剛，引發阿剛與阿光之間的矛盾。",
+      "details": [
+        "忍者受邀參觀博格大廈，新忍者城科技高度發展。",
+        "赤蘭測試「完美匹配」，結果是阿剛，引發阿剛與阿光之間的矛盾。",
+        "博格將「科技刀」交給忍者。",
+        "黑暗島主病毒入侵城市，奪取博格意識，並建立「機械忍者軍團」（Nindroid Army）。",
+        "P.I.X.A.L.脫離黑暗島主控制，成為忍者盟友。",
+        "忍者摧毀城市主發電站，暫時停用科技。冰忍犧牲能量救活 P.I.X.A.L.。",
+        "吳遭改造成「邪惡科技吳」。",
+        "忍者調查蛇族，得知「黃金大師詛咒」。",
+        "黑暗島主開始吸取勞埃德的黃金之力。",
+        "忍者進入數位世界（Digiverse）對抗黑暗島主並擊敗其數位形態。",
+        "黑暗島主殘魂依舊存在，被彼拉帶走，潛伏於黑暗島主體內。",
+        "勞埃德分散黃金之力，以防黑暗島主完全復活。",
+        "忍者潛入太空，與機械忍者軍團爭奪黃金武器。",
+        "黑暗島主以黃金武器重鑄身體，並打造「黃金鎧甲」，化為「黃金大師」。",
+        "忍者返回忍者城，集結盟友迎戰。",
+        "德瑞意外操控石軍，協助戰局。",
+        "冰忍最終犧牲自己，吸收黃金鎧甲能量，與黑暗島主同歸於盡。忍者痛失冰忍，舉行葬禮。",
+        "冰忍的意識殘留於數位世界，最終重建身體，成為「鈦忍者」。"
+      ],
+      "keywords": [
+        "第三季：重新啟動（Rebooted）",
+        "Rebooted",
+        "Nindroid Army",
+        "Digiverse",
+        "完美匹配",
+        "科技刀",
+        "機械忍者軍團",
+        "邪惡科技吳",
+        "黃金大師詛咒",
+        "黃金鎧甲",
+        "黃金大師",
+        "鈦忍者",
+        "Nindroid",
+        "Army",
+        "P.I.X.A.L.",
+        "P.I.X.A.L"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 267
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第三季：重新啟動（Rebooted）\n忍者受邀參觀博格大廈，新忍者城科技高度發展。\n赤蘭測試「完美匹配」，結果是阿剛，引發阿剛與阿光之間的矛盾。\n博格將「科技刀」交給忍者。\n黑暗島主病毒入侵城市，奪取博格意識，並建立「機械忍者軍團」（Nindroid Army）。\nP.I.X.A.L.脫離黑暗島主控制，成為忍者盟友。\n忍者摧毀城市主發電站，暫時停用科技。冰忍犧牲能量救活 P.I.X.A.L.。\n吳遭改造成「邪惡科技吳」。\n忍者調查蛇族，得知「黃金大師詛咒」。\n黑暗島主開始吸取勞埃德的黃金之力。\n忍者進入數位世界（Digiverse）對抗黑暗島主並擊敗其數位形態。\n黑暗島主殘魂依舊存在，被彼拉帶走，潛伏於黑暗島主體內。\n勞埃德分散黃金之力，以防黑暗島主完全復活。\n忍者潛入太空，與機械忍者軍團爭奪黃金武器。\n黑暗島主以黃金武器重鑄身體，並打造「黃金鎧甲」，化為「黃金大師」。\n忍者返回忍者城，集結盟友迎戰。\n德瑞意外操控石軍，協助戰局。\n冰忍最終犧牲自己，吸收黃金鎧甲能量，與黑暗島主同歸於盡。忍者痛失冰忍，舉行葬禮。\n冰忍的意識殘留於數位世界，最終重建身體，成為「鈦忍者」。"
+    },
+    {
+      "id": "masters-of-spinjitzu-008",
+      "order": 1008,
+      "source_order": 8,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "分離之路（Separate Paths）",
+      "subsection": "",
+      "title": "分離之路（Separate Paths）",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "分離之路（Separate Paths）"
+      ],
+      "depth": 2,
+      "summary": "忍者造訪陳的麵館，阿光與阿剛爭執被逐出。 冰忍的犧牲使忍者分崩離析，勞埃德成為唯一仍堅持「忍者永不放棄」的人。",
+      "details": [
+        "忍者造訪陳的麵館，阿光與阿剛爭執被逐出。",
+        "冰忍的犧牲使忍者分崩離析，勞埃德成為唯一仍堅持「忍者永不放棄」的人。",
+        "博格將黃金鎧甲封存。",
+        "梅茲摩？舉辦「蛇鬥場」，赤地經常參加。",
+        "阿光成為電視遊戲節目主持人。",
+        "阿光成為伐木工人。",
+        "科技被全面移除，忍者城回復傳統現代風貌。",
+        "冰忍與 P.I.X.A.L.被羅南捕獲，賣給陳大師。陳奪走冰忍的冰之力並拆解 P.I.X.A.L.。",
+        "勞埃德看到阿光的節目後，決定召回昔日同伴，重新集結忍者隊伍。"
+      ],
+      "keywords": [
+        "分離之路（Separate Paths）",
+        "Separate Paths",
+        "忍者永不放棄",
+        "蛇鬥場",
+        "Separate",
+        "Paths",
+        "P.I.X.A.L.",
+        "P.I.X.A.L"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 323
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n分離之路（Separate Paths）\n忍者造訪陳的麵館，阿光與阿剛爭執被逐出。\n冰忍的犧牲使忍者分崩離析，勞埃德成為唯一仍堅持「忍者永不放棄」的人。\n博格將黃金鎧甲封存。\n梅茲摩？舉辦「蛇鬥場」，赤地經常參加。\n阿光成為電視遊戲節目主持人。\n阿光成為伐木工人。\n科技被全面移除，忍者城回復傳統現代風貌。\n冰忍與 P.I.X.A.L.被羅南捕獲，賣給陳大師。陳奪走冰忍的冰之力並拆解 P.I.X.A.L.。\n勞埃德看到阿光的節目後，決定召回昔日同伴，重新集結忍者隊伍。"
+    },
+    {
+      "id": "masters-of-spinjitzu-009",
+      "order": 1009,
+      "source_order": 9,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第四季：元素擂台賽",
+      "subsection": "",
+      "title": "第四季：元素擂台賽",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第四季：元素擂台賽"
+      ],
+      "depth": 2,
+      "summary": "忍者們在陳的麵館會合，發現 Zane 仍然存活。 忍者加入陳舉辦的元素擂台賽。",
+      "details": [
+        "忍者們在陳的麵館會合，發現 Zane 仍然存活。",
+        "忍者加入陳舉辦的元素擂台賽。",
+        "Kai 與 Skylor 相遇，並對她產生好感。",
+        "Karlof 被淘汰。",
+        "Bolobo、Gravis 與 Ash 被淘汰。",
+        "Cole 被淘汰，但與 Jay 修復友情。",
+        "Zane 將 P.I.X.A.L. 的資料晶片植入自身系統。",
+        "Zane 被 Clouse 與陳的手下擊暈。",
+        "Cole 找到並解救 Zane。",
+        "Jacob 被淘汰。",
+        "Chamille 被淘汰。",
+        "Tox 被淘汰。",
+        "忍者與其他元素大師結盟。",
+        "Kai 發現 Skylor 是陳的女兒，兩人關係陷入緊張。",
+        "除 Lloyd 之外的元素大師全被俘虜。",
+        "陳試圖拉攏 Kai，並設局讓 Lloyd 落入陷阱。",
+        "Lloyd 被俘並失去力量。",
+        "元素大師們逃脫並擊殺 Anacondrai 巨蛇。",
+        "忍者重新集結並俘虜大多數 Anacondrai 戰士，但陳、Clouse、Zugu、Eyzor、Kapau 與 Chope 逃脫，同時綁走 Skylor。",
+        "Skylor 逃脫，但再度與 Kai 一同被俘，用於啟動咒語。",
+        "Clouse 與 Garmadon 爭鬥，Clouse 打開通往詛咒之境的傳送門，卻被拋入其中。",
+        "咒語啟動，Skylor、Garmadon、陳與 Anacondrai 戰士化為 Anacondrai。",
+        "他們逃至 Ninjago。",
+        "元素大師克服恐懼，召喚元素巨龍，返回 Ninjago。",
+        "咒語逐漸消退，陳為鞏固其效果，尋找 Pythor 的精華。",
+        "忍者在 Kryptarium 監獄面對縮小版 Pythor，得知陳在蛇族戰爭中的真相。",
+        "Pythor 被俘並被迫提供汗液，使變身永久化。陳宣布「第二次蛇族戰爭」，並控制 Ninjago 大部分領土。",
+        "忍者集結盟友，在長老走廊與戰士們決戰。",
+        "Pythor 帶來法術之書，Garmadon 進入詛咒之境釋放 Anacondrai 將軍。",
+        "陳與其戰士被擊敗，Skylor 恢復人形。",
+        "然而，Morro 趁機逃脫。"
+      ],
+      "keywords": [
+        "第四季：元素擂台賽",
+        "第二次蛇族戰爭",
+        "Zane",
+        "Kai",
+        "Skylor",
+        "Karlof",
+        "Bolobo",
+        "Gravis",
+        "Ash",
+        "Cole",
+        "Jay",
+        "P.I.X.A.L",
+        "Clouse",
+        "Jacob",
+        "Chamille",
+        "Tox",
+        "Lloyd",
+        "Anacondrai",
+        "Zugu",
+        "Eyzor",
+        "Kapau",
+        "Chope",
+        "Garmadon",
+        "Ninjago",
+        "Pythor",
+        "Kryptarium",
+        "Morro"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 350
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第四季：元素擂台賽\n忍者們在陳的麵館會合，發現 Zane 仍然存活。\n忍者加入陳舉辦的元素擂台賽。\nKai 與 Skylor 相遇，並對她產生好感。\nKarlof 被淘汰。\nBolobo、Gravis 與 Ash 被淘汰。\nCole 被淘汰，但與 Jay 修復友情。\nZane 將 P.I.X.A.L. 的資料晶片植入自身系統。\nZane 被 Clouse 與陳的手下擊暈。\nCole 找到並解救 Zane。\nJacob 被淘汰。\nChamille 被淘汰。\nTox 被淘汰。\n忍者與其他元素大師結盟。\nKai 發現 Skylor 是陳的女兒，兩人關係陷入緊張。\n除 Lloyd 之外的元素大師全被俘虜。\n陳試圖拉攏 Kai，並設局讓 Lloyd 落入陷阱。\nLloyd 被俘並失去力量。\n元素大師們逃脫並擊殺 Anacondrai 巨蛇。\n忍者重新集結並俘虜大多數 Anacondrai 戰士，但陳、Clouse、Zugu、Eyzor、Kapau 與 Chope 逃脫，同時綁走 Skylor。\nSkylor 逃脫，但再度與 Kai 一同被俘，用於啟動咒語。\nClouse 與 Garmadon 爭鬥，Clouse 打開通往詛咒之境的傳送門，卻被拋入其中。\n咒語啟動，Skylor、Garmadon、陳與 Anacondrai 戰士化為 Anacondrai。\n他們逃至 Ninjago。\n元素大師克服恐懼，召喚元素巨龍，返回 Ninjago。\n咒語逐漸消退，陳為鞏固其效果，尋找 Pythor 的精華。\n忍者在 Kryptarium 監獄面對縮小版 Pythor，得知陳在蛇族戰爭中的真相。\nPythor 被俘並被迫提供汗液，使變身永久化。陳宣布「第二次蛇族戰爭」，並控制 Ninjago 大部分領土。\n忍者集結盟友，在長老走廊與戰士們決戰。\nPythor 帶來法術之書，Garmadon 進入詛咒之境釋放 Anacondrai 將軍。\n陳與其戰士被擊敗，Skylor 恢復人形。\n然而，Morro 趁機逃脫。"
+    },
+    {
+      "id": "masters-of-spinjitzu-010",
+      "order": 1010,
+      "source_order": 10,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第二次紫邪蛇族戰爭後",
+      "subsection": "",
+      "title": "第二次紫邪蛇族戰爭後",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第二次紫邪蛇族戰爭後"
+      ],
+      "depth": 2,
+      "summary": "在長老走廊建造 Garmadon 的紀念浮雕，實現他「以自己形象重塑世界」的願望。 Lloyd 因父親的放逐而幻覺與他對話，最後在 Misako 的安慰下釋懷。",
+      "details": [
+        "在長老走廊建造 Garmadon 的紀念浮雕，實現他「以自己形象重塑世界」的願望。",
+        "Lloyd 因父親的放逐而幻覺與他對話，最後在 Misako 的安慰下釋懷。",
+        "冰忍的機械隼被升級為金屬外殼。",
+        "忍者與 Ronin 相遇，但被他背叛。",
+        "Ronin 洗劫陳的榮耀殿堂，在 Stiix 開設當舖，並於 Domu 圖書館偷走空術卷軸。",
+        "Garmadon 的寺院重建為「Steep Wisdom」。"
+      ],
+      "keywords": [
+        "第二次紫邪蛇族戰爭後",
+        "以自己形象重塑世界",
+        "Steep Wisdom",
+        "Garmadon",
+        "Lloyd",
+        "Misako",
+        "Ronin",
+        "Stiix",
+        "Domu",
+        "Steep",
+        "Wisdom"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 444
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第二次紫邪蛇族戰爭後\n在長老走廊建造 Garmadon 的紀念浮雕，實現他「以自己形象重塑世界」的願望。\nLloyd 因父親的放逐而幻覺與他對話，最後在 Misako 的安慰下釋懷。\n冰忍的機械隼被升級為金屬外殼。\n忍者與 Ronin 相遇，但被他背叛。\nRonin 洗劫陳的榮耀殿堂，在 Stiix 開設當舖，並於 Domu 圖書館偷走空術卷軸。\nGarmadon 的寺院重建為「Steep Wisdom」。"
+    },
+    {
+      "id": "masters-of-spinjitzu-011",
+      "order": 1011,
+      "source_order": 11,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第五季：幽靈霸主",
+      "subsection": "",
+      "title": "第五季：幽靈霸主",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第五季：幽靈霸主"
+      ],
+      "depth": 2,
+      "summary": "Ninjago 歷史博物館舉辦忍者展覽。 Morro 攻擊夜間守衛並附身他，引出 Lloyd。",
+      "details": [
+        "Ninjago 歷史博物館舉辦忍者展覽。",
+        "Morro 攻擊夜間守衛並附身他，引出 Lloyd。",
+        "Wu 嘗試退休，與 Misako 一同開設茶館。",
+        "Lloyd 前往博物館，卻被 Morro 附身。",
+        "Kai 與 Morro 戰鬥，聽見 Lloyd 在內心掙扎。",
+        "Morro 與 Wu 爭奪法杖並成功奪走，Wu 則發現上面的符號。",
+        "忍者前往 Stiix，並與 Morro 爭奪龍捲風忍術卷軸。",
+        "Morro 奪得卷軸並學會龍捲風忍術，Ronin 轉而協助忍者。",
+        "忍者進入楊大師的神廟，Cole 因未及時逃脫而成為幽靈。",
+        "忍者學會龍捲風忍術。",
+        "忍者進入雲朵王國，卻遭幽靈軍伏擊。",
+        "Morro 奪得聖殿之劍，Kai 暫時搶回，但 Ronin 為了還債又交給 Morro。",
+        "絕望洞窟？因連鎖反應而被毀。",
+        "忍者與 Morro 尋找第一代 旋風忍術大師的墓穴。",
+        "忍者在冰之迷宮看見未來，Cole 什麼也沒看到。",
+        "Morro 奪得國度水晶並帶幽靈軍入侵 Stiix。",
+        "Morro 打開詛咒之境，釋放 Preeminent。",
+        "Lloyd 被拖入詛咒之境，與父親短暫重逢後逃脫，並與 Morro 爭奪國度水晶，穿越多個界域。",
+        "Nya 覺醒真正潛能，擊敗 Preeminent，導致 Anacondrai 戰士、幽靈軍與 Garmadon 同歸於盡（Clouse 倖存）。",
+        "Preeminent 企圖拉 Morro 一同滅亡，Morro 最終將國度水晶交給 Wu，並於無盡之海消散。",
+        "忍者將 Lloyd 帶回，Lloyd 決心繼續修行成為大師。",
+        "詛咒之境毀滅，導致其姊妹界域 Djinjago 崩潰。"
+      ],
+      "keywords": [
+        "第五季：幽靈霸主",
+        "Clouse 倖存",
+        "Ninjago",
+        "Morro",
+        "Lloyd",
+        "Wu",
+        "Misako",
+        "Kai",
+        "Stiix",
+        "Ronin",
+        "Cole",
+        "Preeminent",
+        "Nya",
+        "Anacondrai",
+        "Garmadon",
+        "Clouse",
+        "Djinjago"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 464
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第五季：幽靈霸主\nNinjago 歷史博物館舉辦忍者展覽。\nMorro 攻擊夜間守衛並附身他，引出 Lloyd。\nWu 嘗試退休，與 Misako 一同開設茶館。\nLloyd 前往博物館，卻被 Morro 附身。\nKai 與 Morro 戰鬥，聽見 Lloyd 在內心掙扎。\nMorro 與 Wu 爭奪法杖並成功奪走，Wu 則發現上面的符號。\n忍者前往 Stiix，並與 Morro 爭奪龍捲風忍術卷軸。\nMorro 奪得卷軸並學會龍捲風忍術，Ronin 轉而協助忍者。\n忍者進入楊大師的神廟，Cole 因未及時逃脫而成為幽靈。\n忍者學會龍捲風忍術。\n忍者進入雲朵王國，卻遭幽靈軍伏擊。\nMorro 奪得聖殿之劍，Kai 暫時搶回，但 Ronin 為了還債又交給 Morro。\n絕望洞窟？因連鎖反應而被毀。\n忍者與 Morro 尋找第一代 旋風忍術大師的墓穴。\n忍者在冰之迷宮看見未來，Cole 什麼也沒看到。\nMorro 奪得國度水晶並帶幽靈軍入侵 Stiix。\nMorro 打開詛咒之境，釋放 Preeminent。\nLloyd 被拖入詛咒之境，與父親短暫重逢後逃脫，並與 Morro 爭奪國度水晶，穿越多個界域。\nNya 覺醒真正潛能，擊敗 Preeminent，導致 Anacondrai 戰士、幽靈軍與 Garmadon 同歸於盡（Clouse 倖存）。\nPreeminent 企圖拉 Morro 一同滅亡，Morro 最終將國度水晶交給 Wu，並於無盡之海消散。\n忍者將 Lloyd 帶回，Lloyd 決心繼續修行成為大師。\n詛咒之境毀滅，導致其姊妹界域 Djinjago 崩潰。"
+    },
+    {
+      "id": "masters-of-spinjitzu-012",
+      "order": 1012,
+      "source_order": 12,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "幽靈入侵之後",
+      "subsection": "",
+      "title": "幽靈入侵之後",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "幽靈入侵之後"
+      ],
+      "depth": 2,
+      "summary": "Harumi 開始籌組「伽瑪當之子」，研究鬼族並招募 Killow。 忍者協助 Lloyd 在醫院維持秩序。",
+      "details": [
+        "Harumi 開始籌組「伽瑪當之子」，研究鬼族並招募 Killow。",
+        "忍者協助 Lloyd 在醫院維持秩序。",
+        "Nya 留下修理電視，卻接到父母 Ed 與 Edna 的求救訊號。",
+        "Nya 發現 Nindroid 其實是來幫忙，並學會更融入團隊。",
+        "在 Stiix，Nya 對抗復仇的幽靈軍，忍者趕來協助並徹底擊敗他們。",
+        "團隊慶祝勝利，Nya 感謝 Lloyd 的智慧與建議。"
+      ],
+      "keywords": [
+        "幽靈入侵之後",
+        "伽瑪當之子",
+        "Harumi",
+        "Killow",
+        "Lloyd",
+        "Nya",
+        "Ed",
+        "Edna",
+        "Nindroid",
+        "Stiix"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 532
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n幽靈入侵之後\nHarumi 開始籌組「伽瑪當之子」，研究鬼族並招募 Killow。\n忍者協助 Lloyd 在醫院維持秩序。\nNya 留下修理電視，卻接到父母 Ed 與 Edna 的求救訊號。\nNya 發現 Nindroid 其實是來幫忙，並學會更融入團隊。\n在 Stiix，Nya 對抗復仇的幽靈軍，忍者趕來協助並徹底擊敗他們。\n團隊慶祝勝利，Nya 感謝 Lloyd 的智慧與建議。"
+    },
+    {
+      "id": "masters-of-spinjitzu-013",
+      "order": 1013,
+      "source_order": 13,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "影之界(外傳故事)",
+      "subsection": "",
+      "title": "影之界(外傳故事)",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "影之界(外傳故事)"
+      ],
+      "depth": 2,
+      "summary": "Wu 派遣旅人帶著茶壺與龍蛋，讓 Kai 與 Nya 撫養一隻幼龍。 Kai 不慎摔破龍蛋，誕生陰陽龍幼龍「Bandit」。",
+      "details": [
+        "Wu 派遣旅人帶著茶壺與龍蛋，讓 Kai 與 Nya 撫養一隻幼龍。",
+        "Kai 不慎摔破龍蛋，誕生陰陽龍幼龍「Bandit」。",
+        "Clouse 企圖將 Bandit 轉化為暗影龍。",
+        "忍者在 Clouse 的儀式中鼓舞 Bandit，使其蛻變為光明龍。",
+        "神廟崩塌，Clouse 誓言復仇，Bandit 飛往自己的命運。"
+      ],
+      "keywords": [
+        "影之界(外傳故事)",
+        "外傳故事",
+        "Bandit",
+        "Wu",
+        "Kai",
+        "Nya",
+        "Clouse"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 552
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n影之界(外傳故事)\nWu 派遣旅人帶著茶壺與龍蛋，讓 Kai 與 Nya 撫養一隻幼龍。\nKai 不慎摔破龍蛋，誕生陰陽龍幼龍「Bandit」。\nClouse 企圖將 Bandit 轉化為暗影龍。\n忍者在 Clouse 的儀式中鼓舞 Bandit，使其蛻變為光明龍。\n神廟崩塌，Clouse 誓言復仇，Bandit 飛往自己的命運。"
+    },
+    {
+      "id": "masters-of-spinjitzu-014",
+      "order": 1014,
+      "source_order": 14,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第六季：天際飛行（Skybound）之前",
+      "subsection": "",
+      "title": "第六季：天際飛行（Skybound）之前",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第六季：天際飛行（Skybound）之前"
+      ],
+      "depth": 2,
+      "summary": "Arrakore 離開 Djinjago，展開跨界旅程。 Zanth 自 Djinjago 前往 Imperium，卻遭「王國利爪」俘虜。",
+      "details": [
+        "Arrakore 離開 Djinjago，展開跨界旅程。",
+        "Zanth 自 Djinjago 前往 Imperium，卻遭「王國利爪」俘虜。",
+        "Zanth 被囚於先進系統實驗室，力量被抽取。"
+      ],
+      "keywords": [
+        "第六季：天際飛行（Skybound）之前",
+        "Skybound",
+        "王國利爪",
+        "Arrakore",
+        "Djinjago",
+        "Zanth",
+        "Imperium"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 569
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第六季：天際飛行（Skybound）之前\nArrakore 離開 Djinjago，展開跨界旅程。\nZanth 自 Djinjago 前往 Imperium，卻遭「王國利爪」俘虜。\nZanth 被囚於先進系統實驗室，力量被抽取。"
+    },
+    {
+      "id": "masters-of-spinjitzu-015",
+      "order": 1015,
+      "source_order": 15,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第六季：Skybound",
+      "subsection": "",
+      "title": "第六季：Skybound",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第六季：Skybound"
+      ],
+      "depth": 2,
+      "summary": "忍者因聲名大噪而被新聞直升機追逐，藏身於屋頂。 克里夫・高登（Cliff Gordon）逝世。",
+      "details": [
+        "忍者因聲名大噪而被新聞直升機追逐，藏身於屋頂。",
+        "克里夫・高登（Cliff Gordon）逝世。",
+        "克勞斯（Clouse）返回史迪斯（Stiix），釋放被封印在太拉汗之壺的精靈納達可汗（Nadakhan）。",
+        "納達可汗陷阱克勞斯與吳（Wu），並將他們封入茶壺。",
+        "忍者被納達可汗陷害，遭警察局長與羅南（Ronin）協助逮捕，關入克里塔利安監獄。",
+        "納達克汗陷阱美沙子（Misako），並在迷宮中奪取國度水晶。",
+        "納達可汗回到精靈國，發現其因忍者的行動而毀滅，並從父親手中取得靈魂劍。",
+        "天空海盜回到忍者國，發誓報仇。",
+        "忍者在船長索托（Soto）的幫助下逃獄，並得知使用虎寡婦蜘蛛之毒可擊敗精靈。",
+        "忍者潛入警局，得知納達可汗的飛船「暗黑堡壘號」的所在。",
+        "「暗黑堡壘號」被改裝成飛船並逃脫。",
+        "納達坎欺騙阿光（Jay）許下「財富」的願望，使阿光得知自己的身世並繼承父親的巨額遺產。",
+        "天空海盜襲擊忍者國，忍者被赦免。",
+        "忍者奪得虎寡婦之毒的地圖。",
+        "國度水晶被火槍手（Flintlocke）意外摧毀。",
+        "赤地（Kai）、冰忍（Zane）、阿剛（Cole）、勞埃德（Lloyd）依序被封入靈魂劍。",
+        "納達可汗逐步重建精靈國，並計畫與赤蘭（Nya）結婚以獲得無限願望。",
+        "阿光與盟友（包括凱樂Skylar、回音冰忍、羅南、德瑞、索托船長）試圖營救赤蘭。",
+        "納達可汗最終與赤蘭舉行婚禮，獲得無限願望，但遭虎寡婦之毒擊中。",
+        "阿光許願「赤蘭當初握住他的手，且克勞斯從未找到泰拉漢之壺」，抹除整個時間線。",
+        "除了阿光與赤蘭，所有人對此毫無記憶。",
+        "現實中，阿光與赤蘭在屋頂和解並親吻，全國直播。"
+      ],
+      "keywords": [
+        "第六季：Skybound",
+        "Cliff Gordon",
+        "Clouse",
+        "Stiix",
+        "Nadakhan",
+        "Wu",
+        "Ronin",
+        "Misako",
+        "Soto",
+        "Jay",
+        "Flintlocke",
+        "Kai",
+        "Zane",
+        "Cole",
+        "Lloyd",
+        "Nya",
+        "包括凱樂Skylar、回音冰忍、羅南、德瑞、索托船長",
+        "暗黑堡壘號",
+        "財富",
+        "赤蘭當初握住他的手，且克勞斯從未找到泰拉漢之壺",
+        "Skybound",
+        "Cliff",
+        "Gordon"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 577
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第六季：Skybound\n忍者因聲名大噪而被新聞直升機追逐，藏身於屋頂。\n克里夫・高登（Cliff Gordon）逝世。\n克勞斯（Clouse）返回史迪斯（Stiix），釋放被封印在太拉汗之壺的精靈納達可汗（Nadakhan）。\n納達可汗陷阱克勞斯與吳（Wu），並將他們封入茶壺。\n忍者被納達可汗陷害，遭警察局長與羅南（Ronin）協助逮捕，關入克里塔利安監獄。\n納達克汗陷阱美沙子（Misako），並在迷宮中奪取國度水晶。\n納達可汗回到精靈國，發現其因忍者的行動而毀滅，並從父親手中取得靈魂劍。\n天空海盜回到忍者國，發誓報仇。\n忍者在船長索托（Soto）的幫助下逃獄，並得知使用虎寡婦蜘蛛之毒可擊敗精靈。\n忍者潛入警局，得知納達可汗的飛船「暗黑堡壘號」的所在。\n「暗黑堡壘號」被改裝成飛船並逃脫。\n納達坎欺騙阿光（Jay）許下「財富」的願望，使阿光得知自己的身世並繼承父親的巨額遺產。\n天空海盜襲擊忍者國，忍者被赦免。\n忍者奪得虎寡婦之毒的地圖。\n國度水晶被火槍手（Flintlocke）意外摧毀。\n赤地（Kai）、冰忍（Zane）、阿剛（Cole）、勞埃德（Lloyd）依序被封入靈魂劍。\n納達可汗逐步重建精靈國，並計畫與赤蘭（Nya）結婚以獲得無限願望。\n阿光與盟友（包括凱樂Skylar、回音冰忍、羅南、德瑞、索托船長）試圖營救赤蘭。\n納達可汗最終與赤蘭舉行婚禮，獲得無限願望，但遭虎寡婦之毒擊中。\n阿光許願「赤蘭當初握住他的手，且克勞斯從未找到泰拉漢之壺」，抹除整個時間線。\n除了阿光與赤蘭，所有人對此毫無記憶。\n現實中，阿光與赤蘭在屋頂和解並親吻，全國直播。"
+    },
+    {
+      "id": "masters-of-spinjitzu-016",
+      "order": 1016,
+      "source_order": 16,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "Skybound 之後",
+      "subsection": "",
+      "title": "Skybound 之後",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "Skybound 之後"
+      ],
+      "depth": 2,
+      "summary": "亞拉科（Arrakore）回到精靈國，發現只剩一粒沙，遂隨身佩戴並移居水晶峰。",
+      "details": [
+        "亞拉科（Arrakore）回到精靈國，發現只剩一粒沙，遂隨身佩戴並移居水晶峰。"
+      ],
+      "keywords": [
+        "Skybound 之後",
+        "Arrakore",
+        "Skybound"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 645
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\nSkybound 之後\n亞拉科（Arrakore）回到精靈國，發現只剩一粒沙，遂隨身佩戴並移居水晶峰。"
+    },
+    {
+      "id": "masters-of-spinjitzu-017",
+      "order": 1017,
+      "source_order": 17,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "傳說的棕色忍者(外傳故事)",
+      "subsection": "",
+      "title": "傳說的棕色忍者(外傳故事)",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "傳說的棕色忍者(外傳故事)"
+      ],
+      "depth": 2,
+      "summary": "忍者退出公眾視野。 德瑞（Dareth）因在電視上出糗而失去忍者信任。",
+      "details": [
+        "忍者退出公眾視野。",
+        "德瑞（Dareth）因在電視上出糗而失去忍者信任。",
+        "德瑞欺騙忍者前往城市測試博格的全息龍計畫，忍者憤而與他斷絕往來。",
+        "德瑞計劃調查克里塔利安的越獄事件以贏回信任。",
+        "忍者發現機械工（Mechanic）是幕後黑手。",
+        "德瑞揭露真相，忍者重新尊重他，但德瑞開始沉迷於自身名氣。"
+      ],
+      "keywords": [
+        "傳說的棕色忍者(外傳故事)",
+        "外傳故事",
+        "Dareth",
+        "Mechanic"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 650
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n傳說的棕色忍者(外傳故事)\n忍者退出公眾視野。\n德瑞（Dareth）因在電視上出糗而失去忍者信任。\n德瑞欺騙忍者前往城市測試博格的全息龍計畫，忍者憤而與他斷絕往來。\n德瑞計劃調查克里塔利安的越獄事件以贏回信任。\n忍者發現機械工（Mechanic）是幕後黑手。\n德瑞揭露真相，忍者重新尊重他，但德瑞開始沉迷於自身名氣。"
+    },
+    {
+      "id": "masters-of-spinjitzu-018",
+      "order": 1018,
+      "source_order": 18,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "黑暗島三部曲(外傳故事)",
+      "subsection": "",
+      "title": "第一部",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "黑暗島三部曲(外傳故事)",
+        "第一部"
+      ],
+      "depth": 3,
+      "summary": "美沙子與羅南調查黑暗之島，遭海盜襲擊。 吳召集六位忍者，帶著神秘木箱啟程。",
+      "details": [
+        "美沙子與羅南調查黑暗之島，遭海盜襲擊。",
+        "吳召集六位忍者，帶著神秘木箱啟程。",
+        "暴風雨使隊伍分散：赤地落入沙漠、吳與勞埃德遇上黑暗物質影響。",
+        "阿光與赤蘭在「無人懸崖」遇上海盜，並成功救出羅南。"
+      ],
+      "keywords": [
+        "第一部",
+        "黑暗島三部曲(外傳故事)",
+        "外傳故事",
+        "無人懸崖"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 671
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n黑暗島三部曲(外傳故事)\n第一部\n美沙子與羅南調查黑暗之島，遭海盜襲擊。\n吳召集六位忍者，帶著神秘木箱啟程。\n暴風雨使隊伍分散：赤地落入沙漠、吳與勞埃德遇上黑暗物質影響。\n阿光與赤蘭在「無人懸崖」遇上海盜，並成功救出羅南。"
+    },
+    {
+      "id": "masters-of-spinjitzu-019",
+      "order": 1019,
+      "source_order": 19,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "黑暗島三部曲(外傳故事)",
+      "subsection": "",
+      "title": "第二部",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "黑暗島三部曲(外傳故事)",
+        "第二部"
+      ],
+      "depth": 3,
+      "summary": "勞埃德被黑暗物質影響，險些失控。 阿剛與冰忍發現美沙子與漁夫們被迫開採黑暗物質。",
+      "details": [
+        "勞埃德被黑暗物質影響，險些失控。",
+        "阿剛與冰忍發現美沙子與漁夫們被迫開採黑暗物質。",
+        "勞埃德用能量淨化美沙子。",
+        "吳揭露克勞斯利用魔法號召納達可汗的船員，並企圖將黑暗島與忍者國融合。"
+      ],
+      "keywords": [
+        "第二部",
+        "黑暗島三部曲(外傳故事)",
+        "外傳故事"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 684
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n黑暗島三部曲(外傳故事)\n第二部\n勞埃德被黑暗物質影響，險些失控。\n阿剛與冰忍發現美沙子與漁夫們被迫開採黑暗物質。\n勞埃德用能量淨化美沙子。\n吳揭露克勞斯利用魔法號召納達可汗的船員，並企圖將黑暗島與忍者國融合。"
+    },
+    {
+      "id": "masters-of-spinjitzu-020",
+      "order": 1020,
+      "source_order": 20,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "黑暗島三部曲(外傳故事)",
+      "subsection": "",
+      "title": "第三部",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "黑暗島三部曲(外傳故事)",
+        "第三部"
+      ],
+      "depth": 3,
+      "summary": "赤地在比利荒地被俘，後被阿剛救出。 忍者齊聚，前往光明神殿決戰。",
+      "details": [
+        "赤地在比利荒地被俘，後被阿剛救出。",
+        "忍者齊聚，前往光明神殿決戰。",
+        "克勞斯召喚影子軍團，但遭吳駕駛黃金機甲擊敗，並被逐入冥界。",
+        "忍者阻止黑暗島與忍者國融合，恢復平衡。",
+        "吳透過靈煙得知：楊大師即將復出、時間雙子歸來、雷與瑪雅回歸。",
+        "忍者與天空海盜達成協議，讓他們留在黑暗島。"
+      ],
+      "keywords": [
+        "第三部",
+        "黑暗島三部曲(外傳故事)",
+        "外傳故事"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 697
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n黑暗島三部曲(外傳故事)\n第三部\n赤地在比利荒地被俘，後被阿剛救出。\n忍者齊聚，前往光明神殿決戰。\n克勞斯召喚影子軍團，但遭吳駕駛黃金機甲擊敗，並被逐入冥界。\n忍者阻止黑暗島與忍者國融合，恢復平衡。\n吳透過靈煙得知：楊大師即將復出、時間雙子歸來、雷與瑪雅回歸。\n忍者與天空海盜達成協議，讓他們留在黑暗島。"
+    },
+    {
+      "id": "masters-of-spinjitzu-021",
+      "order": 1021,
+      "source_order": 21,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "亡靈之日（Day of the Departed）",
+      "subsection": "",
+      "title": "亡靈之日（Day of the Departed）",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "亡靈之日（Day of the Departed）"
+      ],
+      "depth": 2,
+      "summary": "忍者測試新機器，隨後參觀敵人展覽。 阿剛因仍是幽靈而感到被遺忘，前往空手道神殿尋找楊大師復仇。",
+      "details": [
+        "忍者測試新機器，隨後參觀敵人展覽。",
+        "阿剛因仍是幽靈而感到被遺忘，前往空手道神殿尋找楊大師復仇。",
+        "楊利用陰陽日蝕打開裂縫，釋放陳大師、摩洛、薩穆卡、木津將軍？、克里特等靈魂。",
+        "敵人各自襲擊忍者。",
+        "摩洛反而警告吳，並最終帶著平靜返回亡靈界。",
+        "阿剛最終擊敗楊，楊犧牲自己幫助阿剛重生為人類，但留下一道綠色傷痕。",
+        "忍者以修復後的空手道神殿為新基地。"
+      ],
+      "keywords": [
+        "亡靈之日（Day of the Departed）",
+        "Day of the Departed",
+        "Day",
+        "Departed"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 717
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n亡靈之日（Day of the Departed）\n忍者測試新機器，隨後參觀敵人展覽。\n阿剛因仍是幽靈而感到被遺忘，前往空手道神殿尋找楊大師復仇。\n楊利用陰陽日蝕打開裂縫，釋放陳大師、摩洛、薩穆卡、木津將軍？、克里特等靈魂。\n敵人各自襲擊忍者。\n摩洛反而警告吳，並最終帶著平靜返回亡靈界。\n阿剛最終擊敗楊，楊犧牲自己幫助阿剛重生為人類，但留下一道綠色傷痕。\n忍者以修復後的空手道神殿為新基地。"
+    },
+    {
+      "id": "masters-of-spinjitzu-022",
+      "order": 1022,
+      "source_order": 22,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "白蟒復仇(外傳故事)",
+      "subsection": "",
+      "title": "白蟒復仇(外傳故事)",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "白蟒復仇(外傳故事)"
+      ],
+      "depth": 2,
+      "summary": "彼拉（Pythor）竊取博格手錶（BorgWatch），試圖借此博取注意。 忍者用假貨調包，彼拉發現後逃走。",
+      "details": [
+        "彼拉（Pythor）竊取博格手錶（BorgWatch），試圖借此博取注意。",
+        "忍者用假貨調包，彼拉發現後逃走。"
+      ],
+      "keywords": [
+        "白蟒復仇(外傳故事)",
+        "外傳故事",
+        "Pythor",
+        "BorgWatch"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 740
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n白蟒復仇(外傳故事)\n彼拉（Pythor）竊取博格手錶（BorgWatch），試圖借此博取注意。\n忍者用假貨調包，彼拉發現後逃走。"
+    },
+    {
+      "id": "masters-of-spinjitzu-023",
+      "order": 1023,
+      "source_order": 23,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "時光之力前夕",
+      "subsection": "",
+      "title": "時光之力前夕",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "時光之力前夕"
+      ],
+      "depth": 2,
+      "summary": "吳完成日記後，準備在修道院迎戰歸來的時間雙子。 一隻被黑暗物質污染的利維坦？攻擊忍者港，後被忍者解救並返回大海。",
+      "details": [
+        "吳完成日記後，準備在修道院迎戰歸來的時間雙子。",
+        "一隻被黑暗物質污染的利維坦？攻擊忍者港，後被忍者解救並返回大海。"
+      ],
+      "keywords": [
+        "時光之力前夕"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 748
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n時光之力前夕\n吳完成日記後，準備在修道院迎戰歸來的時間雙子。\n一隻被黑暗物質污染的利維坦？攻擊忍者港，後被忍者解救並返回大海。"
+    },
+    {
+      "id": "masters-of-spinjitzu-024",
+      "order": 1024,
+      "source_order": 24,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第七季：時光之力（The Hands of Time）",
+      "subsection": "",
+      "title": "40年前：",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第七季：時光之力（The Hands of Time）",
+        "40年前："
+      ],
+      "depth": 3,
+      "summary": "艾尼克斯（Acronix） 在戰鬥中被困於時間，消失於時空洪流。",
+      "details": [
+        "艾尼克斯（Acronix） 在戰鬥中被困於時間，消失於時空洪流。"
+      ],
+      "keywords": [
+        "40年前：",
+        "第七季：時光之力（The Hands of Time）",
+        "The Hands of Time",
+        "Acronix",
+        "The",
+        "Hands",
+        "Time"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 754
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第七季：時光之力（The Hands of Time）\n40年前：\n艾尼克斯（Acronix） 在戰鬥中被困於時間，消失於時空洪流。"
+    },
+    {
+      "id": "masters-of-spinjitzu-025",
+      "order": 1025,
+      "source_order": 25,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第七季：時光之力（The Hands of Time）",
+      "subsection": "",
+      "title": "現代：",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第七季：時光之力（The Hands of Time）",
+        "現代："
+      ],
+      "depth": 3,
+      "summary": "Acronix 歷經 40 年重返，企圖向吳大師報仇。 忍者們在「亡靈之日」事件後整理博物館。",
+      "details": [
+        "Acronix 歷經 40 年重返，企圖向吳大師報仇。",
+        "忍者們在「亡靈之日」事件後整理博物館。",
+        "吳擊敗 Acronix，但隨後「加速時光之刃」在下午 6 點出現，釋放出時空能量波，將所有人推送到未來一分鐘。",
+        "Acronix 奪取時間之刃，並加速吳的衰老，吳險些墜崖，後被阿剛救下。",
+        "Acronix 與 Dr. Saunders 重逢，揭示其真實身份為 克魯克斯（Krux），二人合謀復仇。"
+      ],
+      "keywords": [
+        "現代：",
+        "第七季：時光之力（The Hands of Time）",
+        "The Hands of Time",
+        "Krux",
+        "亡靈之日",
+        "加速時光之刃",
+        "The",
+        "Hands",
+        "Time",
+        "Acronix",
+        "Dr",
+        "Saunders"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 758
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第七季：時光之力（The Hands of Time）\n現代：\nAcronix 歷經 40 年重返，企圖向吳大師報仇。\n忍者們在「亡靈之日」事件後整理博物館。\n吳擊敗 Acronix，但隨後「加速時光之刃」在下午 6 點出現，釋放出時空能量波，將所有人推送到未來一分鐘。\nAcronix 奪取時間之刃，並加速吳的衰老，吳險些墜崖，後被阿剛救下。\nAcronix 與 Dr. Saunders 重逢，揭示其真實身份為 克魯克斯（Krux），二人合謀復仇。"
+    },
+    {
+      "id": "masters-of-spinjitzu-026",
+      "order": 1026,
+      "source_order": 26,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第七季：時光之力（The Hands of Time）",
+      "subsection": "",
+      "title": "Vermillion 戰士現身：",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第七季：時光之力（The Hands of Time）",
+        "Vermillion 戰士現身："
+      ],
+      "depth": 3,
+      "summary": "Borg 商店遭襲，Kai 與 Zane 先後落敗。 Krux 假扮 Saunders，解除 Zane 的系統並綁架 Cyrus Borg，迫使他製造武器。",
+      "details": [
+        "Borg 商店遭襲，Kai 與 Zane 先後落敗。",
+        "Krux 假扮 Saunders，解除 Zane 的系統並綁架 Cyrus Borg，迫使他製造武器。",
+        "Kai 調查 Vermillion 頭盔與父母失蹤，發現 Krux 涉嫌，並被告知父母曾是叛徒。"
+      ],
+      "keywords": [
+        "Vermillion 戰士現身：",
+        "第七季：時光之力（The Hands of Time）",
+        "The Hands of Time",
+        "Vermillion",
+        "The",
+        "Hands",
+        "Time",
+        "Borg",
+        "Kai",
+        "Zane",
+        "Krux",
+        "Saunders",
+        "Cyrus"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 776
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第七季：時光之力（The Hands of Time）\nVermillion 戰士現身：\nBorg 商店遭襲，Kai 與 Zane 先後落敗。\nKrux 假扮 Saunders，解除 Zane 的系統並綁架 Cyrus Borg，迫使他製造武器。\nKai 調查 Vermillion 頭盔與父母失蹤，發現 Krux 涉嫌，並被告知父母曾是叛徒。"
+    },
+    {
+      "id": "masters-of-spinjitzu-027",
+      "order": 1027,
+      "source_order": 27,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第七季：時光之力（The Hands of Time）",
+      "subsection": "",
+      "title": "忍者行動：",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第七季：時光之力（The Hands of Time）",
+        "忍者行動："
+      ],
+      "depth": 3,
+      "summary": "Vermillion 盜取金屬製造盔甲。 忍者分頭行動：Kai、Jay、阿剛前往城市；Nya、Zane 留下修復 Zane；Lloyd 留守照顧衰弱的吳大師。",
+      "details": [
+        "Vermillion 盜取金屬製造盔甲。",
+        "忍者分頭行動：Kai、Jay、阿剛前往城市；Nya、Zane 留下修復 Zane；Lloyd 留守照顧衰弱的吳大師。",
+        "Vermillion 啟動「黑暗行動」，全境停電；忍者奮戰後恢復電力。"
+      ],
+      "keywords": [
+        "忍者行動：",
+        "第七季：時光之力（The Hands of Time）",
+        "The Hands of Time",
+        "黑暗行動",
+        "The",
+        "Hands",
+        "Time",
+        "Vermillion",
+        "Kai",
+        "Jay",
+        "Nya",
+        "Zane",
+        "Lloyd"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 788
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第七季：時光之力（The Hands of Time）\n忍者行動：\nVermillion 盜取金屬製造盔甲。\n忍者分頭行動：Kai、Jay、阿剛前往城市；Nya、Zane 留下修復 Zane；Lloyd 留守照顧衰弱的吳大師。\nVermillion 啟動「黑暗行動」，全境停電；忍者奮戰後恢復電力。"
+    },
+    {
+      "id": "masters-of-spinjitzu-028",
+      "order": 1028,
+      "source_order": 28,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第七季：時光之力（The Hands of Time）",
+      "subsection": "",
+      "title": "時光之刃爭奪：",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第七季：時光之力（The Hands of Time）",
+        "時光之刃爭奪："
+      ],
+      "depth": 3,
+      "summary": "「慢動作時光之刃」現於沙海，忍者擊退 Vermillion，救回 Edna（阿光的養母），奪得時間之刃。 時間雙子與 Vermillion 攻擊氣功寺？，吳被擄走。",
+      "details": [
+        "「慢動作時光之刃」現於沙海，忍者擊退 Vermillion，救回 Edna（阿光的養母），奪得時間之刃。",
+        "時間雙子與 Vermillion 攻擊氣功寺？，吳被擄走。",
+        "忍者發現 Vermillion 沼澤並制定營救計畫。",
+        "「暫停時間之刃」出現於冰川荒原，釋放能量波凍結一切一分鐘。"
+      ],
+      "keywords": [
+        "時光之刃爭奪：",
+        "第七季：時光之力（The Hands of Time）",
+        "The Hands of Time",
+        "阿光的養母",
+        "慢動作時光之刃",
+        "暫停時間之刃",
+        "The",
+        "Hands",
+        "Time",
+        "Vermillion",
+        "Edna"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 800
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第七季：時光之力（The Hands of Time）\n時光之刃爭奪：\n「慢動作時光之刃」現於沙海，忍者擊退 Vermillion，救回 Edna（阿光的養母），奪得時間之刃。\n時間雙子與 Vermillion 攻擊氣功寺？，吳被擄走。\n忍者發現 Vermillion 沼澤並制定營救計畫。\n「暫停時間之刃」出現於冰川荒原，釋放能量波凍結一切一分鐘。"
+    },
+    {
+      "id": "masters-of-spinjitzu-029",
+      "order": 1029,
+      "source_order": 29,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第七季：時光之力（The Hands of Time）",
+      "subsection": "",
+      "title": "鐵末日（Iron Doom）：",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第七季：時光之力（The Hands of Time）",
+        "鐵末日（Iron Doom）："
+      ],
+      "depth": 3,
+      "summary": "Krux 與 Acronix 迫使 Kai 與家人前往沸騰之海，奪取「逆轉時間之刃」。 Kai 與 Nya 成功組合「融合龍?」並取得逆轉時間之刃。",
+      "details": [
+        "Krux 與 Acronix 迫使 Kai 與家人前往沸騰之海，奪取「逆轉時間之刃」。",
+        "Kai 與 Nya 成功組合「融合龍?」並取得逆轉時間之刃。",
+        "最終四枚時間之刃被插入「鐵末日？」機械，時間雙子與 Vermillion 穿越至 40 年前。",
+        "Kai、Nya 與虛弱的吳追隨而去，並以「逆轉時間之刃」恢復吳的生命力。",
+        "時間雙子決定逃往遙遠的未來，吳為保護時間線，犧牲自己與 Acronix、Krux 一同消失於時空漩渦。",
+        "Kai 以時間之刃治癒父親 Ray。",
+        "吳大師失蹤後，忍者們失去師父，Lloyd 被推舉為「臨時大師」。"
+      ],
+      "keywords": [
+        "鐵末日（Iron Doom）：",
+        "第七季：時光之力（The Hands of Time）",
+        "Iron Doom",
+        "The Hands of Time",
+        "逆轉時間之刃",
+        "融合龍?",
+        "鐵末日？",
+        "臨時大師",
+        "Iron",
+        "Doom",
+        "The",
+        "Hands",
+        "Time",
+        "Krux",
+        "Acronix",
+        "Kai",
+        "Nya",
+        "Vermillion",
+        "Ray",
+        "Lloyd"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 815
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第七季：時光之力（The Hands of Time）\n鐵末日（Iron Doom）：\nKrux 與 Acronix 迫使 Kai 與家人前往沸騰之海，奪取「逆轉時間之刃」。\nKai 與 Nya 成功組合「融合龍?」並取得逆轉時間之刃。\n最終四枚時間之刃被插入「鐵末日？」機械，時間雙子與 Vermillion 穿越至 40 年前。\nKai、Nya 與虛弱的吳追隨而去，並以「逆轉時間之刃」恢復吳的生命力。\n時間雙子決定逃往遙遠的未來，吳為保護時間線，犧牲自己與 Acronix、Krux 一同消失於時空漩渦。\nKai 以時間之刃治癒父親 Ray。\n吳大師失蹤後，忍者們失去師父，Lloyd 被推舉為「臨時大師」。"
+    },
+    {
+      "id": "masters-of-spinjitzu-030",
+      "order": 1030,
+      "source_order": 30,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "時光之力之後",
+      "subsection": "",
+      "title": "時光之力之後",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "時光之力之後"
+      ],
+      "depth": 2,
+      "summary": "吳在鐵末日中與時間雙子交戰，同時不斷逆齡，最終化為嬰兒。 Lloyd 聲音變深，眼睛變綠，力量增強。",
+      "details": [
+        "吳在鐵末日中與時間雙子交戰，同時不斷逆齡，最終化為嬰兒。",
+        "Lloyd 聲音變深，眼睛變綠，力量增強。",
+        "Zane 獲得全息偽裝能力。",
+        "忍者張貼尋人啟事尋找吳大師，Misako 找到嬰兒吳大師，卻被 Harumi 綁走。",
+        "Kai 與 Skylor 調查新幫派，發現其實是警方與 Ronin 創建的「改過課程」。",
+        "Nya 前往北境，擊敗壓迫農民的暴虐領主，並潛入「玄武石之門」。",
+        "機械工（The Mechanic）逃獄。"
+      ],
+      "keywords": [
+        "時光之力之後",
+        "The Mechanic",
+        "改過課程",
+        "玄武石之門",
+        "Lloyd",
+        "Zane",
+        "Misako",
+        "Harumi",
+        "Kai",
+        "Skylor",
+        "Ronin",
+        "Nya",
+        "The",
+        "Mechanic"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 840
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n時光之力之後\n吳在鐵末日中與時間雙子交戰，同時不斷逆齡，最終化為嬰兒。\nLloyd 聲音變深，眼睛變綠，力量增強。\nZane 獲得全息偽裝能力。\n忍者張貼尋人啟事尋找吳大師，Misako 找到嬰兒吳大師，卻被 Harumi 綁走。\nKai 與 Skylor 調查新幫派，發現其實是警方與 Ronin 創建的「改過課程」。\nNya 前往北境，擊敗壓迫農民的暴虐領主，並潛入「玄武石之門」。\n機械工（The Mechanic）逃獄。"
+    },
+    {
+      "id": "masters-of-spinjitzu-031",
+      "order": 1031,
+      "source_order": 31,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第八季：伽瑪當之子（Sons of Garmadon）",
+      "subsection": "",
+      "title": "吳失蹤一年後：",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第八季：伽瑪當之子（Sons of Garmadon）",
+        "吳失蹤一年後："
+      ],
+      "depth": 3,
+      "summary": "忍者持續尋找吳並守護忍者國。 Lloyd 未能阻止「伽瑪當之子」偷走「復仇面具」，並召回忍者。",
+      "details": [
+        "忍者持續尋找吳並守護忍者國。",
+        "Lloyd 未能阻止「伽瑪當之子」偷走「復仇面具」，並召回忍者。",
+        "Nya 解救受攻擊的農民。",
+        "Jay 與阿剛將 Quanish the Elder 誤認為是吳。",
+        "Kai 與 Zane 阻止逃獄的機械工。"
+      ],
+      "keywords": [
+        "吳失蹤一年後：",
+        "第八季：伽瑪當之子（Sons of Garmadon）",
+        "Sons of Garmadon",
+        "伽瑪當之子",
+        "復仇面具",
+        "Sons",
+        "Garmadon",
+        "Lloyd",
+        "Nya",
+        "Jay",
+        "Quanish",
+        "Elder",
+        "Kai",
+        "Zane"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 864
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第八季：伽瑪當之子（Sons of Garmadon）\n吳失蹤一年後：\n忍者持續尋找吳並守護忍者國。\nLloyd 未能阻止「伽瑪當之子」偷走「復仇面具」，並召回忍者。\nNya 解救受攻擊的農民。\nJay 與阿剛將 Quanish the Elder 誤認為是吳。\nKai 與 Zane 阻止逃獄的機械工。"
+    },
+    {
+      "id": "masters-of-spinjitzu-032",
+      "order": 1032,
+      "source_order": 32,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第八季：伽瑪當之子（Sons of Garmadon）",
+      "subsection": "",
+      "title": "皇室遭難：",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第八季：伽瑪當之子（Sons of Garmadon）",
+        "皇室遭難："
+      ],
+      "depth": 3,
+      "summary": "忍者受命保護皇室與「鬼怪面具」。 皇宮遭「伽瑪當之子」攻擊，皇帝、皇后與護衛 Hutchins 陣亡，晴美（Harumi） 公主投靠忍者。",
+      "details": [
+        "忍者受命保護皇室與「鬼怪面具」。",
+        "皇宮遭「伽瑪當之子」攻擊，皇帝、皇后與護衛 Hutchins 陣亡，晴美（Harumi） 公主投靠忍者。",
+        "Lloyd 漸漸對 Harumi 傾心。"
+      ],
+      "keywords": [
+        "皇室遭難：",
+        "第八季：伽瑪當之子（Sons of Garmadon）",
+        "Sons of Garmadon",
+        "Harumi",
+        "鬼怪面具",
+        "伽瑪當之子",
+        "Sons",
+        "Garmadon",
+        "Hutchins",
+        "Lloyd"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 882
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第八季：伽瑪當之子（Sons of Garmadon）\n皇室遭難：\n忍者受命保護皇室與「鬼怪面具」。\n皇宮遭「伽瑪當之子」攻擊，皇帝、皇后與護衛 Hutchins 陣亡，晴美（Harumi） 公主投靠忍者。\nLloyd 漸漸對 Harumi 傾心。"
+    },
+    {
+      "id": "masters-of-spinjitzu-033",
+      "order": 1033,
+      "source_order": 33,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第八季：伽瑪當之子（Sons of Garmadon）",
+      "subsection": "",
+      "title": "雙面陰謀：",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第八季：伽瑪當之子（Sons of Garmadon）",
+        "雙面陰謀："
+      ],
+      "depth": 3,
+      "summary": "阿剛與 Zane 偽裝滲透入伽瑪當之子，Zane 化名「蛇捷豹」參加賽車測試，被揭穿並遭 Mr. E 重創。 阿剛營救一名嬰兒，後來證實該嬰兒是因逆轉之刃影響而年幼化的吳。",
+      "details": [
+        "阿剛與 Zane 偽裝滲透入伽瑪當之子，Zane 化名「蛇捷豹」參加賽車測試，被揭穿並遭 Mr. E 重創。",
+        "阿剛營救一名嬰兒，後來證實該嬰兒是因逆轉之刃影響而年幼化的吳。",
+        "忍者帶著嬰兒躲入「死者之風暴？」。",
+        "Harumi 暗中顯露真面目：她正是「沈默者」（Quiet One）。"
+      ],
+      "keywords": [
+        "雙面陰謀：",
+        "第八季：伽瑪當之子（Sons of Garmadon）",
+        "Sons of Garmadon",
+        "Quiet One",
+        "蛇捷豹",
+        "死者之風暴？",
+        "沈默者",
+        "Sons",
+        "Garmadon",
+        "Zane",
+        "Mr",
+        "Harumi",
+        "Quiet",
+        "One"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 894
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第八季：伽瑪當之子（Sons of Garmadon）\n雙面陰謀：\n阿剛與 Zane 偽裝滲透入伽瑪當之子，Zane 化名「蛇捷豹」參加賽車測試，被揭穿並遭 Mr. E 重創。\n阿剛營救一名嬰兒，後來證實該嬰兒是因逆轉之刃影響而年幼化的吳。\n忍者帶著嬰兒躲入「死者之風暴？」。\nHarumi 暗中顯露真面目：她正是「沈默者」（Quiet One）。"
+    },
+    {
+      "id": "masters-of-spinjitzu-034",
+      "order": 1034,
+      "source_order": 34,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第八季：伽瑪當之子（Sons of Garmadon）",
+      "subsection": "",
+      "title": "面具之戰：",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第八季：伽瑪當之子（Sons of Garmadon）",
+        "面具之戰："
+      ],
+      "depth": 3,
+      "summary": "Harumi 奪得「仇恨面具」，揭露真實身份。 忍者與嬰兒吳被捕，Lloyd 在鬼怪神廟中確認 Harumi 的背叛。",
+      "details": [
+        "Harumi 奪得「仇恨面具」，揭露真實身份。",
+        "忍者與嬰兒吳被捕，Lloyd 在鬼怪神廟中確認 Harumi 的背叛。",
+        "Harumi 嘗試復活 Garmadon，最初似乎失敗，但最終成功並助他逃脫。",
+        "Garmadon 重掌伽瑪當之子，並建立巨型魔像「石巨人？」。"
+      ],
+      "keywords": [
+        "面具之戰：",
+        "第八季：伽瑪當之子（Sons of Garmadon）",
+        "Sons of Garmadon",
+        "仇恨面具",
+        "石巨人？",
+        "Sons",
+        "Garmadon",
+        "Harumi",
+        "Lloyd"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 909
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第八季：伽瑪當之子（Sons of Garmadon）\n面具之戰：\nHarumi 奪得「仇恨面具」，揭露真實身份。\n忍者與嬰兒吳被捕，Lloyd 在鬼怪神廟中確認 Harumi 的背叛。\nHarumi 嘗試復活 Garmadon，最初似乎失敗，但最終成功並助他逃脫。\nGarmadon 重掌伽瑪當之子，並建立巨型魔像「石巨人？」。"
+    },
+    {
+      "id": "masters-of-spinjitzu-035",
+      "order": 1035,
+      "source_order": 35,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第八季：伽瑪當之子（Sons of Garmadon）",
+      "subsection": "",
+      "title": "最終決戰：",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第八季：伽瑪當之子（Sons of Garmadon）",
+        "最終決戰："
+      ],
+      "depth": 3,
+      "summary": "Lloyd 與父親交鋒，被擊敗並重傷，喪失力量。 忍者與武士 X 奮戰，卻無力阻止石巨人破壞城市。",
+      "details": [
+        "Lloyd 與父親交鋒，被擊敗並重傷，喪失力量。",
+        "忍者與武士 X 奮戰，卻無力阻止石巨人破壞城市。",
+        "Jay 使用「旅員茶」，將忍者與嬰兒吳傳送至「鬼族與龍族之境」。",
+        "Lloyd 與 Nya、Misako 及武士 X 殘存於忍者國，決心抵抗 Garmadon。",
+        "Garmadon 登基，成為忍者國的「皇帝」。"
+      ],
+      "keywords": [
+        "最終決戰：",
+        "第八季：伽瑪當之子（Sons of Garmadon）",
+        "Sons of Garmadon",
+        "旅員茶",
+        "鬼族與龍族之境",
+        "皇帝",
+        "Sons",
+        "Garmadon",
+        "Lloyd",
+        "Jay",
+        "Nya",
+        "Misako"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 924
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第八季：伽瑪當之子（Sons of Garmadon）\n最終決戰：\nLloyd 與父親交鋒，被擊敗並重傷，喪失力量。\n忍者與武士 X 奮戰，卻無力阻止石巨人破壞城市。\nJay 使用「旅員茶」，將忍者與嬰兒吳傳送至「鬼族與龍族之境」。\nLloyd 與 Nya、Misako 及武士 X 殘存於忍者國，決心抵抗 Garmadon。\nGarmadon 登基，成為忍者國的「皇帝」。"
+    },
+    {
+      "id": "masters-of-spinjitzu-036",
+      "order": 1036,
+      "source_order": 36,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第九季：〈狩獵行動〉",
+      "subsection": "",
+      "title": "第九季：〈狩獵行動〉",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第九季：〈狩獵行動〉"
+      ],
+      "depth": 2,
+      "summary": "忍者被認為已經死亡一週後，勞埃德與赤蘭成立「反抗軍」。 阿剛與少年吳發現暴風龍（Stormbringer）與牠的幼龍。",
+      "details": [
+        "忍者被認為已經死亡一週後，勞埃德與赤蘭成立「反抗軍」。",
+        "阿剛與少年吳發現暴風龍（Stormbringer）與牠的幼龍。",
+        "其他被困的忍者（除阿剛與少年吳）遭龍獵人俘虜。",
+        "凱樂、卡洛夫、暗影、蒼白先生、毒妮卡與紐若加入反抗軍。",
+        "反抗軍建立秘密基地。",
+        "伽瑪當因Mr. E無法捕獲勞埃德而毀滅他。",
+        "美莎子揭露阿剛、赤地、阿光、冰忍與吳被困於「鬼族與龍族之境」。",
+        "反抗軍短暫奪取電視台，公開播送訊息。",
+        "伽瑪當幾乎殺死晴美。",
+        "鋼鐵男爵？下令龍獵人狩獵忍者。",
+        "忍者首次見到「始祖龍」（Firstbourne）。",
+        "吳夢見與哥哥伽瑪當及父親（初代旋風忍術大師）釣魚，醒來後年齡增長至少年。",
+        "重金屬揭露自己真名為「信心」（Faith），並加入忍者。",
+        "美莎子揭示自己是鬼族，並解釋初代旋風忍術大師家族因鬼族血脈而壽命悠長。",
+        "忍者進入「鬼族之地」，並在遺跡中找到龍能盔甲的地圖。",
+        "晴美被伽瑪當收為「義女」。",
+        "信心訓練忍者使用鏈槍（補龍工具）。",
+        "美莎子變身成晴美企圖奪取伽瑪當力量，最終失敗並被伽瑪當與晴美俘虜。",
+        "忍者再次被俘。吳恢復記憶並快速成長至成年。",
+        "忍者與龍獵人決裂，信心揭露鋼鐵男爵的謊言。",
+        "始祖龍將鋼鐵男爵封於熔岩中，並讓吳獲得龍能鎧甲。",
+        "晴美在拯救小孩時喚醒良知，隨後於建築倒塌中死亡，靈魂進入亡者之境。",
+        "忍者與龍獵人聯手，信心選擇留在起始之境。",
+        "忍者騎乘巨龍重返忍者國，準備與伽瑪當決戰。",
+        "勞埃德與年輕的吳在博格大樓屋頂對決伽瑪當。",
+        "忍者騎龍與巨像戰鬥，使用勉強的鎖鏈束縛它。",
+        "勞埃德運用「無聲之拳」與伽瑪當交鋒，最終削弱父親力量並重獲自身能量。",
+        "巨像崩毀，伽瑪當被捕並警告「黑暗將至」。",
+        "戰後，吳恢復正常年齡，忍者慶祝勝利，但勞埃德擔憂鬼族威脅。"
+      ],
+      "keywords": [
+        "第九季：〈狩獵行動〉",
+        "Stormbringer",
+        "除阿剛與少年吳",
+        "Firstbourne",
+        "初代旋風忍術大師",
+        "Faith",
+        "補龍工具",
+        "反抗軍",
+        "鬼族與龍族之境",
+        "始祖龍",
+        "信心",
+        "鬼族之地",
+        "義女",
+        "無聲之拳",
+        "黑暗將至"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 940
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第九季：〈狩獵行動〉\n忍者被認為已經死亡一週後，勞埃德與赤蘭成立「反抗軍」。\n阿剛與少年吳發現暴風龍（Stormbringer）與牠的幼龍。\n其他被困的忍者（除阿剛與少年吳）遭龍獵人俘虜。\n凱樂、卡洛夫、暗影、蒼白先生、毒妮卡與紐若加入反抗軍。\n反抗軍建立秘密基地。\n伽瑪當因Mr. E無法捕獲勞埃德而毀滅他。\n美莎子揭露阿剛、赤地、阿光、冰忍與吳被困於「鬼族與龍族之境」。\n反抗軍短暫奪取電視台，公開播送訊息。\n伽瑪當幾乎殺死晴美。\n鋼鐵男爵？下令龍獵人狩獵忍者。\n忍者首次見到「始祖龍」（Firstbourne）。\n吳夢見與哥哥伽瑪當及父親（初代旋風忍術大師）釣魚，醒來後年齡增長至少年。\n重金屬揭露自己真名為「信心」（Faith），並加入忍者。\n美莎子揭示自己是鬼族，並解釋初代旋風忍術大師家族因鬼族血脈而壽命悠長。\n忍者進入「鬼族之地」，並在遺跡中找到龍能盔甲的地圖。\n晴美被伽瑪當收為「義女」。\n信心訓練忍者使用鏈槍（補龍工具）。\n美莎子變身成晴美企圖奪取伽瑪當力量，最終失敗並被伽瑪當與晴美俘虜。\n忍者再次被俘。吳恢復記憶並快速成長至成年。\n忍者與龍獵人決裂，信心揭露鋼鐵男爵的謊言。\n始祖龍將鋼鐵男爵封於熔岩中，並讓吳獲得龍能鎧甲。\n晴美在拯救小孩時喚醒良知，隨後於建築倒塌中死亡，靈魂進入亡者之境。\n忍者與龍獵人聯手，信心選擇留在起始之境。\n忍者騎乘巨龍重返忍者國，準備與伽瑪當決戰。\n勞埃德與年輕的吳在博格大樓屋頂對決伽瑪當。\n忍者騎龍與巨像戰鬥，使用勉強的鎖鏈束縛它。\n勞埃德運用「無聲之拳」與伽瑪當交鋒，最終削弱父親力量並重獲自身能量。\n巨像崩毀，伽瑪當被捕並警告「黑暗將至」。\n戰後，吳恢復正常年齡，忍者慶祝勝利，但勞埃德擔憂鬼族威脅。"
+    },
+    {
+      "id": "masters-of-spinjitzu-037",
+      "order": 1037,
+      "source_order": 37,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第十季：〈鬼怪入侵〉",
+      "subsection": "",
+      "title": "第十季：〈鬼怪入侵〉",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第十季：〈鬼怪入侵〉"
+      ],
+      "depth": 2,
+      "summary": "伽瑪當被擊敗數週後，忍者於忍者港參加典禮，重建的使命號正式啟航。 阿光準備向赤蘭求婚。",
+      "details": [
+        "伽瑪當被擊敗數週後，忍者於忍者港參加典禮，重建的使命號正式啟航。",
+        "阿光準備向赤蘭求婚。",
+        "信心與始祖龍抵達，警告鬼族即將入侵。",
+        "鬼族自國度水晶而出，將市民化為石像。忍者無力抵擋，只能撤離平民。",
+        "勞埃德釋放伽瑪當，請求他幫忙抵抗鬼族。",
+        "伽瑪當與勞埃德一同跳傘進入鬼族佔領的城市，並遇見鬼族首領「末日使者」。",
+        "勞埃德摧毀國度水晶。",
+        "勞埃德與伽瑪當使用「黃金大師鎧甲」暫時阻止鬼族。",
+        "忍者營救電視台人員，但阿剛跌入黑暗。",
+        "鎧甲被熔回原始四件黃金武器。",
+        "鬼族大軍進攻修道院，忍者與吳大師、伽瑪當、信心並肩作戰。",
+        "伽瑪當再度變身鬼族形態迎戰末日使者，但仍被擊敗。",
+        "忍者聯合施展「初創旋風忍術」，徹底消滅鬼族。",
+        "勞埃德瀕死之際靈魂進入草原，與初代旋風忍術大師會面，選擇返回忍者國。",
+        "伽瑪當離去，吳大師與其道別。",
+        "被石化的市民恢復正常。",
+        "忍者於修道院新增壁畫，紀念戰勝鬼族。"
+      ],
+      "keywords": [
+        "第十季：〈鬼怪入侵〉",
+        "末日使者",
+        "黃金大師鎧甲",
+        "初創旋風忍術"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1029
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第十季：〈鬼怪入侵〉\n伽瑪當被擊敗數週後，忍者於忍者港參加典禮，重建的使命號正式啟航。\n阿光準備向赤蘭求婚。\n信心與始祖龍抵達，警告鬼族即將入侵。\n鬼族自國度水晶而出，將市民化為石像。忍者無力抵擋，只能撤離平民。\n勞埃德釋放伽瑪當，請求他幫忙抵抗鬼族。\n伽瑪當與勞埃德一同跳傘進入鬼族佔領的城市，並遇見鬼族首領「末日使者」。\n勞埃德摧毀國度水晶。\n勞埃德與伽瑪當使用「黃金大師鎧甲」暫時阻止鬼族。\n忍者營救電視台人員，但阿剛跌入黑暗。\n鎧甲被熔回原始四件黃金武器。\n鬼族大軍進攻修道院，忍者與吳大師、伽瑪當、信心並肩作戰。\n伽瑪當再度變身鬼族形態迎戰末日使者，但仍被擊敗。\n忍者聯合施展「初創旋風忍術」，徹底消滅鬼族。\n勞埃德瀕死之際靈魂進入草原，與初代旋風忍術大師會面，選擇返回忍者國。\n伽瑪當離去，吳大師與其道別。\n被石化的市民恢復正常。\n忍者於修道院新增壁畫，紀念戰勝鬼族。"
+    },
+    {
+      "id": "masters-of-spinjitzu-038",
+      "order": 1038,
+      "source_order": 38,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "鬼族入侵後",
+      "subsection": "",
+      "title": "鬼族入侵後",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "鬼族入侵後"
+      ],
+      "depth": 2,
+      "summary": "PIXAL花費半年建造機庫，忍者因懶散而未察覺。 伽瑪當之子軍團（Sons of Garmadon）逃出克里塔利安監獄，後再度被捕。",
+      "details": [
+        "PIXAL花費半年建造機庫，忍者因懶散而未察覺。",
+        "伽瑪當之子軍團（Sons of Garmadon）逃出克里塔利安監獄，後再度被捕。",
+        "之後，他們被Mogra解救並成立「紅鴉」。",
+        "長老Quanish?接受初代旋風忍術大師召喚，離開凡間。"
+      ],
+      "keywords": [
+        "鬼族入侵後",
+        "Sons of Garmadon",
+        "紅鴉",
+        "Sons",
+        "Garmadon"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1082
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n鬼族入侵後\nPIXAL花費半年建造機庫，忍者因懶散而未察覺。\n伽瑪當之子軍團（Sons of Garmadon）逃出克里塔利安監獄，後再度被捕。\n之後，他們被Mogra解救並成立「紅鴉」。\n長老Quanish?接受初代旋風忍術大師召喚，離開凡間。"
+    },
+    {
+      "id": "masters-of-spinjitzu-039",
+      "order": 1039,
+      "source_order": 39,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "伽瑪當的旅程(外傳故事)",
+      "subsection": "",
+      "title": "伽瑪當的旅程(外傳故事)",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "伽瑪當的旅程(外傳故事)"
+      ],
+      "depth": 2,
+      "summary": "伽瑪當於夢中與自己的影子對戰。 現實中救下明與佐子，受邀前往「雙月村」。",
+      "details": [
+        "伽瑪當於夢中與自己的影子對戰。",
+        "現實中救下明與佐子，受邀前往「雙月村」。",
+        "發現「雙月茶」能影響他的力量。",
+        "紅鴉察覺伽瑪當復出。",
+        "伽瑪當協助雙月村居民與熊族對抗「熊魔」久瑪。",
+        "他利用雙月茶的力量困住久瑪，卻遭紅鴉與Mogra襲擊。",
+        "伽瑪當再次與影子對戰，逐漸萌生自我救贖的念頭。",
+        "終於擊敗Mogra，與熊族及村民締結同盟。",
+        "伽瑪當離開村莊，將舊頭盔贈予明。",
+        "多數紅鴉成員最終重返克里普塔監獄。"
+      ],
+      "keywords": [
+        "伽瑪當的旅程(外傳故事)",
+        "外傳故事",
+        "雙月村",
+        "雙月茶",
+        "熊魔"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1096
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n伽瑪當的旅程(外傳故事)\n伽瑪當於夢中與自己的影子對戰。\n現實中救下明與佐子，受邀前往「雙月村」。\n發現「雙月茶」能影響他的力量。\n紅鴉察覺伽瑪當復出。\n伽瑪當協助雙月村居民與熊族對抗「熊魔」久瑪。\n他利用雙月茶的力量困住久瑪，卻遭紅鴉與Mogra襲擊。\n伽瑪當再次與影子對戰，逐漸萌生自我救贖的念頭。\n終於擊敗Mogra，與熊族及村民締結同盟。\n伽瑪當離開村莊，將舊頭盔贈予明。\n多數紅鴉成員最終重返克里普塔監獄。"
+    },
+    {
+      "id": "masters-of-spinjitzu-040",
+      "order": 1040,
+      "source_order": 40,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第十一季：〈禁忌旋風忍術的秘密〉",
+      "subsection": "",
+      "title": "第十一季：〈禁忌旋風忍術的秘密〉",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第十一季：〈禁忌旋風忍術的秘密〉"
+      ],
+      "depth": 2,
+      "summary": "鬼族入侵結束 六個月後，冰忍做了一個關於火蛇與暴雪武士的預兆夢，但他以為只是惡夢。 忍者為了證明自己未鬆懈而挑戰吳大師，卻失敗。",
+      "details": [
+        "鬼族入侵結束 六個月後，冰忍做了一個關於火蛇與暴雪武士的預兆夢，但他以為只是惡夢。",
+        "忍者為了證明自己未鬆懈而挑戰吳大師，卻失敗。",
+        "忍者在城市尋找任務無果。",
+        "NGTV 報導沙漠金字塔尚未探勘，忍者與克拉奇．鮑爾斯前往探索。",
+        "阿斯菲拉被解封，奪走赤地的火之力量。",
+        "阿斯菲拉襲擊忍者城。",
+        "尼爾森遞送報紙時得知忍者被困，趕去修道院告訴吳。",
+        "忍者逃離金字塔，P.I.X.A.L. 救出他們。",
+        "阿斯菲拉尋找「奸詐背叛者」，並在歷史博物館奪得第一卷禁忌旋風術卷軸，復活查爾？與火蛇軍。",
+        "赤地、阿光、阿剛詢問蛇族卡勒斯與艾西迪卡斯，得知背叛者竟是吳大師。",
+        "吳大師承認自己年輕時與阿斯菲拉相識。",
+        "火蛇軍圍攻旋風術修道院。",
+        "勞埃德、冰忍、赤蘭從探險家俱樂部偷得第二卷禁忌卷軸。",
+        "忍者使用禁忌旋風忍術。",
+        "冰忍擊敗火蛇軍，但被阿斯菲拉放逐至「虛無之境」。"
+      ],
+      "keywords": [
+        "第十一季：〈禁忌旋風忍術的秘密〉",
+        "奸詐背叛者",
+        "虛無之境",
+        "NGTV",
+        "P.I.X.A.L"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1125
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第十一季：〈禁忌旋風忍術的秘密〉\n鬼族入侵結束 六個月後，冰忍做了一個關於火蛇與暴雪武士的預兆夢，但他以為只是惡夢。\n忍者為了證明自己未鬆懈而挑戰吳大師，卻失敗。\n忍者在城市尋找任務無果。\nNGTV 報導沙漠金字塔尚未探勘，忍者與克拉奇．鮑爾斯前往探索。\n阿斯菲拉被解封，奪走赤地的火之力量。\n阿斯菲拉襲擊忍者城。\n尼爾森遞送報紙時得知忍者被困，趕去修道院告訴吳。\n忍者逃離金字塔，P.I.X.A.L. 救出他們。\n阿斯菲拉尋找「奸詐背叛者」，並在歷史博物館奪得第一卷禁忌旋風術卷軸，復活查爾？與火蛇軍。\n赤地、阿光、阿剛詢問蛇族卡勒斯與艾西迪卡斯，得知背叛者竟是吳大師。\n吳大師承認自己年輕時與阿斯菲拉相識。\n火蛇軍圍攻旋風術修道院。\n勞埃德、冰忍、赤蘭從探險家俱樂部偷得第二卷禁忌卷軸。\n忍者使用禁忌旋風忍術。\n冰忍擊敗火蛇軍，但被阿斯菲拉放逐至「虛無之境」。"
+    },
+    {
+      "id": "masters-of-spinjitzu-041",
+      "order": 1041,
+      "source_order": 41,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第十一季：〈禁忌旋風忍術的秘密〉",
+      "subsection": "",
+      "title": "虛無之境篇",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第十一季：〈禁忌旋風忍術的秘密〉",
+        "虛無之境篇"
+      ],
+      "depth": 3,
+      "summary": "忍者進入虛無之境，遇見索拉與冰漁人。 暴雪武士摧毀「爐火」，赤地集中精神重新點燃，被稱為「火焰之主」。",
+      "details": [
+        "忍者進入虛無之境，遇見索拉與冰漁人。",
+        "暴雪武士摧毀「爐火」，赤地集中精神重新點燃，被稱為「火焰之主」。",
+        "勞埃德離開尋找泰坦機甲，並與紅狐秋田結識。",
+        "秋田救了勞埃德，並帶他前往。",
+        "紫外線、機械工與報喪鴿越獄，但被 P.I.X.A.L. 抓回。",
+        "勞埃德修復泰坦機甲，並對抗冰鳥??。",
+        "阿剛為取得旅員者茶樹花瓣而爬山，途中與巨人克拉格結為好友。",
+        "赤地、阿光、赤蘭也與克拉格會合。",
+        "冰龍凍結村莊裡的人，最後被赤蘭與赤地合力擊敗，赤地完全恢復火元素之力。",
+        "勞埃德發現冰忍就是「冰皇帝」，因為在虛無之境已度過數十年。",
+        "吳大師與 P.I.X.A.L. 嘗試開啟傳送門，卻不小心放出「魔魂者」。吳耗盡剩餘旅員茶才將其送回亡者之境。",
+        "勞埃德被囚遇見秋田的兄弟卡塔魯，與葛林法斯合作奪回王位。",
+        "最終，阿光、赤蘭、阿剛、赤地與克拉格合力進攻，勞埃德在戰鬥中喚醒冰忍記憶。",
+        "冰忍解放虛無之境，使其恢復和平，維克斯(Vex) 被放逐。",
+        "秋田吻了勞埃德臉頰道別。",
+        "忍者安全返回忍者國。"
+      ],
+      "keywords": [
+        "虛無之境篇",
+        "第十一季：〈禁忌旋風忍術的秘密〉",
+        "Vex",
+        "爐火",
+        "火焰之主",
+        "冰皇帝",
+        "魔魂者",
+        "P.I.X.A.L"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1171
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第十一季：〈禁忌旋風忍術的秘密〉\n虛無之境篇\n忍者進入虛無之境，遇見索拉與冰漁人。\n暴雪武士摧毀「爐火」，赤地集中精神重新點燃，被稱為「火焰之主」。\n勞埃德離開尋找泰坦機甲，並與紅狐秋田結識。\n秋田救了勞埃德，並帶他前往。\n紫外線、機械工與報喪鴿越獄，但被 P.I.X.A.L. 抓回。\n勞埃德修復泰坦機甲，並對抗冰鳥??。\n阿剛為取得旅員者茶樹花瓣而爬山，途中與巨人克拉格結為好友。\n赤地、阿光、赤蘭也與克拉格會合。\n冰龍凍結村莊裡的人，最後被赤蘭與赤地合力擊敗，赤地完全恢復火元素之力。\n勞埃德發現冰忍就是「冰皇帝」，因為在虛無之境已度過數十年。\n吳大師與 P.I.X.A.L. 嘗試開啟傳送門，卻不小心放出「魔魂者」。吳耗盡剩餘旅員茶才將其送回亡者之境。\n勞埃德被囚遇見秋田的兄弟卡塔魯，與葛林法斯合作奪回王位。\n最終，阿光、赤蘭、阿剛、赤地與克拉格合力進攻，勞埃德在戰鬥中喚醒冰忍記憶。\n冰忍解放虛無之境，使其恢復和平，維克斯(Vex) 被放逐。\n秋田吻了勞埃德臉頰道別。\n忍者安全返回忍者國。"
+    },
+    {
+      "id": "masters-of-spinjitzu-042",
+      "order": 1042,
+      "source_order": 42,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第十一季：〈禁忌旋風忍術的秘密〉",
+      "subsection": "",
+      "title": "虛無之境後",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第十一季：〈禁忌旋風忍術的秘密〉",
+        "虛無之境後"
+      ],
+      "depth": 3,
+      "summary": "火焰牙存活並在火湖被人類膜拜，形成「火牙教」。 吳大師向忍者講述自己與伽瑪當年輕時的冒險。",
+      "details": [
+        "火焰牙存活並在火湖被人類膜拜，形成「火牙教」。",
+        "吳大師向忍者講述自己與伽瑪當年輕時的冒險。",
+        "機械工成功越獄。"
+      ],
+      "keywords": [
+        "虛無之境後",
+        "第十一季：〈禁忌旋風忍術的秘密〉",
+        "火牙教"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1220
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第十一季：〈禁忌旋風忍術的秘密〉\n虛無之境後\n火焰牙存活並在火湖被人類膜拜，形成「火牙教」。\n吳大師向忍者講述自己與伽瑪當年輕時的冒險。\n機械工成功越獄。"
+    },
+    {
+      "id": "masters-of-spinjitzu-043",
+      "order": 1043,
+      "source_order": 43,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第十二季：〈第一帝國〉",
+      "subsection": "",
+      "title": "第十二季：〈第一帝國〉",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第十二季：〈第一帝國〉"
+      ],
+      "depth": 2,
+      "summary": "機械師與被遺棄的遊戲《第一帝國》的 A.I.「暗影至尊（Unagami）」合作，企圖建造能將遊戲實體化的傳送門。 阿光與赤蘭短暫參加舞蹈課。",
+      "details": [
+        "機械師與被遺棄的遊戲《第一帝國》的 A.I.「暗影至尊（Unagami）」合作，企圖建造能將遊戲實體化的傳送門。",
+        "阿光與赤蘭短暫參加舞蹈課。",
+        "數週後，機械師搶劫銀行，並要求暗影至尊賜予能感覺的機械手臂。",
+        "忍者破壞其行動並查獲主機板，意外啟動「第一帝國」街機機台。",
+        "阿光進入遊戲，遇見紅面罩軍團與玩家史考特。",
+        "大量玩家升至 13 級後被吸入遊戲世界。",
+        "忍者調查遊戲創作者戴爾博士，誤以為他就是暗影至尊。",
+        "暗影至尊釋放囚犯攻擊忍者，忍者尋求賽勒斯．博格協助，成功進入遊戲。"
+      ],
+      "keywords": [
+        "第十二季：〈第一帝國〉",
+        "Unagami",
+        "暗影至尊（Unagami）",
+        "第一帝國",
+        "A.I"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1231
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第十二季：〈第一帝國〉\n機械師與被遺棄的遊戲《第一帝國》的 A.I.「暗影至尊（Unagami）」合作，企圖建造能將遊戲實體化的傳送門。\n阿光與赤蘭短暫參加舞蹈課。\n數週後，機械師搶劫銀行，並要求暗影至尊賜予能感覺的機械手臂。\n忍者破壞其行動並查獲主機板，意外啟動「第一帝國」街機機台。\n阿光進入遊戲，遇見紅面罩軍團與玩家史考特。\n大量玩家升至 13 級後被吸入遊戲世界。\n忍者調查遊戲創作者戴爾博士，誤以為他就是暗影至尊。\n暗影至尊釋放囚犯攻擊忍者，忍者尋求賽勒斯．博格協助，成功進入遊戲。"
+    },
+    {
+      "id": "masters-of-spinjitzu-044",
+      "order": 1044,
+      "source_order": 44,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第十二季：〈第一帝國〉",
+      "subsection": "",
+      "title": "遊戲世界篇",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第十二季：〈第一帝國〉",
+        "遊戲世界篇"
+      ],
+      "depth": 3,
+      "summary": "赤地因魯莽行動失去多條生命，忍者才知遊戲僅有四條命。 忍者在卡拉納區遇見導引者沖野，並穿越「優越森林」、「歇斯底里懸崖」等地。",
+      "details": [
+        "赤地因魯莽行動失去多條生命，忍者才知遊戲僅有四條命。",
+        "忍者在卡拉納區遇見導引者沖野，並穿越「優越森林」、「歇斯底里懸崖」等地。",
+        "沖野逐漸意識到世界是遊戲，選擇背叛暗影至尊並幫助忍者。",
+        "忍者擊敗紅龍，阿光取得紫色塔納之鑰，可召喚藍龍。",
+        "赤地與阿剛在飆風五十億大賽中犧牲最後一命，幫阿光脫險。",
+        "賽車手七號突破程式限制，贏得比賽，忍者獲得黃色塔納之鑰。",
+        "勞埃德在泰拉多米納擊敗「偽裝晴美」，得到橙色塔納之鑰，卻耗盡最後一命。",
+        "阿光與赤蘭闖入「瘋狂神殿」，赤蘭為保護阿光而犧牲，正好完成傳送門能量。",
+        "阿光完成遊戲，卻未能擊敗暗影至尊，反而讓其現身忍者國。"
+      ],
+      "keywords": [
+        "遊戲世界篇",
+        "第十二季：〈第一帝國〉",
+        "優越森林",
+        "歇斯底里懸崖",
+        "偽裝晴美",
+        "瘋狂神殿"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1256
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第十二季：〈第一帝國〉\n遊戲世界篇\n赤地因魯莽行動失去多條生命，忍者才知遊戲僅有四條命。\n忍者在卡拉納區遇見導引者沖野，並穿越「優越森林」、「歇斯底里懸崖」等地。\n沖野逐漸意識到世界是遊戲，選擇背叛暗影至尊並幫助忍者。\n忍者擊敗紅龍，阿光取得紫色塔納之鑰，可召喚藍龍。\n赤地與阿剛在飆風五十億大賽中犧牲最後一命，幫阿光脫險。\n賽車手七號突破程式限制，贏得比賽，忍者獲得黃色塔納之鑰。\n勞埃德在泰拉多米納擊敗「偽裝晴美」，得到橙色塔納之鑰，卻耗盡最後一命。\n阿光與赤蘭闖入「瘋狂神殿」，赤蘭為保護阿光而犧牲，正好完成傳送門能量。\n阿光完成遊戲，卻未能擊敗暗影至尊，反而讓其現身忍者國。"
+    },
+    {
+      "id": "masters-of-spinjitzu-045",
+      "order": 1045,
+      "source_order": 45,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第十二季：〈第一帝國〉",
+      "subsection": "",
+      "title": "最終對決",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第十二季：〈第一帝國〉",
+        "最終對決"
+      ],
+      "depth": 3,
+      "summary": "阿光召喚藍龍，對抗紅面罩軍團。 忍者與 P.I.X.A.L.、吳、戴爾博士趕到博格塔頂。",
+      "details": [
+        "阿光召喚藍龍，對抗紅面罩軍團。",
+        "忍者與 P.I.X.A.L.、吳、戴爾博士趕到博格塔頂。",
+        "阿光向暗影至尊吐露自己被親生父母拋棄的經歷。",
+        "戴爾博士與暗影至尊重逢，令其釋放所有被困於遊戲的人。",
+        "忍者（包括赤地、阿剛、赤蘭、勞埃德、史考特等人）全數回歸現實世界。"
+      ],
+      "keywords": [
+        "最終對決",
+        "第十二季：〈第一帝國〉",
+        "包括赤地、阿剛、赤蘭、勞埃德、史考特等人",
+        "P.I.X.A.L"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1284
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第十二季：〈第一帝國〉\n最終對決\n阿光召喚藍龍，對抗紅面罩軍團。\n忍者與 P.I.X.A.L.、吳、戴爾博士趕到博格塔頂。\n阿光向暗影至尊吐露自己被親生父母拋棄的經歷。\n戴爾博士與暗影至尊重逢，令其釋放所有被困於遊戲的人。\n忍者（包括赤地、阿剛、赤蘭、勞埃德、史考特等人）全數回歸現實世界。"
+    },
+    {
+      "id": "masters-of-spinjitzu-046",
+      "order": 1046,
+      "source_order": 46,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "第13季 勝利之路的抉擇（Master of the Mountain)",
+      "subsection": "",
+      "title": "第13季 勝利之路的抉擇（Master of the Mountain)",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "第13季 勝利之路的抉擇（Master of the Mountain)"
+      ],
+      "depth": 2,
+      "summary": "晴美開始向范吉利斯王購買「復仇石」。 Cole 在玩《Prime Empire》時，與 Lloyd 收到范吉利斯王的邀請，前往新太朗。",
+      "details": [
+        "晴美開始向范吉利斯王購買「復仇石」。",
+        "Cole 在玩《Prime Empire》時，與 Lloyd 收到范吉利斯王的邀請，前往新太朗。",
+        "晴美拜訪新太朗，並提醒范吉利斯注意忍者，但他表示自己能掌控局勢。",
+        "Cole 在地底遇見 Gleck，卻被骷髏巫師抓走。",
+        "忍者潛入地牢解救 Cole，但最終自己也被俘虜。",
+        "忍者成功解放地牢中的 Geckles 與 Munce，但之後各自分散。",
+        "Lloyd、Jay、Nya 遇見 Murtessa 女王；Nya 與其決鬥後獲勝，成為新任 Munce 女王。",
+        "Kai 與 Zane 被誤認為「骷髏戰士」，遭帶往審判並進入「犀牛獸試煉」。Zane 馴服了犀牛獸，Kai 被推舉為 Geckles 的新首領。",
+        "Cole 被范妮雅與小龍 Chompy 救下，卻得知范吉利斯正是骷髏巫師。",
+        "Cole、范妮雅、吳大師被流放至「無盡深淵」，並結識了 Lowly（後來的 Upply）。",
+        "Cole 覺醒新的大地之力，帶領大家攀回地面。",
+        "骷髏巫師復活巨龍 Grief-Bringer，準備決戰。",
+        "Geckles 與 Munce 在 Kai 與 Nya 帶領下會合，準備迎戰。",
+        "忍者與兩族再次被欺騙並遭俘。",
+        "Upply 登上地面，與范妮雅一同支援。",
+        "Cole 回想母親 Lilly 的期望，發動 旋風爆擊術，擊敗骷髏巫師。",
+        "范妮雅加冕為新太朗女王，復仇石礦場關閉。忍者與吳大師告別新太朗。"
+      ],
+      "keywords": [
+        "第13季 勝利之路的抉擇（Master of the Mountain)",
+        "Master of the Mountain",
+        "後來的 Upply",
+        "復仇石",
+        "骷髏戰士",
+        "犀牛獸試煉",
+        "無盡深淵",
+        "Master",
+        "Mountain",
+        "Cole",
+        "Prime",
+        "Empire",
+        "Lloyd",
+        "Gleck",
+        "Geckles",
+        "Munce",
+        "Jay",
+        "Nya",
+        "Murtessa",
+        "Kai",
+        "Zane",
+        "Chompy",
+        "Lowly",
+        "Upply",
+        "Grief-Bringer",
+        "Lilly"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1298
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\n第13季 勝利之路的抉擇（Master of the Mountain)\n晴美開始向范吉利斯王購買「復仇石」。\nCole 在玩《Prime Empire》時，與 Lloyd 收到范吉利斯王的邀請，前往新太朗。\n晴美拜訪新太朗，並提醒范吉利斯注意忍者，但他表示自己能掌控局勢。\nCole 在地底遇見 Gleck，卻被骷髏巫師抓走。\n忍者潛入地牢解救 Cole，但最終自己也被俘虜。\n忍者成功解放地牢中的 Geckles 與 Munce，但之後各自分散。\nLloyd、Jay、Nya 遇見 Murtessa 女王；Nya 與其決鬥後獲勝，成為新任 Munce 女王。\nKai 與 Zane 被誤認為「骷髏戰士」，遭帶往審判並進入「犀牛獸試煉」。Zane 馴服了犀牛獸，Kai 被推舉為 Geckles 的新首領。\nCole 被范妮雅與小龍 Chompy 救下，卻得知范吉利斯正是骷髏巫師。\nCole、范妮雅、吳大師被流放至「無盡深淵」，並結識了 Lowly（後來的 Upply）。\nCole 覺醒新的大地之力，帶領大家攀回地面。\n骷髏巫師復活巨龍 Grief-Bringer，準備決戰。\nGeckles 與 Munce 在 Kai 與 Nya 帶領下會合，準備迎戰。\n忍者與兩族再次被欺騙並遭俘。\nUpply 登上地面，與范妮雅一同支援。\nCole 回想母親 Lilly 的期望，發動 旋風爆擊術，擊敗骷髏巫師。\n范妮雅加冕為新太朗女王，復仇石礦場關閉。忍者與吳大師告別新太朗。"
+    },
+    {
+      "id": "masters-of-spinjitzu-047",
+      "order": 1047,
+      "source_order": 47,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "The Island（守護者之島篇）",
+      "subsection": "",
+      "title": "The Island（守護者之島篇）",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "The Island（守護者之島篇）"
+      ],
+      "depth": 2,
+      "summary": "吳、Misako、Clutch Powers 及實習生前往「守護者之島」，卻被俘虜。 晴美指示 Ronin 詐騙守護者，Ronin 捕獲 Fugi-Dove，企圖奪取風暴護身符。",
+      "details": [
+        "吳、Misako、Clutch Powers 及實習生前往「守護者之島」，卻被俘虜。",
+        "晴美指示 Ronin 詐騙守護者，Ronin 捕獲 Fugi-Dove，企圖奪取風暴護身符。",
+        "一個月後，忍者得知 Misako 一行人失蹤，便帶上 Twitchy Tim 出發。",
+        "忍者抵達島嶼，遭遇石像守衛與生物 Zippy。Lloyd 與 Twitchy 逃脫，其餘忍者被捕。",
+        "忍者誤以為 Jay 將被立為新王，結果發現他被準備獻祭給 Wojira。",
+        "忍者救出 Jay 與俘虜，揭穿 Ronin 的陰謀。",
+        "Lloyd 開始懷疑 Wojira 是否真實存在；同時，Wojira 正在神殿沉眠，頭戴海浪護身符。"
+      ],
+      "keywords": [
+        "The Island（守護者之島篇）",
+        "守護者之島篇",
+        "守護者之島",
+        "The",
+        "Island",
+        "Misako",
+        "Clutch",
+        "Powers",
+        "Ronin",
+        "Fugi-Dove",
+        "Twitchy",
+        "Tim",
+        "Zippy",
+        "Lloyd",
+        "Jay",
+        "Wojira"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1351
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\nThe Island（守護者之島篇）\n吳、Misako、Clutch Powers 及實習生前往「守護者之島」，卻被俘虜。\n晴美指示 Ronin 詐騙守護者，Ronin 捕獲 Fugi-Dove，企圖奪取風暴護身符。\n一個月後，忍者得知 Misako 一行人失蹤，便帶上 Twitchy Tim 出發。\n忍者抵達島嶼，遭遇石像守衛與生物 Zippy。Lloyd 與 Twitchy 逃脫，其餘忍者被捕。\n忍者誤以為 Jay 將被立為新王，結果發現他被準備獻祭給 Wojira。\n忍者救出 Jay 與俘虜，揭穿 Ronin 的陰謀。\nLloyd 開始懷疑 Wojira 是否真實存在；同時，Wojira 正在神殿沉眠，頭戴海浪護身符。"
+    },
+    {
+      "id": "masters-of-spinjitzu-048",
+      "order": 1048,
+      "source_order": 48,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "The Virtues of Spinjitzu（六大美德）(外傳故事)",
+      "subsection": "",
+      "title": "The Virtues of Spinjitzu（六大美德）(外傳故事)",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "The Virtues of Spinjitzu（六大美德）(外傳故事)"
+      ],
+      "depth": 2,
+      "summary": "吳大師指派 Kai 與 Jay 參悟 Spinjitzu 六大美德：好奇、平衡、智慧、誠實、慷慨、勇氣。 忍者在幻境中重歷過往冒險，最終理解六大美德，修復了毀壞的牆壁。",
+      "details": [
+        "吳大師指派 Kai 與 Jay 參悟 Spinjitzu 六大美德：好奇、平衡、智慧、誠實、慷慨、勇氣。",
+        "忍者在幻境中重歷過往冒險，最終理解六大美德，修復了毀壞的牆壁。"
+      ],
+      "keywords": [
+        "The Virtues of Spinjitzu（六大美德）(外傳故事)",
+        "六大美德",
+        "外傳故事",
+        "The",
+        "Virtues",
+        "Spinjitzu",
+        "Kai",
+        "Jay"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1374
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\nThe Virtues of Spinjitzu（六大美德）(外傳故事)\n吳大師指派 Kai 與 Jay 參悟 Spinjitzu 六大美德：好奇、平衡、智慧、誠實、慷慨、勇氣。\n忍者在幻境中重歷過往冒險，最終理解六大美德，修復了毀壞的牆壁。"
+    },
+    {
+      "id": "masters-of-spinjitzu-049",
+      "order": 1049,
+      "source_order": 49,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "Seabound（第14季 航向大海）",
+      "subsection": "",
+      "title": "Seabound（第14季 航向大海）",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "Seabound（第14季 航向大海）"
+      ],
+      "depth": 2,
+      "summary": "Miss Demeanor 被忍者追捕，Nya 因失控釋放力量導致村莊受害。 吳與忍者得知「九日之戰」傳說，懷疑 Nya 的力量與 Wojira 相關，於是邀請 Maya 協助。",
+      "details": [
+        "Miss Demeanor 被忍者追捕，Nya 因失控釋放力量導致村莊受害。",
+        "吳與忍者得知「九日之戰」傳說，懷疑 Nya 的力量與 Wojira 相關，於是邀請 Maya 協助。",
+        "Nya 在母親訓練下愈加焦躁，忍者調查到海中能量異常，遂駕駛「水力使命號」出海。",
+        "忍者遭海底人 Merlopians 襲擊，被捲入 Kalmaar 與 Trimaar 國王的陰謀。",
+        "Trimaar 被刺殺，忍者被誣陷，Benthomaar 揭露真相並救出忍者。",
+        "Kalmaar 奪取真正的風暴護身符，喚醒海怪 Wojira，帶來「大洪水」。",
+        "Ninjago 城被淹沒，忍者奮力營救市民。",
+        "Nya 為拯救 Jay 與城市，選擇與海洋融合。",
+        "她摧毀護身符，消滅 Wojira，隨後與海洋融為一體。",
+        "忍者為 Nya 舉行告別儀式，全城悼念。"
+      ],
+      "keywords": [
+        "Seabound（第14季 航向大海）",
+        "第14季 航向大海",
+        "九日之戰",
+        "水力使命號",
+        "大洪水",
+        "Seabound",
+        "Miss",
+        "Demeanor",
+        "Nya",
+        "Wojira",
+        "Maya",
+        "Merlopians",
+        "Kalmaar",
+        "Trimaar",
+        "Benthomaar",
+        "Ninjago",
+        "Jay"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1382
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\nSeabound（第14季 航向大海）\nMiss Demeanor 被忍者追捕，Nya 因失控釋放力量導致村莊受害。\n吳與忍者得知「九日之戰」傳說，懷疑 Nya 的力量與 Wojira 相關，於是邀請 Maya 協助。\nNya 在母親訓練下愈加焦躁，忍者調查到海中能量異常，遂駕駛「水力使命號」出海。\n忍者遭海底人 Merlopians 襲擊，被捲入 Kalmaar 與 Trimaar 國王的陰謀。\nTrimaar 被刺殺，忍者被誣陷，Benthomaar 揭露真相並救出忍者。\nKalmaar 奪取真正的風暴護身符，喚醒海怪 Wojira，帶來「大洪水」。\nNinjago 城被淹沒，忍者奮力營救市民。\nNya 為拯救 Jay 與城市，選擇與海洋融合。\n她摧毀護身符，消滅 Wojira，隨後與海洋融為一體。\n忍者為 Nya 舉行告別儀式，全城悼念。"
+    },
+    {
+      "id": "masters-of-spinjitzu-050",
+      "order": 1050,
+      "source_order": 50,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "Seabound（第14季 航向大海）",
+      "subsection": "",
+      "title": "After the Great Flood（大洪水之後）",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "Seabound（第14季 航向大海）",
+        "After the Great Flood（大洪水之後）"
+      ],
+      "depth": 3,
+      "summary": "Benthomaar 成為 Merlopia 新王，但仍尋找 Nya，最終放棄並返回。 忍者對抗 Miss Demeanor 的污染行動，卻被神秘「水晶蜘蛛」監視。",
+      "details": [
+        "Benthomaar 成為 Merlopia 新王，但仍尋找 Nya，最終放棄並返回。",
+        "忍者對抗 Miss Demeanor 的污染行動，卻被神秘「水晶蜘蛛」監視。",
+        "Jay 因思念 Nya，留在燈塔島成為隱士；Echo Zane 則啟程展開屬於自己的冒險。",
+        "忍者們相繼退出：Kai 開設道館、Lloyd 成為洗窗工、Zane 關閉情感系統。",
+        "吳與 Misako 繼續尋找讓 Nya 回歸的方法。",
+        "Garmadon 重返城市，與 Vinny 同住，並照顧植物 Christofern 學習同理心。",
+        "市長 Trustable 組建「新忍者」取代原班人馬，甚至捕獲 Pythor。"
+      ],
+      "keywords": [
+        "After the Great Flood（大洪水之後）",
+        "Seabound（第14季 航向大海）",
+        "大洪水之後",
+        "第14季 航向大海",
+        "水晶蜘蛛",
+        "新忍者",
+        "After",
+        "Great",
+        "Flood",
+        "Seabound",
+        "Benthomaar",
+        "Merlopia",
+        "Nya",
+        "Miss",
+        "Demeanor",
+        "Jay",
+        "Echo",
+        "Zane",
+        "Kai",
+        "Lloyd",
+        "Misako",
+        "Garmadon",
+        "Vinny",
+        "Christofern",
+        "Trustable",
+        "Pythor"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1410
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\nSeabound（第14季 航向大海）\nAfter the Great Flood（大洪水之後）\nBenthomaar 成為 Merlopia 新王，但仍尋找 Nya，最終放棄並返回。\n忍者對抗 Miss Demeanor 的污染行動，卻被神秘「水晶蜘蛛」監視。\nJay 因思念 Nya，留在燈塔島成為隱士；Echo Zane 則啟程展開屬於自己的冒險。\n忍者們相繼退出：Kai 開設道館、Lloyd 成為洗窗工、Zane 關閉情感系統。\n吳與 Misako 繼續尋找讓 Nya 回歸的方法。\nGarmadon 重返城市，與 Vinny 同住，並照顧植物 Christofern 學習同理心。\n市長 Trustable 組建「新忍者」取代原班人馬，甚至捕獲 Pythor。"
+    },
+    {
+      "id": "masters-of-spinjitzu-051",
+      "order": 1051,
+      "source_order": 51,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "Seabound（第14季 航向大海）",
+      "subsection": "",
+      "title": "Amber Spiral（琥珀漩渦 外傳）",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "Seabound（第14季 航向大海）",
+        "Amber Spiral（琥珀漩渦 外傳）"
+      ],
+      "depth": 3,
+      "summary": "Skylor 收到異象，發現母親可能與某村莊有關。 她與 Chamille 一同前往，遇見 Egon the Extraordinary 及其「旋風杖」。",
+      "details": [
+        "Skylor 收到異象，發現母親可能與某村莊有關。",
+        "她與 Chamille 一同前往，遇見 Egon the Extraordinary 及其「旋風杖」。",
+        "Skylor 在古墓中找到「怨恨之甕」，並揭開祖先——「原初琥珀之師」的秘密：",
+        "他曾創造「時鋼」（Chronosteel）並製造琥珀之力，卻被封入甕中。",
+        "祖先企圖奪取 Skylor 的身體，最終被擊敗並送入亡靈界。",
+        "Skylor 接受母親已逝的事實，走出過去。"
+      ],
+      "keywords": [
+        "Amber Spiral（琥珀漩渦 外傳）",
+        "Seabound（第14季 航向大海）",
+        "琥珀漩渦 外傳",
+        "第14季 航向大海",
+        "Chronosteel",
+        "旋風杖",
+        "怨恨之甕",
+        "原初琥珀之師",
+        "時鋼",
+        "Amber",
+        "Spiral",
+        "Seabound",
+        "Skylor",
+        "Chamille",
+        "Egon",
+        "Extraordinary"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1433
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\nSeabound（第14季 航向大海）\nAmber Spiral（琥珀漩渦 外傳）\nSkylor 收到異象，發現母親可能與某村莊有關。\n她與 Chamille 一同前往，遇見 Egon the Extraordinary 及其「旋風杖」。\nSkylor 在古墓中找到「怨恨之甕」，並揭開祖先——「原初琥珀之師」的秘密：\n他曾創造「時鋼」（Chronosteel）並製造琥珀之力，卻被封入甕中。\n祖先企圖奪取 Skylor 的身體，最終被擊敗並送入亡靈界。\nSkylor 接受母親已逝的事實，走出過去。"
+    },
+    {
+      "id": "masters-of-spinjitzu-052",
+      "order": 1052,
+      "source_order": 52,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "Season 15 水晶王國（Crystalized）",
+      "subsection": "",
+      "title": "大洪水一年後",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "Season 15 水晶王國（Crystalized）",
+        "大洪水一年後"
+      ],
+      "depth": 3,
+      "summary": "態度姐（Miss Demeanor）走私更多復仇石。 新忍者（New Ninja）出手阻止，但她成功逃走。",
+      "details": [
+        "態度姐（Miss Demeanor）走私更多復仇石。",
+        "新忍者（New Ninja）出手阻止，但她成功逃走。",
+        "八卦小姐（Gayle Gossip）報導事件，阿剛（Cole）與冰忍（Zane）開始擔心復仇石走私。",
+        "大洪水一週年，忍者們與民眾放天燈悼念赤蘭（Nya）。"
+      ],
+      "keywords": [
+        "大洪水一年後",
+        "Season 15 水晶王國（Crystalized）",
+        "Crystalized",
+        "Miss Demeanor",
+        "New Ninja",
+        "Gayle Gossip",
+        "Cole",
+        "Zane",
+        "Nya",
+        "Season",
+        "Miss",
+        "Demeanor",
+        "New",
+        "Ninja",
+        "Gayle",
+        "Gossip"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1447
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\nSeason 15 水晶王國（Crystalized）\n大洪水一年後\n態度姐（Miss Demeanor）走私更多復仇石。\n新忍者（New Ninja）出手阻止，但她成功逃走。\n八卦小姐（Gayle Gossip）報導事件，阿剛（Cole）與冰忍（Zane）開始擔心復仇石走私。\n大洪水一週年，忍者們與民眾放天燈悼念赤蘭（Nya）。"
+    },
+    {
+      "id": "masters-of-spinjitzu-053",
+      "order": 1053,
+      "source_order": 53,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "Season 15 水晶王國（Crystalized）",
+      "subsection": "",
+      "title": "忍者重聚",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "Season 15 水晶王國（Crystalized）",
+        "忍者重聚"
+      ],
+      "depth": 3,
+      "summary": "阿剛與冰忍說服赤地（Kai）回歸。 勞埃德（Lloyd）起初拒絕，但在紀念儀式後決定加入。",
+      "details": [
+        "阿剛與冰忍說服赤地（Kai）回歸。",
+        "勞埃德（Lloyd）起初拒絕，但在紀念儀式後決定加入。",
+        "阿光（Jay）拒絕，因為覺得沒有赤蘭就沒有意義。",
+        "最後五位忍者仍然決定為了赤蘭而繼續戰鬥。"
+      ],
+      "keywords": [
+        "忍者重聚",
+        "Season 15 水晶王國（Crystalized）",
+        "Crystalized",
+        "Kai",
+        "Lloyd",
+        "Jay",
+        "Season"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1460
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\nSeason 15 水晶王國（Crystalized）\n忍者重聚\n阿剛與冰忍說服赤地（Kai）回歸。\n勞埃德（Lloyd）起初拒絕，但在紀念儀式後決定加入。\n阿光（Jay）拒絕，因為覺得沒有赤蘭就沒有意義。\n最後五位忍者仍然決定為了赤蘭而繼續戰鬥。"
+    },
+    {
+      "id": "masters-of-spinjitzu-054",
+      "order": 1054,
+      "source_order": 54,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "Season 15 水晶王國（Crystalized）",
+      "subsection": "",
+      "title": "赤蘭回歸",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "Season 15 水晶王國（Crystalized）",
+        "赤蘭回歸"
+      ],
+      "depth": 3,
+      "summary": "赤蘭在海中拯救水手，並遇見赤蘭德（Nyad）。 看見天燈後，赤蘭逐漸恢復人類記憶。",
+      "details": [
+        "赤蘭在海中拯救水手，並遇見赤蘭德（Nyad）。",
+        "看見天燈後，赤蘭逐漸恢復人類記憶。",
+        "她發現若要完全變回人類，必須放棄水之元素之力。",
+        "忍者們決定向阿斯菲拉（Aspheera）求助。"
+      ],
+      "keywords": [
+        "赤蘭回歸",
+        "Season 15 水晶王國（Crystalized）",
+        "Crystalized",
+        "Nyad",
+        "Aspheera",
+        "Season"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1473
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\nSeason 15 水晶王國（Crystalized）\n赤蘭回歸\n赤蘭在海中拯救水手，並遇見赤蘭德（Nyad）。\n看見天燈後，赤蘭逐漸恢復人類記憶。\n她發現若要完全變回人類，必須放棄水之元素之力。\n忍者們決定向阿斯菲拉（Aspheera）求助。"
+    },
+    {
+      "id": "masters-of-spinjitzu-055",
+      "order": 1055,
+      "source_order": 55,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "Season 15 水晶王國（Crystalized）",
+      "subsection": "",
+      "title": "阿斯菲拉與赤蘭的犧牲",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "Season 15 水晶王國（Crystalized）",
+        "阿斯菲拉與赤蘭的犧牲"
+      ],
+      "depth": 3,
+      "summary": "忍者闖入博格大廈，與新忍者衝突後奪回法杖。 阿斯菲拉背叛忍者並攻擊眾人。",
+      "details": [
+        "忍者闖入博格大廈，與新忍者衝突後奪回法杖。",
+        "阿斯菲拉背叛忍者並攻擊眾人。",
+        "在能量爆炸後，赤蘭恢復人類，但失去元素之力。",
+        "忍者被判五年監禁。"
+      ],
+      "keywords": [
+        "阿斯菲拉與赤蘭的犧牲",
+        "Season 15 水晶王國（Crystalized）",
+        "Crystalized",
+        "Season"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1486
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\nSeason 15 水晶王國（Crystalized）\n阿斯菲拉與赤蘭的犧牲\n忍者闖入博格大廈，與新忍者衝突後奪回法杖。\n阿斯菲拉背叛忍者並攻擊眾人。\n在能量爆炸後，赤蘭恢復人類，但失去元素之力。\n忍者被判五年監禁。"
+    },
+    {
+      "id": "masters-of-spinjitzu-056",
+      "order": 1056,
+      "source_order": 56,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "Season 15 水晶王國（Crystalized）",
+      "subsection": "",
+      "title": "水晶王的陰謀",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "Season 15 水晶王國（Crystalized）",
+        "水晶王的陰謀"
+      ],
+      "depth": 3,
+      "summary": "水晶蜘蛛帶來面具與邀請，開始招募反派組成「水晶議會」。 范吉利斯（Vangelis）、彼拉（Pythor）、阿斯菲拉與機械工（Mechanic）先後加入。",
+      "details": [
+        "水晶蜘蛛帶來面具與邀請，開始招募反派組成「水晶議會」。",
+        "范吉利斯（Vangelis）、彼拉（Pythor）、阿斯菲拉與機械工（Mechanic）先後加入。",
+        "勞埃德潛入議會，發現幕後黑手竟是復活的晴美（Harumi）。",
+        "議會搶奪黃金武器並復活了黑暗島主（Overlord），將神殿化為「水晶島」。"
+      ],
+      "keywords": [
+        "水晶王的陰謀",
+        "Season 15 水晶王國（Crystalized）",
+        "Crystalized",
+        "Vangelis",
+        "Pythor",
+        "Mechanic",
+        "Harumi",
+        "Overlord",
+        "水晶議會",
+        "水晶島",
+        "Season"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1499
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\nSeason 15 水晶王國（Crystalized）\n水晶王的陰謀\n水晶蜘蛛帶來面具與邀請，開始招募反派組成「水晶議會」。\n范吉利斯（Vangelis）、彼拉（Pythor）、阿斯菲拉與機械工（Mechanic）先後加入。\n勞埃德潛入議會，發現幕後黑手竟是復活的晴美（Harumi）。\n議會搶奪黃金武器並復活了黑暗島主（Overlord），將神殿化為「水晶島」。"
+    },
+    {
+      "id": "masters-of-spinjitzu-057",
+      "order": 1057,
+      "source_order": 57,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "Season 15 水晶王國（Crystalized）",
+      "subsection": "",
+      "title": "反抗軍與忍者的奮戰",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "Season 15 水晶王國（Crystalized）",
+        "反抗軍與忍者的奮戰"
+      ],
+      "depth": 3,
+      "summary": "吳大師、赤蘭、P.I.X.A.L.與忍者重建根據地。 黑暗島主率領水晶軍團攻擊各地，並將新忍者水晶化。",
+      "details": [
+        "吳大師、赤蘭、P.I.X.A.L.與忍者重建根據地。",
+        "黑暗島主率領水晶軍團攻擊各地，並將新忍者水晶化。",
+        "忍者尋求伽瑪當（Garmadon）幫助，但勞埃德一度無法掌握鬼族之力。",
+        "各地盟友（范妮亞、報童、囚犯等）組成抵抗軍。"
+      ],
+      "keywords": [
+        "反抗軍與忍者的奮戰",
+        "Season 15 水晶王國（Crystalized）",
+        "Crystalized",
+        "Garmadon",
+        "范妮亞、報童、囚犯等",
+        "Season",
+        "P.I.X.A.L."
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1512
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\nSeason 15 水晶王國（Crystalized）\n反抗軍與忍者的奮戰\n吳大師、赤蘭、P.I.X.A.L.與忍者重建根據地。\n黑暗島主率領水晶軍團攻擊各地，並將新忍者水晶化。\n忍者尋求伽瑪當（Garmadon）幫助，但勞埃德一度無法掌握鬼族之力。\n各地盟友（范妮亞、報童、囚犯等）組成抵抗軍。"
+    },
+    {
+      "id": "masters-of-spinjitzu-058",
+      "order": 1058,
+      "source_order": 58,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "Season 15 水晶王國（Crystalized）",
+      "subsection": "",
+      "title": "最終決戰",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "Season 15 水晶王國（Crystalized）",
+        "最終決戰"
+      ],
+      "depth": 3,
+      "summary": "忍者解鎖「龍之型態」並擊敗水晶議會。 晴美在發現黑暗島主腐化大吞噬者後背叛霸王。",
+      "details": [
+        "忍者解鎖「龍之型態」並擊敗水晶議會。",
+        "晴美在發現黑暗島主腐化大吞噬者後背叛霸王。",
+        "忍者毀掉黃金武器，釋放「黃金超級巨龍」。",
+        "勞埃德駕馭巨龍摧毀黑暗島主的肉身。",
+        "四忍失去元素力量，但吳大師安慰他們力量將會回歸。"
+      ],
+      "keywords": [
+        "最終決戰",
+        "Season 15 水晶王國（Crystalized）",
+        "Crystalized",
+        "龍之型態",
+        "黃金超級巨龍",
+        "Season"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1525
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\nSeason 15 水晶王國（Crystalized）\n最終決戰\n忍者解鎖「龍之型態」並擊敗水晶議會。\n晴美在發現黑暗島主腐化大吞噬者後背叛霸王。\n忍者毀掉黃金武器，釋放「黃金超級巨龍」。\n勞埃德駕馭巨龍摧毀黑暗島主的肉身。\n四忍失去元素力量，但吳大師安慰他們力量將會回歸。"
+    },
+    {
+      "id": "masters-of-spinjitzu-059",
+      "order": 1059,
+      "source_order": 59,
+      "era": "NINJAGO:Masters of Spinjitzu",
+      "section": "Season 15 水晶王國（Crystalized）",
+      "subsection": "",
+      "title": "結局與新時代",
+      "path": [
+        "NINJAGO:Masters of Spinjitzu",
+        "Season 15 水晶王國（Crystalized）",
+        "結局與新時代"
+      ],
+      "depth": 3,
+      "summary": "忍者們與盟友重建修道院。 伽瑪當種下Christofern。",
+      "details": [
+        "忍者們與盟友重建修道院。",
+        "伽瑪當種下Christofern。",
+        "忍者逐漸恢復力量：",
+        "赤地與凱樂（Skylor）擊敗火焰惡魔，赤地重獲火之力。",
+        "冰忍面對冰皇帝過去並奪回力量。",
+        "阿剛擊敗Takanagi，重獲土之力。",
+        "阿光與赤蘭度假時幫助Unagami，也恢復閃電之力。",
+        "忍者團隊再次重組，迎接新挑戰。"
+      ],
+      "keywords": [
+        "結局與新時代",
+        "Season 15 水晶王國（Crystalized）",
+        "Crystalized",
+        "Skylor",
+        "Season"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGOMastersofSpinjitzu.md",
+        "line": 1541
+      },
+      "search_text": "NINJAGO:Masters of Spinjitzu\nSeason 15 水晶王國（Crystalized）\n結局與新時代\n忍者們與盟友重建修道院。\n伽瑪當種下Christofern。\n忍者逐漸恢復力量：\n赤地與凱樂（Skylor）擊敗火焰惡魔，赤地重獲火之力。\n冰忍面對冰皇帝過去並奪回力量。\n阿剛擊敗Takanagi，重獲土之力。\n阿光與赤蘭度假時幫助Unagami，也恢復閃電之力。\n忍者團隊再次重組，迎接新挑戰。"
+    },
+    {
+      "id": "dragons-rising-001",
+      "order": 2001,
+      "source_order": 1,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "大融合（The Merge）",
+      "subsection": "",
+      "title": "融合前（Before the Merge）",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "大融合（The Merge）",
+        "融合前（Before the Merge）"
+      ],
+      "depth": 3,
+      "summary": "赤蘭（Nya）開始打造新的使命號（Destiny’s Bounty）。 亞林（Arin）對偵探與忍者產生興趣，並在弗拉克（Frak）的幫助下學會烘焙派餅。",
+      "details": [
+        "赤蘭（Nya）開始打造新的使命號（Destiny’s Bounty）。",
+        "亞林（Arin）對偵探與忍者產生興趣，並在弗拉克（Frak）的幫助下學會烘焙派餅。",
+        "亞林在遊戲時意外創造出自己的旋風忍術。",
+        "弗拉克一家搬離社區。",
+        "Daidan的孩子被巨型怪物吞噬，她因而憤怒。",
+        "安娜（Ana）製造第一個光能機（Photac），受帝權王國（Imperium）科學家拉洛博士（Dr. LaRow）賞識並加入實驗室。",
+        "拉洛博士揭露帝權王國的殘酷真相，利用龍的力量折磨實驗體，甚至將安娜的發明轉化成狼型怪獸。",
+        "安娜離開實驗室，卻遭父母斷絕關係。",
+        "吳大師（Wu）開始研究「大融合」（當時稱為「聚結」）。",
+        "一隻來源龍（Source Dragon）不明原因被殺。",
+        "拉斯（Ras）利用來源龍神器將能量來源龍囚禁在玻璃核心，導致各界不穩。"
+      ],
+      "keywords": [
+        "融合前（Before the Merge）",
+        "大融合（The Merge）",
+        "Before the Merge",
+        "The Merge",
+        "Nya",
+        "Destiny’s Bounty",
+        "Arin",
+        "Frak",
+        "Ana",
+        "Photac",
+        "Imperium",
+        "Dr. LaRow",
+        "Wu",
+        "當時稱為「聚結」",
+        "Source Dragon",
+        "Ras",
+        "大融合",
+        "聚結",
+        "Before",
+        "Merge",
+        "The",
+        "Destiny",
+        "Bounty",
+        "Dr",
+        "LaRow",
+        "Source",
+        "Dragon"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 4
+      },
+      "search_text": "NINJAGO:Dragons Rising\n大融合（The Merge）\n融合前（Before the Merge）\n赤蘭（Nya）開始打造新的使命號（Destiny’s Bounty）。\n亞林（Arin）對偵探與忍者產生興趣，並在弗拉克（Frak）的幫助下學會烘焙派餅。\n亞林在遊戲時意外創造出自己的旋風忍術。\n弗拉克一家搬離社區。\nDaidan的孩子被巨型怪物吞噬，她因而憤怒。\n安娜（Ana）製造第一個光能機（Photac），受帝權王國（Imperium）科學家拉洛博士（Dr. LaRow）賞識並加入實驗室。\n拉洛博士揭露帝權王國的殘酷真相，利用龍的力量折磨實驗體，甚至將安娜的發明轉化成狼型怪獸。\n安娜離開實驗室，卻遭父母斷絕關係。\n吳大師（Wu）開始研究「大融合」（當時稱為「聚結」）。\n一隻來源龍（Source Dragon）不明原因被殺。\n拉斯（Ras）利用來源龍神器將能量來源龍囚禁在玻璃核心，導致各界不穩。"
+    },
+    {
+      "id": "dragons-rising-002",
+      "order": 2002,
+      "source_order": 2,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "大融合（The Merge）",
+      "subsection": "",
+      "title": "融合（The Merge）",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "大融合（The Merge）",
+        "融合（The Merge）"
+      ],
+      "depth": 3,
+      "summary": "吳要求勞埃德（Lloyd）收集一切關於「聚結」的卷軸。 亞林在社區練習忍者技巧。",
+      "details": [
+        "吳要求勞埃德（Lloyd）收集一切關於「聚結」的卷軸。",
+        "亞林在社區練習忍者技巧。",
+        "大融合正式開始。",
+        "勞埃德救下亞林，忍者們試圖阻止融合。",
+        "各界融合為新的土地：",
+        "瘋狂之境 → 瘋狂國度（Land of Madness）",
+        "詛咒之境 + 亡者之境 → 幽冥之境（Spectral Lands）",
+        "鬼族與龍族之境 → 初創國度（First Land）",
+        "李之境 → 小李之境（Land of Lee）",
+        "亞林失去父母。",
+        "安娜逃離帝權王國，改名為「索拉」（Sora）。",
+        "各界出現類似旋風忍術道場的修道院，以及傳送門。"
+      ],
+      "keywords": [
+        "融合（The Merge）",
+        "大融合（The Merge）",
+        "The Merge",
+        "Lloyd",
+        "Land of Madness",
+        "Spectral Lands",
+        "First Land",
+        "Land of Lee",
+        "Sora",
+        "聚結",
+        "索拉",
+        "The",
+        "Merge",
+        "Land",
+        "Madness",
+        "Spectral",
+        "Lands",
+        "First",
+        "Lee"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 39
+      },
+      "search_text": "NINJAGO:Dragons Rising\n大融合（The Merge）\n融合（The Merge）\n吳要求勞埃德（Lloyd）收集一切關於「聚結」的卷軸。\n亞林在社區練習忍者技巧。\n大融合正式開始。\n勞埃德救下亞林，忍者們試圖阻止融合。\n各界融合為新的土地：\n瘋狂之境 → 瘋狂國度（Land of Madness）\n詛咒之境 + 亡者之境 → 幽冥之境（Spectral Lands）\n鬼族與龍族之境 → 初創國度（First Land）\n李之境 → 小李之境（Land of Lee）\n亞林失去父母。\n安娜逃離帝權王國，改名為「索拉」（Sora）。\n各界出現類似旋風忍術道場的修道院，以及傳送門。"
+    },
+    {
+      "id": "dragons-rising-003",
+      "order": 2003,
+      "source_order": 3,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "大融合（The Merge）",
+      "subsection": "融合後（After the Merge）",
+      "title": "新元素力量誕生：",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "大融合（The Merge）",
+        "融合後（After the Merge）",
+        "新元素力量誕生："
+      ],
+      "depth": 4,
+      "summary": "索拉 → 科技（Technology） 野火（Wyldfyre） → 熱能（Heat）",
+      "details": [
+        "索拉 → 科技（Technology）",
+        "野火（Wyldfyre） → 熱能（Heat）",
+        "尤芙瑞霞（Euphrasia） → 風（Wind）",
+        "吉奧（Geo） → 聚合（Fusion）",
+        "弗拉克 → 震動（Quake）"
+      ],
+      "keywords": [
+        "新元素力量誕生：",
+        "大融合（The Merge）",
+        "融合後（After the Merge）",
+        "The Merge",
+        "After the Merge",
+        "Technology",
+        "Wyldfyre",
+        "Heat",
+        "Euphrasia",
+        "Wind",
+        "Geo",
+        "Fusion",
+        "Quake",
+        "The",
+        "Merge",
+        "After"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 78
+      },
+      "search_text": "NINJAGO:Dragons Rising\n大融合（The Merge）\n融合後（After the Merge）\n新元素力量誕生：\n索拉 → 科技（Technology）\n野火（Wyldfyre） → 熱能（Heat）\n尤芙瑞霞（Euphrasia） → 風（Wind）\n吉奧（Geo） → 聚合（Fusion）\n弗拉克 → 震動（Quake）"
+    },
+    {
+      "id": "dragons-rising-004",
+      "order": 2004,
+      "source_order": 4,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "大融合（The Merge）",
+      "subsection": "融合後（After the Merge）",
+      "title": "角色動向：",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "大融合（The Merge）",
+        "融合後（After the Merge）",
+        "角色動向："
+      ],
+      "depth": 4,
+      "summary": "索拉與亞林初遇並開始同住。 尤芙瑞霞隱藏力量以避免被逐出雲朵王國。",
+      "details": [
+        "索拉與亞林初遇並開始同住。",
+        "尤芙瑞霞隱藏力量以避免被逐出雲朵王國。",
+        "野火在照護機器人的幫助下掌握元素力量。",
+        "勞埃德甦醒於旋風忍術道場。",
+        "赤地（Kai）在怪物之境醒來並尋找使命號。",
+        "赤蘭在瘋狂國度甦醒。",
+        "冰忍（Zane）被關進帝權王國道場的科技繭。",
+        "P.I.X.A.L. 也被關進初創國度道場的科技繭。",
+        "阿剛（Cole）落入「失物之境」，並結識尋物者（Finders）。"
+      ],
+      "keywords": [
+        "角色動向：",
+        "大融合（The Merge）",
+        "融合後（After the Merge）",
+        "The Merge",
+        "After the Merge",
+        "Kai",
+        "Zane",
+        "Cole",
+        "Finders",
+        "失物之境",
+        "The",
+        "Merge",
+        "After",
+        "P.I.X.A.L"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 96
+      },
+      "search_text": "NINJAGO:Dragons Rising\n大融合（The Merge）\n融合後（After the Merge）\n角色動向：\n索拉與亞林初遇並開始同住。\n尤芙瑞霞隱藏力量以避免被逐出雲朵王國。\n野火在照護機器人的幫助下掌握元素力量。\n勞埃德甦醒於旋風忍術道場。\n赤地（Kai）在怪物之境醒來並尋找使命號。\n赤蘭在瘋狂國度甦醒。\n冰忍（Zane）被關進帝權王國道場的科技繭。\nP.I.X.A.L. 也被關進初創國度道場的科技繭。\n阿剛（Cole）落入「失物之境」，並結識尋物者（Finders）。"
+    },
+    {
+      "id": "dragons-rising-005",
+      "order": 2005,
+      "source_order": 5,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "大融合（The Merge）",
+      "subsection": "融合後（After the Merge）",
+      "title": "冒險與戰鬥：",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "大融合（The Merge）",
+        "融合後（After the Merge）",
+        "冒險與戰鬥："
+      ],
+      "depth": 4,
+      "summary": "赤地在旅途中結識Daidan與Rusty，並幫助阻止巨型蜈蚣怪。 Rusty為擊敗巨魔獸而犧牲，赤地最終找到使命號。",
+      "details": [
+        "赤地在旅途中結識Daidan與Rusty，並幫助阻止巨型蜈蚣怪。",
+        "Rusty為擊敗巨魔獸而犧牲，赤地最終找到使命號。",
+        "赤地與勞埃德重逢，兩人共同阻止第一次「融合震」。",
+        "勞埃德留守保護忍者城，同時修建新使命號；赤地則外出尋找其他忍者。",
+        "亞林與索拉參加嘉年華與機甲比賽，卻屢屢敗給克莉爾（Kreel）。",
+        "索拉被骷髏族綁架，後被亞林救出。"
+      ],
+      "keywords": [
+        "冒險與戰鬥：",
+        "大融合（The Merge）",
+        "融合後（After the Merge）",
+        "The Merge",
+        "After the Merge",
+        "Kreel",
+        "融合震",
+        "The",
+        "Merge",
+        "After"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 126
+      },
+      "search_text": "NINJAGO:Dragons Rising\n大融合（The Merge）\n融合後（After the Merge）\n冒險與戰鬥：\n赤地在旅途中結識Daidan與Rusty，並幫助阻止巨型蜈蚣怪。\nRusty為擊敗巨魔獸而犧牲，赤地最終找到使命號。\n赤地與勞埃德重逢，兩人共同阻止第一次「融合震」。\n勞埃德留守保護忍者城，同時修建新使命號；赤地則外出尋找其他忍者。\n亞林與索拉參加嘉年華與機甲比賽，卻屢屢敗給克莉爾（Kreel）。\n索拉被骷髏族綁架，後被亞林救出。"
+    },
+    {
+      "id": "dragons-rising-006",
+      "order": 2006,
+      "source_order": 6,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "大融合（The Merge）",
+      "subsection": "融合後（After the Merge）",
+      "title": "多年後的發展：",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "大融合（The Merge）",
+        "融合後（After the Merge）",
+        "多年後的發展："
+      ],
+      "depth": 4,
+      "summary": "拉斯盯上幼龍「阿隆」（Riyu），視其為計畫關鍵。 朵拉瑪（Dorama）成為反派，利用Whack Rats能量製作煙火，甚至綁架克莉爾的助手Targle索要贖金。",
+      "details": [
+        "拉斯盯上幼龍「阿隆」（Riyu），視其為計畫關鍵。",
+        "朵拉瑪（Dorama）成為反派，利用Whack Rats能量製作煙火，甚至綁架克莉爾的助手Targle索要贖金。",
+        "熱浪（Heatwave）被王國利爪（Claws of Imperium）俘虜。",
+        "野火離開故鄉卻被囚禁於帝權王國監獄。",
+        "拉斯詛咒雲朵王國的書蟲（Scroll-Worms），阻止任何人查詢關於融合與龍能之核的情報。",
+        "土龍在泥地中獲得力量提升。",
+        "赤地前往瘋狂國度協助巨石族守護泥地。",
+        "赤蘭與赤地重逢，共同防禦，但使命號受損自動飛回道場，赤地被誤認為戰死。"
+      ],
+      "keywords": [
+        "多年後的發展：",
+        "大融合（The Merge）",
+        "融合後（After the Merge）",
+        "The Merge",
+        "After the Merge",
+        "Riyu",
+        "Dorama",
+        "Heatwave",
+        "Claws of Imperium",
+        "Scroll-Worms",
+        "阿隆",
+        "The",
+        "Merge",
+        "After",
+        "Claws",
+        "Imperium"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 147
+      },
+      "search_text": "NINJAGO:Dragons Rising\n大融合（The Merge）\n融合後（After the Merge）\n多年後的發展：\n拉斯盯上幼龍「阿隆」（Riyu），視其為計畫關鍵。\n朵拉瑪（Dorama）成為反派，利用Whack Rats能量製作煙火，甚至綁架克莉爾的助手Targle索要贖金。\n熱浪（Heatwave）被王國利爪（Claws of Imperium）俘虜。\n野火離開故鄉卻被囚禁於帝權王國監獄。\n拉斯詛咒雲朵王國的書蟲（Scroll-Worms），阻止任何人查詢關於融合與龍能之核的情報。\n土龍在泥地中獲得力量提升。\n赤地前往瘋狂國度協助巨石族守護泥地。\n赤蘭與赤地重逢，共同防禦，但使命號受損自動飛回道場，赤地被誤認為戰死。"
+    },
+    {
+      "id": "dragons-rising-007",
+      "order": 2007,
+      "source_order": 7,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "《Ninjago：Dragons Rising》第 1 季",
+      "subsection": "",
+      "title": "融合後數年",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "《Ninjago：Dragons Rising》第 1 季",
+        "融合後數年"
+      ],
+      "depth": 3,
+      "summary": "亞林（Arin）與索拉（Sora）闖入廢料場偷零件，亞林用「融合」的故事分散惡犬注意。 兩人對抗安保機器，索拉將其重新編程為舞蹈機器。",
+      "details": [
+        "亞林（Arin）與索拉（Sora）闖入廢料場偷零件，亞林用「融合」的故事分散惡犬注意。",
+        "兩人對抗安保機器，索拉將其重新編程為舞蹈機器。",
+        "王國利爪（Claws of Imperium）奉拉斯大人（Lord Ras）之命抓捕幼龍阿隆（Riyu）。",
+        "亞林與索拉參加「機械大師 5000」比賽，對手為克莉爾（Kreel）；最後由羅柏（Lobbo）奪冠。",
+        "阿隆逃離雷普頓（Rapton），亞林與索拉追擊。",
+        "阿隆以龍之力覺醒索拉，使她成為「科技元素大師」。",
+        "雖然三人擊敗雷普頓，但最終被拉斯大人俘虜。"
+      ],
+      "keywords": [
+        "融合後數年",
+        "《Ninjago：Dragons Rising》第 1 季",
+        "Arin",
+        "Sora",
+        "Claws of Imperium",
+        "Lord Ras",
+        "Riyu",
+        "Kreel",
+        "Lobbo",
+        "Rapton",
+        "融合",
+        "機械大師 5000",
+        "科技元素大師",
+        "Ninjago",
+        "Dragons",
+        "Rising",
+        "Claws",
+        "Imperium",
+        "Lord",
+        "Ras"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 173
+      },
+      "search_text": "NINJAGO:Dragons Rising\n《Ninjago：Dragons Rising》第 1 季\n融合後數年\n亞林（Arin）與索拉（Sora）闖入廢料場偷零件，亞林用「融合」的故事分散惡犬注意。\n兩人對抗安保機器，索拉將其重新編程為舞蹈機器。\n王國利爪（Claws of Imperium）奉拉斯大人（Lord Ras）之命抓捕幼龍阿隆（Riyu）。\n亞林與索拉參加「機械大師 5000」比賽，對手為克莉爾（Kreel）；最後由羅柏（Lobbo）奪冠。\n阿隆逃離雷普頓（Rapton），亞林與索拉追擊。\n阿隆以龍之力覺醒索拉，使她成為「科技元素大師」。\n雖然三人擊敗雷普頓，但最終被拉斯大人俘虜。"
+    },
+    {
+      "id": "dragons-rising-008",
+      "order": 2008,
+      "source_order": 8,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "《Ninjago：Dragons Rising》第 1 季",
+      "subsection": "",
+      "title": "勞埃德的歸來",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "《Ninjago：Dragons Rising》第 1 季",
+        "勞埃德的歸來"
+      ],
+      "depth": 3,
+      "summary": "勞埃德（Lloyd）解救亞林、索拉與阿隆脫離囚車。 四人發現阿隆來自「三峰之地」，並乘使命號前往。",
+      "details": [
+        "勞埃德（Lloyd）解救亞林、索拉與阿隆脫離囚車。",
+        "四人發現阿隆來自「三峰之地」，並乘使命號前往。",
+        "使命號遭王國利爪襲擊墜毀；勞埃德獲山龍族母龍協助擊退敵人。",
+        "勞埃德決定訓練亞林與索拉，三人於修道院展開修行。"
+      ],
+      "keywords": [
+        "勞埃德的歸來",
+        "《Ninjago：Dragons Rising》第 1 季",
+        "Lloyd",
+        "三峰之地",
+        "Ninjago",
+        "Dragons",
+        "Rising"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 196
+      },
+      "search_text": "NINJAGO:Dragons Rising\n《Ninjago：Dragons Rising》第 1 季\n勞埃德的歸來\n勞埃德（Lloyd）解救亞林、索拉與阿隆脫離囚車。\n四人發現阿隆來自「三峰之地」，並乘使命號前往。\n使命號遭王國利爪襲擊墜毀；勞埃德獲山龍族母龍協助擊退敵人。\n勞埃德決定訓練亞林與索拉，三人於修道院展開修行。"
+    },
+    {
+      "id": "dragons-rising-009",
+      "order": 2009,
+      "source_order": 9,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "《Ninjago：Dragons Rising》第 1 季",
+      "subsection": "",
+      "title": "嘉年華與朵拉瑪",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "《Ninjago：Dragons Rising》第 1 季",
+        "嘉年華與朵拉瑪"
+      ],
+      "depth": 3,
+      "summary": "亞林、索拉與阿隆偷偷前往「交會地帶嘉年華」。 亞林再度參加派餅烘焙比賽，依舊輸給葛萊巴格（Grab-Barg）。",
+      "details": [
+        "亞林、索拉與阿隆偷偷前往「交會地帶嘉年華」。",
+        "亞林再度參加派餅烘焙比賽，依舊輸給葛萊巴格（Grab-Barg）。",
+        "勞埃德跟隨兩人，誤入紀念忍者的帳篷。",
+        "三人闖入朵拉瑪（Dorama）的劇院，發現其以「Whack Rats」能量施展表演。",
+        "亞林初次使用「物品旋風忍術」，協助擊敗朵拉瑪與傀儡。",
+        "勞埃德與亞林、索拉互相和解。",
+        "拉斯釋放朵拉瑪，令其效忠女帝貝翠絲（Beatrix）。"
+      ],
+      "keywords": [
+        "嘉年華與朵拉瑪",
+        "《Ninjago：Dragons Rising》第 1 季",
+        "Grab-Barg",
+        "Dorama",
+        "Beatrix",
+        "交會地帶嘉年華",
+        "Whack Rats",
+        "物品旋風忍術",
+        "Ninjago",
+        "Dragons",
+        "Rising",
+        "Whack",
+        "Rats"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 209
+      },
+      "search_text": "NINJAGO:Dragons Rising\n《Ninjago：Dragons Rising》第 1 季\n嘉年華與朵拉瑪\n亞林、索拉與阿隆偷偷前往「交會地帶嘉年華」。\n亞林再度參加派餅烘焙比賽，依舊輸給葛萊巴格（Grab-Barg）。\n勞埃德跟隨兩人，誤入紀念忍者的帳篷。\n三人闖入朵拉瑪（Dorama）的劇院，發現其以「Whack Rats」能量施展表演。\n亞林初次使用「物品旋風忍術」，協助擊敗朵拉瑪與傀儡。\n勞埃德與亞林、索拉互相和解。\n拉斯釋放朵拉瑪，令其效忠女帝貝翠絲（Beatrix）。"
+    },
+    {
+      "id": "dragons-rising-010",
+      "order": 2010,
+      "source_order": 10,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "《Ninjago：Dragons Rising》第 1 季",
+      "subsection": "",
+      "title": "赤地與赤蘭的重逢",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "《Ninjago：Dragons Rising》第 1 季",
+        "赤地與赤蘭的重逢"
+      ],
+      "depth": 3,
+      "summary": "赤地（Kai）在瘋狂國度重逢赤蘭（Nya），協助巨石族對抗土龍。 使命號因戰鬥受損，自動駛回修道院，赤地下落不明。",
+      "details": [
+        "赤地（Kai）在瘋狂國度重逢赤蘭（Nya），協助巨石族對抗土龍。",
+        "使命號因戰鬥受損，自動駛回修道院，赤地下落不明。",
+        "勞埃德、亞林、索拉檢查殘骸，找到地圖，決定追隨赤地的足跡。"
+      ],
+      "keywords": [
+        "赤地與赤蘭的重逢",
+        "《Ninjago：Dragons Rising》第 1 季",
+        "Kai",
+        "Nya",
+        "Ninjago",
+        "Dragons",
+        "Rising"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 232
+      },
+      "search_text": "NINJAGO:Dragons Rising\n《Ninjago：Dragons Rising》第 1 季\n赤地與赤蘭的重逢\n赤地（Kai）在瘋狂國度重逢赤蘭（Nya），協助巨石族對抗土龍。\n使命號因戰鬥受損，自動駛回修道院，赤地下落不明。\n勞埃德、亞林、索拉檢查殘骸，找到地圖，決定追隨赤地的足跡。"
+    },
+    {
+      "id": "dragons-rising-011",
+      "order": 2011,
+      "source_order": 11,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "《Ninjago：Dragons Rising》第 1 季",
+      "subsection": "",
+      "title": "雲朵王國與命運的作者",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "《Ninjago：Dragons Rising》第 1 季",
+        "雲朵王國與命運的作者"
+      ],
+      "depth": 3,
+      "summary": "雲朵王國爆發融合震，觸發觸手怪物襲擊。 忍者們與尤芙瑞霞（Euphrasia）協力封印裂縫，Suetonius承認命運未必可被書寫。",
+      "details": [
+        "雲朵王國爆發融合震，觸發觸手怪物襲擊。",
+        "忍者們與尤芙瑞霞（Euphrasia）協力封印裂縫，Suetonius承認命運未必可被書寫。",
+        "尤芙瑞霞被正式承認為「風之主」。"
+      ],
+      "keywords": [
+        "雲朵王國與命運的作者",
+        "《Ninjago：Dragons Rising》第 1 季",
+        "Euphrasia",
+        "風之主",
+        "Ninjago",
+        "Dragons",
+        "Rising"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 243
+      },
+      "search_text": "NINJAGO:Dragons Rising\n《Ninjago：Dragons Rising》第 1 季\n雲朵王國與命運的作者\n雲朵王國爆發融合震，觸發觸手怪物襲擊。\n忍者們與尤芙瑞霞（Euphrasia）協力封印裂縫，Suetonius承認命運未必可被書寫。\n尤芙瑞霞被正式承認為「風之主」。"
+    },
+    {
+      "id": "dragons-rising-012",
+      "order": 2012,
+      "source_order": 12,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "《Ninjago：Dragons Rising》第 1 季",
+      "subsection": "",
+      "title": "帝權王國篇",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "《Ninjago：Dragons Rising》第 1 季",
+        "帝權王國篇"
+      ],
+      "depth": 3,
+      "summary": "野火（Wyldfyre）被捕入獄，後由勞埃德救出並一同解放熱浪（Heatwave）等囚龍。 索拉被迫再度啟動光能機（Photac），亞林、阿隆成功逃脫。",
+      "details": [
+        "野火（Wyldfyre）被捕入獄，後由勞埃德救出並一同解放熱浪（Heatwave）等囚龍。",
+        "索拉被迫再度啟動光能機（Photac），亞林、阿隆成功逃脫。",
+        "勞埃德喚醒冰忍（Zane），並加入戰鬥，帝權王國修道院升起。",
+        "索拉擊敗拉斯，最終解放阿隆。",
+        "勞埃德成為來源龍的代理人，開啟傳送門並將龍群轉移至旋風忍術修道院。",
+        "索拉達成真正潛能，摧毀光能機。",
+        "忍者們穩定融合之境，並將來源龍釋放。",
+        "帝權王國改名為「新帝國」（New Imperium），拉斯與喬丹娜（Jordana）暗中結盟。"
+      ],
+      "keywords": [
+        "帝權王國篇",
+        "《Ninjago：Dragons Rising》第 1 季",
+        "Wyldfyre",
+        "Heatwave",
+        "Photac",
+        "Zane",
+        "New Imperium",
+        "Jordana",
+        "新帝國",
+        "Ninjago",
+        "Dragons",
+        "Rising",
+        "New",
+        "Imperium"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 254
+      },
+      "search_text": "NINJAGO:Dragons Rising\n《Ninjago：Dragons Rising》第 1 季\n帝權王國篇\n野火（Wyldfyre）被捕入獄，後由勞埃德救出並一同解放熱浪（Heatwave）等囚龍。\n索拉被迫再度啟動光能機（Photac），亞林、阿隆成功逃脫。\n勞埃德喚醒冰忍（Zane），並加入戰鬥，帝權王國修道院升起。\n索拉擊敗拉斯，最終解放阿隆。\n勞埃德成為來源龍的代理人，開啟傳送門並將龍群轉移至旋風忍術修道院。\n索拉達成真正潛能，摧毀光能機。\n忍者們穩定融合之境，並將來源龍釋放。\n帝權王國改名為「新帝國」（New Imperium），拉斯與喬丹娜（Jordana）暗中結盟。"
+    },
+    {
+      "id": "dragons-rising-013",
+      "order": 2013,
+      "source_order": 13,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "《Ninjago：Dragons Rising》第 1 季",
+      "subsection": "",
+      "title": "融合震風暴後",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "《Ninjago：Dragons Rising》第 1 季",
+        "融合震風暴後"
+      ],
+      "depth": 3,
+      "summary": "雷普頓成立「自由劫掠者」。 朵拉瑪創立「朵拉瑪演藝學院」，並與費督里安（Fedulian）合作製假地圖欺騙民眾。",
+      "details": [
+        "雷普頓成立「自由劫掠者」。",
+        "朵拉瑪創立「朵拉瑪演藝學院」，並與費督里安（Fedulian）合作製假地圖欺騙民眾。",
+        "阿剛（Cole）回到旋風忍術修道院。"
+      ],
+      "keywords": [
+        "融合震風暴後",
+        "《Ninjago：Dragons Rising》第 1 季",
+        "Fedulian",
+        "Cole",
+        "自由劫掠者",
+        "朵拉瑪演藝學院",
+        "Ninjago",
+        "Dragons",
+        "Rising"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 280
+      },
+      "search_text": "NINJAGO:Dragons Rising\n《Ninjago：Dragons Rising》第 1 季\n融合震風暴後\n雷普頓成立「自由劫掠者」。\n朵拉瑪創立「朵拉瑪演藝學院」，並與費督里安（Fedulian）合作製假地圖欺騙民眾。\n阿剛（Cole）回到旋風忍術修道院。"
+    },
+    {
+      "id": "dragons-rising-014",
+      "order": 2014,
+      "source_order": 14,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "《Ninjago：Dragons Rising》第 1 季",
+      "subsection": "",
+      "title": "元素機甲篇",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "《Ninjago：Dragons Rising》第 1 季",
+        "元素機甲篇"
+      ],
+      "depth": 3,
+      "summary": "危險物資送至克莉爾廢品場，其中包含時間鋼（Chronosteel）。 羅柏誤吸收時間鋼變巨人，索拉打造三台元素機甲救援。",
+      "details": [
+        "危險物資送至克莉爾廢品場，其中包含時間鋼（Chronosteel）。",
+        "羅柏誤吸收時間鋼變巨人，索拉打造三台元素機甲救援。",
+        "一年後，忍者參與「機甲大師 5000」與「麵條廚藝賽」。",
+        "Chef Lava-Tony 偷取冰龍蛋，忍者們擊退其部下並歸還龍蛋。"
+      ],
+      "keywords": [
+        "元素機甲篇",
+        "《Ninjago：Dragons Rising》第 1 季",
+        "Chronosteel",
+        "機甲大師 5000",
+        "麵條廚藝賽",
+        "Ninjago",
+        "Dragons",
+        "Rising",
+        "Chef",
+        "Lava-Tony"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 291
+      },
+      "search_text": "NINJAGO:Dragons Rising\n《Ninjago：Dragons Rising》第 1 季\n元素機甲篇\n危險物資送至克莉爾廢品場，其中包含時間鋼（Chronosteel）。\n羅柏誤吸收時間鋼變巨人，索拉打造三台元素機甲救援。\n一年後，忍者參與「機甲大師 5000」與「麵條廚藝賽」。\nChef Lava-Tony 偷取冰龍蛋，忍者們擊退其部下並歸還龍蛋。"
+    },
+    {
+      "id": "dragons-rising-015",
+      "order": 2015,
+      "source_order": 15,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "《Ninjago：Dragons Rising》第 1 季",
+      "subsection": "",
+      "title": "之後的發展",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "《Ninjago：Dragons Rising》第 1 季",
+        "之後的發展"
+      ],
+      "depth": 3,
+      "summary": "阿隆經歷成長期。 勞埃德開始做惡夢，預示即將來臨的威脅。",
+      "details": [
+        "阿隆經歷成長期。",
+        "勞埃德開始做惡夢，預示即將來臨的威脅。",
+        "費督里安遷至交會地帶，開設古董店，販售混屯物品，包括「破碎之槌」。"
+      ],
+      "keywords": [
+        "之後的發展",
+        "《Ninjago：Dragons Rising》第 1 季",
+        "破碎之槌",
+        "Ninjago",
+        "Dragons",
+        "Rising"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 305
+      },
+      "search_text": "NINJAGO:Dragons Rising\n《Ninjago：Dragons Rising》第 1 季\n之後的發展\n阿隆經歷成長期。\n勞埃德開始做惡夢，預示即將來臨的威脅。\n費督里安遷至交會地帶，開設古董店，販售混屯物品，包括「破碎之槌」。"
+    },
+    {
+      "id": "dragons-rising-016",
+      "order": 2016,
+      "source_order": 16,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "《Ninjago：Dragons Rising》第 2 季",
+      "subsection": "",
+      "title": "血月陰謀的開始",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "《Ninjago：Dragons Rising》第 2 季",
+        "血月陰謀的開始"
+      ],
+      "depth": 3,
+      "summary": "帝權王國解放後，拉斯（Ras）與喬丹娜（Jordana）穿越靈魂森林，發現一座神廟。 拉斯利用喬丹娜收集的來源龍能量膠囊打開神廟。",
+      "details": [
+        "帝權王國解放後，拉斯（Ras）與喬丹娜（Jordana）穿越靈魂森林，發現一座神廟。",
+        "拉斯利用喬丹娜收集的來源龍能量膠囊打開神廟。",
+        "拉斯向喬丹娜揭露計畫：將於「血月儀式」中復活五禁者（Forbidden Five），以征服世界。",
+        "亞林（Arin）持續透過聰明喬治節目尋找父母線索。",
+        "勞埃德（Lloyd）在靈視中發現異象，預見血月與狼族戰士。"
+      ],
+      "keywords": [
+        "血月陰謀的開始",
+        "《Ninjago：Dragons Rising》第 2 季",
+        "Ras",
+        "Jordana",
+        "Forbidden Five",
+        "Arin",
+        "Lloyd",
+        "血月儀式",
+        "Ninjago",
+        "Dragons",
+        "Rising",
+        "Forbidden",
+        "Five"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 316
+      },
+      "search_text": "NINJAGO:Dragons Rising\n《Ninjago：Dragons Rising》第 2 季\n血月陰謀的開始\n帝權王國解放後，拉斯（Ras）與喬丹娜（Jordana）穿越靈魂森林，發現一座神廟。\n拉斯利用喬丹娜收集的來源龍能量膠囊打開神廟。\n拉斯向喬丹娜揭露計畫：將於「血月儀式」中復活五禁者（Forbidden Five），以征服世界。\n亞林（Arin）持續透過聰明喬治節目尋找父母線索。\n勞埃德（Lloyd）在靈視中發現異象，預見血月與狼族戰士。"
+    },
+    {
+      "id": "dragons-rising-017",
+      "order": 2017,
+      "source_order": 17,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "《Ninjago：Dragons Rising》第 2 季",
+      "subsection": "",
+      "title": "幽靈與破碎之槌",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "《Ninjago：Dragons Rising》第 2 季",
+        "幽靈與破碎之槌"
+      ],
+      "depth": 3,
+      "summary": "亞林與索拉（Sora）收到克莉爾（Kreel）來信，稱有「幽靈」盜取古董。 辛德（Cinder）潛入「萬界古董商行??」，竊走「破碎之槌」。",
+      "details": [
+        "亞林與索拉（Sora）收到克莉爾（Kreel）來信，稱有「幽靈」盜取古董。",
+        "辛德（Cinder）潛入「萬界古董商行??」，竊走「破碎之槌」。",
+        "忍者與辛德交戰，卻遭狼族面具戰士支援，辛德與敵人脫逃。",
+        "勞埃德確認異象屬實，血月將至。",
+        "辛德將破碎之槌交給拉斯，敲響終結之鑼，增強狼族戰士力量。"
+      ],
+      "keywords": [
+        "幽靈與破碎之槌",
+        "《Ninjago：Dragons Rising》第 2 季",
+        "Sora",
+        "Kreel",
+        "Cinder",
+        "幽靈",
+        "萬界古董商行??",
+        "破碎之槌",
+        "Ninjago",
+        "Dragons",
+        "Rising"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 333
+      },
+      "search_text": "NINJAGO:Dragons Rising\n《Ninjago：Dragons Rising》第 2 季\n幽靈與破碎之槌\n亞林與索拉（Sora）收到克莉爾（Kreel）來信，稱有「幽靈」盜取古董。\n辛德（Cinder）潛入「萬界古董商行??」，竊走「破碎之槌」。\n忍者與辛德交戰，卻遭狼族面具戰士支援，辛德與敵人脫逃。\n勞埃德確認異象屬實，血月將至。\n辛德將破碎之槌交給拉斯，敲響終結之鑼，增強狼族戰士力量。"
+    },
+    {
+      "id": "dragons-rising-018",
+      "order": 2018,
+      "source_order": 18,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "《Ninjago：Dragons Rising》第 2 季",
+      "subsection": "",
+      "title": "狼族進攻雲朵王國",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "《Ninjago：Dragons Rising》第 2 季",
+        "狼族進攻雲朵王國"
+      ],
+      "depth": 3,
+      "summary": "狼族襲擊雲朵王國，囚禁命運的作者；尤芙瑞霞（Euphrasia）逃亡。 尤芙瑞霞墜落於帝權王國，被帕希瓦（Percival Tartigrade）救起。",
+      "details": [
+        "狼族襲擊雲朵王國，囚禁命運的作者；尤芙瑞霞（Euphrasia）逃亡。",
+        "尤芙瑞霞墜落於帝權王國，被帕希瓦（Percival Tartigrade）救起。",
+        "忍者調查破碎之槌，並於雲朵王國重聚尤芙瑞霞。",
+        "在蘇托尼烏斯??（Suetonius）口中得知血月儀式與五禁者之秘。",
+        "辛德使用「終結旋風」（Shatterspin），擊敗忍者。",
+        "勞埃德冥想，來源龍以心靈感應與他交流，指引忍者尋找龍之師訓練。"
+      ],
+      "keywords": [
+        "狼族進攻雲朵王國",
+        "《Ninjago：Dragons Rising》第 2 季",
+        "Euphrasia",
+        "Percival Tartigrade",
+        "Suetonius",
+        "Shatterspin",
+        "終結旋風",
+        "Ninjago",
+        "Dragons",
+        "Rising",
+        "Percival",
+        "Tartigrade"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 350
+      },
+      "search_text": "NINJAGO:Dragons Rising\n《Ninjago：Dragons Rising》第 2 季\n狼族進攻雲朵王國\n狼族襲擊雲朵王國，囚禁命運的作者；尤芙瑞霞（Euphrasia）逃亡。\n尤芙瑞霞墜落於帝權王國，被帕希瓦（Percival Tartigrade）救起。\n忍者調查破碎之槌，並於雲朵王國重聚尤芙瑞霞。\n在蘇托尼烏斯??（Suetonius）口中得知血月儀式與五禁者之秘。\n辛德使用「終結旋風」（Shatterspin），擊敗忍者。\n勞埃德冥想，來源龍以心靈感應與他交流，指引忍者尋找龍之師訓練。"
+    },
+    {
+      "id": "dragons-rising-019",
+      "order": 2019,
+      "source_order": 19,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "《Ninjago：Dragons Rising》第 2 季",
+      "subsection": "",
+      "title": "龍之師修行",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "《Ninjago：Dragons Rising》第 2 季",
+        "龍之師修行"
+      ],
+      "depth": 3,
+      "summary": "忍者通過龍之師試煉，抵達道場，接受艾格特（Egalt）與朗圖（Rontu）訓練「昇龍術式」。 阿剛（Cole）返回失物之境，與狼族面具戰士交戰。",
+      "details": [
+        "忍者通過龍之師試煉，抵達道場，接受艾格特（Egalt）與朗圖（Rontu）訓練「昇龍術式」。",
+        "阿剛（Cole）返回失物之境，與狼族面具戰士交戰。",
+        "吉羅（Jiro）協助阿剛、冰忍（Zane）、邦佐（Bonzle）前往迷霧沙漠，卻因毒霧受困。",
+        "眾人遭朵拉瑪（Dorama）挾持，被迫參加「演藝學院」，最終擊敗並逮捕他。",
+        "訓練中亞林誤傷艾格特之眼，被降級為一級龍牙忍者。",
+        "阿剛、冰忍與邦佐抵達秘境修道院，見到甘達拉莉亞（Gandalaria），決定將邦佐安置於荒野倉庫。"
+      ],
+      "keywords": [
+        "龍之師修行",
+        "《Ninjago：Dragons Rising》第 2 季",
+        "Egalt",
+        "Rontu",
+        "Cole",
+        "Jiro",
+        "Zane",
+        "Bonzle",
+        "Dorama",
+        "Gandalaria",
+        "昇龍術式",
+        "演藝學院",
+        "Ninjago",
+        "Dragons",
+        "Rising"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 370
+      },
+      "search_text": "NINJAGO:Dragons Rising\n《Ninjago：Dragons Rising》第 2 季\n龍之師修行\n忍者通過龍之師試煉，抵達道場，接受艾格特（Egalt）與朗圖（Rontu）訓練「昇龍術式」。\n阿剛（Cole）返回失物之境，與狼族面具戰士交戰。\n吉羅（Jiro）協助阿剛、冰忍（Zane）、邦佐（Bonzle）前往迷霧沙漠，卻因毒霧受困。\n眾人遭朵拉瑪（Dorama）挾持，被迫參加「演藝學院」，最終擊敗並逮捕他。\n訓練中亞林誤傷艾格特之眼，被降級為一級龍牙忍者。\n阿剛、冰忍與邦佐抵達秘境修道院，見到甘達拉莉亞（Gandalaria），決定將邦佐安置於荒野倉庫。"
+    },
+    {
+      "id": "dragons-rising-020",
+      "order": 2020,
+      "source_order": 20,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "《Ninjago：Dragons Rising》第 2 季",
+      "subsection": "",
+      "title": "血月降臨",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "《Ninjago：Dragons Rising》第 2 季",
+        "血月降臨"
+      ],
+      "depth": 3,
+      "summary": "赤地（Kai）在赤蘭（Nya）幫助下完成昇龍術。 血月之夜，艾格特與朗圖石化。",
+      "details": [
+        "赤地（Kai）在赤蘭（Nya）幫助下完成昇龍術。",
+        "血月之夜，艾格特與朗圖石化。",
+        "冰忍、阿剛、甘達拉莉亞對抗行政機關特工。",
+        "勞埃德率領忍者進入靈魂森林，卻被喬丹娜召來的風暴分散。",
+        "拉斯展開血月儀式，並命令摧毀雲朵王國。",
+        "赤地、索拉、野火（Wyldfyre）潛入，救出被獻祭的雲朵王國僧侶。",
+        "赤地以昇龍術式對抗辛德的終結旋風，卻被放逐至「虛無界??」。",
+        "勞埃德與赤蘭也施展昇龍術式，支援戰鬥。",
+        "亞林誤以為靠物品旋風忍術擊敗拉斯，實則索拉暗中幫助。",
+        "邦佐恢復咒語形態，與喬丹娜魔法對抗，成功封閉虛無界傳送門。",
+        "拉斯釋放五禁者之一「諾可特」（Nokt）；「拉克絲」（Rox）的靈魂附身於喬丹娜。",
+        "狼族與黑影道場消失。忍者（除赤地與阿光）於雲朵王國重聚。"
+      ],
+      "keywords": [
+        "血月降臨",
+        "《Ninjago：Dragons Rising》第 2 季",
+        "Kai",
+        "Nya",
+        "Wyldfyre",
+        "Nokt",
+        "Rox",
+        "除赤地與阿光",
+        "虛無界??",
+        "諾可特",
+        "拉克絲",
+        "Ninjago",
+        "Dragons",
+        "Rising"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 390
+      },
+      "search_text": "NINJAGO:Dragons Rising\n《Ninjago：Dragons Rising》第 2 季\n血月降臨\n赤地（Kai）在赤蘭（Nya）幫助下完成昇龍術。\n血月之夜，艾格特與朗圖石化。\n冰忍、阿剛、甘達拉莉亞對抗行政機關特工。\n勞埃德率領忍者進入靈魂森林，卻被喬丹娜召來的風暴分散。\n拉斯展開血月儀式，並命令摧毀雲朵王國。\n赤地、索拉、野火（Wyldfyre）潛入，救出被獻祭的雲朵王國僧侶。\n赤地以昇龍術式對抗辛德的終結旋風，卻被放逐至「虛無界??」。\n勞埃德與赤蘭也施展昇龍術式，支援戰鬥。\n亞林誤以為靠物品旋風忍術擊敗拉斯，實則索拉暗中幫助。\n邦佐恢復咒語形態，與喬丹娜魔法對抗，成功封閉虛無界傳送門。\n拉斯釋放五禁者之一「諾可特」（Nokt）；「拉克絲」（Rox）的靈魂附身於喬丹娜。\n狼族與黑影道場消失。忍者（除赤地與阿光）於雲朵王國重聚。"
+    },
+    {
+      "id": "dragons-rising-021",
+      "order": 2021,
+      "source_order": 21,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "《Ninjago：Dragons Rising》第 2 季",
+      "subsection": "",
+      "title": "荒野與自由劫掠者",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "《Ninjago：Dragons Rising》第 2 季",
+        "荒野與自由劫掠者"
+      ],
+      "depth": 3,
+      "summary": "赤地失蹤後，野火回歸荒野，救下三隻龍寶寶，決定成為新「紅色忍者」。 雷普頓（Rapton）重組「自由掠奪者」（Freebooters），開始捕龍販賣。",
+      "details": [
+        "赤地失蹤後，野火回歸荒野，救下三隻龍寶寶，決定成為新「紅色忍者」。",
+        "雷普頓（Rapton）重組「自由掠奪者」（Freebooters），開始捕龍販賣。",
+        "拉斯救出阿光（Jay），並拉攏他。之後招募弗拉克（Frak）。",
+        "諾可特與被拉克絲附身的喬丹娜屠殺山龍族龍族長，奪走龍族長王冠。"
+      ],
+      "keywords": [
+        "荒野與自由劫掠者",
+        "《Ninjago：Dragons Rising》第 2 季",
+        "Rapton",
+        "Freebooters",
+        "Jay",
+        "Frak",
+        "紅色忍者",
+        "自由掠奪者",
+        "Ninjago",
+        "Dragons",
+        "Rising"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 428
+      },
+      "search_text": "NINJAGO:Dragons Rising\n《Ninjago：Dragons Rising》第 2 季\n荒野與自由劫掠者\n赤地失蹤後，野火回歸荒野，救下三隻龍寶寶，決定成為新「紅色忍者」。\n雷普頓（Rapton）重組「自由掠奪者」（Freebooters），開始捕龍販賣。\n拉斯救出阿光（Jay），並拉攏他。之後招募弗拉克（Frak）。\n諾可特與被拉克絲附身的喬丹娜屠殺山龍族龍族長，奪走龍族長王冠。"
+    },
+    {
+      "id": "dragons-rising-022",
+      "order": 2022,
+      "source_order": 22,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "《Ninjago：Dragons Rising》第 2 季",
+      "subsection": "",
+      "title": "尋找亞林父母",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "《Ninjago：Dragons Rising》第 2 季",
+        "尋找亞林父母"
+      ],
+      "depth": 3,
+      "summary": "忍者派亞林與索拉進行首次單獨任務，潛入行政機關。 亞林查詢「重新分配部門」，卻發現紀錄在阿光失蹤後已被下線。",
+      "details": [
+        "忍者派亞林與索拉進行首次單獨任務，潛入行政機關。",
+        "亞林查詢「重新分配部門」，卻發現紀錄在阿光失蹤後已被下線。",
+        "亞林、索拉與阿隆駕駛越野車逃離，途中遇重傷的山龍族龍族長。",
+        "龍族長將女兒Eridany托付忍者後逝世。",
+        "忍者將Eridany送往世界森林，卻遭自由掠奪者伏擊，最終擊退敵軍。"
+      ],
+      "keywords": [
+        "尋找亞林父母",
+        "《Ninjago：Dragons Rising》第 2 季",
+        "重新分配部門",
+        "Ninjago",
+        "Dragons",
+        "Rising"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 442
+      },
+      "search_text": "NINJAGO:Dragons Rising\n《Ninjago：Dragons Rising》第 2 季\n尋找亞林父母\n忍者派亞林與索拉進行首次單獨任務，潛入行政機關。\n亞林查詢「重新分配部門」，卻發現紀錄在阿光失蹤後已被下線。\n亞林、索拉與阿隆駕駛越野車逃離，途中遇重傷的山龍族龍族長。\n龍族長將女兒Eridany托付忍者後逝世。\n忍者將Eridany送往世界森林，卻遭自由掠奪者伏擊，最終擊退敵軍。"
+    },
+    {
+      "id": "dragons-rising-023",
+      "order": 2023,
+      "source_order": 23,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "《Ninjago：Dragons Rising》第 2 季",
+      "subsection": "",
+      "title": "來源龍的警告",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "《Ninjago：Dragons Rising》第 2 季",
+        "來源龍的警告"
+      ],
+      "depth": 3,
+      "summary": "動態來源龍現身於修道院，警告山龍族、落葉族、北方螺旋族已經被殺害，來源龍亦陷危險。 勞埃德展示「寺廟城」地圖，來源龍指示危險可能在「來源大賽」上揭曉。",
+      "details": [
+        "動態來源龍現身於修道院，警告山龍族、落葉族、北方螺旋族已經被殺害，來源龍亦陷危險。",
+        "勞埃德展示「寺廟城」地圖，來源龍指示危險可能在「來源大賽」上揭曉。",
+        "忍者決定參加「來源大賽」。"
+      ],
+      "keywords": [
+        "來源龍的警告",
+        "《Ninjago：Dragons Rising》第 2 季",
+        "寺廟城",
+        "來源大賽",
+        "Ninjago",
+        "Dragons",
+        "Rising"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 459
+      },
+      "search_text": "NINJAGO:Dragons Rising\n《Ninjago：Dragons Rising》第 2 季\n來源龍的警告\n動態來源龍現身於修道院，警告山龍族、落葉族、北方螺旋族已經被殺害，來源龍亦陷危險。\n勞埃德展示「寺廟城」地圖，來源龍指示危險可能在「來源大賽」上揭曉。\n忍者決定參加「來源大賽」。"
+    },
+    {
+      "id": "dragons-rising-024",
+      "order": 2024,
+      "source_order": 24,
+      "era": "NINJAGO:Dragons Rising",
+      "section": "《Ninjago：Dragons Rising》第 2 季",
+      "subsection": "",
+      "title": "來源大賽",
+      "path": [
+        "NINJAGO:Dragons Rising",
+        "《Ninjago：Dragons Rising》第 2 季",
+        "來源大賽"
+      ],
+      "depth": 3,
+      "summary": "拉斯率狼族抵達寺廟城，與布雷克特（Bleckt）結盟，暗中操控比賽。 忍者因未獲邀而潛入，卻被防衛機器攔截。最終展現實力後，布雷克特之侄、賽事主持人羅比（Roby）允許他們參賽。",
+      "details": [
+        "拉斯率狼族抵達寺廟城，與布雷克特（Bleckt）結盟，暗中操控比賽。",
+        "忍者因未獲邀而潛入，卻被防衛機器攔截。最終展現實力後，布雷克特之侄、賽事主持人羅比（Roby）允許他們參賽。",
+        "亞林因無元素之力被捕，幸得弗拉克相救，得以留下。",
+        "布雷克特創造攻擊機器，企圖阻止忍者與對手祖爾（Zur）勝出。"
+      ],
+      "keywords": [
+        "來源大賽",
+        "《Ninjago：Dragons Rising》第 2 季",
+        "Bleckt",
+        "Roby",
+        "Zur",
+        "Ninjago",
+        "Dragons",
+        "Rising"
+      ],
+      "source": {
+        "file": "data/sources/timeline/NINJAGODragonsRising.md",
+        "line": 470
+      },
+      "search_text": "NINJAGO:Dragons Rising\n《Ninjago：Dragons Rising》第 2 季\n來源大賽\n拉斯率狼族抵達寺廟城，與布雷克特（Bleckt）結盟，暗中操控比賽。\n忍者因未獲邀而潛入，卻被防衛機器攔截。最終展現實力後，布雷克特之侄、賽事主持人羅比（Roby）允許他們參賽。\n亞林因無元素之力被捕，幸得弗拉克相救，得以留下。\n布雷克特創造攻擊機器，企圖阻止忍者與對手祖爾（Zur）勝出。"
+    }
+  ]
+}

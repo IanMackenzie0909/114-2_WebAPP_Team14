@@ -36,6 +36,8 @@ urlpatterns = [
     path("src/profile.html", views.profile_page, name="profile-file"),
     path("api/auth/status/", views.auth_status_api, name="auth-status-api"),
     path("api/timeline/progress/", views.timeline_progress_api, name="timeline-progress-api"),
+    path("api/timeline/events/", views.timeline_events_api, name="timeline-events-api"),
+    path("api/ninjago/ask/", views.ninjago_assistant_api, name="ninjago-assistant-api"),
     path("", TemplateView.as_view(template_name="index.html"), name="home"),
     path("index.html", TemplateView.as_view(template_name="index.html"), name="index-file"),
     path("src/timeline.html", TemplateView.as_view(template_name="timeline.html"), name="timeline-file"),

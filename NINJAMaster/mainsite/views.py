@@ -11,6 +11,11 @@ from django.utils.http import url_has_allowed_host_and_scheme
 from django.views.decorators.csrf import ensure_csrf_cookie
 from django.views.decorators.http import require_POST
 
+from .groq_assistant import (
+    GroqConfigurationError,
+    GroqServiceError,
+    answer_ninjago_question,
+)
 from .models import (
     Character,
     CharacterFavorite,
@@ -22,6 +27,7 @@ from .models import (
     TimelineProgress,
     WorldLocation,
 )
+from .timeline_data import load_timeline_payload, search_timeline_events
 
 
 def login_page(request):
@@ -211,6 +217,86 @@ def timeline_progress_api(request):
             },
         }
     )
+
+
+def timeline_events_api(request):
+    try:
+        payload = load_timeline_payload()
+    except FileNotFoundError:
+        return JsonResponse(
+            {
+                "ok": False,
+                "error": "Timeline data has not been generated. Run build_timeline_events first.",
+            },
+            status=503,
+        )
+
+    query = (request.GET.get("q") or "").strip()
+    try:
+        limit = int(request.GET.get("limit") or "0")
+    except ValueError:
+        limit = 0
+
+    events = search_timeline_events(payload.get("events", []), query)
+    total_count = len(events)
+    if limit > 0:
+        events = events[:limit]
+
+    return JsonResponse(
+        {
+            "ok": True,
+            "schema_version": payload.get("schema_version"),
+            "sources": payload.get("sources", []),
+            "query": query,
+            "count": len(events),
+            "total_count": total_count,
+            "events": events,
+        },
+        json_dumps_params={"ensure_ascii": False},
+    )
+
+
+@require_POST
+def ninjago_assistant_api(request):
+    try:
+        data = json.loads(request.body or "{}")
+    except json.JSONDecodeError:
+        return JsonResponse({"ok": False, "error": "Invalid JSON payload."}, status=400)
+
+    question = (data.get("question") or "").strip()
+    if not question:
+        return JsonResponse({"ok": False, "error": "question is required."}, status=400)
+    if len(question) > 500:
+        return JsonResponse({"ok": False, "error": "question is too long."}, status=400)
+
+    try:
+        result = answer_ninjago_question(question)
+    except FileNotFoundError:
+        return JsonResponse(
+            {
+                "ok": False,
+                "error": "Timeline data has not been generated. Run build_timeline_events first.",
+            },
+            status=503,
+        )
+    except GroqConfigurationError:
+        return JsonResponse(
+            {
+                "ok": False,
+                "error": "GROQ_API_KEY is not configured on the server.",
+            },
+            status=503,
+        )
+    except GroqServiceError as error:
+        return JsonResponse(
+            {
+                "ok": False,
+                "error": str(error),
+            },
+            status=502,
+        )
+
+    return JsonResponse({"ok": True, **result}, json_dumps_params={"ensure_ascii": False})
 
 
 @login_required
