@@ -59,4 +59,4 @@
 | Member | Percentage | Contribution |
 | :--: | :--: | :-- |
 | 顏伯亨 | 50% | Groq LLM API concatenation, RESTful API concatenation, front-end Q&A interface design, and error-proofing design for insufficient data, and report writing |
-| 呂羿樺 | 50% | Docker documentation, database startup workflow, Git cleanup for SQLite database, and report writing |
+| 呂羿樺 | 50% | README update, Git cleanup, and Weekly report writing |

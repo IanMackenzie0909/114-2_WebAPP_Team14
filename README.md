@@ -15,11 +15,69 @@
 Installation：  
 ---
 
+### Option A. Docker Compose
+
+推薦第一次跑專案先用 Docker，環境會比較一致。
+
 ```bash
 # Clone this repo.
 git clone https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14.git
 
 cd 114-2_WebAPP_Team14
+
+# Optional: copy local environment settings.
+# Use your own API key. 
+# Get one at https://console.groq.com/home
+cp .env.example .env    
+
+# Build and start the Django container.
+docker compose up --build
+```
+
+開啟：
+
+```text
+http://localhost:8000/
+```
+
+Docker 啟動時會自動執行 migration；如果是新資料庫，或 `DJANGO_SEED_INITIAL_CONTENT=1`，也會載入預設內容：
+
+```bash
+python manage.py migrate
+python manage.py seed_initial_content
+python manage.py ensure_superuser
+python manage.py runserver 0.0.0.0:8000
+```
+
+如果需要 AI 問答功能，請在本機 `.env` 放自己的 Groq API key：
+
+```text
+GROQ_API_KEY=你的_Groq_API_Key
+GROQ_MODEL=llama-3.3-70b-versatile
+```
+
+常用 Docker 指令：
+
+```bash
+docker compose up
+docker compose up --build
+docker compose down
+docker compose run --rm web python manage.py createsuperuser
+docker compose run --rm web python manage.py seed_initial_content
+```
+
+更完整的 Docker 測試流程可看 `DOCKER.md`。
+
+### Option B. Local Python / Django
+
+```bash
+# Clone this repo.
+git clone https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14.git
+
+cd 114-2_WebAPP_Team14
+
+# Optional: copy local environment settings.
+cp .env.example .env
 
 # Build a virtual environment (optional) 
 python -m venv venv # windows
@@ -36,11 +94,11 @@ cd NINJAMaster
 pip install -r requirements.txt
 pip3 install -r requirements.txt # mac
 
-# Apply model.py
+# Apply migrations
 python manage.py makemigrations 
 python3 manage.py makemigrations # mac
 
-# Write to database
+# Write migrations to database
 python manage.py migrate 
 python3 manage.py migrate # mac
 
@@ -108,6 +166,18 @@ Project Progress Update：
 ---
 
 ⚠️⚠️ 注意 **看這裡** ⚠️⚠️
+
+- 2026/05/26: Ninjago AI 助手與 Groq LLM API 串接完成。
+
+> 新增 `mainsite/groq_assistant.py` 與 `POST /api/ninjago/ask/`，前端可在 `timeline.html` 直接詢問 Ninjago 世界觀問題。後端會先從本地時間線資料找出相關事件，再把精簡後的 context 傳給 Groq `llama-3.3-70b-versatile`，避免把 API key 暴露在瀏覽器，也降低模型亂猜的機率。回答會附帶來源事件 metadata，前端可連回對應時間線資料。
+
+- 2026/05/26: 時間線資料 API、Markdown 轉 JSON pipeline 與 AI 搜尋保護完成。
+
+> 新增 `/api/timeline/events/` 與 `python manage.py build_timeline_events`，可把 `data/sources/timeline/` 的 Markdown 來源整理成 `data/ninjago_timeline_events.json`。AI 助手支援中英文角色 / 物件別名，例如 `赤蘭 / Nya`、`勞埃德 / Lloyd`、`時間雙子 / Acronix / Krux`，也會攔截生日、身高、完整族譜等目前資料不足的問題，回覆「目前資料不足」而不是硬編答案。
+
+- 2026/05/26: Docker、`.env` 與本機資料庫啟動流程更新。
+
+> 新增 `.env.example`，Django settings 可讀取本機 `.env`，`docker-compose.yml` 也支援 `GROQ_API_KEY` 與 `GROQ_MODEL`。Docker container 啟動時會自動跑 migration、必要時載入預設內容，並可透過環境變數建立 admin 帳號。`NINJAMaster/db.sqlite3`、`.env`、`__pycache__` 與 `*.pyc` 已列入 ignore，避免把本機資料庫、密鑰或 Python cache commit 到 Git。
 
 - 2026/05/12: 後台維護流程與預設內容 seed 指令完成。
 
@@ -193,10 +263,14 @@ Project Progress Update：
 Project Rules:  
 ---
 
-**老哥記得要先 ```git pull``` 再開始動工喔!!! (不然會出大事😱😱😱)**  
+**老哥記得要先 ```git pull --rebase``` 再開始動工喔!!! (不然會出大事😱😱😱)**
 
 > - 要編輯 **HTML** 的話，進[src資料夾](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/tree/main/src)修改 ```{各自的}.html```，不要修改[index.html](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/blob/main/index.html)。  
 > - 要改 **CSS** 的話，進[css資料夾](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/tree/main/css)修改 ```{各自的}.css```，不要修改[style.css](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/blob/main/style.css)。  
 > - **JS** 也一樣，進[action資料夾](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/tree/main/action)修改 ```{各自的}.js```，不要修改[script.js](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/blob/main/script.js)。
 > - [common.css](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/blob/main/css/common.css)是所有分頁繼承[style.css](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/blob/main/style.css)的通用架構。
 > - [search.css](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/blob/main/css/search.css) 和 [search.js](https://github.com/AustinYanSebasmannAlderhaz/114-2_WebAPP_Team14/blob/main/action/search.js) 是全域搜尋系統，所有頁面皆引用。
+> - `.env` 只能放在本機，裡面可能有 `GROQ_API_KEY`、admin password 等密鑰，不能 commit。
+> - `NINJAMaster/db.sqlite3` 是本機開發資料庫，不要 commit；新環境請用 `python manage.py migrate` 和 `python manage.py seed_initial_content` 重建。
+> - `__pycache__/`、`*.pyc`、虛擬環境資料夾、Docker 測試產物都不要 commit。
+> - 如果 `git pull` 出現 divergent branches，請先用 `git status` 看狀態；一般情況使用 `git pull --rebase`。如果已經進入 conflict，不要一直重複 pull，先把 conflict 解完再繼續。
