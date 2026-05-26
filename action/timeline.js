@@ -7,6 +7,14 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
+    const getCsrfToken = () => {
+        const cookieValue = document.cookie
+            .split(';')
+            .map((cookie) => cookie.trim())
+            .find((cookie) => cookie.startsWith('csrftoken='));
+        return cookieValue ? decodeURIComponent(cookieValue.split('=').slice(1).join('=')) : '';
+    };
+
     const formatTimelineContent = () => {
         const entryParagraphs = document.querySelectorAll('.tl-entry > p');
 
@@ -155,17 +163,122 @@ document.addEventListener('DOMContentLoaded', () => {
 
     setupTimelineBookmarks();
 
+    const setupNinjagoAssistant = () => {
+        const form = document.querySelector('[data-assistant-form]');
+        const input = document.querySelector('[data-assistant-input]');
+        const messages = document.querySelector('[data-assistant-messages]');
+        const sources = document.querySelector('[data-assistant-sources]');
+        const status = document.querySelector('[data-assistant-status]');
+        if (!form || !input || !messages || !sources || !status) return;
+
+        const setStatus = (value) => {
+            status.textContent = value;
+        };
+
+        const addMessage = (text, type) => {
+            const message = document.createElement('div');
+            message.className = `assistant-message assistant-message-${type}`;
+            message.textContent = text;
+            messages.appendChild(message);
+            messages.scrollTop = messages.scrollHeight;
+            return message;
+        };
+
+        const renderSources = (items) => {
+            sources.innerHTML = '';
+            if (!Array.isArray(items) || items.length === 0) return;
+
+            items.forEach((item) => {
+                const button = document.createElement('button');
+                button.type = 'button';
+                button.className = 'assistant-source';
+                button.textContent = `${item.id || 'source'} · ${item.title || ''}`;
+                button.addEventListener('click', () => {
+                    const title = item.title || '';
+                    const heading = Array.from(document.querySelectorAll('.tl-entry h3'))
+                        .find((node) => (node.textContent || '').trim() === title);
+                    if (heading) {
+                        heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                });
+                sources.appendChild(button);
+            });
+        };
+
+        const ensureCsrfToken = async () => {
+            if (getCsrfToken()) return;
+
+            try {
+                await fetch('/api/auth/status/', {
+                    credentials: 'same-origin',
+                    headers: {
+                        Accept: 'application/json',
+                    },
+                });
+            } catch (error) {
+                // The POST below will surface the actual error if CSRF setup failed.
+            }
+        };
+
+        const askQuestion = async (question) => {
+            const trimmed = question.trim();
+            if (!trimmed) return;
+
+            addMessage(trimmed, 'user');
+            input.value = '';
+            input.disabled = true;
+            form.querySelector('button[type="submit"]').disabled = true;
+            setStatus('Thinking');
+            renderSources([]);
+            const pending = addMessage('整理時間線資料中...', 'assistant');
+
+            try {
+                await ensureCsrfToken();
+                const response = await fetch('/api/ninjago/ask/', {
+                    method: 'POST',
+                    credentials: 'same-origin',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': getCsrfToken(),
+                        Accept: 'application/json',
+                    },
+                    body: JSON.stringify({ question: trimmed }),
+                });
+                const data = await response.json();
+                if (!response.ok || !data.ok) {
+                    throw new Error(data.error || `HTTP ${response.status}`);
+                }
+
+                pending.textContent = data.answer || '目前沒有回答。';
+                renderSources(data.sources || []);
+                setStatus(data.model || 'Ready');
+            } catch (error) {
+                pending.textContent = `無法取得 AI 回答：${error.message}`;
+                setStatus('Error');
+            } finally {
+                input.disabled = false;
+                form.querySelector('button[type="submit"]').disabled = false;
+                input.focus();
+            }
+        };
+
+        form.addEventListener('submit', (event) => {
+            event.preventDefault();
+            askQuestion(input.value);
+        });
+
+        document.querySelectorAll('[data-question]').forEach((button) => {
+            button.addEventListener('click', () => {
+                askQuestion(button.dataset.question || button.textContent || '');
+            });
+        });
+    };
+
+    setupNinjagoAssistant();
+
     const setupPersonalTimelineBookmark = async () => {
         const entries = Array.from(document.querySelectorAll('.tl-entry'));
         if (entries.length === 0) return;
-
-        const getCsrfToken = () => {
-            const cookieValue = document.cookie
-                .split(';')
-                .map((cookie) => cookie.trim())
-                .find((cookie) => cookie.startsWith('csrftoken='));
-            return cookieValue ? decodeURIComponent(cookieValue.split('=').slice(1).join('=')) : '';
-        };
 
         const getEntryMeta = (entry, index) => {
             const titleNode = entry.querySelector('h3');

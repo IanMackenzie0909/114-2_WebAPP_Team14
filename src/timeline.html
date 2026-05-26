@@ -59,6 +59,31 @@
         </div>
     </section>
 
+    <section class="ninjago-assistant" aria-labelledby="ninjago-assistant-title">
+        <div class="ninjago-assistant-head">
+            <div>
+                <h2 id="ninjago-assistant-title">Ninjago 世界觀問答</h2>
+            </div>
+            <div class="assistant-status" data-assistant-status>Ready</div>
+        </div>
+        <div class="assistant-suggestions" aria-label="常用問題">
+            <button type="button" data-question="時間雙子是誰？">時間雙子是誰？</button>
+            <button type="button" data-question="鬼族與龍族戰爭發生了什麼？">鬼族與龍族戰爭</button>
+            <button type="button" data-question="Merge 之後有哪些新元素？">Merge 新元素</button>
+            <button type="button" data-question="Ras 的計畫時間線？">Ras 時間線</button>
+        </div>
+        <div class="assistant-messages" data-assistant-messages aria-live="polite">
+            <div class="assistant-message assistant-message-system">
+                目前會根據本站時間線資料回答。
+            </div>
+        </div>
+        <form class="assistant-form" data-assistant-form>
+            <textarea data-assistant-input rows="2" maxlength="500" placeholder="輸入 Ninjago 世界觀問題..." aria-label="Ninjago 世界觀問題"></textarea>
+            <button type="submit">送出</button>
+        </form>
+        <div class="assistant-source-list" data-assistant-sources></div>
+    </section>
+
 <section class="section dark">
     <h2>Before the Ninja Era</h2>
     <div class="immersive-stage">

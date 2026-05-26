@@ -372,6 +372,165 @@
     letter-spacing: 0.08em;
 }
 
+.ninjago-assistant {
+    margin: 0 0 1.6rem;
+    padding: clamp(1rem, 2.5vw, 1.45rem);
+    border: 1px solid rgba(212,173,69,0.24);
+    border-radius: 8px;
+    background:
+        linear-gradient(135deg, rgba(20,16,15,0.96), rgba(10,10,12,0.92)),
+        repeating-linear-gradient(90deg, transparent 0 22px, rgba(212,173,69,0.035) 22px 24px);
+    box-shadow: 0 24px 54px rgba(0,0,0,0.26);
+}
+
+.ninjago-assistant-head {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.85rem;
+}
+
+.assistant-kicker,
+.assistant-status {
+    color: var(--tl-gold);
+    font-family: "Share Tech Mono", monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.ninjago-assistant h2 {
+    margin: 0.16rem 0 0;
+    color: #fff4d6;
+    font-size: clamp(1.3rem, 2.4vw, 2rem);
+    letter-spacing: 0;
+}
+
+.assistant-status {
+    min-width: 5.4rem;
+    padding: 0.38rem 0.56rem;
+    border: 1px solid rgba(212,173,69,0.22);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.assistant-suggestions,
+.assistant-source-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.assistant-suggestions {
+    margin-bottom: 0.9rem;
+}
+
+.assistant-suggestions button,
+.assistant-source {
+    min-height: 2.1rem;
+    padding: 0.42rem 0.72rem;
+    border: 1px solid rgba(212,173,69,0.22);
+    border-radius: 4px;
+    background: rgba(255,244,214,0.08);
+    color: #f5ead0;
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.86rem;
+}
+
+.assistant-suggestions button:hover,
+.assistant-suggestions button:focus-visible,
+.assistant-source:hover,
+.assistant-source:focus-visible {
+    border-color: var(--tl-gold);
+    color: #fff4d6;
+    outline: 0;
+}
+
+.assistant-messages {
+    display: grid;
+    gap: 0.65rem;
+    max-height: 360px;
+    overflow-y: auto;
+    padding: 0.75rem;
+    border: 1px solid rgba(255,255,255,0.09);
+    border-radius: 6px;
+    background: rgba(0,0,0,0.22);
+}
+
+.assistant-message {
+    max-width: min(760px, 100%);
+    padding: 0.68rem 0.78rem;
+    border-radius: 6px;
+    color: #f7efd9;
+    line-height: 1.7;
+    white-space: pre-wrap;
+}
+
+.assistant-message-system,
+.assistant-message-assistant {
+    justify-self: start;
+    border: 1px solid rgba(212,173,69,0.18);
+    background: rgba(255,244,214,0.08);
+}
+
+.assistant-message-user {
+    justify-self: end;
+    border: 1px solid rgba(197,48,48,0.28);
+    background: rgba(197,48,48,0.22);
+}
+
+.assistant-form {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.65rem;
+    margin-top: 0.75rem;
+}
+
+.assistant-form textarea {
+    min-height: 3rem;
+    resize: vertical;
+    padding: 0.76rem 0.82rem;
+    border: 1px solid rgba(212,173,69,0.22);
+    border-radius: 5px;
+    background: rgba(255,244,214,0.94);
+    color: var(--tl-ink);
+    font: inherit;
+    line-height: 1.55;
+}
+
+.assistant-form textarea:focus {
+    border-color: var(--tl-gold);
+    outline: 2px solid rgba(212,173,69,0.22);
+}
+
+.assistant-form button {
+    min-width: 5.2rem;
+    border: 1px solid rgba(212,173,69,0.34);
+    border-radius: 5px;
+    background: var(--tl-red);
+    color: #fff4d6;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 700;
+}
+
+.assistant-form button:disabled,
+.assistant-form textarea:disabled {
+    cursor: wait;
+    opacity: 0.68;
+}
+
+.assistant-source-list {
+    margin-top: 0.7rem;
+}
+
+.assistant-source {
+    color: rgba(245,234,208,0.78);
+    font-size: 0.78rem;
+}
+
 .section.dark {
     position: relative;
     margin: 1.25rem 0 1.6rem;
@@ -635,6 +794,19 @@
     .archive-hero {
         border-radius: 8px;
         padding: 2.1rem 1.1rem;
+    }
+
+    .ninjago-assistant-head,
+    .assistant-form {
+        grid-template-columns: 1fr;
+    }
+
+    .ninjago-assistant-head {
+        display: grid;
+    }
+
+    .assistant-status {
+        width: fit-content;
     }
 
     .section.dark > h2 {
