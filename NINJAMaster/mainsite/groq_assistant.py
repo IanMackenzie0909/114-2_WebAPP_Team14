@@ -290,6 +290,9 @@ def answer_ninjago_question(question):
             "id": event.get("id"),
             "title": event.get("title"),
             "section": event.get("section"),
+            "subsection": event.get("subsection"),
+            "depth": event.get("depth"),
+            "path": event.get("path", []),
             "file": event.get("source", {}).get("file"),
             "line": event.get("source", {}).get("line"),
         }

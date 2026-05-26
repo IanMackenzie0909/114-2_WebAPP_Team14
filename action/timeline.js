@@ -194,17 +194,46 @@ document.addEventListener('DOMContentLoaded', () => {
             sources.innerHTML = '';
             if (!Array.isArray(items) || items.length === 0) return;
 
+            const normalizeTitle = (value) => (value || '')
+                .replace(/\s+/g, ' ')
+                .replace(/[：:]\s*$/u, '')
+                .trim();
+
+            const timelineHeadings = Array.from(document.querySelectorAll('.tl-entry h3'));
+
+            const findTimelineHeading = (item) => {
+                const candidates = [
+                    item.depth <= 2 ? item.title : '',
+                    item.section,
+                    item.title,
+                    ...(Array.isArray(item.path) ? item.path.slice().reverse() : []),
+                ]
+                    .map(normalizeTitle)
+                    .filter(Boolean);
+
+                return timelineHeadings.find((heading) => {
+                    const headingText = normalizeTitle(heading.textContent);
+                    return candidates.some((candidate) => headingText === candidate);
+                });
+            };
+
             items.forEach((item) => {
                 const button = document.createElement('button');
                 button.type = 'button';
                 button.className = 'assistant-source';
                 button.textContent = `${item.id || 'source'} · ${item.title || ''}`;
                 button.addEventListener('click', () => {
-                    const title = item.title || '';
-                    const heading = Array.from(document.querySelectorAll('.tl-entry h3'))
-                        .find((node) => (node.textContent || '').trim() === title);
+                    const heading = findTimelineHeading(item);
                     if (heading) {
                         heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        history.replaceState(null, '', `#${heading.id}`);
+                        heading.closest('.tl-entry')?.classList.add('source-jump-highlight');
+                        window.setTimeout(() => {
+                            heading.closest('.tl-entry')?.classList.remove('source-jump-highlight');
+                        }, 1400);
+                    } else {
+                        button.classList.add('is-unresolved');
+                        window.setTimeout(() => button.classList.remove('is-unresolved'), 1000);
                     }
                 });
                 sources.appendChild(button);
