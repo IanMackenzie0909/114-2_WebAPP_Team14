@@ -184,6 +184,12 @@ document.addEventListener('DOMContentLoaded', () => {
             return message;
         };
 
+        const stripInlineSources = (answer) => {
+            return (answer || '')
+                .replace(/\n*\s*資料來源\s*[:：][\s\S]*$/u, '')
+                .trim();
+        };
+
         const renderSources = (items) => {
             sources.innerHTML = '';
             if (!Array.isArray(items) || items.length === 0) return;
@@ -249,7 +255,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     throw new Error(data.error || `HTTP ${response.status}`);
                 }
 
-                pending.textContent = data.answer || '目前沒有回答。';
+                pending.textContent = stripInlineSources(data.answer) || '目前沒有回答。';
                 renderSources(data.sources || []);
                 setStatus(data.model || 'Ready');
             } catch (error) {
